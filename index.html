@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>日本の商業舞台俳優リスト</title>
+  <style>
+    :root {
+      --bg: #0f1115;
+      --card: #181c24;
+      --text: #e8eaef;
+      --muted: #9aa3b2;
+      --accent: #7dd3fc;
+      --border: #2a3140;
+      --active: #8b5cf6;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Hiragino Sans", "Noto Sans JP", system-ui, sans-serif;
+      background: radial-gradient(1200px 600px at 20% -10%, #1a2740 0%, var(--bg) 55%);
+      color: var(--text);
+      line-height: 1.55;
+    }
+    header, main, footer { max-width: 70rem; margin: 0 auto; padding: 1rem 1rem 0; }
+    h1 { margin: 0; font-size: clamp(1.25rem, 4vw, 1.8rem); }
+    .lede { color: var(--muted); margin: .5rem 0 0; font-size: .95rem; }
+    .meta {
+      margin-top: .8rem;
+      font-size: .84rem;
+      color: var(--muted);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: .65rem .8rem;
+      background: var(--card);
+    }
+    .meta strong { color: var(--accent); }
+    .toolbar {
+      margin-top: 1rem;
+      display: grid;
+      gap: .8rem;
+      grid-template-columns: 1fr;
+    }
+    @media (min-width: 768px) {
+      .toolbar { grid-template-columns: 1fr auto; align-items: start; }
+    }
+    .chips { display: flex; flex-wrap: wrap; gap: .45rem; }
+    .chip {
+      background: #222836;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      color: var(--muted);
+      padding: .35rem .65rem;
+      font-size: .8rem;
+      cursor: pointer;
+    }
+    .chip.active {
+      background: #2d2450;
+      border-color: var(--active);
+      color: #ddd6fe;
+    }
+    .search {
+      width: 100%;
+      max-width: 22rem;
+      background: #121722;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      color: var(--text);
+      padding: .55rem .75rem;
+      font-size: .9rem;
+    }
+    .grid {
+      margin-top: 1rem;
+      display: grid;
+      gap: .9rem;
+      grid-template-columns: 1fr;
+      padding-bottom: 1rem;
+    }
+    @media (min-width: 700px) {
+      .grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (min-width: 1080px) {
+      .grid { grid-template-columns: repeat(3, 1fr); }
+    }
+    article {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: .9rem;
+      display: flex;
+      flex-direction: column;
+      gap: .35rem;
+      min-height: 11rem;
+    }
+    .name { margin: 0; font-size: 1.02rem; font-weight: 700; }
+    .sub { margin: 0; color: var(--muted); font-size: .82rem; }
+    .tags { margin: .3rem 0 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: .35rem; }
+    .tags li {
+      font-size: .72rem;
+      background: #232a39;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      color: #c6cfde;
+      padding: .18rem .5rem;
+    }
+    .desc { margin: .4rem 0 0; color: #c6cfde; font-size: .88rem; }
+    .row { margin-top: auto; display: flex; justify-content: space-between; align-items: center; gap: .5rem; }
+    .age { font-size: .82rem; color: var(--accent); }
+    .link { font-size: .8rem; color: var(--accent); text-decoration: none; }
+    .link:hover { text-decoration: underline; }
+    .warn { color: #fbbf24; font-size: .8rem; margin-top: .25rem; }
+    footer { color: var(--muted); font-size: .8rem; padding-bottom: 1.2rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>日本の商業舞台俳優リスト</h1>
+    <p class="lede">ページアクセス時にWikidataの最新情報を取得して更新します。年齢は生年月日から自動計算します。</p>
+    <div class="meta" id="meta">読み込み中...</div>
+  </header>
+
+  <main>
+    <section class="toolbar">
+      <div class="chips" id="chips"></div>
+      <input id="search" class="search" type="search" placeholder="名前・説明で検索" aria-label="検索" />
+    </section>
+    <section class="grid" id="list"></section>
+  </main>
+
+  <footer>
+    データ元: Wikidata API。表示内容は取得タイミングで変動します。商業舞台での活動区分タグは運用に応じて追加してください。
+  </footer>
+
+  <script>
+    const GENRES = [
+      "ミュージカル",
+      "ストレートプレイ",
+      "2.5次元舞台",
+      "宝塚・OG",
+      "新劇",
+      "小劇場",
+      "歌舞伎・伝統芸能",
+      "商業演劇",
+      "シェイクスピア・古典",
+      "現代劇・翻訳劇"
+    ];
+
+    // 商業舞台の主要俳優（初期セット）。必要に応じて随時追加。
+    const ACTORS = [
+      { qid: "Q3077148", name: "井上芳雄", yomi: "いのうえ よしお", genres: ["ミュージカル", "商業演劇"] },
+      { qid: "Q11333326", name: "浦井健治", yomi: "うらい けんじ", genres: ["ミュージカル", "商業演劇"] },
+      { qid: "Q11190320", name: "山崎育三郎", yomi: "やまざき いくさぶろう", genres: ["ミュージカル", "商業演劇"] },
+      { qid: "Q422895", name: "市村正親", yomi: "いちむら まさちか", genres: ["ミュージカル", "ストレートプレイ", "商業演劇"] },
+      { qid: "Q11391514", name: "城田優", yomi: "しろた ゆう", genres: ["ミュージカル", "商業演劇"] },
+      { qid: "Q3492656", name: "古川雄大", yomi: "ふるかわ ゆうた", genres: ["ミュージカル", "商業演劇"] },
+      { qid: "Q6454128", name: "松たか子", yomi: "まつ たかこ", genres: ["ストレートプレイ", "商業演劇"] },
+      { qid: "Q1187762", name: "藤原竜也", yomi: "ふじわら たつや", genres: ["ストレートプレイ", "現代劇・翻訳劇", "商業演劇"] },
+      { qid: "Q11191191", name: "井上小百合", yomi: "いのうえ さゆり", genres: ["2.5次元舞台", "ストレートプレイ"] },
+      { qid: "Q855466", name: "柚希礼音", yomi: "ゆずき れおん", genres: ["宝塚・OG", "ミュージカル", "商業演劇"] },
+      { qid: "Q2998731", name: "天海祐希", yomi: "あまみ ゆうき", genres: ["宝塚・OG", "ストレートプレイ", "商業演劇"] },
+      { qid: "Q273911", name: "宮沢りえ", yomi: "みやざわ りえ", genres: ["ストレートプレイ", "現代劇・翻訳劇", "商業演劇"] }
+    ];
+
+    function calcAge(birthIso) {
+      if (!birthIso) return null;
+      const b = new Date(birthIso);
+      if (Number.isNaN(b.getTime())) return null;
+      const now = new Date();
+      let age = now.getFullYear() - b.getFullYear();
+      const m = now.getMonth() - b.getMonth();
+      if (m < 0 || (m === 0 && now.getDate() < b.getDate())) age -= 1;
+      return age;
+    }
+
+    async function fetchWikidata(qids) {
+      const url = `https://www.wikidata.org/w/api.php?action=wbgetentities&ids=${qids.join("|")}&format=json&languages=ja&props=labels|descriptions|claims&origin=*`;
+      const res = await fetch(url, { cache: "no-store" });
+      if (!res.ok) throw new Error(`API error: ${res.status}`);
+      return res.json();
+    }
+
+    function extractBirth(claims) {
+      const p569 = claims && claims.P569;
+      const value = p569 && p569[0] && p569[0].mainsnak && p569[0].mainsnak.datavalue && p569[0].mainsnak.datavalue.value;
+      if (!value || !value.time) return null;
+      return value.time.replace(/^\+/, "").slice(0, 10);
+    }
+
+    function wikiLink(name) {
+      return `https://ja.wikipedia.org/wiki/Special:Search?search=${encodeURIComponent(name)}`;
+    }
+
+    let activeGenre = "ALL";
+    let searchText = "";
+    let data = [];
+
+    function renderChips() {
+      const chips = document.getElementById("chips");
+      chips.innerHTML = "";
+      const all = ["ALL", ...GENRES];
+      all.forEach((g) => {
+        const b = document.createElement("button");
+        b.className = `chip${activeGenre === g ? " active" : ""}`;
+        b.textContent = g === "ALL" ? "すべて" : g;
+        b.addEventListener("click", () => {
+          activeGenre = g;
+          renderChips();
+          renderList();
+        });
+        chips.appendChild(b);
+      });
+    }
+
+    function renderList() {
+      const root = document.getElementById("list");
+      root.innerHTML = "";
+      const t = searchText.trim().toLowerCase();
+      const filtered = data.filter((a) => {
+        const byGenre = activeGenre === "ALL" || a.genres.includes(activeGenre);
+        const byText = !t || [a.name, a.yomi, a.description].join(" ").toLowerCase().includes(t);
+        return byGenre && byText;
+      });
+
+      filtered.forEach((a) => {
+        const card = document.createElement("article");
+        const tags = a.genres.map((g) => `<li>${g}</li>`).join("");
+        card.innerHTML = `
+          <p class="name">${a.name}</p>
+          <p class="sub">${a.yomi || ""}</p>
+          <ul class="tags">${tags}</ul>
+          <p class="desc">${a.description || "説明データなし"}</p>
+          <div class="row">
+            <span class="age">${a.age !== null ? `年齢: ${a.age}歳` : "年齢: 取得不可"}</span>
+            <a class="link" href="${wikiLink(a.name)}" target="_blank" rel="noopener noreferrer">Wikipedia</a>
+          </div>
+          ${a.birth ? "" : '<div class="warn">生年月日データが見つからないため年齢を表示できません。</div>'}
+        `;
+        root.appendChild(card);
+      });
+
+      if (!filtered.length) {
+        const empty = document.createElement("article");
+        empty.innerHTML = "<p class='name'>該当なし</p><p class='sub'>条件を変更してください。</p>";
+        root.appendChild(empty);
+      }
+    }
+
+    async function init() {
+      renderChips();
+      const search = document.getElementById("search");
+      search.addEventListener("input", (e) => {
+        searchText = e.target.value;
+        renderList();
+      });
+
+      const meta = document.getElementById("meta");
+      try {
+        const json = await fetchWikidata(ACTORS.map((a) => a.qid));
+        data = ACTORS.map((a) => {
+          const entity = json.entities && json.entities[a.qid];
+          const label = (entity && entity.labels && entity.labels.ja && entity.labels.ja.value) || a.name;
+          const description = (entity && entity.descriptions && entity.descriptions.ja && entity.descriptions.ja.value) || "商業舞台で活動する俳優";
+          const birth = entity ? extractBirth(entity.claims) : null;
+          return {
+            ...a,
+            name: label,
+            description,
+            birth,
+            age: calcAge(birth)
+          };
+        });
+        // 表示順はアクセスごとに変える
+        data.sort(() => Math.random() - 0.5);
+        const now = new Date();
+        meta.innerHTML = `最終取得: <strong>${now.toLocaleString("ja-JP")}</strong> / 件数: <strong>${data.length}</strong> / 取得元: <strong>Wikidata</strong>`;
+      } catch (err) {
+        data = ACTORS.map((a) => ({ ...a, description: "通信エラー時はローカル情報で表示", birth: null, age: null }));
+        meta.innerHTML = `最新情報の取得に失敗しました（ネットワーク制限の可能性）。ローカルデータで表示中。`;
+      }
+      renderList();
+    }
+
+    init();
+  </script>
+</body>
+</html>
