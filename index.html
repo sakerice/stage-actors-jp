@@ -7,7 +7,7 @@
   <style>
     :root {
       --bg: #0f1115;
-      --card: #181c24;
+      --panel: #181c24;
       --text: #e8eaef;
       --muted: #9aa3b2;
       --accent: #7dd3fc;
@@ -21,115 +21,171 @@
       font-family: "Hiragino Sans", "Noto Sans JP", system-ui, sans-serif;
       background: radial-gradient(1200px 600px at 20% -10%, #1a2740 0%, var(--bg) 55%);
       color: var(--text);
-      line-height: 1.55;
+      line-height: 1.5;
+      font-size: 14px;
     }
-    header, main, footer { max-width: 70rem; margin: 0 auto; padding: 1rem 1rem 0; }
-    h1 { margin: 0; font-size: clamp(1.25rem, 4vw, 1.8rem); }
-    .lede { color: var(--muted); margin: .5rem 0 0; font-size: .95rem; }
+    header, main, footer { max-width: 100%; margin: 0 auto; padding: 1rem 1rem 0; }
+    h1 { margin: 0; font-size: clamp(1.2rem, 3.5vw, 1.65rem); }
+    .lede { color: var(--muted); margin: .45rem 0 0; font-size: .9rem; max-width: 52rem; }
     .meta {
-      margin-top: .8rem;
-      font-size: .84rem;
+      margin-top: .75rem;
+      font-size: .8rem;
       color: var(--muted);
       border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: .65rem .8rem;
-      background: var(--card);
+      border-radius: 8px;
+      padding: .55rem .75rem;
+      background: var(--panel);
+      max-width: 52rem;
     }
     .meta strong { color: var(--accent); }
-    .toolbar {
+    .filters {
       margin-top: 1rem;
+      padding: .85rem;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 10px;
       display: grid;
-      gap: .8rem;
-      grid-template-columns: 1fr;
+      gap: .85rem;
     }
-    @media (min-width: 768px) {
-      .toolbar { grid-template-columns: 1fr auto; align-items: start; }
-    }
-    .chips { display: flex; flex-wrap: wrap; gap: .45rem; }
+    .filter-row { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem .75rem; }
+    .filter-row label { color: var(--muted); font-size: .8rem; white-space: nowrap; }
+    .chips { display: flex; flex-wrap: wrap; gap: .35rem; }
     .chip {
       background: #222836;
       border: 1px solid var(--border);
       border-radius: 999px;
       color: var(--muted);
-      padding: .35rem .65rem;
-      font-size: .8rem;
+      padding: .28rem .55rem;
+      font-size: .75rem;
       cursor: pointer;
     }
-    .chip.active {
+    .chip.on {
       background: #2d2450;
       border-color: var(--active);
       color: #ddd6fe;
     }
-    .search {
-      width: 100%;
-      max-width: 22rem;
+    .clear-genres {
+      font-size: .75rem;
+      color: var(--accent);
+      background: none;
+      border: none;
+      cursor: pointer;
+      text-decoration: underline;
+      padding: 0 .25rem;
+    }
+    .search, .agency-select {
       background: #121722;
       border: 1px solid var(--border);
-      border-radius: 10px;
+      border-radius: 8px;
       color: var(--text);
-      padding: .55rem .75rem;
-      font-size: .9rem;
+      padding: .45rem .65rem;
+      font-size: .85rem;
+      min-width: 12rem;
+      max-width: 100%;
     }
-    .grid {
-      margin-top: 1rem;
-      display: grid;
-      gap: .9rem;
-      grid-template-columns: 1fr;
-      padding-bottom: 1rem;
-    }
-    @media (min-width: 700px) {
-      .grid { grid-template-columns: repeat(2, 1fr); }
-    }
-    @media (min-width: 1080px) {
-      .grid { grid-template-columns: repeat(3, 1fr); }
-    }
-    article {
-      background: var(--card);
+    .table-wrap {
+      margin: 1rem 0 1.5rem;
+      overflow-x: auto;
       border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: .9rem;
-      display: flex;
-      flex-direction: column;
-      gap: .35rem;
-      min-height: 11rem;
+      border-radius: 10px;
+      background: var(--panel);
     }
-    .name { margin: 0; font-size: 1.02rem; font-weight: 700; }
-    .sub { margin: 0; color: var(--muted); font-size: .82rem; }
-    .tags { margin: .3rem 0 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: .35rem; }
-    .tags li {
-      font-size: .72rem;
+    table {
+      width: max-content;
+      min-width: 100%;
+      border-collapse: collapse;
+      font-size: .82rem;
+    }
+    th, td {
+      border-bottom: 1px solid var(--border);
+      padding: .5rem .55rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      position: sticky;
+      top: 0;
+      background: #1e2430;
+      color: #c8d0dc;
+      font-weight: 600;
+      white-space: nowrap;
+      z-index: 1;
+    }
+    tr:last-child td { border-bottom: none; }
+    tbody tr:hover td { background: rgba(125, 211, 252, 0.06); }
+    .tags-cell { max-width: 11rem; }
+    .tag {
+      display: inline-block;
+      font-size: .68rem;
+      padding: .12rem .38rem;
+      margin: 0 .2rem .2rem 0;
+      border-radius: 999px;
       background: #232a39;
       border: 1px solid var(--border);
-      border-radius: 999px;
       color: #c6cfde;
-      padding: .18rem .5rem;
     }
-    .desc { margin: .4rem 0 0; color: #c6cfde; font-size: .88rem; }
-    .row { margin-top: auto; display: flex; justify-content: space-between; align-items: center; gap: .5rem; }
-    .age { font-size: .82rem; color: var(--accent); }
-    .link { font-size: .8rem; color: var(--accent); text-decoration: none; }
-    .link:hover { text-decoration: underline; }
-    .warn { color: #fbbf24; font-size: .8rem; margin-top: .25rem; }
-    footer { color: var(--muted); font-size: .8rem; padding-bottom: 1.2rem; }
+    .name-cell { font-weight: 600; white-space: nowrap; }
+    .muted { color: var(--muted); }
+    .wiki { color: var(--accent); text-decoration: none; white-space: nowrap; }
+    .wiki:hover { text-decoration: underline; }
+    .empty { padding: 1.5rem; color: var(--muted); text-align: center; }
+    footer { color: var(--muted); font-size: .78rem; padding-bottom: 1.5rem; max-width: 52rem; }
   </style>
 </head>
 <body>
   <header>
     <h1>日本の商業舞台俳優リスト</h1>
-    <p class="lede">ページアクセス時にWikidataの最新情報を取得して更新します。年齢は生年月日から自動計算します。</p>
+    <p class="lede">
+      開いたタイミングで Wikidata から<strong>名前・生年月日・所属（事務所）</strong>を取得し、年齢を再計算します。
+      Wikidata の「説明」欄は駅名など別件と混同しやすいため<strong>表示しません</strong>。
+      芸歴・最新出演・SNS指標はこのHTML内の手入力データを表示します（静的ページのみでは公式X/Instagramの自動取得はできません）。
+    </p>
     <div class="meta" id="meta">読み込み中...</div>
   </header>
 
   <main>
-    <section class="toolbar">
-      <div class="chips" id="chips"></div>
-      <input id="search" class="search" type="search" placeholder="名前・説明で検索" aria-label="検索" />
+    <section class="filters" id="filters" aria-label="絞り込み">
+      <div class="filter-row">
+        <span class="muted" style="font-size:.8rem">ジャンル（複数可・OR）</span>
+        <button type="button" class="clear-genres" id="clearGenres">条件クリア</button>
+      </div>
+      <div class="chips" id="genreChips"></div>
+      <div class="filter-row">
+        <label for="agencySelect">事務所</label>
+        <select id="agencySelect" class="agency-select" aria-label="事務所で絞り込み"></select>
+        <label for="search">キーワード</label>
+        <input id="search" class="search" type="search" placeholder="名前・よみ・事務所・出演作・SNS欄など" />
+      </div>
     </section>
-    <section class="grid" id="list"></section>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>ジャンル</th>
+            <th>名前</th>
+            <th>よみ</th>
+            <th>生年月日</th>
+            <th>年齢</th>
+            <th>事務所</th>
+            <th>芸歴</th>
+            <th>最新出演作</th>
+            <th>Xフォロワー</th>
+            <th>IGフォロワー</th>
+            <th>X投稿頻度</th>
+            <th>X最新投稿</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+      <div id="empty" class="empty" hidden>該当する行がありません。条件を変えてください。</div>
+    </div>
   </main>
 
   <footer>
-    データ元: Wikidata API。表示内容は取得タイミングで変動します。商業舞台での活動区分タグは運用に応じて追加してください。
+    データ: Wikidata（P569 生年月日、P108 所属／取得できない場合は手入力の事務所欄を利用。フリーランスは手入力で「フリー」）。
+    X・Instagramのフォロワー数・投稿内容は利用規約・API制約のため、自動取得には別途サーバー連携または手動更新が必要です。
   </footer>
 
   <script>
@@ -146,25 +202,38 @@
       "現代劇・翻訳劇"
     ];
 
-    // 商業舞台の主要俳優（初期セット）。必要に応じて随時追加。
+    /**
+     * careerDebutYear: 芸歴の起点（デビュー年など）。未設定なら「—」。
+     * agencyManual: Wikidataに無い／上書きしたいとき。フリーなら「フリー」。
+     * latestWork: 最新出演作（手入力・要メンテ）。
+     * social: 手入力。未設定は null で「—」表示。
+     */
     const ACTORS = [
-      { qid: "Q3077148", name: "井上芳雄", yomi: "いのうえ よしお", genres: ["ミュージカル", "商業演劇"] },
-      { qid: "Q11333326", name: "浦井健治", yomi: "うらい けんじ", genres: ["ミュージカル", "商業演劇"] },
-      { qid: "Q11190320", name: "山崎育三郎", yomi: "やまざき いくさぶろう", genres: ["ミュージカル", "商業演劇"] },
-      { qid: "Q422895", name: "市村正親", yomi: "いちむら まさちか", genres: ["ミュージカル", "ストレートプレイ", "商業演劇"] },
-      { qid: "Q11391514", name: "城田優", yomi: "しろた ゆう", genres: ["ミュージカル", "商業演劇"] },
-      { qid: "Q3492656", name: "古川雄大", yomi: "ふるかわ ゆうた", genres: ["ミュージカル", "商業演劇"] },
-      { qid: "Q6454128", name: "松たか子", yomi: "まつ たかこ", genres: ["ストレートプレイ", "商業演劇"] },
-      { qid: "Q1187762", name: "藤原竜也", yomi: "ふじわら たつや", genres: ["ストレートプレイ", "現代劇・翻訳劇", "商業演劇"] },
-      { qid: "Q11191191", name: "井上小百合", yomi: "いのうえ さゆり", genres: ["2.5次元舞台", "ストレートプレイ"] },
-      { qid: "Q855466", name: "柚希礼音", yomi: "ゆずき れおん", genres: ["宝塚・OG", "ミュージカル", "商業演劇"] },
-      { qid: "Q2998731", name: "天海祐希", yomi: "あまみ ゆうき", genres: ["宝塚・OG", "ストレートプレイ", "商業演劇"] },
-      { qid: "Q273911", name: "宮沢りえ", yomi: "みやざわ りえ", genres: ["ストレートプレイ", "現代劇・翻訳劇", "商業演劇"] }
+      { qid: "Q3077148", name: "井上芳雄", yomi: "いのうえ よしお", genres: ["ミュージカル", "商業演劇"], careerDebutYear: 1995, agencyManual: null, latestWork: null, social: {} },
+      { qid: "Q11333326", name: "浦井健治", yomi: "うらい けんじ", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: {} },
+      { qid: "Q11190320", name: "山崎育三郎", yomi: "やまざき いくさぶろう", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: {} },
+      { qid: "Q422895", name: "市村正親", yomi: "いちむら まさちか", genres: ["ミュージカル", "ストレートプレイ", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: {} },
+      { qid: "Q11391514", name: "城田優", yomi: "しろた ゆう", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: {} },
+      { qid: "Q3492656", name: "古川雄大", yomi: "ふるかわ ゆうた", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: {} },
+      { qid: "Q6454128", name: "松たか子", yomi: "まつ たかこ", genres: ["ストレートプレイ", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: {} },
+      { qid: "Q1187762", name: "藤原竜也", yomi: "ふじわら たつや", genres: ["ストレートプレイ", "現代劇・翻訳劇", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: {} },
+      { qid: "Q11191191", name: "井上小百合", yomi: "いのうえ さゆり", genres: ["2.5次元舞台", "ストレートプレイ"], careerDebutYear: null, agencyManual: "フリー", latestWork: null, social: {} },
+      { qid: "Q855466", name: "柚希礼音", yomi: "ゆずき れおん", genres: ["宝塚・OG", "ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: {} },
+      { qid: "Q2998731", name: "天海祐希", yomi: "あまみ ゆうき", genres: ["宝塚・OG", "ストレートプレイ", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: {} },
+      { qid: "Q273911", name: "宮沢りえ", yomi: "みやざわ りえ", genres: ["ストレートプレイ", "現代劇・翻訳劇", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: {} }
     ];
+
+    function birthIsoForAge(raw) {
+      if (!raw) return null;
+      if (raw.length === 10) return raw;
+      if (raw.length === 7) return `${raw}-01`;
+      if (raw.length === 4) return `${raw}-01-01`;
+      return null;
+    }
 
     function calcAge(birthIso) {
       if (!birthIso) return null;
-      const b = new Date(birthIso);
+      const b = new Date(/^\d{4}-\d{2}-\d{2}$/.test(birthIso) ? `${birthIso}T00:00:00` : birthIso);
       if (Number.isNaN(b.getTime())) return null;
       const now = new Date();
       let age = now.getFullYear() - b.getFullYear();
@@ -173,112 +242,294 @@
       return age;
     }
 
-    async function fetchWikidata(qids) {
-      const url = `https://www.wikidata.org/w/api.php?action=wbgetentities&ids=${qids.join("|")}&format=json&languages=ja&props=labels|descriptions|claims&origin=*`;
-      const res = await fetch(url, { cache: "no-store" });
-      if (!res.ok) throw new Error(`API error: ${res.status}`);
+    function formatBirthDisplay(iso) {
+      if (!iso) return "—";
+      if (/^\d{4}$/.test(iso)) return `${iso}年（日付不明）`;
+      if (/^\d{4}-\d{2}$/.test(iso)) return `${iso.replace("-", "年")}月（日不明）`;
+      return iso;
+    }
+
+    function careerYearsText(debutYear) {
+      if (debutYear == null || debutYear === "") return "—";
+      const y = Number(debutYear);
+      if (!Number.isFinite(y)) return "—";
+      const n = new Date().getFullYear() - y;
+      if (n < 0) return "—";
+      return `約${n}年`;
+    }
+
+    async function fetchWithTimeout(url, ms) {
+      const ctrl = new AbortController();
+      const t = setTimeout(() => ctrl.abort(), ms);
+      try {
+        return await fetch(url, { cache: "no-store", signal: ctrl.signal });
+      } finally {
+        clearTimeout(t);
+      }
+    }
+
+    async function fetchWikidataEntities(ids) {
+      if (!ids.length) return { entities: {} };
+      const url = `https://www.wikidata.org/w/api.php?action=wbgetentities&ids=${ids.join("|")}&format=json&languages=ja&props=labels|claims&origin=*`;
+      const res = await fetchWithTimeout(url, 20000);
+      if (!res.ok) throw new Error(`Wikidata ${res.status}`);
       return res.json();
     }
 
     function extractBirth(claims) {
       const p569 = claims && claims.P569;
-      const value = p569 && p569[0] && p569[0].mainsnak && p569[0].mainsnak.datavalue && p569[0].mainsnak.datavalue.value;
+      if (!p569 || !p569.length) return null;
+      const snak = p569[0].mainsnak;
+      if (!snak || snak.snaktype !== "value" || !snak.datavalue) return null;
+      const value = snak.datavalue.value;
       if (!value || !value.time) return null;
-      return value.time.replace(/^\+/, "").slice(0, 10);
+      const raw = value.time.replace(/^\+/, "");
+      const prec = value.precision;
+      if (prec === 9) return raw.slice(0, 4);
+      if (prec === 10) return raw.slice(0, 7);
+      return raw.slice(0, 10);
+    }
+
+    function extractEmployerQid(claims) {
+      const p108 = claims && claims.P108;
+      if (!p108 || !p108.length) return null;
+      for (const st of p108) {
+        const snak = st.mainsnak;
+        if (snak && snak.snaktype === "value" && snak.datavalue && snak.datavalue.type === "wikibase-entityid") {
+          return snak.datavalue.value.id;
+        }
+      }
+      return null;
     }
 
     function wikiLink(name) {
       return `https://ja.wikipedia.org/wiki/Special:Search?search=${encodeURIComponent(name)}`;
     }
 
-    let activeGenre = "ALL";
+    let selectedGenres = new Set();
+    let agencyFilter = "";
     let searchText = "";
     let data = [];
 
-    function renderChips() {
-      const chips = document.getElementById("chips");
-      chips.innerHTML = "";
-      const all = ["ALL", ...GENRES];
-      all.forEach((g) => {
+    function renderGenreChips() {
+      const root = document.getElementById("genreChips");
+      root.textContent = "";
+      GENRES.forEach((g) => {
         const b = document.createElement("button");
-        b.className = `chip${activeGenre === g ? " active" : ""}`;
-        b.textContent = g === "ALL" ? "すべて" : g;
+        b.type = "button";
+        b.className = "chip" + (selectedGenres.has(g) ? " on" : "");
+        b.textContent = g;
         b.addEventListener("click", () => {
-          activeGenre = g;
-          renderChips();
-          renderList();
+          if (selectedGenres.has(g)) selectedGenres.delete(g);
+          else selectedGenres.add(g);
+          renderGenreChips();
+          renderTable();
         });
-        chips.appendChild(b);
+        root.appendChild(b);
       });
     }
 
-    function renderList() {
-      const root = document.getElementById("list");
-      root.innerHTML = "";
-      const t = searchText.trim().toLowerCase();
-      const filtered = data.filter((a) => {
-        const byGenre = activeGenre === "ALL" || a.genres.includes(activeGenre);
-        const byText = !t || [a.name, a.yomi, a.description].join(" ").toLowerCase().includes(t);
-        return byGenre && byText;
+    function uniqueAgencies(rows) {
+      const s = new Set();
+      rows.forEach((r) => {
+        const a = r.agencyDisplay;
+        if (a && a !== "—") s.add(a);
       });
+      return Array.from(s).sort((x, y) => x.localeCompare(y, "ja"));
+    }
 
-      filtered.forEach((a) => {
-        const card = document.createElement("article");
-        const tags = a.genres.map((g) => `<li>${g}</li>`).join("");
-        card.innerHTML = `
-          <p class="name">${a.name}</p>
-          <p class="sub">${a.yomi || ""}</p>
-          <ul class="tags">${tags}</ul>
-          <p class="desc">${a.description || "説明データなし"}</p>
-          <div class="row">
-            <span class="age">${a.age !== null ? `年齢: ${a.age}歳` : "年齢: 取得不可"}</span>
-            <a class="link" href="${wikiLink(a.name)}" target="_blank" rel="noopener noreferrer">Wikipedia</a>
-          </div>
-          ${a.birth ? "" : '<div class="warn">生年月日データが見つからないため年齢を表示できません。</div>'}
-        `;
-        root.appendChild(card);
+    function fillAgencySelect() {
+      const sel = document.getElementById("agencySelect");
+      const cur = sel.value;
+      sel.textContent = "";
+      const o0 = document.createElement("option");
+      o0.value = "";
+      o0.textContent = "すべて";
+      sel.appendChild(o0);
+      uniqueAgencies(data).forEach((a) => {
+        const o = document.createElement("option");
+        o.value = a;
+        o.textContent = a;
+        sel.appendChild(o);
       });
+      if (cur && Array.from(sel.options).some((o) => o.value === cur)) sel.value = cur;
+      else sel.value = agencyFilter || "";
+    }
 
-      if (!filtered.length) {
-        const empty = document.createElement("article");
-        empty.innerHTML = "<p class='name'>該当なし</p><p class='sub'>条件を変更してください。</p>";
-        root.appendChild(empty);
+    function rowHaystack(a) {
+      const s = a.social || {};
+      return [
+        a.name,
+        a.yomi,
+        a.genres.join(" "),
+        a.agencyDisplay,
+        a.latestWork,
+        a.birthDisplay,
+        a.careerText,
+        s.xFollowers,
+        s.instagramFollowers,
+        s.xPostFrequency,
+        s.xLatestPost
+      ]
+        .filter(Boolean)
+        .join(" ")
+        .toLowerCase();
+    }
+
+    function filteredRows() {
+      const q = searchText.trim().toLowerCase();
+      return data.filter((a) => {
+        if (selectedGenres.size > 0 && !a.genres.some((g) => selectedGenres.has(g))) return false;
+        if (agencyFilter && a.agencyDisplay !== agencyFilter) return false;
+        if (q && !rowHaystack(a).includes(q)) return false;
+        return true;
+      });
+    }
+
+    function td(text) {
+      const cell = document.createElement("td");
+      cell.textContent = text == null || text === "" ? "—" : String(text);
+      return cell;
+    }
+
+    function renderTable() {
+      const tbody = document.getElementById("tbody");
+      const empty = document.getElementById("empty");
+      tbody.textContent = "";
+      const rows = filteredRows();
+      if (!rows.length) {
+        empty.hidden = false;
+        return;
       }
+      empty.hidden = true;
+      rows.forEach((a) => {
+        const tr = document.createElement("tr");
+        const tagsTd = document.createElement("td");
+        tagsTd.className = "tags-cell";
+        a.genres.forEach((g) => {
+          const span = document.createElement("span");
+          span.className = "tag";
+          span.textContent = g;
+          tagsTd.appendChild(span);
+        });
+        tr.appendChild(tagsTd);
+        const nameTd = document.createElement("td");
+        nameTd.className = "name-cell";
+        nameTd.textContent = a.name;
+        tr.appendChild(nameTd);
+        tr.appendChild(td(a.yomi));
+        tr.appendChild(td(a.birthDisplay));
+        tr.appendChild(td(a.age != null ? `${a.age}歳` : "—"));
+        tr.appendChild(td(a.agencyDisplay));
+        tr.appendChild(td(a.careerText));
+        const workTd = document.createElement("td");
+        workTd.style.maxWidth = "14rem";
+        workTd.textContent = a.latestWork || "—";
+        tr.appendChild(workTd);
+        const soc = a.social || {};
+        tr.appendChild(td(soc.xFollowers));
+        tr.appendChild(td(soc.instagramFollowers));
+        tr.appendChild(td(soc.xPostFrequency));
+        const xLatestTd = document.createElement("td");
+        xLatestTd.style.maxWidth = "16rem";
+        xLatestTd.style.whiteSpace = "pre-wrap";
+        xLatestTd.textContent = soc.xLatestPost || "—";
+        tr.appendChild(xLatestTd);
+        const linkTd = document.createElement("td");
+        const link = document.createElement("a");
+        link.className = "wiki";
+        link.href = wikiLink(a.name);
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.textContent = "Wiki";
+        linkTd.appendChild(link);
+        tr.appendChild(linkTd);
+        tbody.appendChild(tr);
+      });
     }
 
     async function init() {
-      renderChips();
-      const search = document.getElementById("search");
-      search.addEventListener("input", (e) => {
+      const meta = document.getElementById("meta");
+      renderGenreChips();
+      document.getElementById("clearGenres").addEventListener("click", () => {
+        selectedGenres.clear();
+        agencyFilter = "";
+        document.getElementById("agencySelect").value = "";
+        searchText = "";
+        document.getElementById("search").value = "";
+        renderGenreChips();
+        fillAgencySelect();
+        renderTable();
+      });
+      document.getElementById("agencySelect").addEventListener("change", (e) => {
+        agencyFilter = e.target.value;
+        renderTable();
+      });
+      document.getElementById("search").addEventListener("input", (e) => {
         searchText = e.target.value;
-        renderList();
+        renderTable();
       });
 
-      const meta = document.getElementById("meta");
       try {
-        const json = await fetchWikidata(ACTORS.map((a) => a.qid));
+        const actorIds = ACTORS.map((a) => a.qid);
+        const json1 = await fetchWikidataEntities(actorIds);
+        const employerIds = [];
+        ACTORS.forEach((a) => {
+          const ent = json1.entities && json1.entities[a.qid];
+          const q = ent && extractEmployerQid(ent.claims);
+          if (q) employerIds.push(q);
+        });
+        const uniqEmployers = [...new Set(employerIds)];
+        const json2 = await fetchWikidataEntities(uniqEmployers);
+        const labelJa = (entities, qid) => {
+          const e = entities && entities[qid];
+          return e && e.labels && e.labels.ja && e.labels.ja.value;
+        };
+
         data = ACTORS.map((a) => {
-          const entity = json.entities && json.entities[a.qid];
-          const label = (entity && entity.labels && entity.labels.ja && entity.labels.ja.value) || a.name;
-          const description = (entity && entity.descriptions && entity.descriptions.ja && entity.descriptions.ja.value) || "商業舞台で活動する俳優";
-          const birth = entity ? extractBirth(entity.claims) : null;
+          const entity = json1.entities && json1.entities[a.qid];
+          const name = (entity && entity.labels && entity.labels.ja && entity.labels.ja.value) || a.name;
+          const birthRaw = entity ? extractBirth(entity.claims) : null;
+          const birthDisplay = formatBirthDisplay(birthRaw);
+          const age = calcAge(birthIsoForAge(birthRaw));
+          const empQ = entity ? extractEmployerQid(entity.claims) : null;
+          const agencyFromWd = empQ ? labelJa(json2.entities, empQ) : null;
+          const agencyDisplay = a.agencyManual || agencyFromWd || "—";
+          const careerText = careerYearsText(a.careerDebutYear);
           return {
             ...a,
-            name: label,
-            description,
-            birth,
-            age: calcAge(birth)
+            name,
+            birthRaw,
+            birthDisplay,
+            age: age !== null && !Number.isNaN(age) ? age : null,
+            agencyDisplay,
+            careerText,
+            latestWork: a.latestWork || null,
+            social: a.social || {}
           };
         });
-        // 表示順はアクセスごとに変える
-        data.sort(() => Math.random() - 0.5);
+        data.sort((x, y) => x.name.localeCompare(y.name, "ja"));
         const now = new Date();
-        meta.innerHTML = `最終取得: <strong>${now.toLocaleString("ja-JP")}</strong> / 件数: <strong>${data.length}</strong> / 取得元: <strong>Wikidata</strong>`;
+        meta.innerHTML = `Wikidata 取得: <strong>${now.toLocaleString("ja-JP")}</strong> ／ 表示 <strong>${data.length}</strong> 名`;
       } catch (err) {
-        data = ACTORS.map((a) => ({ ...a, description: "通信エラー時はローカル情報で表示", birth: null, age: null }));
-        meta.innerHTML = `最新情報の取得に失敗しました（ネットワーク制限の可能性）。ローカルデータで表示中。`;
+        const msg = err && err.name === "AbortError" ? "タイムアウト" : (err && err.message) || "エラー";
+        data = ACTORS.map((a) => ({
+          ...a,
+          name: a.name,
+          birthRaw: null,
+          birthDisplay: "—",
+          age: null,
+          agencyDisplay: a.agencyManual || "—",
+          careerText: careerYearsText(a.careerDebutYear),
+          latestWork: a.latestWork || null,
+          social: a.social || {}
+        }));
+        data.sort((x, y) => x.name.localeCompare(y.name, "ja"));
+        meta.innerHTML = `Wikidata を取得できませんでした（<strong>${msg}</strong>）。手入力列のみの簡易表示です。`;
       }
-      renderList();
+
+      fillAgencySelect();
+      renderTable();
     }
 
     init();
