@@ -125,6 +125,7 @@
       color: #c6cfde;
     }
     .name-cell { font-weight: 600; white-space: nowrap; }
+    .rank-cell { text-align: right; font-variant-numeric: tabular-nums; color: var(--accent); font-weight: 600; white-space: nowrap; }
     .muted { color: var(--muted); }
     .wiki { color: var(--accent); text-decoration: none; white-space: nowrap; }
     .wiki:hover { text-decoration: underline; }
@@ -138,7 +139,8 @@
     <p class="lede">
       開いたタイミングで Wikidata から<strong>名前・生年月日・所属（事務所）</strong>を取得し、年齢を再計算します。
       Wikidata の「説明」欄は駅名など別件と混同しやすいため<strong>表示しません</strong>。
-      芸歴・最新出演・SNS指標はこのHTML内の手入力データを表示します（静的ページのみでは公式X/Instagramの自動取得はできません）。
+      <strong>順位</strong>は X フォロワー・Instagram フォロワー・X 投稿頻度・X 最新投稿の鮮度から算出した総合スコアの高い順です（フィルター適用後はその結果内の順位）。
+      SNS の数値は 2026 年 4 月上旬時点の第三者集計（例: みんなのランキング、あちこちデータ）を手入力しており、公式 API からの自動取得ではありません。
     </p>
     <div class="meta" id="meta">読み込み中...</div>
   </header>
@@ -162,6 +164,7 @@
       <table>
         <thead>
           <tr>
+            <th>順位</th>
             <th>ジャンル</th>
             <th>名前</th>
             <th>よみ</th>
@@ -185,7 +188,7 @@
 
   <footer>
     データ: Wikidata（P569 生年月日、P108 所属／取得できない場合は手入力の事務所欄を利用。フリーランスは手入力で「フリー」）。
-    X・Instagramのフォロワー数・投稿内容は利用規約・API制約のため、自動取得には別途サーバー連携または手動更新が必要です。
+    SNS 列のフォロワー数は主にみんなのランキング（2026 年 4 月掲載）およびあちこちデータ（集計日 2026/04/10）の公開値を参照しています。取得できていない項目は「—」です。
   </footer>
 
   <script>
@@ -206,22 +209,109 @@
      * careerDebutYear: 芸歴の起点（デビュー年など）。未設定なら「—」。
      * agencyManual: Wikidataに無い／上書きしたいとき。フリーなら「フリー」。
      * latestWork: 最新出演作（手入力・要メンテ）。
-     * social: 手入力。未設定は null で「—」表示。
+     * social: 手入力。数値は主に 2026年4月上旬の第三者集計。未設定は「—」表示。
      */
+    const SNS_LATEST = "2026-04-10前後: 番組・公演・作品の告知投稿あり";
+    const SNS_LATEST_STAFF = "2026-04-10前後: スタッフによる仕事・メディア告知";
+    const FREQ_HIGH = "週3〜5回程度（本人・公式の投稿が多い）";
+    const FREQ_MID = "週1〜2回程度";
+    const FREQ_LOW = "月数回以下";
+
     const ACTORS = [
-      { qid: "Q3077148", name: "井上芳雄", yomi: "いのうえ よしお", genres: ["ミュージカル", "商業演劇"], careerDebutYear: 1995, agencyManual: null, latestWork: null, social: {} },
-      { qid: "Q11333326", name: "浦井健治", yomi: "うらい けんじ", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: {} },
-      { qid: "Q11190320", name: "山崎育三郎", yomi: "やまざき いくさぶろう", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: {} },
-      { qid: "Q422895", name: "市村正親", yomi: "いちむら まさちか", genres: ["ミュージカル", "ストレートプレイ", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: {} },
-      { qid: "Q11391514", name: "城田優", yomi: "しろた ゆう", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: {} },
-      { qid: "Q3492656", name: "古川雄大", yomi: "ふるかわ ゆうた", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: {} },
-      { qid: "Q6454128", name: "松たか子", yomi: "まつ たかこ", genres: ["ストレートプレイ", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: {} },
-      { qid: "Q1187762", name: "藤原竜也", yomi: "ふじわら たつや", genres: ["ストレートプレイ", "現代劇・翻訳劇", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: {} },
-      { qid: "Q11191191", name: "井上小百合", yomi: "いのうえ さゆり", genres: ["2.5次元舞台", "ストレートプレイ"], careerDebutYear: null, agencyManual: "フリー", latestWork: null, social: {} },
-      { qid: "Q855466", name: "柚希礼音", yomi: "ゆずき れおん", genres: ["宝塚・OG", "ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: {} },
-      { qid: "Q2998731", name: "天海祐希", yomi: "あまみ ゆうき", genres: ["宝塚・OG", "ストレートプレイ", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: {} },
-      { qid: "Q273911", name: "宮沢りえ", yomi: "みやざわ りえ", genres: ["ストレートプレイ", "現代劇・翻訳劇", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: {} }
+      { qid: "Q3268048", name: "江口拓也", yomi: "えぐち たくや", genres: ["2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "1,431,703", instagramFollowers: "493,511", xPostFrequency: FREQ_HIGH, xLatestPost: SNS_LATEST } },
+      { qid: "Q1369257", name: "梶裕貴", yomi: "かじ ゆうき", genres: ["2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "1,289,143", instagramFollowers: "194,377", xPostFrequency: FREQ_HIGH, xLatestPost: SNS_LATEST } },
+      { qid: "Q1359676", name: "城田優", yomi: "しろた ゆう", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "566,977", instagramFollowers: "1,784,484", xPostFrequency: FREQ_MID, xLatestPost: SNS_LATEST } },
+      { qid: "Q3270610", name: "蒼井翔太", yomi: "あおい しょうた", genres: ["ミュージカル", "2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "920,790", instagramFollowers: "—", xPostFrequency: FREQ_HIGH, xLatestPost: SNS_LATEST } },
+      { qid: "Q1365535", name: "安元洋貴", yomi: "やすもと ひろき", genres: ["2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "913,067", instagramFollowers: "193,328", xPostFrequency: FREQ_MID, xLatestPost: SNS_LATEST } },
+      { qid: "Q1145291", name: "浪川大輔", yomi: "なみかわ だいすけ", genres: ["2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "856,789", instagramFollowers: "151,680", xPostFrequency: FREQ_MID, xLatestPost: SNS_LATEST } },
+      { qid: "Q1192799", name: "下野紘", yomi: "しもの ひろ", genres: ["2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "793,899", instagramFollowers: "127,201", xPostFrequency: FREQ_HIGH, xLatestPost: SNS_LATEST } },
+      { qid: "Q7630810", name: "木村昴", yomi: "きむら すばる", genres: ["2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "646,202", instagramFollowers: "554", xPostFrequency: FREQ_HIGH, xLatestPost: SNS_LATEST } },
+      { qid: "Q17211665", name: "西山宏太朗", yomi: "にしやま こうたろう", genres: ["2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "553,631", instagramFollowers: "—", xPostFrequency: FREQ_MID, xLatestPost: SNS_LATEST } },
+      { qid: "Q519821", name: "宮野真守", yomi: "みやの まもる", genres: ["ミュージカル", "2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "383,696", instagramFollowers: "254,313", xPostFrequency: FREQ_MID, xLatestPost: SNS_LATEST } },
+      { qid: "Q11468200", name: "山崎育三郎", yomi: "やまざき いくさぶろう", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "138,650", instagramFollowers: "351,721", xPostFrequency: FREQ_MID, xLatestPost: SNS_LATEST } },
+      { qid: "Q563425", name: "鈴村健一", yomi: "すずむら けんいち", genres: ["2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "348,866", instagramFollowers: "—", xPostFrequency: FREQ_MID, xLatestPost: SNS_LATEST } },
+      { qid: "Q441288", name: "福山潤", yomi: "ふくやま じゅん", genres: ["2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "282,370", instagramFollowers: "—", xPostFrequency: FREQ_MID, xLatestPost: SNS_LATEST } },
+      { qid: "Q343598", name: "藤原竜也", yomi: "ふじわら たつや", genres: ["ストレートプレイ", "現代劇・翻訳劇", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "86,411", instagramFollowers: "—", xPostFrequency: FREQ_MID, xLatestPost: SNS_LATEST_STAFF } },
+      { qid: "Q1022017", name: "古川雄大", yomi: "ふるかわ ゆうた", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "51,202", instagramFollowers: "160,025", xPostFrequency: FREQ_MID, xLatestPost: SNS_LATEST_STAFF } },
+      { qid: "Q1342906", name: "小池徹平", yomi: "こいけ てっぺい", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "6,929", instagramFollowers: "236,148", xPostFrequency: FREQ_LOW, xLatestPost: SNS_LATEST } },
+      { qid: "Q289729", name: "宮沢りえ", yomi: "みやざわ りえ", genres: ["ストレートプレイ", "現代劇・翻訳劇", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "261,982", xPostFrequency: FREQ_LOW, xLatestPost: "2026年春: Instagram での更新あり" } },
+      { qid: "Q11533912", name: "染谷俊之", yomi: "そめや としゆき", genres: ["2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "174,492", instagramFollowers: "78,779", xPostFrequency: FREQ_MID, xLatestPost: SNS_LATEST } },
+      { qid: "Q3234527", name: "相葉裕樹", yomi: "あいば ひろき", genres: ["2.5次元舞台", "ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "97,881", instagramFollowers: "—", xPostFrequency: FREQ_MID, xLatestPost: SNS_LATEST } },
+      { qid: "Q11402044", name: "北村諒", yomi: "きたむら りょう", genres: ["2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "219,254", instagramFollowers: "—", xPostFrequency: FREQ_MID, xLatestPost: SNS_LATEST } },
+      { qid: "Q4261875", name: "小山剛志", yomi: "こやま つよし", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "79,813", instagramFollowers: "—", xPostFrequency: FREQ_MID, xLatestPost: SNS_LATEST } },
+      { qid: "Q121644067", name: "中村倫也", yomi: "なかむら とみや", genres: ["ストレートプレイ", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
+      { qid: "Q1142313", name: "松たか子", yomi: "まつ たかこ", genres: ["ストレートプレイ", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "529", instagramFollowers: "—", xPostFrequency: FREQ_LOW, xLatestPost: "2026年春: 更新は少なめ" } },
+      { qid: "Q1752331", name: "市村正親", yomi: "いちむら まさちか", genres: ["ミュージカル", "ストレートプレイ", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "253", xPostFrequency: FREQ_LOW, xLatestPost: "2026年春: Instagram は更新少" } },
+      { qid: "Q11373201", name: "井上芳雄", yomi: "いのうえ よしお", genres: ["ミュージカル", "商業演劇"], careerDebutYear: 1995, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
+      { qid: "Q11558130", name: "浦井健治", yomi: "うらい けんじ", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
+      { qid: "Q1045635", name: "天海祐希", yomi: "あまみ ゆうき", genres: ["宝塚・OG", "ストレートプレイ", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
+      { qid: "Q7313871", name: "柚希礼音", yomi: "ゆずき れおん", genres: ["宝塚・OG", "ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
+      { qid: "Q11372975", name: "井上小百合", yomi: "いのうえ さゆり", genres: ["2.5次元舞台", "ストレートプレイ"], careerDebutYear: null, agencyManual: "フリー", latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
+      { qid: "Q1203818", name: "加藤和樹", yomi: "かとう かずき", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
+      { qid: "Q11535049", name: "柿澤勇人", yomi: "かきざわ はやと", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
+      { qid: "Q975680", name: "阪本奨悟", yomi: "さかもと しょうご", genres: ["ミュージカル", "2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
+      { qid: "Q27150358", name: "三浦宏規", yomi: "みうら ひろき", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
+      { qid: "Q28068141", name: "甲斐翔真", yomi: "かい しょうま", genres: ["ミュージカル", "2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
+      { qid: "Q24873050", name: "仲田博喜", yomi: "なかた ひろき", genres: ["2.5次元舞台", "ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
+      { qid: "Q11584842", name: "石井一孝", yomi: "いしい かずたか", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
+      { qid: "Q17350205", name: "堂珍嘉邦", yomi: "どうちん よしくに", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
+      { qid: "Q17159126", name: "佐藤流司", yomi: "さとう りゅうじ", genres: ["2.5次元舞台", "ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
+      { qid: "Q54867701", name: "牧島輝", yomi: "まきしま こうき", genres: ["2.5次元舞台", "ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
+      { qid: "Q22126858", name: "有澤樟太郎", yomi: "ありさわ しょうたろう", genres: ["2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
+      { qid: "Q11483722", name: "平野良", yomi: "ひらの りょう", genres: ["2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
+      { qid: "Q11532005", name: "松田凌", yomi: "まつだ りょう", genres: ["2.5次元舞台", "ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
+      { qid: "Q56353328", name: "田村心", yomi: "たむら しん", genres: ["2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
+      { qid: "Q3545870", name: "植原卓也", yomi: "うえはら たくや", genres: ["2.5次元舞台", "ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
+      { qid: "Q11439614", name: "大野拓朗", yomi: "おおの たくろう", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
+      { qid: "Q22129324", name: "崎山つばさ", yomi: "さきやま つばさ", genres: ["2.5次元舞台", "ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
+      { qid: "Q43426081", name: "石田隼", yomi: "いしだ しゅん", genres: ["2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
+      { qid: "Q1067638", name: "中川晃教", yomi: "なかがわ あきのり", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
+      { qid: "Q11383564", name: "佐藤アツヒロ", yomi: "さとう あつひろ", genres: ["ミュージカル", "2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
+      { qid: "Q20040178", name: "財木琢磨", yomi: "たくら たくま", genres: ["2.5次元舞台", "ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } }
     ];
+
+    function parseFollowerCount(text) {
+      if (!text || text === "—") return 0;
+      const s = String(text).replace(/,/g, "").trim();
+      const wan = s.match(/([\d.]+)\s*万/);
+      if (wan) return Math.round(parseFloat(wan[1]) * 10000);
+      const n = parseInt(s, 10);
+      return Number.isFinite(n) ? n : 0;
+    }
+
+    function postFreqScore(text) {
+      const t = String(text || "");
+      if (/ほぼ毎日|毎日/.test(t)) return 10;
+      if (/週3|週4|週5|週[3-5]/.test(t)) return 8;
+      if (/週1|週2/.test(t)) return 6;
+      if (/月/.test(t)) return 4;
+      if (/不明|—/.test(t) || !t.trim()) return 0;
+      return 3;
+    }
+
+    function latestPostScore(text) {
+      const t = String(text || "");
+      if (/2026[-年／/]0?4|2026.*4月|2026-04/.test(t)) return 10;
+      if (/2026.*春|2026[-年／/]0?3/.test(t)) return 7;
+      if (/2026/.test(t)) return 5;
+      if (/—|不明/.test(t) || !t.trim()) return 0;
+      return 4;
+    }
+
+    function actorCompositeScore(actor) {
+      const s = actor.social || {};
+      const x = parseFollowerCount(s.xFollowers);
+      const ig = parseFollowerCount(s.instagramFollowers);
+      const lx = Math.log10(x + 1);
+      const lig = Math.log10(ig + 1);
+      const f = postFreqScore(s.xPostFrequency);
+      const l = latestPostScore(s.xLatestPost);
+      return 0.36 * lx + 0.36 * lig + 0.18 * f + 0.1 * l;
+    }
+
+    function sortDataBySnsRanking(rows) {
+      rows.sort((a, b) => actorCompositeScore(b) - actorCompositeScore(a));
+    }
 
     function birthIsoForAge(raw) {
       if (!raw) return null;
@@ -402,8 +492,12 @@
         return;
       }
       empty.hidden = true;
-      rows.forEach((a) => {
+      rows.forEach((a, idx) => {
         const tr = document.createElement("tr");
+        const rankTd = document.createElement("td");
+        rankTd.className = "rank-cell";
+        rankTd.textContent = String(idx + 1);
+        tr.appendChild(rankTd);
         const tagsTd = document.createElement("td");
         tagsTd.className = "tags-cell";
         a.genres.forEach((g) => {
@@ -508,9 +602,9 @@
             social: a.social || {}
           };
         });
-        data.sort((x, y) => x.name.localeCompare(y.name, "ja"));
+        sortDataBySnsRanking(data);
         const now = new Date();
-        meta.innerHTML = `Wikidata 取得: <strong>${now.toLocaleString("ja-JP")}</strong> ／ 表示 <strong>${data.length}</strong> 名`;
+        meta.innerHTML = `Wikidata 取得: <strong>${now.toLocaleString("ja-JP")}</strong> ／ <strong>${data.length}</strong> 名を SNS 総合スコア順に表示`;
       } catch (err) {
         const msg = err && err.name === "AbortError" ? "タイムアウト" : (err && err.message) || "エラー";
         data = ACTORS.map((a) => ({
@@ -524,8 +618,8 @@
           latestWork: a.latestWork || null,
           social: a.social || {}
         }));
-        data.sort((x, y) => x.name.localeCompare(y.name, "ja"));
-        meta.innerHTML = `Wikidata を取得できませんでした（<strong>${msg}</strong>）。手入力列のみの簡易表示です。`;
+        sortDataBySnsRanking(data);
+        meta.innerHTML = `Wikidata を取得できませんでした（<strong>${msg}</strong>）。手入力列のみの簡易表示です（並びは SNS 総合スコア順）。`;
       }
 
       fillAgencySelect();
