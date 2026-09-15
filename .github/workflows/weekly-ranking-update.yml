@@ -59,9 +59,8 @@ jobs:
             exit 0
           fi
           git add data/ranking.json
-          git commit -m "chore(data): 数値のみ自動更新（保険枠 $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M JST')）
-
-Claude のルーチンが48時間以上動いていなかったため、数値だけ取り直した。
-名簿（roster.json）のメンテナンスは行っていない。"
+          git commit \
+            -m "chore(data): 数値のみ自動更新（保険枠 $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M JST')）" \
+            -m "Claude のルーチンが48時間以上動いていなかったため、数値だけ取り直した。名簿（roster.json）のメンテナンスは行っていない。"
           git pull --rebase origin main
           git push
