@@ -147,6 +147,8 @@
     .bar > i { display: block; height: 100%; background: var(--accent); }
     .news-cell { max-width: 20rem; }
     .news-cell .date { color: var(--muted); font-size: .72rem; }
+    .news-cell a.news-link { white-space: normal; }
+    .news-cell .news-top { margin-top: .3rem; font-size: .72rem; color: var(--muted); }
     .works-cell { max-width: 17rem; font-size: .76rem; color: #c6cfde; }
     a.link { color: var(--accent); text-decoration: none; white-space: nowrap; }
     a.link:hover { text-decoration: underline; }
@@ -277,17 +279,28 @@
       var root = document.getElementById("formula");
       root.textContent = "";
 
+      var dropped = (d.actors[0] && d.actors[0].droppedAxes) || [];
       root.appendChild(el("p", null,
-        "5 つの評価軸をそれぞれ 0〜1 に正規化し、下の重みで足し合わせて 100 点満点にしています。" +
-        "フォロワー数は桁の差が大きいため対数をとってから正規化します。" +
-        "計測できなかった軸がある人は、その軸の重みを残りの軸へ按分するので、データ欠損だけで不利になりません（どの軸で測れたかは各行のスコアにカーソルを合わせると出ます）。"));
+        "評価軸をそれぞれ 0〜1 に正規化し、下の重みで足し合わせて 100 点満点にしています。" +
+        "フォロワー数は桁の差が大きいため対数をとってから正規化します（下限は 1,000 人）。"));
+      root.appendChild(el("p", null,
+        "一部の人だけ数値を取れなかった軸は、軸ごと外すのではなく、実測できた人の下位 25% 相当を代替値として当てています。" +
+        "外して重みを按分すると「測れない人ほど有利」という逆転が起きるためです。" +
+        "複数のソースを当たって数値が出てこなかった以上、大きなアカウントを持つ可能性は低い、という低めの見積もりです。" +
+        "各行のスコア欄に実測できた軸の数を出しています。"));
+      if (dropped.length) {
+        root.appendChild(el("p", null,
+          "なお現在、" + dropped.map(function (k) { return AXIS_LABEL[k] || k; }).join(" / ") +
+          " は全員分の数値が取れていないため、この軸自体を使わず、重みを他の軸へ按分しています。"));
+      }
 
       var t = el("table");
       Object.keys(d.weights).forEach(function (k) {
+        var isDropped = dropped.indexOf(k) >= 0;
         var tr = el("tr");
         tr.appendChild(el("th", null, AXIS_LABEL[k] || k));
-        tr.appendChild(el("td", "num", Math.round(d.weights[k] * 100) + "%"));
-        tr.appendChild(el("td", "muted", axisNote(k)));
+        tr.appendChild(el("td", "num", isDropped ? "—" : Math.round(d.weights[k] * 100) + "%"));
+        tr.appendChild(el("td", "muted", (isDropped ? "【現在は不使用】" : "") + axisNote(k)));
         t.appendChild(tr);
       });
       root.appendChild(t);
@@ -455,11 +468,15 @@
       bar.appendChild(i);
       c.appendChild(bar);
       var n = a.coverage != null ? a.coverage : (a.measuredAxes || []).length;
-      var cov = el("span", "coverage" + (n <= 2 ? " low" : ""), n + "/5 軸");
+      var of = a.coverageOf || 5;
+      var cov = el("span", "coverage" + (n < of - 1 ? " low" : ""), n + "/" + of + " 軸実測");
       c.appendChild(cov);
       var measured = (a.measuredAxes || []).map(function (k) { return AXIS_LABEL[k] || k; });
-      c.title = "5 つの評価軸のうち " + n + " つを計測。内訳: " + (measured.length ? measured.join(" / ") : "なし") +
-        (n < 5 ? "\n計測できなかった軸の重みは、この行の残りの軸へ按分しています。" : "");
+      var imputed = (a.imputedAxes || []).map(function (k) { return AXIS_LABEL[k] || k; });
+      c.title = "実測できた軸（" + n + "/" + of + "）: " + (measured.length ? measured.join(" / ") : "なし") +
+        (imputed.length
+          ? "\n実測できず控えめな代替値を当てた軸: " + imputed.join(" / ")
+          : "");
       return c;
     }
 
@@ -520,7 +537,29 @@
         var newsTd = el("td", "news-cell");
         if (a.latestNews) {
           newsTd.appendChild(el("span", "date", a.latestNews.date + "　"));
-          newsTd.appendChild(document.createTextNode(a.latestNews.title));
+          if (a.latestNews.url) {
+            var la = el("a", "link news-link", a.latestNews.title);
+            la.href = a.latestNews.url;
+            la.target = "_blank";
+            la.rel = "noopener noreferrer";
+            la.title = "ステージナタリーの記事を開く";
+            newsTd.appendChild(la);
+          } else {
+            newsTd.appendChild(document.createTextNode(a.latestNews.title));
+          }
+          // 直近12ヶ月で最も読まれた記事へのリンクも添える
+          var top = (a.topNews || []).filter(function (n) { return n.url && n.url !== (a.latestNews && a.latestNews.url); })[0];
+          if (top) {
+            var wrap = el("div", "news-top");
+            wrap.appendChild(document.createTextNode("よく読まれた記事: "));
+            var ta = el("a", "link news-link", top.title);
+            ta.href = top.url;
+            ta.target = "_blank";
+            ta.rel = "noopener noreferrer";
+            ta.title = "注目度 " + fmtInt(top.score) + "（" + top.date + "）";
+            wrap.appendChild(ta);
+            newsTd.appendChild(wrap);
+          }
         } else {
           newsTd.classList.add("muted");
           newsTd.textContent = "—";

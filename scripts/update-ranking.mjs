@@ -27,6 +27,7 @@ import {
   snsHandlesFromSite,
   natalieStages
 } from './sources.mjs';
+import { score, WEIGHTS } from './score.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const args = process.argv.slice(2);
@@ -40,22 +41,6 @@ const OUT = argVal('--out') || path.join(ROOT, 'data', 'ranking.json');
 const NOW = new Date();
 const DAY = 86400000;
 const days = (d) => (NOW - new Date(d)) / DAY;
-
-const WEIGHTS = {
-  xFollowers: 0.22,
-  igFollowers: 0.18,
-  xPostFrequency: 0.1,
-  newsCoverage: 0.28,
-  recentActivity: 0.22
-};
-
-const FREQ_SCORE = {
-  'ほぼ毎日': 1,
-  '週3〜5回': 0.8,
-  '週1〜2回': 0.55,
-  '月数回': 0.3,
-  'ほぼ更新なし': 0.05
-};
 
 /* ------------------------------------------------------------------ */
 
@@ -99,32 +84,6 @@ function ageFrom(birth) {
   return a;
 }
 
-/** 観測値の最小〜最大で 0..1 に伸ばす。全部同値なら 0.5。 */
-function normalizer(values) {
-  const nums = values.filter((v) => Number.isFinite(v));
-  const min = Math.min(...nums);
-  const max = Math.max(...nums);
-  return (v) => {
-    if (!Number.isFinite(v)) return null;
-    if (max === min) return 0.5;
-    return (v - min) / (max - min);
-  };
-}
-
-/**
- * フォロワー数用。下限を固定（1000 人 = 0 点）にして、0 人と最下位を地続きにする。
- * こうしないと「アカウントを持っていない人」を 0 点として他と並べられない。
- */
-const FOLLOWER_FLOOR_LOG = 3; // log10(1000)
-function followerNormalizer(values) {
-  const max = Math.max(...values.filter((v) => Number.isFinite(v)), FOLLOWER_FLOOR_LOG + 0.1);
-  const span = max - FOLLOWER_FLOOR_LOG;
-  return (v) => {
-    if (!Number.isFinite(v)) return null;
-    return Math.min(1, Math.max(0, (v - FOLLOWER_FLOOR_LOG) / span));
-  };
-}
-
 async function collect(actor) {
   const row = { ...actor, fetchedAt: NOW.toISOString(), sourceErrors: [] };
 
@@ -165,13 +124,13 @@ async function collect(actor) {
       row.news90d = in90d.length;
       row.newsAttention12m = in12m.reduce((s, n) => s + n.score, 0);
       const latest = news.find((n) => n.date);
-      row.latestNews = latest ? { title: latest.title, date: latest.date } : null;
+      row.latestNews = latest ? { title: latest.title, date: latest.date, url: latest.url || null } : null;
       row.daysSinceNews = latest ? Math.round(days(latest.date)) : null;
       row.topNews = in12m
         .slice()
         .sort((a, b) => b.score - a.score)
         .slice(0, 3)
-        .map((n) => ({ title: n.title, date: n.date, score: n.score }));
+        .map((n) => ({ title: n.title, date: n.date, score: n.score, url: n.url || null }));
     }
   } catch (e) {
     row.sourceErrors.push('natalie: ' + e.message);
@@ -257,60 +216,6 @@ async function collect(actor) {
   row.xPostFrequency = actor.xPostFrequency ?? null;
 
   return row;
-}
-
-function score(rows) {
-  const log = (v) => (v == null ? null : Math.log10(v + 1));
-
-  // ニュース取り上げられ度: 記事数と注目度（閲覧スコア）の合成
-  const newsRaw = rows.map((r) =>
-    r.news12m == null ? null : Math.log10((r.news12m || 0) + 1) * 0.6 + Math.log10((r.newsAttention12m || 0) + 1) * 0.4
-  );
-  // 直近の活動量: 90日の記事数・最新記事の鮮度・掲載中の出演公演数
-  const actRaw = rows.map((r) => {
-    if (r.news90d == null) return null;
-    const freshness = r.daysSinceNews == null ? 0 : Math.max(0, 1 - r.daysSinceNews / 180);
-    // 公演は「直近12ヶ月に上演があったもの」を数える。人物ページの表示上限(8件)は使わない。
-    const recentPlays = r.stages12m != null ? r.stages12m : (r.stages?.length || 0);
-    return Math.log10((r.news90d || 0) + 1) * 0.55 + freshness * 0.3 + Math.log10(recentPlays + 1) * 0.15;
-  });
-
-  const nx = followerNormalizer(rows.map((r) => log(r.xFollowers)));
-  const nig = followerNormalizer(rows.map((r) => log(r.igFollowers)));
-  const nnews = normalizer(newsRaw);
-  const nact = normalizer(actRaw);
-
-  // フォロワー数が無いときの扱いは 3 通りに分ける。断定できないものを 0 点にしない。
-  //   数値あり           … そのまま正規化
-  //   アカウント無しと確認 … 発信力ゼロという実測値なので 0 点（roster.json の noAccount で明示）
-  //   それ以外（未確認）   … 欠測。軸ごと除外して重みを他へ按分する
-  const axis = (followers, confirmedNone, norm) => {
-    if (followers != null) return norm(Math.log10(followers + 1));
-    return confirmedNone ? 0 : null;
-  };
-
-  rows.forEach((r, i) => {
-    const m = {
-      xFollowers: axis(r.xFollowers, r.xAccountState === 'none', nx),
-      igFollowers: axis(r.igFollowers, r.igAccountState === 'none', nig),
-      xPostFrequency: r.xPostFrequency ? (FREQ_SCORE[r.xPostFrequency] ?? null) : null,
-      newsCoverage: nnews(newsRaw[i]),
-      recentActivity: nact(actRaw[i])
-    };
-
-    // 計測できなかった軸の重みは、残りの軸へ按分する
-    const present = Object.keys(WEIGHTS).filter((k) => m[k] != null);
-    const wSum = present.reduce((s, k) => s + WEIGHTS[k], 0);
-    const total = present.reduce((s, k) => s + (WEIGHTS[k] / wSum) * m[k], 0);
-    r.metrics = m;
-    r.measuredAxes = present;
-    r.coverage = present.length;
-    r.score = wSum === 0 ? 0 : Math.round(total * 1000) / 10;
-  });
-
-  rows.sort((a, b) => b.score - a.score || (b.xFollowers || 0) - (a.xFollowers || 0));
-  rows.forEach((r, i) => (r.rank = i + 1));
-  return rows;
 }
 
 /* ------------------------------------------------------------------ */

@@ -112,7 +112,7 @@ function parseNatalieDate(s, today) {
 }
 
 /** 人物ニュース一覧を、直近13ヶ月ぶんに届くまで（最大 maxPages）辿る。 */
-export async function natalieNews(id, today, { maxPages = 4 } = {}) {
+export async function natalieNews(id, today, { maxPages = 5 } = {}) {
   const items = [];
   for (let p = 1; p <= maxPages; p++) {
     const url = p === 1 ? `https://natalie.mu/profile/${id}/news` : `https://natalie.mu/profile/${id}/news/page/${p}`;
@@ -122,28 +122,44 @@ export async function natalieNews(id, today, { maxPages = 4 } = {}) {
     } catch {
       break;
     }
-    const cards = [
-      ...h.matchAll(/NA_card_title[^>]*>([^<]+)<[\s\S]{0,500}?NA_card_score">([\d,]*)<\/div>[\s\S]{0,300}?NA_card_date">([^<]+)</g)
-    ];
-    if (!cards.length) break;
+
+    // 記事カードごとに切ってから中身を読む。1 本の長い正規表現でまとめて取ると、
+    // タグが多いカードなどで取りこぼし、その件数でページ送りを判定していると
+    // 2 ページ目以降を丸ごと落とす。
+    // 本文リストは最初の NA_card_wrapper。2 つ目はサイドバーの関連記事なので入れない。
+    const body = h.split('<div class="NA_card_wrapper')[1] || '';
+    const cards = body.split(/<div class="NA_card NA_card-[a-z]">/).slice(1);
     let oldest = null;
-    for (const c of cards) {
-      const d = parseNatalieDate(c[3].trim(), today);
+    let found = 0;
+    for (const card of cards) {
+      const title = card.match(/NA_card_title[^>]*>([^<]+)</);
+      if (!title) continue;
+      const href = card.match(/<a href="(https:\/\/natalie\.mu\/[a-z]+\/news\/\d+)"/);
+      const score = card.match(/NA_card_score">([\d,]*)<\/div>/);
+      const date = card.match(/NA_card_date">([^<]+)</);
+      const d = date ? parseNatalieDate(date[1].trim(), today) : null;
       items.push({
-        title: stripTags(c[1]),
-        score: toNum(c[2]) || 0,
+        title: stripTags(title[1]),
+        url: href ? href[1] : null,
+        score: toNum(score && score[1]) || 0,
         date: d ? d.toISOString().slice(0, 10) : null
       });
+      found++;
       if (d) oldest = d;
     }
-    await sleep(400);
-    if (cards.length < 30) break;
+    if (!found) break;
+
+    // ページ送りは「次のページへのリンクが実在するか」で決める。拾えた件数では決めない。
+    const hasNext = h.includes(`/profile/${id}/news/page/${p + 1}`);
+    if (!hasNext) break;
     if (oldest && (today - oldest) / 86400000 > 400) break;
+    await sleep(400);
   }
+
   // 同一記事が複数ページにまたがることがあるので重複を落とす
   const seen = new Set();
   return items.filter((i) => {
-    const k = i.title + '|' + i.date;
+    const k = (i.url || i.title) + '|' + i.date;
     if (seen.has(k)) return false;
     seen.add(k);
     return true;
