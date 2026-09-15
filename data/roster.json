@@ -295,7 +295,15 @@
       ],
       "natalieId": "85686",
       "achikochiSlug": null,
-      "agency": "研音"
+      "agency": "研音",
+      "manualSocial": {
+        "xHandle": "YuzukiReonstaff",
+        "xFollowers": 11000,
+        "igHandle": "reonyuzuki_official",
+        "igFollowers": 115000,
+        "xNote": "スタッフ運営アカウント（公式リンク集で STAFF X と明示）",
+        "checkedAt": "2026-09-16"
+      }
     },
     {
       "name": "真矢ミキ",
@@ -306,7 +314,17 @@
       ],
       "natalieId": "32382",
       "achikochiSlug": "真矢ミキ",
-      "agency": "セブンス・アヴェニュー"
+      "agency": "セブンス・アヴェニュー",
+      "manualSocial": {
+        "igHandle": "mikimayaofficial",
+        "igFollowers": 64000,
+        "checkedAt": "2026-09-16"
+      },
+      "noAccount": {
+        "x": true,
+        "source": "オスカープロモーション公式お知らせ「真矢ミキ『なりすまし』Instagram に関するお知らせ」に「真矢ミキが現在行っているSNSはInstagramのみ」と明記",
+        "checkedAt": "2026-09-16"
+      }
     },
     {
       "name": "龍真咲",
@@ -638,7 +656,14 @@
       ],
       "natalieId": "86172",
       "achikochiSlug": null,
-      "agency": "リバプール"
+      "agency": "リバプール",
+      "manualSocial": {
+        "xHandle": "takuma_zaiki",
+        "xFollowers": 50000,
+        "igHandle": "takuma_zaiki_official",
+        "igFollowers": 5119,
+        "checkedAt": "2026-09-16"
+      }
     },
     {
       "name": "崎山つばさ",
@@ -649,7 +674,14 @@
       ],
       "natalieId": "92864",
       "achikochiSlug": null,
-      "agency": "ケイダッシュ"
+      "agency": "スタードリームカンパニー",
+      "manualSocial": {
+        "xHandle": "tsubasa_skym",
+        "xFollowers": 78000,
+        "igHandle": "sakiyamaofficial",
+        "igFollowers": 56000,
+        "checkedAt": "2026-09-16"
+      }
     },
     {
       "name": "北村諒",
@@ -727,6 +759,38 @@
       "natalieId": "44936",
       "achikochiSlug": "片岡愛之助（6代目）",
       "agency": "松竹"
+    },
+    {
+      "name": "成河",
+      "genres": [
+        "ストレートプレイ",
+        "現代劇・翻訳劇",
+        "ミュージカル"
+      ],
+      "natalieId": "72210",
+      "agency": "ブルー・ジュピター",
+      "achikochiSlug": null
+    },
+    {
+      "name": "田代万里生",
+      "genres": [
+        "ミュージカル",
+        "商業演劇"
+      ],
+      "natalieId": "95116",
+      "agency": "ホリプロ",
+      "achikochiSlug": null
+    },
+    {
+      "name": "咲妃みゆ",
+      "genres": [
+        "宝塚・OG",
+        "ミュージカル",
+        "ストレートプレイ"
+      ],
+      "natalieId": "93414",
+      "agency": "BLUE LABEL",
+      "achikochiSlug": "咲妃みゆ"
     }
   ],
   "manualSocialNote": "あちこちデータが数値を持たない人の補完。2026-09-16 に X / Instagram の公開プロフィール表示値を目視で控えたもの（X・Instagram とも数値は丸め表示）。自動取得できた場合はそちらを優先する。",
