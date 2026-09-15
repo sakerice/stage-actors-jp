@@ -1,17 +1,17 @@
-name: ランキング週次更新
+# 数値の取り直しだけを行う最後の保険。
+#
+# 本来の週次更新は Claude のルーチン（金 10:00 JST / 土 11:00 JST）が担当する。
+# そちらは名簿そのもののメンテナンス（フォロワー数の目視取得、アカウント有無の確認、
+# 事務所の移籍、名簿への人物追加）まで行うが、Mac が閉じていると動かない。
+# このワークフローはクラウドで動くので、ルーチンが数日回らなかったときに
+# 「せめて数字だけは腐らせない」ために存在する。判断が要る更新はしない。
+name: ランキング数値更新（保険）
 
 on:
   schedule:
-    # 本番: 毎週金曜 10:00 JST（= 金 01:00 UTC）
-    - cron: '0 1 * * 5'
-    # 予備: 毎週土曜 11:00 JST（= 土 02:00 UTC）。前日に更新できていた場合はスキップする。
-    - cron: '0 2 * * 6'
+    # 毎週日曜 12:00 JST（= 日 03:00 UTC）。48時間以内に更新済みならスキップする。
+    - cron: '0 3 * * 0'
   workflow_dispatch:
-    inputs:
-      force:
-        description: '前日に更新済みでも強制的に実行する'
-        type: boolean
-        default: true
 
 concurrency:
   group: ranking-update
@@ -31,14 +31,14 @@ jobs:
         with:
           node-version: '22'
 
-      - name: 実行要否を判定（土曜の予備枠のみスキップしうる）
+      - name: 実行要否を判定（Claude ルーチンが動いていればスキップ）
         id: gate
         run: |
-          if [ "${{ github.event.schedule }}" = "0 2 * * 6" ]; then
-            node scripts/should-run.mjs --max-age-hours 30
-          else
-            echo "金曜の本番枠 / 手動実行なので無条件に実行する"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "手動実行なので無条件に実行する"
             echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            node scripts/should-run.mjs --max-age-hours 48
           fi
 
       - name: データ収集
@@ -59,5 +59,9 @@ jobs:
             exit 0
           fi
           git add data/ranking.json
-          git commit -m "chore(data): ランキングを週次更新 ($(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M JST'))"
+          git commit -m "chore(data): 数値のみ自動更新（保険枠 $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M JST')）
+
+Claude のルーチンが48時間以上動いていなかったため、数値だけ取り直した。
+名簿（roster.json）のメンテナンスは行っていない。"
+          git pull --rebase origin main
           git push
