@@ -326,7 +326,16 @@ const out = {
   genres: roster.genres,
   sources: [
     { name: 'ステージナタリー', url: 'https://natalie.mu/stage', use: '報道量（直近12ヶ月の記事数・注目度）、直近の活動量、出演公演、公式SNSリンク' },
-    { name: 'あちこちデータ', url: 'https://achikochi-data.com/', use: 'X / Instagram のフォロワー数', asOf: followerDates.join(', ') || null },
+      {
+      name: 'あちこちデータ',
+      url: 'https://achikochi-data.com/',
+      use: 'X / Instagram のフォロワー数',
+      asOf: followerDates.length
+        ? followerDates[0] === followerDates[followerDates.length - 1]
+          ? followerDates[0]
+          : `${followerDates[0]} 〜 ${followerDates[followerDates.length - 1]}`
+        : null
+    },
     { name: '映画.com', url: 'https://eiga.com/', use: 'よみ・生年月日（年齢の参考値）' }
   ],
   counts: {
