@@ -1,0 +1,734 @@
+{
+  "note": "手入力で管理する名簿。ジャンル・事務所・X投稿頻度など、自動取得できない項目のみをここに置く。数値データは scripts/update-ranking.mjs が外部ソースから毎週取得する。",
+  "genres": [
+    "ミュージカル",
+    "ストレートプレイ",
+    "2.5次元舞台",
+    "宝塚・OG",
+    "新劇",
+    "小劇場",
+    "歌舞伎・伝統芸能",
+    "商業演劇",
+    "現代劇・翻訳劇"
+  ],
+  "actors": [
+    {
+      "name": "井上芳雄",
+      "genres": [
+        "ミュージカル",
+        "商業演劇"
+      ],
+      "natalieId": "52205",
+      "achikochiSlug": "井上芳雄",
+      "agency": "グランアーツ",
+      "manualSocial": {
+        "xHandle": "inoueyoshio_co",
+        "xFollowers": 14000,
+        "xNote": "レーベル公式アカウント（本人名義のXは確認できず）",
+        "checkedAt": "2026-09-16"
+      }
+    },
+    {
+      "name": "山崎育三郎",
+      "genres": [
+        "ミュージカル",
+        "商業演劇"
+      ],
+      "natalieId": "57822",
+      "achikochiSlug": "山崎育三郎",
+      "agency": "研音"
+    },
+    {
+      "name": "城田優",
+      "genres": [
+        "ミュージカル",
+        "商業演劇"
+      ],
+      "natalieId": "48864",
+      "achikochiSlug": "城田優",
+      "agency": "ホリプロ"
+    },
+    {
+      "name": "浦井健治",
+      "genres": [
+        "ミュージカル",
+        "ストレートプレイ",
+        "商業演劇"
+      ],
+      "natalieId": "87447",
+      "achikochiSlug": null,
+      "agency": "ホリプロ",
+      "manualSocial": {
+        "xHandle": "Kenji_Staff",
+        "xFollowers": 33000,
+        "igHandle": "kenji_urai_staff",
+        "igFollowers": 3722,
+        "xNote": "スタッフ運営アカウント",
+        "checkedAt": "2026-09-16"
+      }
+    },
+    {
+      "name": "中川晃教",
+      "genres": [
+        "ミュージカル",
+        "商業演劇"
+      ],
+      "natalieId": "72882",
+      "achikochiSlug": "中川晃教",
+      "agency": "アミューズ"
+    },
+    {
+      "name": "柿澤勇人",
+      "genres": [
+        "ミュージカル",
+        "ストレートプレイ",
+        "商業演劇"
+      ],
+      "natalieId": "62366",
+      "achikochiSlug": "柿澤勇人",
+      "agency": "ホリプロ"
+    },
+    {
+      "name": "加藤和樹",
+      "genres": [
+        "ミュージカル",
+        "2.5次元舞台",
+        "商業演劇"
+      ],
+      "natalieId": "5017",
+      "achikochiSlug": "加藤和樹",
+      "agency": "アミューズ"
+    },
+    {
+      "name": "古川雄大",
+      "genres": [
+        "ミュージカル",
+        "商業演劇"
+      ],
+      "natalieId": "57239",
+      "achikochiSlug": "古川雄大",
+      "agency": "アミューズ"
+    },
+    {
+      "name": "海宝直人",
+      "genres": [
+        "ミュージカル",
+        "商業演劇"
+      ],
+      "natalieId": "94952",
+      "achikochiSlug": "海宝直人",
+      "agency": "ホリプロ"
+    },
+    {
+      "name": "松下優也",
+      "genres": [
+        "ミュージカル",
+        "商業演劇"
+      ],
+      "natalieId": "8611",
+      "achikochiSlug": "松下優也",
+      "agency": "SOLD OUT"
+    },
+    {
+      "name": "三浦宏規",
+      "genres": [
+        "ミュージカル",
+        "2.5次元舞台",
+        "商業演劇"
+      ],
+      "natalieId": "99404",
+      "achikochiSlug": "三浦宏規",
+      "agency": "ウィルビー・インターナショナル"
+    },
+    {
+      "name": "甲斐翔真",
+      "genres": [
+        "ミュージカル",
+        "2.5次元舞台",
+        "商業演劇"
+      ],
+      "natalieId": "100774",
+      "achikochiSlug": "甲斐翔真",
+      "agency": "アミューズ"
+    },
+    {
+      "name": "木下晴香",
+      "genres": [
+        "ミュージカル",
+        "商業演劇"
+      ],
+      "natalieId": "102418",
+      "achikochiSlug": "木下晴香",
+      "agency": "ホリプロ"
+    },
+    {
+      "name": "濱田めぐみ",
+      "genres": [
+        "ミュージカル",
+        "商業演劇"
+      ],
+      "natalieId": "94956",
+      "achikochiSlug": "濱田めぐみ",
+      "agency": "ホリプロ",
+      "manualSocial": {
+        "igHandle": "megumi_hamada",
+        "igFollowers": 22000,
+        "checkedAt": "2026-09-16"
+      }
+    },
+    {
+      "name": "新妻聖子",
+      "genres": [
+        "ミュージカル",
+        "商業演劇"
+      ],
+      "natalieId": "60257",
+      "achikochiSlug": null,
+      "agency": "アップフロントクリエイト",
+      "manualSocial": {
+        "xHandle": "seikoniizuma",
+        "xFollowers": 52000,
+        "igHandle": "seikoniizuma",
+        "igFollowers": 60000,
+        "checkedAt": "2026-09-16"
+      }
+    },
+    {
+      "name": "昆夏美",
+      "genres": [
+        "ミュージカル",
+        "商業演劇"
+      ],
+      "natalieId": "91593",
+      "achikochiSlug": null,
+      "agency": "ホリプロ",
+      "manualSocial": {
+        "xHandle": "khooon3",
+        "xFollowers": 32000,
+        "igHandle": "konnatsumi",
+        "igFollowers": 50000,
+        "checkedAt": "2026-09-16"
+      }
+    },
+    {
+      "name": "石丸幹二",
+      "genres": [
+        "ミュージカル",
+        "ストレートプレイ",
+        "商業演劇"
+      ],
+      "natalieId": "60150",
+      "achikochiSlug": "石丸幹二",
+      "agency": "アミューズ"
+    },
+    {
+      "name": "市村正親",
+      "genres": [
+        "ミュージカル",
+        "ストレートプレイ",
+        "商業演劇"
+      ],
+      "natalieId": "41513",
+      "achikochiSlug": "市村正親",
+      "agency": "オフィスPSC"
+    },
+    {
+      "name": "鹿賀丈史",
+      "genres": [
+        "ミュージカル",
+        "商業演劇"
+      ],
+      "natalieId": "15613",
+      "achikochiSlug": "鹿賀丈史",
+      "agency": "テアトル・ド・ポッシュ"
+    },
+    {
+      "name": "望海風斗",
+      "genres": [
+        "宝塚・OG",
+        "ミュージカル",
+        "商業演劇"
+      ],
+      "natalieId": "93417",
+      "achikochiSlug": "望海風斗",
+      "agency": "研音"
+    },
+    {
+      "name": "明日海りお",
+      "genres": [
+        "宝塚・OG",
+        "ミュージカル",
+        "商業演劇"
+      ],
+      "natalieId": "91594",
+      "achikochiSlug": "明日海りお",
+      "agency": "研音"
+    },
+    {
+      "name": "花總まり",
+      "genres": [
+        "宝塚・OG",
+        "ミュージカル",
+        "商業演劇"
+      ],
+      "natalieId": "66478",
+      "achikochiSlug": "花總まり",
+      "agency": "エヴァーグリーン・エンタテイメント"
+    },
+    {
+      "name": "天海祐希",
+      "genres": [
+        "宝塚・OG",
+        "ストレートプレイ",
+        "商業演劇"
+      ],
+      "natalieId": "11825",
+      "achikochiSlug": "天海祐希",
+      "agency": "研音"
+    },
+    {
+      "name": "柚希礼音",
+      "genres": [
+        "宝塚・OG",
+        "ミュージカル",
+        "商業演劇"
+      ],
+      "natalieId": "85686",
+      "achikochiSlug": null,
+      "agency": "研音"
+    },
+    {
+      "name": "真矢ミキ",
+      "genres": [
+        "宝塚・OG",
+        "ストレートプレイ",
+        "商業演劇"
+      ],
+      "natalieId": "32382",
+      "achikochiSlug": "真矢ミキ",
+      "agency": "セブンス・アヴェニュー"
+    },
+    {
+      "name": "龍真咲",
+      "genres": [
+        "宝塚・OG",
+        "ミュージカル"
+      ],
+      "natalieId": "93400",
+      "achikochiSlug": "龍真咲",
+      "agency": "フリー"
+    },
+    {
+      "name": "藤原竜也",
+      "genres": [
+        "ストレートプレイ",
+        "現代劇・翻訳劇",
+        "商業演劇"
+      ],
+      "natalieId": "26676",
+      "achikochiSlug": "藤原竜也",
+      "agency": "ホリプロ"
+    },
+    {
+      "name": "堤真一",
+      "genres": [
+        "ストレートプレイ",
+        "現代劇・翻訳劇",
+        "商業演劇"
+      ],
+      "natalieId": "11860",
+      "achikochiSlug": "堤真一",
+      "agency": "シス・カンパニー"
+    },
+    {
+      "name": "松たか子",
+      "genres": [
+        "ストレートプレイ",
+        "現代劇・翻訳劇",
+        "商業演劇"
+      ],
+      "natalieId": "1062",
+      "achikochiSlug": "松たか子",
+      "agency": "コンバインド"
+    },
+    {
+      "name": "宮沢りえ",
+      "genres": [
+        "ストレートプレイ",
+        "現代劇・翻訳劇",
+        "商業演劇"
+      ],
+      "natalieId": "17474",
+      "achikochiSlug": "宮沢りえ",
+      "agency": "研音"
+    },
+    {
+      "name": "段田安則",
+      "genres": [
+        "ストレートプレイ",
+        "新劇",
+        "商業演劇"
+      ],
+      "natalieId": "15623",
+      "achikochiSlug": "段田安則",
+      "agency": "シス・カンパニー"
+    },
+    {
+      "name": "大竹しのぶ",
+      "genres": [
+        "ストレートプレイ",
+        "現代劇・翻訳劇",
+        "商業演劇"
+      ],
+      "natalieId": "14139",
+      "achikochiSlug": "大竹しのぶ",
+      "agency": "ホリプロ"
+    },
+    {
+      "name": "高橋一生",
+      "genres": [
+        "ストレートプレイ",
+        "現代劇・翻訳劇"
+      ],
+      "natalieId": "35735",
+      "achikochiSlug": "高橋一生",
+      "agency": "ボックスコーポレーション",
+      "noAccount": {
+        "x": true,
+        "ig": true,
+        "source": "所属事務所（ボックスコーポレーション）の公表コメント。ORICON NEWS 2024-03 の偽アカウント注意喚起記事で確認",
+        "checkedAt": "2026-09-16"
+      }
+    },
+    {
+      "name": "中村倫也",
+      "genres": [
+        "ストレートプレイ",
+        "現代劇・翻訳劇"
+      ],
+      "natalieId": "57819",
+      "achikochiSlug": "中村倫也（俳優）",
+      "agency": "トップコート"
+    },
+    {
+      "name": "小池徹平",
+      "genres": [
+        "ミュージカル",
+        "ストレートプレイ",
+        "商業演劇"
+      ],
+      "natalieId": "46532",
+      "achikochiSlug": "小池徹平",
+      "agency": "エンズタワー"
+    },
+    {
+      "name": "生田斗真",
+      "genres": [
+        "ストレートプレイ",
+        "現代劇・翻訳劇",
+        "商業演劇"
+      ],
+      "natalieId": "59936",
+      "achikochiSlug": "生田斗真",
+      "agency": "エスプレッソ"
+    },
+    {
+      "name": "佐藤隆太",
+      "genres": [
+        "ストレートプレイ",
+        "小劇場"
+      ],
+      "natalieId": "30774",
+      "achikochiSlug": "佐藤隆太",
+      "agency": "トップコート"
+    },
+    {
+      "name": "神木隆之介",
+      "genres": [
+        "ストレートプレイ",
+        "現代劇・翻訳劇"
+      ],
+      "natalieId": "39890",
+      "achikochiSlug": "神木隆之介",
+      "agency": "アミューズ"
+    },
+    {
+      "name": "佐藤流司",
+      "genres": [
+        "2.5次元舞台",
+        "ミュージカル",
+        "商業演劇"
+      ],
+      "natalieId": "86022",
+      "achikochiSlug": "佐藤流司",
+      "agency": "劇団ひまわり"
+    },
+    {
+      "name": "荒牧慶彦",
+      "genres": [
+        "2.5次元舞台",
+        "商業演劇"
+      ],
+      "natalieId": "86676",
+      "achikochiSlug": "荒牧慶彦",
+      "agency": "Pasture"
+    },
+    {
+      "name": "鈴木拡樹",
+      "genres": [
+        "2.5次元舞台",
+        "商業演劇"
+      ],
+      "natalieId": "61580",
+      "achikochiSlug": "鈴木拡樹",
+      "agency": "オウサム"
+    },
+    {
+      "name": "植田圭輔",
+      "genres": [
+        "2.5次元舞台",
+        "商業演劇"
+      ],
+      "natalieId": "64404",
+      "achikochiSlug": "植田圭輔",
+      "agency": "クラッチ"
+    },
+    {
+      "name": "和田雅成",
+      "genres": [
+        "2.5次元舞台",
+        "商業演劇"
+      ],
+      "natalieId": "69845",
+      "achikochiSlug": "和田雅成",
+      "agency": "ルビーパレード"
+    },
+    {
+      "name": "黒羽麻璃央",
+      "genres": [
+        "2.5次元舞台",
+        "ミュージカル",
+        "商業演劇"
+      ],
+      "natalieId": "86284",
+      "achikochiSlug": "黒羽麻璃央",
+      "agency": "TRUSTAR"
+    },
+    {
+      "name": "橋本祥平",
+      "genres": [
+        "2.5次元舞台",
+        "商業演劇"
+      ],
+      "natalieId": "86677",
+      "achikochiSlug": null,
+      "agency": "キャストコーポレーション",
+      "manualSocial": {
+        "xHandle": "hashimotoshohey",
+        "xFollowers": 130000,
+        "checkedAt": "2026-09-16"
+      }
+    },
+    {
+      "name": "高野洸",
+      "genres": [
+        "2.5次元舞台",
+        "ミュージカル",
+        "商業演劇"
+      ],
+      "natalieId": "99753",
+      "achikochiSlug": "高野洸",
+      "agency": "エイベックス・マネジメント"
+    },
+    {
+      "name": "新木宏典",
+      "genres": [
+        "2.5次元舞台",
+        "ミュージカル",
+        "商業演劇"
+      ],
+      "natalieId": "128214",
+      "achikochiSlug": "新木宏典",
+      "agency": "ワタナベエンターテインメント"
+    },
+    {
+      "name": "有澤樟太郎",
+      "genres": [
+        "2.5次元舞台",
+        "商業演劇"
+      ],
+      "natalieId": "95297",
+      "achikochiSlug": "有澤樟太郎",
+      "agency": "キャストコーポレーション"
+    },
+    {
+      "name": "梅津瑞樹",
+      "genres": [
+        "2.5次元舞台",
+        "小劇場"
+      ],
+      "natalieId": "110977",
+      "achikochiSlug": null,
+      "agency": "bamboo",
+      "manualSocial": {
+        "xHandle": "MizukiUmetsu",
+        "xFollowers": 104000,
+        "checkedAt": "2026-09-16",
+        "igHandle": "umetsumizuki",
+        "igFollowers": 54000
+      }
+    },
+    {
+      "name": "立石俊樹",
+      "genres": [
+        "2.5次元舞台",
+        "商業演劇"
+      ],
+      "natalieId": "105804",
+      "achikochiSlug": null,
+      "agency": "A-Light",
+      "manualSocial": {
+        "xHandle": "t___tateishi",
+        "xFollowers": 105000,
+        "igHandle": "toshiki_tateishi",
+        "igFollowers": 88000,
+        "checkedAt": "2026-09-16"
+      }
+    },
+    {
+      "name": "太田基裕",
+      "genres": [
+        "2.5次元舞台",
+        "ミュージカル",
+        "商業演劇"
+      ],
+      "natalieId": "68265",
+      "achikochiSlug": "太田基裕",
+      "agency": "アバンセ",
+      "manualSocial": {
+        "igHandle": "motohiro.ota_0119",
+        "igFollowers": 13000,
+        "checkedAt": "2026-09-16"
+      }
+    },
+    {
+      "name": "牧島輝",
+      "genres": [
+        "2.5次元舞台",
+        "ミュージカル",
+        "商業演劇"
+      ],
+      "natalieId": "92891",
+      "achikochiSlug": null,
+      "agency": "ワタナベエンターテインメント",
+      "manualSocial": {
+        "xHandle": "maximum083",
+        "xFollowers": 115000,
+        "igHandle": "maximumhikaru",
+        "igFollowers": 80000,
+        "checkedAt": "2026-09-16"
+      }
+    },
+    {
+      "name": "財木琢磨",
+      "genres": [
+        "2.5次元舞台",
+        "ミュージカル",
+        "商業演劇"
+      ],
+      "natalieId": "86172",
+      "achikochiSlug": null,
+      "agency": "リバプール"
+    },
+    {
+      "name": "崎山つばさ",
+      "genres": [
+        "2.5次元舞台",
+        "ミュージカル",
+        "商業演劇"
+      ],
+      "natalieId": "92864",
+      "achikochiSlug": null,
+      "agency": "ケイダッシュ"
+    },
+    {
+      "name": "北村諒",
+      "genres": [
+        "2.5次元舞台",
+        "商業演劇"
+      ],
+      "natalieId": "73276",
+      "achikochiSlug": "北村諒",
+      "agency": "フリー"
+    },
+    {
+      "name": "松田凌",
+      "genres": [
+        "2.5次元舞台",
+        "ミュージカル",
+        "商業演劇"
+      ],
+      "natalieId": "64402",
+      "achikochiSlug": null,
+      "agency": "エーチーム",
+      "manualSocial": {
+        "xHandle": "ryo_matsuda0913",
+        "xFollowers": 14000,
+        "igHandle": "matsudaryo_9",
+        "igFollowers": 47000,
+        "xNote": "スタッフ運営アカウント",
+        "checkedAt": "2026-09-16"
+      }
+    },
+    {
+      "name": "松本幸四郎",
+      "genres": [
+        "歌舞伎・伝統芸能",
+        "ミュージカル",
+        "商業演劇"
+      ],
+      "natalieId": "106030",
+      "achikochiSlug": "松本幸四郎（10代目）",
+      "agency": "松竹"
+    },
+    {
+      "name": "尾上松也",
+      "genres": [
+        "歌舞伎・伝統芸能",
+        "ミュージカル",
+        "商業演劇"
+      ],
+      "natalieId": "28415",
+      "achikochiSlug": "尾上松也（2代目）",
+      "agency": "松竹",
+      "manualSocial": {
+        "xHandle": "onoematsuya",
+        "xFollowers": 963,
+        "xNote": "マネージャー運営アカウント",
+        "checkedAt": "2026-09-16"
+      }
+    },
+    {
+      "name": "中村勘九郎",
+      "genres": [
+        "歌舞伎・伝統芸能",
+        "商業演劇"
+      ],
+      "natalieId": "94046",
+      "achikochiSlug": null,
+      "agency": "松竹"
+    },
+    {
+      "name": "片岡愛之助",
+      "genres": [
+        "歌舞伎・伝統芸能",
+        "商業演劇"
+      ],
+      "natalieId": "44936",
+      "achikochiSlug": "片岡愛之助（6代目）",
+      "agency": "松竹"
+    }
+  ],
+  "manualSocialNote": "あちこちデータが数値を持たない人の補完。2026-09-16 に X / Instagram の公開プロフィール表示値を目視で控えたもの（X・Instagram とも数値は丸め表示）。自動取得できた場合はそちらを優先する。",
+  "noAccountNote": "本人名義のアカウントが「無い」と公表・確認できた場合のみ true にする。未確認のものは空にしておくこと（0点扱いにすると事実と違うランキングになる）。"
+}

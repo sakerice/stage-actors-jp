@@ -1,0 +1,5979 @@
+{
+ "generatedAt": "2026-09-15T16:27:18.623Z",
+ "generatedAtJst": "2026/09/16 1:27",
+ "weights": {
+  "xFollowers": 0.22,
+  "igFollowers": 0.18,
+  "xPostFrequency": 0.1,
+  "newsCoverage": 0.28,
+  "recentActivity": 0.22
+ },
+ "genres": [
+  "ミュージカル",
+  "ストレートプレイ",
+  "2.5次元舞台",
+  "宝塚・OG",
+  "新劇",
+  "小劇場",
+  "歌舞伎・伝統芸能",
+  "商業演劇",
+  "現代劇・翻訳劇"
+ ],
+ "sources": [
+  {
+   "name": "ステージナタリー",
+   "url": "https://natalie.mu/stage",
+   "use": "報道量（直近12ヶ月の記事数・注目度）、直近の活動量、出演公演、公式SNSリンク"
+  },
+  {
+   "name": "あちこちデータ",
+   "url": "https://achikochi-data.com/",
+   "use": "X / Instagram のフォロワー数",
+   "asOf": "2026-06-18, 2026-07-06, 2026-07-18, 2026-07-25, 2026-07-27, 2026-07-28, 2026-08-01, 2026-08-18, 2026-08-21, 2026-08-26, 2026-09-02, 2026-09-04, 2026-09-05, 2026-09-09, 2026-09-10, 2026-09-11, 2026-09-12, 2026-09-13, 2026-09-14, 2026-09-15"
+  },
+  {
+   "name": "映画.com",
+   "url": "https://eiga.com/",
+   "use": "よみ・生年月日（年齢の参考値）"
+  }
+ ],
+ "counts": {
+  "actors": 60,
+  "withX": 43,
+  "withIg": 38,
+  "withBirth": 50,
+  "withErrors": 0
+ },
+ "actors": [
+  {
+   "name": "城田優",
+   "genres": [
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "natalieId": "48864",
+   "achikochiSlug": "城田優",
+   "agency": "ホリプロ",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "2003年ミュージカル『美少女戦士セーラームーン』で俳優デビュー。母親がスペイン人のハーフで、ひときわ目を引く長身と日本人離れしたルックスを活かし、ミュージカル、TVドラマ、映画などで幅広く活躍。2008年の大ヒットドラマ『ROOKIES』の新庄役で大ブレイク。続く映画版「ROOKIES-卒業ー」（2009）も大ヒット。2010年には同じくTVのヒットを受け製作された「交渉人 THE MOVIE タイムリミット高度10,000mの頭脳戦」に出演。",
+   "officialSite": "https://shirota-yu.com/",
+   "xHandle": "U_and_YOU",
+   "igHandle": "yu_shirota",
+   "stages": [
+    "ミュージカル「ファントム」",
+    "ミュージカル「RRR」Based on SS Rajamouli’s ‘RRR’",
+    "YU SHIROTA LIVE 2026「¡Que será será!」",
+    "ガウディ没後100年・イエスの塔完成記念「サグラダ・ファミリア シンフォニックコンサート」",
+    "いきなり本読み！ in 梅田芸術劇場シアター・ドラマシティ",
+    "New HISTORY COMING ARENA LIVE -The Imperial Theatre Symphony",
+    "ラヴ・レターズ～2026 Summer Special～",
+    "PRETTY WOMAN The Musical"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/48864",
+   "news12m": 46,
+   "news90d": 24,
+   "newsAttention12m": 25951,
+   "latestNews": {
+    "title": "涼風真世がデビュー45周年記念アルバム発表、山崎育三郎＆城田優による新曲収録",
+    "date": "2026-09-15"
+   },
+   "daysSinceNews": 1,
+   "topNews": [
+    {
+     "title": "「新テニスの王子様」決勝メンバー決定戦、ロミオ・フェルナンデス役に城田優",
+     "date": "2026-07-19",
+     "score": 2774
+    },
+    {
+     "title": "久保田利伸デビュー40周年を「LA・LA・LA LOVE SONG」に乗せてお祝い、豪華著名人20組が出演",
+     "date": "2026-03-27",
+     "score": 2163
+    },
+    {
+     "title": "帝コン開幕、堂本光一×岡宮来夢が“まぜるな危険”に挑戦？平原綾香のツッコミ炸裂に一同笑み",
+     "date": "2026-08-08",
+     "score": 1842
+    }
+   ],
+   "xFollowers": 559381,
+   "igFollowers": 1715842,
+   "snsAccounts": [
+    {
+     "handle": "U_and_YOU",
+     "followers": 559381
+    },
+    {
+     "handle": "yu_LPstaff",
+     "followers": 16872
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-09-10",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": "achikochi",
+   "eigaId": "83106",
+   "yomi": "しろたゆう",
+   "birth": "1985-12-26",
+   "origin": "日本／東京",
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": 40,
+   "debutYear": 2003,
+   "careerYears": 23,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.880305728844487,
+    "igFollowers": 1,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8957879353342857,
+    "recentActivity": 0.8763065172853381
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 90.8,
+   "rank": 1
+  },
+  {
+   "name": "中村倫也",
+   "genres": [
+    "ストレートプレイ",
+    "現代劇・翻訳劇"
+   ],
+   "natalieId": "57819",
+   "achikochiSlug": "中村倫也（俳優）",
+   "agency": "トップコート",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1986年12月24日生まれ、東京都出身。2005年に俳優デビュー。主な出演作にドラマ「初めて恋をした日に読む話」「凪のお暇」「美食探偵 明智五郎」「この恋あたためますか 」「珈琲いかがでしょう」「石子と羽男―そんなコトで訴えます？―」、映画「屍人荘の殺人」「水曜日が消えた」「ファーストラヴ」「ハケンアニメ！」「宇宙人のあいつ」がある。2021年には初のエッセイ集「THE やんごとなき雑談」を発売。2022年3月には雑誌「ダ・ヴィンチ」にて、「中村倫也のやんごとなき雑炊」をスタートさせた。Prime Videoで配信されている「仮面ライダー BLACK SUN」では西島秀俊とダブル主演。2023年7月期のテレビ朝日系ドラマ「ハヤブサ消防団」にも主演するほか、9月29日には出演作「沈黙の艦隊」が公開される。妻は日本テレビのアナウンサーである 水卜麻美 。",
+   "officialSite": "http://www.topcoat.co.jp/artist/nakamura-tomoya/",
+   "xHandle": "senritsutareme",
+   "igHandle": null,
+   "stages": [
+    "シス・カンパニー公演「ライフ・イン・ザ・シアター」",
+    "2024年劇団☆新感線44周年興行・夏秋公演 いのうえ歌舞伎「バサラオ」",
+    "中村倫也が「ひつじのショーン」初の日本版声優に挑戦、ピザボーイこと配達員を演じる",
+    "サカナクション「グッドバイ」が「探偵はBARにいる」新作の主題歌に、大泉洋も歓喜",
+    "中村倫也「ひつじのショーン」映画ショーンバサダーに就任決定、20年前から大好き",
+    "本日8月6日（木）放送の2026夏ドラマ",
+    "東野圭吾を追悼、亀梨和也主演のドラマ「東野圭吾 手紙」放送 共演に佐藤隆太・本田翼ら",
+    "さよなら、探偵さん…大泉洋と松田龍平が共演「探偵はBARにいる」新作の本予告",
+    "生田斗真を紐解くアニバーサリーブック10月発売、北村匠海・星野源・松本潤とロング対談",
+    "生田斗真の芸能生活30周年記念アニバーサリーブック「余白」に北村匠海、星野源、松本潤ら登場"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/57819",
+   "news12m": 58,
+   "news90d": 13,
+   "newsAttention12m": 38441,
+   "latestNews": {
+    "title": "中村倫也が「ひつじのショーン」初の日本版声優に挑戦、ピザボーイこと配達員を演じる",
+    "date": "2026-09-08"
+   },
+   "daysSinceNews": 8,
+   "topNews": [
+    {
+     "title": "M!LK佐野勇斗、“K-POP版スポ根ドラマ”「DREAM STAGE」第2話に友情出演",
+     "date": "2026-01-23",
+     "score": 6611
+    },
+    {
+     "title": "目黒蓮がanan表紙にソロで登場、「SAKAMOTO DAYS」主人公の二面性イメージしたカットも",
+     "date": "2026-04-13",
+     "score": 2262
+    },
+    {
+     "title": "Snow Man阿部亮平、教師役で映画「君のクイズ」出演",
+     "date": "2026-05-08",
+     "score": 2146
+    }
+   ],
+   "xFollowers": 1322243,
+   "igFollowers": null,
+   "snsAccounts": [
+    {
+     "handle": "senritsutareme",
+     "followers": 1322243
+    },
+    {
+     "handle": "yangotonaki_s",
+     "followers": 23326
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-09-12",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": null,
+   "eigaId": "247120",
+   "yomi": "なかむらともや",
+   "birth": "1986-12-24",
+   "origin": "日本／東京",
+   "xAccountState": "have",
+   "igAccountState": "unknown",
+   "age": 39,
+   "debutYear": 2005,
+   "careerYears": 21,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 1,
+    "igFollowers": null,
+    "xPostFrequency": null,
+    "newsCoverage": 0.9370381475158488,
+    "recentActivity": 0.7708122983986087
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 3,
+   "score": 90.5,
+   "rank": 2
+  },
+  {
+   "name": "山崎育三郎",
+   "genres": [
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "natalieId": "57822",
+   "achikochiSlug": "山崎育三郎",
+   "agency": "研音",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1986年1月18日、東京都生まれ。1998年にアルゴミュージカル「フラワー」で主演を務め、初舞台を踏む。大学在学中にオーディションでミュージカル「レ・ミゼラブル」マリウス役に選ばれ、2007年に同公演に出演した。その後は「モーツァルト！」「ミス・サイゴン」「エリザベート」など数々のミュージカルに出演。近年ではTBS系テレビドラマ「下町ロケット」、NHK連続テレビ小説「エール」、大河ドラマ「青天を衝け」など映像作品にも多数出演し、テレビ朝日系「あいの結婚相談所」、テレビ朝日系「リエゾン -こどものこころ診療所-」では主演を務めた。",
+   "officialSite": "https://www.ken-on.co.jp/1936/",
+   "xHandle": "ikusaburo_0118",
+   "igHandle": null,
+   "stages": [
+    "ミュージカル「ファインディング・ネバーランド」",
+    "⼭崎育三郎 LIVE TOUR 2026「19BOX ～STAR MAN～」",
+    "水谷千重子の宴ジョインコンサート 2026",
+    "Kon Natsumi15th Anniversary Concert「Coeur（クール）」",
+    "LIFE! ON STAGE ～マーベラーに捧げるコント～",
+    "Happy Mother's Day!～母に感謝のコンサート 2026 in TOKYO～",
+    "THIS IS IKU 2026 日本武道館",
+    "Concert for LEVAY ～Happy 80th Birthday～"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/57822",
+   "news12m": 79,
+   "news90d": 33,
+   "newsAttention12m": 74643,
+   "latestNews": {
+    "title": "涼風真世がデビュー45周年記念アルバム発表、山崎育三郎＆城田優による新曲収録",
+    "date": "2026-09-15"
+   },
+   "daysSinceNews": 1,
+   "topNews": [
+    {
+     "title": "ミュージカル「昭和元禄落語心中」テレビ初放送、山崎育三郎のインタビューもOA",
+     "date": "2025-12-08",
+     "score": 9219
+    },
+    {
+     "title": "NHK「うたであえたら」はコラボステージ多数 德永英明のステージにはAぇ! 佐野晶哉とM!LK吉田仁人が登場",
+     "date": "2026-08-14",
+     "score": 6337
+    },
+    {
+     "title": "「エリザベート」望海風斗・明日海りおが新ビジュアル披露！古川雄大は寝言で歌の稽古",
+     "date": "2025-09-19",
+     "score": 5191
+    }
+   ],
+   "xFollowers": 137736,
+   "igFollowers": 349017,
+   "snsAccounts": [
+    {
+     "handle": "ikusaburo_0118",
+     "followers": 137736
+    },
+    {
+     "handle": "iku_fc",
+     "followers": 28915
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-09-09",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": "achikochi",
+   "eigaId": "248452",
+   "yomi": "やまざきいくさぶろう",
+   "birth": "1986-01-18",
+   "origin": "日本／東京",
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": 40,
+   "debutYear": 1998,
+   "careerYears": 28,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.6853050544930684,
+    "igFollowers": 0.7861695709256271,
+    "xPostFrequency": null,
+    "newsCoverage": 1,
+    "recentActivity": 0.9328250784825796
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 86.4,
+   "rank": 3
+  },
+  {
+   "name": "生田斗真",
+   "genres": [
+    "ストレートプレイ",
+    "現代劇・翻訳劇",
+    "商業演劇"
+   ],
+   "natalieId": "59936",
+   "achikochiSlug": "生田斗真",
+   "agency": "エスプレッソ",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1984年10月7日生まれ、北海道出身。2010年に「人間失格」で映画初出演にして主演を務めた。出演作品は、映画「ハナミズキ」「僕等がいた」「彼らが本気で編むときは、」「先生！ 、、、好きになってもいいですか？」「友罪」、ドラマ「ウロボロス～この愛こそ、正義。」「いだてん ～東京オリムピック噺（ばなし）～」「俺の話は長い」など。「ヴェローナの二紳士」「かもめ」「偽義経冥界歌」といった舞台作品にも多く参加している。弟はフジテレビアナウンサーの生田竜聖、妻は女優の 清野菜名 。",
+   "officialSite": "https://toma-ikuta-fc.com/",
+   "xHandle": "toma_ikuta10",
+   "igHandle": "toma.ikuta_official",
+   "stages": [
+    "2024年劇団☆新感線44周年興行・夏秋公演 いのうえ歌舞伎「バサラオ」",
+    "瑛太、生田斗真、石原さとみ共演の医療ドラマ「ヴォイス」全11話一挙放送",
+    "生田斗真を紐解くアニバーサリーブック10月発売、北村匠海・星野源・松本潤とロング対談",
+    "生田斗真の芸能生活30周年記念アニバーサリーブック「余白」に北村匠海、星野源、松本潤ら登場",
+    "生田斗真のアニバーサリーブック「余白」発売、北村匠海・星野源・松本潤らとの対談も",
+    "生田斗真2ndシングルで憧れのバンド10-FEETとコラボ、ミュージックビデオではギターを演奏",
+    "てれびのスキマと「アキハバラ＠DEEP」 | ブレイク前夜の風間俊介、生田斗真、星野源、バナナマン日村勇紀らが共演した記念碑的作品",
+    "細木数子を突き動かす欲望…戸田恵梨香主演のNetflixシリーズ「地獄に堕ちるわよ」新映像",
+    "戸田恵梨香が「地獄に堕ちるわよ」舞台裏を語る、“唇を指で触る癖”を演技に組み込む",
+    "Netflixシリーズ「地獄に堕ちるわよ」あらすじ、相関図、キャスト・スタッフまとめ"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/59936",
+   "news12m": 44,
+   "news90d": 6,
+   "newsAttention12m": 62713,
+   "latestNews": {
+    "title": "瑛太、生田斗真、石原さとみ共演の医療ドラマ「ヴォイス」全11話一挙放送",
+    "date": "2026-08-26"
+   },
+   "daysSinceNews": 21,
+   "topNews": [
+    {
+     "title": "本日放送「CDTV」春フェス4時間スペシャルタイムテーブル発表！Mr.Children、King Gnu、M!LKらの出演時間は",
+     "date": "2026-03-30",
+     "score": 14656
+    },
+    {
+     "title": "ミスチルが4曲披露「CDTV」4時間SPにKing Gnu、ゲンジブ、Juice=Juice、超とき宣、初登場生田斗真ら",
+     "date": "2026-03-16",
+     "score": 10974
+    },
+    {
+     "title": "生田斗真2ndシングルで憧れのバンド10-FEETとコラボ、ミュージックビデオではギターを演奏",
+     "date": "2026-07-01",
+     "score": 4250
+    }
+   ],
+   "xFollowers": 278439,
+   "igFollowers": 1367869,
+   "snsAccounts": [
+    {
+     "handle": "TOMA_IKUTA10",
+     "followers": 278439
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    },
+    {
+     "handle": "2024.06.21",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-09-10",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": "achikochi",
+   "eigaId": "84455",
+   "yomi": "いくたとうま",
+   "birth": "1984-10-07",
+   "origin": "日本／北海道",
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": 41,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.783238565860683,
+    "igFollowers": 0.969567659349867,
+    "xPostFrequency": null,
+    "newsCoverage": 0.9417096031916193,
+    "recentActivity": 0.6267324100619756
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 83.2,
+   "rank": 4
+  },
+  {
+   "name": "天海祐希",
+   "genres": [
+    "宝塚・OG",
+    "ストレートプレイ",
+    "商業演劇"
+   ],
+   "natalieId": "11825",
+   "achikochiSlug": "天海祐希",
+   "agency": "研音",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1967年8月8日生まれ、東京都出身。1987年に宝塚歌劇団へ入団し、1993年に月組トップスターに就任、1995年に退団。以降はドラマ、映画、舞台、CMなど幅広く活躍している。近年の主な出演作にはドラマ・映画「緊急取調室」シリーズ、映画「最高の人生の見つけ方」「老後の資金がありません！」「ふしぎ駄菓子屋 銭天堂」「てっぺんの向こうにあなたがいる」「クスノキの番人」などがある。",
+   "officialSite": "http://www.ken-on.co.jp/amami/",
+   "xHandle": null,
+   "igHandle": null,
+   "stages": [
+    "シス・カンパニー公演「新宿発8時15分」",
+    "M＆Oplaysプロデュース「鎌塚氏、震えあがる」",
+    "シス・カンパニー公演 KERA meets CHEKHOV Vol.4/4「桜の園」",
+    "絶対に終電を逃さない女と「女王の教室」 | 天海祐希演じる阿久津真矢は“良い先生”なのか？令和の目線で考える",
+    "本日9月11日（金）配信開始の主な映画・ドラマ【Netflix、AmazonのPrime Video】",
+    "天海祐希の美術ミステリー明日放送「私と一緒にフェルメールを探る旅を！」6日間のロケ語る",
+    "天海祐希がオランダでフェルメールの謎に迫る「フェルメールと17世紀オランダ黄金時代の謎」",
+    "天海祐希、柄本明、江口のりこらが映画「あなたの息子ひき出します！」語る 予告も公開",
+    "NHK Eテレの法廷ドラマ「昔話法廷」新作放送決定、脚本は「べらぼう」の森下佳子",
+    "深川栄洋の監督作「あなたの息子ひき出します！」公開は10月、吉行和子や大森南朋の姿も"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/11825",
+   "news12m": 49,
+   "news90d": 7,
+   "newsAttention12m": 57641,
+   "latestNews": {
+    "title": "絶対に終電を逃さない女と「女王の教室」 | 天海祐希演じる阿久津真矢は“良い先生”なのか？令和の目線で考える",
+    "date": "2026-09-15"
+   },
+   "daysSinceNews": 1,
+   "topNews": [
+    {
+     "title": "Mrs. GREEN APPLEがNHK「LIFE！」でコント初挑戦、サラリーマン役で完全燃焼「クタクタです」",
+     "date": "2025-10-05",
+     "score": 10375
+    },
+    {
+     "title": "Snow Man目黒蓮、出発直前に決意表明「晴れ風と一緒に一歩踏み出したい」",
+     "date": "2026-03-23",
+     "score": 3404
+    },
+    {
+     "title": "宇宙人の櫻井翔＆相葉雅紀、セブン‐イレブンの推しスイーツを宣言",
+     "date": "2026-01-26",
+     "score": 3366
+    }
+   ],
+   "xFollowers": null,
+   "igFollowers": null,
+   "snsAccounts": [],
+   "followerSourceDate": "2026-09-11",
+   "xFollowersSource": null,
+   "igFollowersSource": null,
+   "eigaId": null,
+   "xAccountState": "unknown",
+   "igAccountState": "unknown",
+   "age": null,
+   "debutYear": 1987,
+   "careerYears": 39,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": null,
+    "igFollowers": null,
+    "xPostFrequency": null,
+    "newsCoverage": 0.9458519826460156,
+    "recentActivity": 0.6769274343533968
+   },
+   "measuredAxes": [
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 2,
+   "score": 82.8,
+   "rank": 5
+  },
+  {
+   "name": "堤真一",
+   "genres": [
+    "ストレートプレイ",
+    "現代劇・翻訳劇",
+    "商業演劇"
+   ],
+   "natalieId": "11860",
+   "achikochiSlug": "堤真一",
+   "agency": "シス・カンパニー",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1964年7月7日生まれ、兵庫県出身。ジャパンアクションクラブ（JAC）に入団して真田広之の付き人を務めたあと、俳優として幅広く活動する。主な出演作に、映画「弾丸ランナー」「39-刑法第三十九条-」「フライ,ダディ,フライ」「ALWAYS 三丁目の夕日」「舞妓Haaaan!!!」「クライマーズ・ハイ」「容疑者Xの献身」「孤高のメス」「ザ・ファブル 殺さない殺し屋」、ドラマ「ピュア」「やまとなでしこ」「GOOD LUCK!!」「とんび」「妻、小学生になる。」などがある。穴を信仰する団体の教祖を演じるドラマ「滅相も無い」が2024年4月16日深夜にMBS / TBSでスタート。映画「室町無頼」が2025年1月17日に公開される。",
+   "officialSite": "https://www.siscompany.com/management/artist.php?id=1",
+   "xHandle": null,
+   "igHandle": null,
+   "stages": [
+    "Bunkamura Production 2026 / DISCOVER WORLD THEATRE vol.17「グレンギャリー・グレンロス」",
+    "シス・カンパニー公演「ライフ・イン・ザ・シアター」",
+    "Bunkamura Production 2024 DISCOVER WORLD THEATRE vol.14「A Numberー数」「What If If Onlyーもしも もしせめて」",
+    "シス・カンパニー公演「カラカラ天気と五人の紳士」",
+    "矢田亜希子が堤真一の元妻役「もうパパ！」で4回目の共演、主演・原菜乃華とは親子に",
+    "本日9月1日（火）配信開始の主な映画・ドラマ【Netflix、AmazonのPrime Video、U-NEXT】",
+    "M!LK塩﨑太智がドラマ「もうパパ！」出演、ハイテンションな動画配信者演じる",
+    "原田眞人監督作「日本のいちばん長い日」NHK BSで放送、役所広司や本木雅弘が出演",
+    "岩瀬洋志がドラマ「もうパパ！」出演、原菜乃華の初恋相手となる“ビジュ神”",
+    "「グレンギャリー・グレンロス」セールスマン演じる堤真一・濵田崇裕らのビジュアル公開"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/11860",
+   "news12m": 45,
+   "news90d": 9,
+   "newsAttention12m": 23370,
+   "latestNews": {
+    "title": "矢田亜希子が堤真一の元妻役「もうパパ！」で4回目の共演、主演・原菜乃華とは親子に",
+    "date": "2026-09-12"
+   },
+   "daysSinceNews": 4,
+   "topNews": [
+    {
+     "title": "堤真一・濵田崇裕が初共演、ピュリツァー賞受賞作「グレンギャリー・グレンロス」上演決定",
+     "date": "2026-06-22",
+     "score": 2810
+    },
+    {
+     "title": "キスマイ玉森裕太、車いすラグビードラマに作曲家のマネージャー役で出演",
+     "date": "2026-03-30",
+     "score": 1836
+    },
+    {
+     "title": "堤真一主演の日曜劇場「GIFT」で山口智子と玉森裕太が初共演、仲良し親子役",
+     "date": "2026-03-30",
+     "score": 1819
+    }
+   ],
+   "xFollowers": null,
+   "igFollowers": null,
+   "snsAccounts": [],
+   "followerSourceDate": "2026-09-09",
+   "xFollowersSource": null,
+   "igFollowersSource": null,
+   "eigaId": "48740",
+   "yomi": "つつみしんいち",
+   "birth": "1964-07-07",
+   "origin": "日本／兵庫",
+   "xAccountState": "unknown",
+   "igAccountState": "unknown",
+   "age": 62,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": null,
+    "igFollowers": null,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8880878283949801,
+    "recentActivity": 0.7140956983418056
+   },
+   "measuredAxes": [
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 2,
+   "score": 81.2,
+   "rank": 6
+  },
+  {
+   "name": "中村勘九郎",
+   "genres": [
+    "歌舞伎・伝統芸能",
+    "商業演劇"
+   ],
+   "natalieId": "94046",
+   "achikochiSlug": null,
+   "agency": "松竹",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1981年、東京都生まれ。1986年に歌舞伎座「盛綱陣屋」の小三郎で波野雅行の名で初お目見得。1987年に歌舞伎座「門出二人桃太郎」の兄の桃太郎で二代目 中村勘太郎 を名乗り初舞台。2012年に新橋演舞場「春興鏡獅子」の小姓弥生後に獅子の精ほかで六代目中村勘九郎を襲名した。",
+   "officialSite": "https://e-nakamuraya.jp/artists/kankuro/",
+   "xHandle": null,
+   "igHandle": null,
+   "stages": [
+    "陽春歌舞伎特別公演 2027",
+    "春暁歌舞伎特別公演 2027",
+    "「十二月大歌舞伎」第三部",
+    "「十二月大歌舞伎」第二部",
+    "「平成中村座 十月大歌舞伎」第一部",
+    "「平成中村座 十月大歌舞伎」第二部",
+    "「八月納涼歌舞伎」第二部",
+    "「八月納涼歌舞伎」第三部"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/94046",
+   "news12m": 38,
+   "news90d": 8,
+   "newsAttention12m": 18581,
+   "latestNews": {
+    "title": "2026年を締めくくる「十二月大歌舞伎」に坂東玉三郎・尾上松緑・市川團十郎・中村獅童ら",
+    "date": "2026-09-15"
+   },
+   "daysSinceNews": 1,
+   "topNews": [
+    {
+     "title": "大河ドラマ「新選組！」NHKオンデマンドで初配信、香取慎吾・山本耕史・藤原竜也ら出演",
+     "date": "2025-09-22",
+     "score": 3260
+    },
+    {
+     "title": "劇場版「ケロロ軍曹」福田雄一監督作のキャラ大集結、山田孝之演じるヨシヒコら登場",
+     "date": "2026-06-26",
+     "score": 2009
+    },
+    {
+     "title": "「平成中村座」勘九郎が助六、七之助が戸無瀬に初役で挑む 仁左衛門の特別出演も",
+     "date": "2026-06-30",
+     "score": 1630
+    }
+   ],
+   "xFollowersSource": null,
+   "igFollowersSource": null,
+   "eigaId": "53604",
+   "yomi": null,
+   "birth": "1981-10-31",
+   "origin": "日本／東京",
+   "xAccountState": "unknown",
+   "igAccountState": "unknown",
+   "age": 44,
+   "debutYear": 1987,
+   "careerYears": 39,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": null,
+    "igFollowers": null,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8612846973256074,
+    "recentActivity": 0.6885174708605745
+   },
+   "measuredAxes": [
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 2,
+   "score": 78.5,
+   "rank": 7
+  },
+  {
+   "name": "大竹しのぶ",
+   "genres": [
+    "ストレートプレイ",
+    "現代劇・翻訳劇",
+    "商業演劇"
+   ],
+   "natalieId": "14139",
+   "achikochiSlug": "大竹しのぶ",
+   "agency": "ホリプロ",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1957年7月17日生まれ、東京都出身。1975年に映画「青春の門 -筑豊篇-」のヒロイン役で本格デビュー。同年、NHK連続テレビ小説「水色の時」に出演し幅広い世代から人気を集める。以降、映画や舞台への出演を重ねながら主要な演劇賞を数々受賞し、女優としての存在感を確立。歌手活動も継続的に行っており、2016年には舞台「ピアフ」で2011年より歌い続けている「愛の讃歌」で「NHK紅白歌合戦」に初出場した。2017年10月には朝日新聞にて連載中のコラムを収載した単行本「わたし、還暦？ まあいいか2」が発売された。2017年11月にはニューアルバム「ち・ち・ち」をリリース。12月には東京・シアターコクーンにて主演舞台「欲望という名の電車」が上演される。",
+   "officialSite": "http://www.otake-shinobu.com/",
+   "xHandle": null,
+   "igHandle": null,
+   "stages": [
+    "ミュージカル「スウィーニー・トッド フリート街の悪魔の理髪師」",
+    "シス・カンパニー公演「果てない～甦る母篇～」",
+    "大竹しのぶLIVE×ACT「NA・NI・MO・NO」",
+    "Musical「GYPSY」",
+    "福田善之を偲ぶ夕べ「あの空は青いか？」",
+    "Bunkamura Production 2025 / DISCOVER WORLD THEATRE vol.15「リア王」NINAGAWA MEMORIAL",
+    "華岡青洲の妻",
+    "シス・カンパニー公演「やなぎにツバメは」"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/14139",
+   "news12m": 28,
+   "news90d": 12,
+   "newsAttention12m": 12124,
+   "latestNews": {
+    "title": "「果てない～甦る母篇～」大竹しのぶ・井上芳雄・伊藤沙莉ら並ぶビジュアル公開",
+    "date": "2026-09-14"
+   },
+   "daysSinceNews": 2,
+   "topNews": [
+    {
+     "title": "大竹しのぶが再び“ステージママ”に！ミュージカル「GYPSY」が日本版「ローズ」のタイトルで上演",
+     "date": "2025-12-14",
+     "score": 1522
+    },
+    {
+     "title": "ミュージカル「GYPSY」本日開幕、大竹しのぶ「新しい仲間とさらなる高みを」",
+     "date": "2026-05-06",
+     "score": 1323
+    },
+    {
+     "title": "「耳をすませば」「借りぐらしのアリエッティ」4Kデジタルリマスター版のIMAX上映決定",
+     "date": "2026-08-07",
+     "score": 1211
+    }
+   ],
+   "xFollowers": null,
+   "igFollowers": 323405,
+   "snsAccounts": [],
+   "followerSourceDate": "2026-09-05",
+   "xFollowersSource": null,
+   "igFollowersSource": "achikochi",
+   "eigaId": "22166",
+   "yomi": "おおたけしのぶ",
+   "birth": "1957-07-17",
+   "origin": "日本／東京",
+   "xAccountState": "unknown",
+   "igAccountState": "have",
+   "age": 69,
+   "debutYear": 1975,
+   "careerYears": 51,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": null,
+    "igFollowers": 0.7759361554411297,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8123161742721009,
+    "recentActivity": 0.754826186437652
+   },
+   "measuredAxes": [
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 3,
+   "score": 78.4,
+   "rank": 8
+  },
+  {
+   "name": "荒牧慶彦",
+   "genres": [
+    "2.5次元舞台",
+    "商業演劇"
+   ],
+   "natalieId": "86676",
+   "achikochiSlug": "荒牧慶彦",
+   "agency": "Pasture",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "東京都生まれ。2012年、「ミュージカル『テニスの王子様』」2ndシーズンで本格的に俳優デビュー。主な出演舞台に、「舞台『刀剣乱舞』」「『ヒプノシスマイク-Division Rap Battle-』Rule the Stage」など。明治座では2022年に主演公演・舞台「ゲゲゲの鬼太郎」に鬼太郎役で出演したほか、「荒牧慶彦俳優10周年記念公演『殺陣まつり ～和風三国志～』」をプロデュース。",
+   "officialSite": "https://aramaki-yoshihiko.com",
+   "xHandle": "ara_mackey",
+   "igHandle": "aramaki.yoshi",
+   "stages": [
+    "十周年記念特別公演「舞台『刀剣乱舞』陽伝 月と太陽と星々よ」",
+    "ACTORS☆LEAGUE in Futsal 2026",
+    "READING HIGH noir 第4回公演「HYPNAGOGIA～ヒプナゴギア～」",
+    "「多聞くん今どっち!?」THE STAGE",
+    "剣劇「三國志演技～蜀漢」",
+    "「あんさんぶるスターズ！THE STAGE」-10th Anniversary LIVE-",
+    "「あんさんぶるスターズ！THE STAGE」-Requiem from Knights-",
+    "朗読劇「沙耶の唄」"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/86676",
+   "news12m": 42,
+   "news90d": 9,
+   "newsAttention12m": 32975,
+   "latestNews": {
+    "title": "「多聞くん今どっち!?」開幕、演出の福澤侑「全キャラクターの表も裏も、丸ごと愛して」",
+    "date": "2026-09-11"
+   },
+   "daysSinceNews": 5,
+   "topNews": [
+    {
+     "title": "朗読劇「沙耶の唄」荒牧慶彦・梅津瑞樹・佐藤流司らが匂坂郁紀演じる、末満健一の脚本・演出で",
+     "date": "2026-02-01",
+     "score": 5363
+    },
+    {
+     "title": "刀ステ「陽伝 月と太陽と星々よ」13振りのビジュアル解禁！初登場の鬼丸国綱役は松田昇大",
+     "date": "2026-07-17",
+     "score": 4828
+    },
+    {
+     "title": "「光一＆シゲのSHOWマン!!」初回を前に堂本光一＆加藤シゲアキが見どころアピール",
+     "date": "2025-09-21",
+     "score": 2926
+    }
+   ],
+   "xFollowers": 325271,
+   "igFollowers": 143788,
+   "snsAccounts": [
+    {
+     "handle": "ara_mackey",
+     "followers": 325271
+    },
+    {
+     "handle": "aramakiofficial",
+     "followers": 105686
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-09-09",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": "achikochi",
+   "eigaId": "279835",
+   "yomi": "あらまきよしひこ",
+   "birth": "1990-02-05",
+   "origin": "日本／東京",
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": 36,
+   "debutYear": 2012,
+   "careerYears": 14,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.8048689134500224,
+    "igFollowers": 0.6671017596545806,
+    "xPostFrequency": null,
+    "newsCoverage": 0.9017513470216355,
+    "recentActivity": 0.7027535769110882
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 78.2,
+   "rank": 9
+  },
+  {
+   "name": "松本幸四郎",
+   "genres": [
+    "歌舞伎・伝統芸能",
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "natalieId": "106030",
+   "achikochiSlug": "松本幸四郎（10代目）",
+   "agency": "松竹",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1973年東京都生まれ。1979年に「侠客春雨傘」にて三代目松本金太郎を襲名して初舞台。1981年に「仮名手本忠臣蔵」七段目の大星力弥ほかで七代目 市川染五郎 を襲名。古典から復活狂言、新作歌舞伎まで幅広い演目に取り組む一方で劇団☆新感線の舞台やテレビドラマ、映画などにも出演し人気を博す。2018年に高麗屋三代襲名披露公演「壽 初春大歌舞伎」にて十代目松本幸四郎を襲名した。",
+   "officialSite": "https://koshiro.jp/",
+   "xHandle": null,
+   "igHandle": "sonoko_kouraiya",
+   "stages": [
+    "「當る未歳 吉例顔見世興行 東西合同大歌舞伎」昼の部",
+    "「當る未歳 吉例顔見世興行 東西合同大歌舞伎」夜の部",
+    "「吉例顔見世大歌舞伎」昼の部",
+    "「吉例顔見世大歌舞伎」夜の部",
+    "「秀山祭九月大歌舞伎」昼の部",
+    "「秀山祭九月大歌舞伎」夜の部",
+    "演劇人祭2026",
+    "「八月納涼歌舞伎」第一部"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/106030",
+   "news12m": 50,
+   "news90d": 17,
+   "newsAttention12m": 16538,
+   "latestNews": {
+    "title": "「秀山祭九月大歌舞伎」開幕、松本幸四郎らが初世中村吉右衛門ゆかりの「ひらかな盛衰記」ほか披露",
+    "date": "2026-09-03"
+   },
+   "daysSinceNews": 13,
+   "topNews": [
+    {
+     "title": "「壽 初春大歌舞伎」幸四郎・隼人の与兵衛、勘九郎の実盛、七之助の巴御前の特別ビジュアル",
+     "date": "2025-12-27",
+     "score": 737
+    },
+    {
+     "title": "シネマ歌舞伎「朧の森に棲む鬼」幸四郎版・松也版、両バージョンの予告編解禁",
+     "date": "2025-09-22",
+     "score": 713
+    },
+    {
+     "title": "劇場版「虎に翼」岡田将生、森田望智、土居志央梨らが再集結 南沙良や野呂佳代が新たに参加",
+     "date": "2026-08-21",
+     "score": 699
+    }
+   ],
+   "xFollowers": null,
+   "igFollowers": 76688,
+   "snsAccounts": [],
+   "followerSourceDate": "2026-08-21",
+   "xFollowersSource": null,
+   "igFollowersSource": "achikochi",
+   "eigaId": "16446",
+   "yomi": null,
+   "birth": "1973-01-08",
+   "origin": "日本／東京",
+   "xAccountState": "unknown",
+   "igAccountState": "have",
+   "age": 53,
+   "debutYear": 1979,
+   "careerYears": 47,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": null,
+    "igFollowers": 0.5827009299609984,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8773536792668442,
+    "recentActivity": 0.8005339760689079
+   },
+   "measuredAxes": [
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 3,
+   "score": 77.5,
+   "rank": 10
+  },
+  {
+   "name": "宮沢りえ",
+   "genres": [
+    "ストレートプレイ",
+    "現代劇・翻訳劇",
+    "商業演劇"
+   ],
+   "natalieId": "17474",
+   "achikochiSlug": "宮沢りえ",
+   "agency": "研音",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1973年4月6日生まれ、東京都出身。11歳でモデルデビューし、1988年公開の初主演映画「ぼくらの七日間戦争」で日本アカデミー賞新人賞に輝く。2002年「たそがれ清兵衛」、2014年「紙の月」、2016年「湯を沸かすほどの熱い愛」で日本アカデミー賞最優秀主演女優賞を受賞するなど、数々の映画賞を獲得している。近年の出演映画に「トイレのピエタ」「TOO YOUNG TO DIE！若くして死ぬ」「人間失格 太宰治と3人の女たち」「決戦は日曜日」など。日本テレビ系の2021年10月期・2022年1月期ドラマ「真犯人フラグ」に出演中のほか、2022年放送の大河ドラマ「鎌倉殿の13人」で牧の方を演じる。",
+   "officialSite": null,
+   "xHandle": null,
+   "igHandle": null,
+   "stages": [
+    "パルコ・プロデュース 2026「メアリー・ステュアート」",
+    "Bunkamura Production 2025 / DISCOVER WORLD THEATRE vol.15「リア王」NINAGAWA MEMORIAL",
+    "シス・カンパニー公演「昭和から騒ぎ」",
+    "そのいのち",
+    "PARCO PRODUCE 2024 舞台「オーランド」",
+    "宮沢りえ「母さんは間違いしか選ばなかった」、北村匠海の主演映画「しびれ」特別予告",
+    "「しびれ」北村匠海が母役・宮沢りえとただ見つめ合う、撮了後に「なんて明るい方」",
+    "宮沢りえ・杉咲花が親子役「湯を沸かすほどの熱い愛」TV放送、中野量太の新作公開前日に",
+    "北村匠海主演、宮沢りえ共演の映画「しびれ」予告編 「母が嫌いだった。それでも…」",
+    "スリ・リン×菅田将暉のドラマ「火星の女王」全6話のスペシャルエディションが放送"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/17474",
+   "news12m": 40,
+   "news90d": 4,
+   "newsAttention12m": 45101,
+   "latestNews": {
+    "title": "宮沢りえ「母さんは間違いしか選ばなかった」、北村匠海の主演映画「しびれ」特別予告",
+    "date": "2026-09-12"
+   },
+   "daysSinceNews": 4,
+   "topNews": [
+    {
+     "title": "映画ラストマン舞台挨拶に“3人”の永瀬廉「本物の永瀬、しゃべっていいですか？」",
+     "date": "2025-12-29",
+     "score": 5418
+    },
+    {
+     "title": "福山雅治がいっぱい？大泉洋との「映画ラストマン」現場はモノマネ祭り",
+     "date": "2025-11-19",
+     "score": 3347
+    },
+    {
+     "title": "DEZERTの新曲が西島秀俊主演ドラマ「人間標本」の挿入歌に決定",
+     "date": "2025-11-07",
+     "score": 2932
+    }
+   ],
+   "xFollowers": null,
+   "igFollowers": 272417,
+   "snsAccounts": [],
+   "followerSourceDate": "2026-09-02",
+   "xFollowersSource": null,
+   "igFollowersSource": "achikochi",
+   "eigaId": "72368",
+   "yomi": "みやざわりえ",
+   "birth": "1973-04-06",
+   "origin": "日本／東京",
+   "xAccountState": "unknown",
+   "igAccountState": "have",
+   "age": 53,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": null,
+    "igFollowers": 0.7528992749397755,
+    "xPostFrequency": null,
+    "newsCoverage": 0.9153351921942393,
+    "recentActivity": 0.5866887692318884
+   },
+   "measuredAxes": [
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 3,
+   "score": 76.6,
+   "rank": 11
+  },
+  {
+   "name": "和田雅成",
+   "genres": [
+    "2.5次元舞台",
+    "商業演劇"
+   ],
+   "natalieId": "69845",
+   "achikochiSlug": "和田雅成",
+   "agency": "ルビーパレード",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1991年、大阪府生まれ。主な舞台出演作にミュージカル「手紙」、「舞台『刀剣乱舞』」「舞台『弱虫ペダル』」、舞台「おそ松さん on STAGE」、「『家庭教師ヒットマンREBORN!』the STAGE」など。",
+   "officialSite": "https://wadamasanari.com/",
+   "xHandle": "masanari6",
+   "igHandle": null,
+   "stages": [
+    "十周年記念特別公演「舞台『刀剣乱舞』陽伝 月と太陽と星々よ」",
+    "READING HIGH noir 第4回公演「HYPNAGOGIA～ヒプナゴギア～」",
+    "朗読劇「たもつん」",
+    "東京マハロ 20周年記念公演「可もなく不可もない戦争」",
+    "礎の響～SEKIGAHARA～",
+    "「スエフェス2025」",
+    "舞台「きたやじ オン・ザ・ロード～いざ、出立!!篇～」",
+    "舞台「花郎～ファラン～」"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/69845",
+   "news12m": 28,
+   "news90d": 8,
+   "newsAttention12m": 23246,
+   "latestNews": {
+    "title": "新作おもちゃ「バラバライド」のNo.1を決める大会に東京ホテイソン、トム・ブラウンみちお",
+    "date": "2026-09-13"
+   },
+   "daysSinceNews": 3,
+   "topNews": [
+    {
+     "title": "刀ステ「陽伝 月と太陽と星々よ」13振りのビジュアル解禁！初登場の鬼丸国綱役は松田昇大",
+     "date": "2026-07-17",
+     "score": 4828
+    },
+    {
+     "title": "サプライズに動じない森次政裕、“ごはん担当の教え”でシンプルにお悩み解決！初主演ドラマ完成披露",
+     "date": "2026-04-15",
+     "score": 4732
+    },
+    {
+     "title": "和田雅成・髙橋大翔がW主演、ヤクザ同士のBLドラマ「あなたを殺す旅」地上波で放送",
+     "date": "2026-01-05",
+     "score": 1469
+    }
+   ],
+   "xFollowers": 192593,
+   "igFollowers": null,
+   "snsAccounts": [
+    {
+     "handle": "masanari6",
+     "followers": 192593
+    },
+    {
+     "handle": "wm_officialsite",
+     "followers": 20883
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-09-15",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": null,
+   "eigaId": "281374",
+   "yomi": "わだまさなり",
+   "birth": "1991-09-05",
+   "origin": "日本／大阪",
+   "xAccountState": "have",
+   "igAccountState": "unknown",
+   "age": 35,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.7319495911621373,
+    "igFollowers": null,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8488972699711032,
+    "recentActivity": 0.6859524002103105
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 3,
+   "score": 76.3,
+   "rank": 12
+  },
+  {
+   "name": "佐藤流司",
+   "genres": [
+    "2.5次元舞台",
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "natalieId": "86022",
+   "achikochiSlug": "佐藤流司",
+   "agency": "劇団ひまわり",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1995年生まれ、宮城県出身。2011年、特撮ドラマ「仮面ライダーフォーゼ」の佐竹輝彦役で俳優デビュー。以後、「ミュージカル『テニスの王子様』2ndシーズン」の財前光役、「ライブ・スペクタクル –NARUTO-」のうちはサスケ役、「學蘭歌劇『帝一の國』」の久我信士役、「ミュージカル『刀剣乱舞』」の加洲清光役などを務める。現在、テレビドラマ「Re:フォロワー」に出演中。10月から12月にかけて「ライブ・スペクタクル『NARUTO-ナルト-』～暁の調べ～」（再演）に出演する。2018年には、自身がRyuji名義でボーカルを務めるバンドプロジェクト・The Brow Beatを結成し、同年1月1日に1stアルバム「ラグナロク」でデビューを果たした。2020年1月1日には3rdアルバム「Adam」をリリース。ボートレースCMの主題歌「見えないスタート」も担当するなど、俳優・アーティストとして幅広く活躍中。",
+   "officialSite": "https://sato-ryuji.com/",
+   "xHandle": "ryuji7117",
+   "igHandle": "ryuji_japan",
+   "stages": [
+    "ミュージカル「刀剣乱舞」～真剣乱舞祭2026～",
+    "舞台「呪術廻戦」-渋谷事変 前編-",
+    "リーディング×ミュージカル「BEYOND DAWN ～幾千の夜を越えて～」",
+    "READING WORLD×VISIONARY READING 朗読劇「紫苑のもみじ」",
+    "朗読劇「沙耶の唄」",
+    "ミュージカル「刀剣乱舞」 加州清光 単騎出陣 極",
+    "舞台「私立探偵 濱マイク -罠- THE TRAP」",
+    "二十五億秒トリップ"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/86022",
+   "news12m": 37,
+   "news90d": 6,
+   "newsAttention12m": 30001,
+   "latestNews": {
+    "title": "刀ミュ「真剣乱舞祭」最後の“祭”に45振りが決意の表情、メインビジュアル解禁",
+    "date": "2026-09-15"
+   },
+   "daysSinceNews": 1,
+   "topNews": [
+    {
+     "title": "朗読劇「沙耶の唄」荒牧慶彦・梅津瑞樹・佐藤流司らが匂坂郁紀演じる、末満健一の脚本・演出で",
+     "date": "2026-02-01",
+     "score": 5363
+    },
+    {
+     "title": "刀ミュ「加州清光 単騎出陣 極」開幕！佐藤流司が手応え「原点にして頂点」",
+     "date": "2026-05-01",
+     "score": 3099
+    },
+    {
+     "title": "刀ミュ「加州清光 単騎出陣 極」詳細解禁！佐藤流司が茅野イサムと共同演出",
+     "date": "2026-02-09",
+     "score": 1983
+    }
+   ],
+   "xFollowers": 248532,
+   "igFollowers": 142681,
+   "snsAccounts": [
+    {
+     "handle": "ryuji7117",
+     "followers": 248532
+    },
+    {
+     "handle": "satoryujiST",
+     "followers": 27473
+    },
+    {
+     "handle": "The_Brow_Beat",
+     "followers": 24537
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-09-10",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": "achikochi",
+   "eigaId": "286277",
+   "yomi": "さとうりゅうじ",
+   "birth": "1995-01-17",
+   "origin": null,
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": 31,
+   "debutYear": 2011,
+   "careerYears": 15,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.7674286855332425,
+    "igFollowers": 0.6660640418104468,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8860188316225623,
+    "recentActivity": 0.6423235304590299
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 75.3,
+   "rank": 13
+  },
+  {
+   "name": "北村諒",
+   "genres": [
+    "2.5次元舞台",
+    "商業演劇"
+   ],
+   "natalieId": "73276",
+   "achikochiSlug": "北村諒",
+   "agency": "フリー",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1991年、東京都生まれ。2014年、「舞台『弱虫ペダル』インターハイ篇 The Second Order」で東堂尽八役を務め、注目される。自身が声優を務めたスマートフォンアプリ「あんさんぶるスターズ！」の舞台化作品「あんさんぶるスターズ！オン・ステージ」では、ゲーム版と同じく鳴上嵐役を演じた。そのほか、主な出演作に「舞台『青の祓魔師』」「舞台『刀剣乱舞』」などがある。",
+   "officialSite": "https://kitamuraryo.com/",
+   "xHandle": "Ryo_Kitamu",
+   "igHandle": null,
+   "stages": [
+    "十周年記念特別公演「舞台『刀剣乱舞』陽伝 月と太陽と星々よ」",
+    "ACTORS☆LEAGUE in Futsal 2026",
+    "ACTORS☆LEAGUE in Basketball 2026",
+    "「あんさんぶるスターズ！THE STAGE」-10th Anniversary LIVE-",
+    "「あんさんぶるスターズ！THE STAGE」-Requiem from Knights-",
+    "少年社中×劇団ホチキス シャチキス vol.3「ソラを護る街」",
+    "ANIMAX TWO HALF presentsミュージカル「コードギアス 反逆のルルーシュ 正道に准ずる騎士」2",
+    "AOI Pro.コント公演「混頓 vol.7」"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/73276",
+   "news12m": 25,
+   "news90d": 7,
+   "newsAttention12m": 17497,
+   "latestNews": {
+    "title": "赤澤遼太郎が苦手なダンスに真正面から挑む、29歳記念公演「踊らないと出られなイ世界」開幕",
+    "date": "2026-09-04"
+   },
+   "daysSinceNews": 12,
+   "topNews": [
+    {
+     "title": "刀ステ「陽伝 月と太陽と星々よ」13振りのビジュアル解禁！初登場の鬼丸国綱役は松田昇大",
+     "date": "2026-07-17",
+     "score": 4828
+    },
+    {
+     "title": "「Paradox Live」映画化発表に沸いた史上最大規模のライブ、深化するチームの個性",
+     "date": "2026-05-31",
+     "score": 3562
+    },
+    {
+     "title": "あんステ「10th Anniversary LIVE」開幕！山本一慶「興奮が止まらないライブにします」",
+     "date": "2026-08-01",
+     "score": 1851
+    }
+   ],
+   "xFollowers": 229711,
+   "igFollowers": null,
+   "snsAccounts": [
+    {
+     "handle": "Ryo_Kitamu",
+     "followers": 229711
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    },
+    {
+     "handle": "2024.06.21",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-09-10",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": null,
+   "eigaId": "296838",
+   "yomi": "きたむらりょう",
+   "birth": "1991-01-25",
+   "origin": "日本／東京",
+   "xAccountState": "have",
+   "igAccountState": "unknown",
+   "age": 35,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.7564716317561526,
+    "igFollowers": null,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8237258420931439,
+    "recentActivity": 0.6527599596713594
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 3,
+   "score": 75.1,
+   "rank": 14
+  },
+  {
+   "name": "高野洸",
+   "genres": [
+    "2.5次元舞台",
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "natalieId": "99753",
+   "achikochiSlug": "高野洸",
+   "agency": "エイベックス・マネジメント",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": null,
+   "officialSite": "https://takano-akira.net/",
+   "xHandle": "AKIRAT_official",
+   "igHandle": "akira_takano_official",
+   "stages": [
+    "PARCO PRODUCE 2026 ミュージカル「ジョン＆ジェン」",
+    "舞台「キングダムⅡ-継承-」",
+    "ACTORS☆LEAGUE in Games 2026",
+    "GO UEKI 50TH BIRTHDAY EVENT DISCONNECTION",
+    "ACTORS☆LEAGUE in Brain 2025",
+    "Dream5 15th Limited Event 2025",
+    "舞台「WAR BRIDE -アメリカと日本の架け橋 桂子・ハーン-」",
+    "ミュージカル「刀剣乱舞」目出度歌誉花舞 十周年祝賀祭"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/99753",
+   "news12m": 33,
+   "news90d": 9,
+   "newsAttention12m": 31735,
+   "latestNews": {
+    "title": "XAOSXがKT Zepp Yokohamaで初ライブ開催「888 -THE REAL CLAP-」",
+    "date": "2026-08-27"
+   },
+   "daysSinceNews": 20,
+   "topNews": [
+    {
+     "title": "阿部顕嵐、高野洸、MADKIDのYUKIら8人によるアーティスト集団・XAOSX始動 メンバーは固定ではない",
+     "date": "2026-08-20",
+     "score": 5477
+    },
+    {
+     "title": "草川拓弥、主演ドラマ初回で草を食べる？「地獄は善意で出来ている」放送直前会見に登場",
+     "date": "2025-10-16",
+     "score": 4934
+    },
+    {
+     "title": "草川拓弥「じごでき」イベントで明かされた“愛され座長”ぶり、後輩ICExを前に照れ「一番見られたくない姿を…」",
+     "date": "2025-12-03",
+     "score": 4537
+    }
+   ],
+   "xFollowers": 168353,
+   "igFollowers": 156539,
+   "snsAccounts": [
+    {
+     "handle": "AKIRAT_official",
+     "followers": 168353
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    },
+    {
+     "handle": "2024.06.21",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-09-12",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": "achikochi",
+   "eigaId": "300006",
+   "yomi": "たかのあきら",
+   "birth": "1997-07-22",
+   "origin": "日本／福岡",
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": 29,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.7132333202160627,
+    "igFollowers": 0.6785099903756011,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8798002316982818,
+    "recentActivity": 0.6835155470341082
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 75.1,
+   "rank": 15
+  },
+  {
+   "name": "加藤和樹",
+   "genres": [
+    "ミュージカル",
+    "2.5次元舞台",
+    "商業演劇"
+   ],
+   "natalieId": "5017",
+   "achikochiSlug": "加藤和樹",
+   "agency": "アミューズ",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1984年10月7日生まれ、愛知県出身。2005年、「ミュージカル『新テニスの王子様』The Imperial Match 氷帝学園」で初舞台を踏み、翌年にミニアルバム「Rough Diamond」でCDデビューを果たす。近年の主な出演作はミュージカル「フランケンシュタイン」「ファントム」「ローマの休日」「BARNUM」「キングアーサー」、舞台「冬のライオン」「裸足で散歩」など。声優としても活躍し、ゲーム「B-PROJECT」シリーズや「ディズニー ツイステッドワンダーランド」、劇場アニメ「怪盗クイーン」シリーズや「ベルサイユのばら」などに参加している。アーティスト活動も精力的に行い、2025年6月11日にニューシングル「Chocolate」をリリース。同年6月に朗読劇「告白 コンフェッション」、10月から11月にかけてミュージカル「マタ・ハリ」に出演する。",
+   "officialSite": "https://www.katokazuki.com/",
+   "xHandle": "kazuki_kato1007",
+   "igHandle": "kazuki_kato_official",
+   "stages": [
+    "ミュージカル「ファントム」",
+    "ミュージカル「キングアーサー」",
+    "Brand New Musical Concert 2026 Merry Christmas!",
+    "ミュージカル「ジャック・ザ・リッパー」",
+    "KAZUKI KATO TREASURE BOX 2026 - MAN TO MAN3 -",
+    "森雪之丞 50th Anniversary Musical Concert「物語を歌う言葉たち」",
+    "This is the Moment! ～フランク・ワイルドホーン JAPAN 25th anniversary concert～",
+    "古川雄大 The Greatest Concert vol.3 - Man of the Stage -",
+    "加藤和樹「Hello」スポット",
+    "加藤和樹 / Tell Me Why（SPOT Ver.）"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/5017",
+   "news12m": 29,
+   "news90d": 20,
+   "newsAttention12m": 21200,
+   "latestNews": {
+    "title": "古川雄大が“1人の男がステージに向かう過程”を表現、ミュージカルコンサート第3弾スタート",
+    "date": "2026-09-11"
+   },
+   "daysSinceNews": 5,
+   "topNews": [
+    {
+     "title": "古川雄大が“1人の男がステージに向かう過程”を表現、ミュージカルコンサート第3弾スタート",
+     "date": "2026-09-11",
+     "score": 2055
+    },
+    {
+     "title": "「BACKBEAT」ファイナルへ熱量加速！戸塚祥太「60年後も憧れられるビートルズ目指して」",
+     "date": "2026-03-19",
+     "score": 2002
+    },
+    {
+     "title": "「仮面ライダーカブト」20年後の世界を描くVシネクスト上映、キャストに佐藤祐基ら",
+     "date": "2026-04-03",
+     "score": 1763
+    }
+   ],
+   "xFollowers": 162039,
+   "igFollowers": 31000,
+   "snsAccounts": [
+    {
+     "handle": "kazuki_kato1007",
+     "followers": 162039
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    },
+    {
+     "handle": "2024.06.21",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-09-14",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": "achikochi",
+   "eigaId": "84081",
+   "yomi": "かとうかずき",
+   "birth": "1984-10-07",
+   "origin": "日本／愛知",
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": 41,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.7079146570903778,
+    "igFollowers": 0.46108704769210773,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8465775827429777,
+    "recentActivity": 0.8491881802353447
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 73.6,
+   "rank": 16
+  },
+  {
+   "name": "甲斐翔真",
+   "genres": [
+    "ミュージカル",
+    "2.5次元舞台",
+    "商業演劇"
+   ],
+   "natalieId": "100774",
+   "achikochiSlug": "甲斐翔真",
+   "agency": "アミューズ",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1997年、東京都生まれ。特撮ドラマ「仮面ライダーエグゼイド」のパラド / 仮面ライダーパラドクス役でテレビドラマ初出演。2020年に「デスノート THE MUSICAL」で初舞台を踏み、近年はミュージカル「ロミオ＆ジュリエット」「ネクスト・トゥ・ノーマル」「エリザベート」「ムーラン・ルージュ！ザ・ミュージカル」「MOJOプロジェクト -Musicals of Japan Origin project- ミュージカル『イザボー』」などに出演。2025年は「ブロードウェイミュージカル『キンキーブーツ』」、ミュージカル『マタ・ハリ』」に出演。",
+   "officialSite": "https://artist.amuse.co.jp/artist/kai_shouma/",
+   "xHandle": "kai_shouma",
+   "igHandle": "kai_shouma",
+   "stages": [
+    "カウントダウン ミュージカルコンサート 2026-2027",
+    "森雪之丞 50th Anniversary Musical Concert「物語を歌う言葉たち」",
+    "ミュージカル「ミス・サイゴン」",
+    "古川雄大 The Greatest Concert vol.3 - Man of the Stage -",
+    "オルガン・フェスティバル2026「大木麻理オルガン・コンサート」",
+    "The World of Musical Stars",
+    "KAI SHOUMA Anniversary 10YEARS",
+    "カウントダウン ミュージカルコンサート 2025-2026"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/100774",
+   "news12m": 35,
+   "news90d": 7,
+   "newsAttention12m": 48849,
+   "latestNews": {
+    "title": "古川雄大が“1人の男がステージに向かう過程”を表現、ミュージカルコンサート第3弾スタート",
+    "date": "2026-09-11"
+   },
+   "daysSinceNews": 5,
+   "topNews": [
+    {
+     "title": "「FNS歌謡祭」タイムテーブル発表！Mrs. GREEN APPLE、Snow Man、Perfumeら出演者の登場時間・歌唱曲は TVerで配信も",
+     "date": "2025-12-03",
+     "score": 21629
+    },
+    {
+     "title": "「2025 FNS歌謡祭」にミセス、Ado、クリーピー、超特急、リトグリ、幾田りら、中島健人、ATEEZ、ミャクミャクら16組追加",
+     "date": "2025-11-18",
+     "score": 2912
+    },
+    {
+     "title": "日向坂46大野愛実がドラマ初出演、NHK「ラジオスター」で中学2年生の小野まな役",
+     "date": "2026-01-22",
+     "score": 2764
+    }
+   ],
+   "xFollowers": 89798,
+   "igFollowers": 142171,
+   "snsAccounts": [
+    {
+     "handle": "kai_shouma",
+     "followers": 89798
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    },
+    {
+     "handle": "2024.06.21",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-09-04",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": "achikochi",
+   "eigaId": "299732",
+   "yomi": "かいしょうま",
+   "birth": "1997-11-14",
+   "origin": "日本／東京",
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": 28,
+   "debutYear": 2020,
+   "careerYears": 6,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.6257854862304009,
+    "igFollowers": 0.6655832484251804,
+    "xPostFrequency": null,
+    "newsCoverage": 0.9088580100244799,
+    "recentActivity": 0.6617377069472832
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 73.1,
+   "rank": 17
+  },
+  {
+   "name": "藤原竜也",
+   "genres": [
+    "ストレートプレイ",
+    "現代劇・翻訳劇",
+    "商業演劇"
+   ],
+   "natalieId": "26676",
+   "achikochiSlug": "藤原竜也",
+   "agency": "ホリプロ",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1982年5月15日生まれ、埼玉県出身。1997年、 蜷川幸雄 が演出を担当した舞台「身毒丸」の主役オーディションでグランプリを受賞し俳優デビューする。2000年には深作欣二がメガホンを取った映画「バトル・ロワイアル」で主演。第24回日本アカデミー賞の優秀主演男優賞と新人俳優賞を受賞した。主な出演作として「DEATH NOTE デスノート」「カイジ」「るろうに剣心」といったシリーズや、「22年目の告白─私が殺人犯です─」「太陽は動かない」などがある。",
+   "officialSite": "https://www.horipro.co.jp/fujiwaratatsuya/",
+   "xHandle": "fujiwara_staff",
+   "igHandle": null,
+   "stages": [
+    "彩の国シェイクスピア・シリーズ 2nd Vol.3「リア王」",
+    "Sky presents 舞台「世界の終りとハードボイルド・ワンダーランド」",
+    "舞台「中村仲蔵 ～歌舞伎王国 下剋上異聞～」上海公演",
+    "彩の国シェイクスピア・シリーズ2nd Vol.2「マクベス」",
+    "小野賢章が舞台「ハリー・ポッターと呪いの子」デビュー、「物語が、再び動き出します」",
+    "「耳をすませば」「借りぐらしのアリエッティ」4Kデジタルリマスター版のIMAX上映決定",
+    "藤原竜也の顔面に包まれたレタス発売",
+    "亀梨和也、映画「カイジ」で最狂の敵を演じる",
+    "亀梨和也が映画「カイジ」新作で藤原竜也の宿敵に、帝愛の2代目・兵藤和也を演じる",
+    "実写映画「カイジ」新作、兵藤和也役は亀梨和也 キャラビジュ、予告映像など公開"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/26676",
+   "news12m": 32,
+   "news90d": 10,
+   "newsAttention12m": 15189,
+   "latestNews": {
+    "title": "小野賢章が舞台「ハリー・ポッターと呪いの子」デビュー、「物語が、再び動き出します」",
+    "date": "2026-08-17"
+   },
+   "daysSinceNews": 30,
+   "topNews": [
+    {
+     "title": "大河ドラマ「新選組！」NHKオンデマンドで初配信、香取慎吾・山本耕史・藤原竜也ら出演",
+     "date": "2025-09-22",
+     "score": 3260
+    },
+    {
+     "title": "小野賢章がハリー・ポッターに！舞台ハリポタ、日本公演ラストイヤーに歴代＆新キャスト集結",
+     "date": "2026-01-17",
+     "score": 2038
+    },
+    {
+     "title": "亀梨和也が映画「カイジ」新作で藤原竜也の宿敵に、帝愛の2代目・兵藤和也を演じる",
+     "date": "2026-07-21",
+     "score": 1344
+    }
+   ],
+   "xFollowers": 86182,
+   "igFollowers": null,
+   "snsAccounts": [
+    {
+     "handle": "fujiwara_staff",
+     "followers": 86182
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    },
+    {
+     "handle": "2024.06.21",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-09-11",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": null,
+   "eigaId": null,
+   "xAccountState": "have",
+   "igAccountState": "unknown",
+   "age": null,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.6200667708299917,
+    "igFollowers": null,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8358744893406761,
+    "recentActivity": 0.6982686815911457
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 3,
+   "score": 72.8,
+   "rank": 18
+  },
+  {
+   "name": "新木宏典",
+   "genres": [
+    "2.5次元舞台",
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "natalieId": "128214",
+   "achikochiSlug": "新木宏典",
+   "agency": "ワタナベエンターテインメント",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": null,
+   "officialSite": "https://www.watanabepro.co.jp/mypage/10000022/",
+   "xHandle": "araki_hiro0614",
+   "igHandle": null,
+   "stages": [
+    "ミュージカル「Vibrant INOCHI（バイブラント・いのち）」",
+    "ミュージカル「刀剣乱舞」～真剣乱舞祭2026～",
+    "舞台「てらこや青義堂 師匠、走る」",
+    "悪童会議 第4回公演 ミュージカル「夜曲～ノクターン～」",
+    "舞台「劇場版モノノ怪 前日譚～二首女～」",
+    "舞台「ブラック・コーヒー」",
+    "Reading Act「スクルージと呼ばれた男」",
+    "ミュージカル「刀剣乱舞」 ～静かなる夜半の寝ざめ～"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/128214",
+   "news12m": 27,
+   "news90d": 8,
+   "newsAttention12m": 28891,
+   "latestNews": {
+    "title": "刀ミュ「真剣乱舞祭」最後の“祭”に45振りが決意の表情、メインビジュアル解禁",
+    "date": "2026-09-15"
+   },
+   "daysSinceNews": 1,
+   "topNews": [
+    {
+     "title": "刀ミュ「静かなる夜半の寝ざめ」本日開幕、新木宏典「皆の想いを背負って」",
+     "date": "2025-12-14",
+     "score": 12082
+    },
+    {
+     "title": "片岡鶴太郎と鈴木拡樹がW主演、アガサ・クリスティの推理劇「ブラック・コーヒー」上演決定",
+     "date": "2025-12-09",
+     "score": 4547
+    },
+    {
+     "title": "「仮面ライダーガヴ」キャストがわちゃわちゃ、知念英和は日野友輔の靴下に疑念",
+     "date": "2025-11-11",
+     "score": 2365
+    }
+   ],
+   "xFollowers": 127253,
+   "igFollowers": 110696,
+   "snsAccounts": [
+    {
+     "handle": "araki_hiro0614",
+     "followers": 127253
+    },
+    {
+     "handle": "ArakiStaff",
+     "followers": 9079
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-06-18",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": "achikochi",
+   "eigaId": "84304",
+   "yomi": null,
+   "birth": "1983-06-14",
+   "origin": "日本／兵庫",
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": 43,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.6742907177640625,
+    "igFollowers": 0.6319833176556976,
+    "xPostFrequency": null,
+    "newsCoverage": 0.858156349638241,
+    "recentActivity": 0.6885174708605745
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 72.7,
+   "rank": 19
+  },
+  {
+   "name": "黒羽麻璃央",
+   "genres": [
+    "2.5次元舞台",
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "natalieId": "86284",
+   "achikochiSlug": "黒羽麻璃央",
+   "agency": "TRUSTAR",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1993年7月6日生まれ、宮城県出身。第23回ジュノン・スーパーボーイ・コンテストで準グランプリを受賞し、2012年に「ミュージカル『テニスの王子様』2ndシーズン」の菊丸英二役で俳優デビューを飾る。以後、「ミュージカル『刀剣乱舞』」、舞台「黒子のバスケ」、ミュージカル「ロミオ＆ジュリエット」など多くの舞台作品に出演。映像作品はドラマ・映画「広告会社、男子寮のおかずくん」シリーズや「テレビ演劇 サクセス荘」シリーズ、映画「アヤメくんののんびり肉食日誌」「Sea Opening／シー・オープニング」「恐怖人形」、配信ドラマ「寝ないの？小山内三兄弟」などがある。2022年にはフジテレビ系“月9”ドラマ「競争の番人」、8月11日公開の映画「野球部に花束を」、10月9日から公演のミュージカル「エリザベート」、10月28日の映画「貞子DX」に出演。舞台俳優たちによる野球イベント「ACTORS☆LEAGUE」を企画プロデュースしたほか、プロ野球戦の始球式にも参加している。",
+   "officialSite": "https://kuroba-mario.com/",
+   "xHandle": "m_kuroba",
+   "igHandle": "mario_kuroba",
+   "stages": [
+    "J-CULTURE FEST presents 東京国際フォーラム開館30周年記念 詩楽劇「浮雲は天に濡れつつ～源氏物語より葵上～」",
+    "ミュージカル「刀剣乱舞」～真剣乱舞祭2026～",
+    "KURUMU OKAMIYA 1st CONCERT「The Fanfare」",
+    "古川雄大 The Greatest Concert vol.3 - Man of the Stage -",
+    "ミュージカル「AGATHA（アガサ）」",
+    "PARCO PRODUCE 2026「ジン・ロック・ライム」",
+    "ACTORS☆LEAGUE in Brain 2025",
+    "ミュージカル「エリザベート」"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/86284",
+   "news12m": 19,
+   "news90d": 6,
+   "newsAttention12m": 28258,
+   "latestNews": {
+    "title": "刀ミュ「真剣乱舞祭」最後の“祭”に45振りが決意の表情、メインビジュアル解禁",
+    "date": "2026-09-15"
+   },
+   "daysSinceNews": 1,
+   "topNews": [
+    {
+     "title": "ミュージカル「昭和元禄落語心中」テレビ初放送、山崎育三郎のインタビューもOA",
+     "date": "2025-12-08",
+     "score": 9219
+    },
+    {
+     "title": "「エリザベート」開幕！新シシィの望海風斗＆明日海りお、稽古場からは“早く帰る”井上芳雄＆古川雄大が意気込み",
+     "date": "2025-10-11",
+     "score": 3270
+    },
+    {
+     "title": "ミュージカル「エリザベート」ライブ配信決定、千秋楽含む3公演で",
+     "date": "2025-10-10",
+     "score": 2729
+    }
+   ],
+   "xFollowers": 165588,
+   "igFollowers": 148422,
+   "snsAccounts": [
+    {
+     "handle": "m_kuroba",
+     "followers": 165588
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    },
+    {
+     "handle": "2024.06.21",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-09-09",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": "achikochi",
+   "eigaId": "279826",
+   "yomi": "くろばまりお",
+   "birth": "1993-07-06",
+   "origin": "日本／宮城",
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": 33,
+   "debutYear": 2012,
+   "careerYears": 14,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.7109291747376151,
+    "igFollowers": 0.6713607294434745,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8285466408794995,
+    "recentActivity": 0.6423235304590299
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 72.3,
+   "rank": 20
+  },
+  {
+   "name": "牧島輝",
+   "genres": [
+    "2.5次元舞台",
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "natalieId": "92891",
+   "achikochiSlug": null,
+   "agency": "ワタナベエンターテインメント",
+   "manualSocial": {
+    "xHandle": "maximum083",
+    "xFollowers": 115000,
+    "igHandle": "maximumhikaru",
+    "igFollowers": 80000,
+    "checkedAt": "2026-09-16"
+   },
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1995年、埼玉県出身。俳優・アーティスト。主な出演作に「ミュージカル『テニスの王子様』3rdシーズン」、「MANKAI STAGE『A3!』」シリーズ 、「ミュージカル『刀剣乱舞』」シリーズ、ミュージカル「ストーリー・オブ・マイ・ライフ」、舞台「キングダム」、「演劇『ライチ☆光クラブ』2025」など。2025年は舞台「きたやじ オン・ザ・ロード～いざ、出立!!篇～」、ミュージカル「十二国記 -月の影 影の海-」に出演。また音楽活動も行っているほか、2024年にはアートワーク作品展を開催した。",
+   "officialSite": "https://makishima-hikaru.net/",
+   "xHandle": "maximum083",
+   "igHandle": "maximumhikaru",
+   "stages": [
+    "ミュージカル「刀剣乱舞」～真剣乱舞祭2026～",
+    "舞台「二階堂朝陽は助けに来る」",
+    "舞台「キングダムⅡ-継承-」",
+    "ACTORS☆LEAGUE in Basketball 2026",
+    "ラヴ・レターズ～2026 Summer Special～",
+    "Studio W vol.1 リーディングミュージカル「時計のこども Child of Time」",
+    "H&Aプロデュース企画 第1弾「死神」",
+    "VOICARION 10周年記念公演「信長の犬」「孔明最後の一夜」"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/92891",
+   "news12m": 33,
+   "news90d": 8,
+   "newsAttention12m": 31282,
+   "latestNews": {
+    "title": "刀ミュ「真剣乱舞祭」最後の“祭”に45振りが決意の表情、メインビジュアル解禁",
+    "date": "2026-09-15"
+   },
+   "daysSinceNews": 1,
+   "topNews": [
+    {
+     "title": "ミュージカル「十二国記」本日開幕！柚香光「怒涛の旅路を一緒に体験して」",
+     "date": "2025-12-09",
+     "score": 11520
+    },
+    {
+     "title": "柚香光主演ミュージカル「十二国記」ライブ配信決定！アーカイブ付き",
+     "date": "2025-12-12",
+     "score": 4059
+    },
+    {
+     "title": "今夏上演「ラヴ・レターズ」に牧島輝＆梅澤美波、丸山智己＆柚香光、小林唯＆木下晴香",
+     "date": "2026-05-13",
+     "score": 2291
+    }
+   ],
+   "xFollowersSource": "manual",
+   "igFollowersSource": "manual",
+   "xFollowers": 115000,
+   "igFollowers": 80000,
+   "socialCheckedAt": "2026-09-16",
+   "socialNote": null,
+   "eigaId": "293080",
+   "yomi": "まきしまひかる",
+   "birth": "1995-08-03",
+   "origin": "日本／埼玉",
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": 31,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.6602037468874336,
+    "igFollowers": 0.5883779954607457,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8789922487999487,
+    "recentActivity": 0.6885174708605745
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 72.1,
+   "rank": 21
+  },
+  {
+   "name": "鈴木拡樹",
+   "genres": [
+    "2.5次元舞台",
+    "商業演劇"
+   ],
+   "natalieId": "61580",
+   "achikochiSlug": "鈴木拡樹",
+   "agency": "オウサム",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1985年、大阪府生まれ。2007年に放送されたテレビドラマ「風魔の小次郎」でデビュー。2008年に上演された「最遊記歌劇伝 -Go to the West-」で主演を務めた。以降、「舞台『刀剣乱舞』」シリーズ、「舞台『弱虫ペダル』」シリーズ、「劇団☆新感線『髑髏城の七人』Season月 下弦の月」などに出演している。",
+   "officialSite": "https://suzuki-hiroki.jp/",
+   "xHandle": "hiroki_0604",
+   "igHandle": null,
+   "stages": [
+    "学芸員 鎌目志万とダ・ヴィンチ・ノート",
+    "十周年記念特別公演「舞台『刀剣乱舞』陽伝 月と太陽と星々よ」",
+    "ミュージカル「ゴースト」",
+    "舞台「ブラック・コーヒー」",
+    "舞台「鬼太郎誕生 ゲゲゲの謎」",
+    "舞台「マイホームヒーロー」",
+    "劇団おぼんろ 第26回本公演「ラルスコット・ギグの動物園」",
+    "舞台「死神遣いの事件帖 終（ファイナル）」"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/61580",
+   "news12m": 21,
+   "news90d": 3,
+   "newsAttention12m": 31905,
+   "latestNews": {
+    "title": "小林賢太郎×鈴木拡樹「学芸員 鎌目志万とダ・ヴィンチ・ノート」再演、新キャストに加藤啓",
+    "date": "2026-09-06"
+   },
+   "daysSinceNews": 10,
+   "topNews": [
+    {
+     "title": "刀ステ「陽伝 月と太陽と星々よ」13振りのビジュアル解禁！初登場の鬼丸国綱役は松田昇大",
+     "date": "2026-07-17",
+     "score": 4828
+    },
+    {
+     "title": "片岡鶴太郎と鈴木拡樹がW主演、アガサ・クリスティの推理劇「ブラック・コーヒー」上演決定",
+     "date": "2025-12-09",
+     "score": 4547
+    },
+    {
+     "title": "舞台「ゲゲゲの謎」開幕、鈴木拡樹と村井良大が“愛”を紡ぐ「新年早々血だらけでも愛おしい」",
+     "date": "2026-01-09",
+     "score": 4313
+    }
+   ],
+   "xFollowers": 227894,
+   "igFollowers": null,
+   "snsAccounts": [
+    {
+     "handle": "hiroki_0604",
+     "followers": 227894
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    },
+    {
+     "handle": "2024.06.21",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-09-14",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": null,
+   "eigaId": "87515",
+   "yomi": "すずきひろき",
+   "birth": "1985-06-04",
+   "origin": "日本／大阪",
+   "xAccountState": "have",
+   "igAccountState": "unknown",
+   "age": 41,
+   "debutYear": 2007,
+   "careerYears": 19,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.7553666840354522,
+    "igFollowers": null,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8434030199872541,
+    "recentActivity": 0.5279181012117061
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 3,
+   "score": 72,
+   "rank": 22
+  },
+  {
+   "name": "橋本祥平",
+   "genres": [
+    "2.5次元舞台",
+    "商業演劇"
+   ],
+   "natalieId": "86677",
+   "achikochiSlug": null,
+   "agency": "キャストコーポレーション",
+   "manualSocial": {
+    "xHandle": "hashimotoshohey",
+    "xFollowers": 130000,
+    "checkedAt": "2026-09-16"
+   },
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1993年、神奈川県生まれ。2013年「陽炎ペイン」で舞台デビューし、2016年の歌劇「明治東亰恋伽～朧月の黒き猫～」で初主演を務めた。近年の代表作には「ハイパープロジェクション演劇『ハイキュー‼︎』」「舞台『刀剣乱舞』」「あんさんぶるスターズ！エクストラ・ステージ」、舞台「KING OF PRISM」、ミュージカル「封神演義-目覚めの刻-」「機動戦士ガンダム00 -破壊による再生-」、舞台「幽☆遊☆白書」などがある。2018年には「BanG Dream!」プロジェクトの一環として結成されたバンド・Argonavisにドラムで参加。2019年、テレビアニメ「Dimensionハイスクール」で声優デビューを果たした。",
+   "officialSite": "https://hashimoto-shohei.com/",
+   "xHandle": "hashimotoshohey",
+   "igHandle": null,
+   "stages": [
+    "東京マハロ×講談社「母、2メートル先を行く」",
+    "123seasons AND ENDLESS「Anti Clockwise sprinter」",
+    "「あんさんぶるスターズ！THE STAGE」-10th Anniversary LIVE-",
+    "「あんさんぶるスターズ！THE STAGE」-Requiem from Knights-",
+    "Studio W vol.1 リーディングミュージカル「時計のこども Child of Time」",
+    "言式「とるわよ！」",
+    "ミュージカル「MURDERER」",
+    "舞台「火喰鳥-羽州ぼろ鳶組-」"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/86677",
+   "news12m": 30,
+   "news90d": 4,
+   "newsAttention12m": 19813,
+   "latestNews": {
+    "title": "年末のその先へ！舞台「KING OF PRISM」大晦日にライブ開催、全キャスト再集結",
+    "date": "2026-09-11"
+   },
+   "daysSinceNews": 5,
+   "topNews": [
+    {
+     "title": "舞台「KING OF PRISM」6年ぶり新作公演開幕！“三強”のショーやシュワロも活躍",
+     "date": "2026-02-21",
+     "score": 3892
+    },
+    {
+     "title": "かかってこいよ！舞台「RE:BIRTH」開幕、主演・演出の植田圭輔がキャストへの信頼語る",
+     "date": "2025-10-02",
+     "score": 2189
+    },
+    {
+     "title": "あんステ「10th Anniversary LIVE」開幕！山本一慶「興奮が止まらないライブにします」",
+     "date": "2026-08-01",
+     "score": 1851
+    }
+   ],
+   "xFollowersSource": "manual",
+   "igFollowersSource": null,
+   "xFollowers": 130000,
+   "socialCheckedAt": "2026-09-16",
+   "socialNote": null,
+   "eigaId": "307541",
+   "yomi": "はしもとしょうへい",
+   "birth": "1993-12-31",
+   "origin": "日本／神奈川",
+   "xAccountState": "have",
+   "igAccountState": "unknown",
+   "age": 32,
+   "debutYear": 2013,
+   "careerYears": 13,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.6772623052591367,
+    "igFollowers": null,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8455392917241707,
+    "recentActivity": 0.5753466478011708
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 3,
+   "score": 71.2,
+   "rank": 23
+  },
+  {
+   "name": "片岡愛之助",
+   "genres": [
+    "歌舞伎・伝統芸能",
+    "商業演劇"
+   ],
+   "natalieId": "44936",
+   "achikochiSlug": "片岡愛之助（6代目）",
+   "agency": "松竹",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1972年3月4日生まれ、大阪府出身。1981年、十三代目片岡仁左衛門の部屋子となり、片岡千代丸を名乗って初舞台を飾る。1992年、二代目 片岡秀太郎 の養子となり、六代目として片岡愛之助を襲名。歌舞伎のみならずドラマや映画など映像分野にも活躍の場を広げる。近年の出演作は「七つの会議」「総理の夫」など。2022年のNHK大河ドラマ「鎌倉殿の13人」に北条宗時役で出演。",
+   "officialSite": null,
+   "xHandle": null,
+   "igHandle": null,
+   "stages": [
+    "スクランブル歌舞伎「はたらく細胞」",
+    "「當る未歳 吉例顔見世興行 東西合同大歌舞伎」昼の部",
+    "「當る未歳 吉例顔見世興行 東西合同大歌舞伎」夜の部",
+    "「錦秋十月大歌舞伎」第一部",
+    "「錦秋十月大歌舞伎」第二部",
+    "長崎スタジアムシティ アリーナ歌舞伎舞踊特別公演",
+    "大阪松竹座さよなら公演「御名残五月大歌舞伎」昼の部",
+    "大阪松竹座さよなら公演「御名残五月大歌舞伎」夜の部"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/44936",
+   "news12m": 37,
+   "news90d": 12,
+   "newsAttention12m": 12928,
+   "latestNews": {
+    "title": "「錦秋十月大歌舞伎」特別ビジュアル公開、片岡愛之助が本水で立廻り見せる「鯉つかみ」ほか",
+    "date": "2026-09-12"
+   },
+   "daysSinceNews": 4,
+   "topNews": [
+    {
+     "title": "片岡愛之助が白血球役、スクランブル歌舞伎「はたらく細胞」2027年4月に上演決定",
+     "date": "2026-08-15",
+     "score": 2303
+    },
+    {
+     "title": "なにわ男子の大橋和也「ごはんですよ」「食べるラー油」新CMでかわいさ発揮、片岡愛之助と歌って踊る",
+     "date": "2025-10-09",
+     "score": 1343
+    },
+    {
+     "title": "なにわ男子・大橋和也が片岡愛之助と息ぴったり、桃屋テレビCMで再び“親ビン子ビン”に",
+     "date": "2026-05-26",
+     "score": 1209
+    }
+   ],
+   "xFollowers": null,
+   "igFollowers": 29079,
+   "snsAccounts": [],
+   "followerSourceDate": "2026-09-09",
+   "xFollowersSource": null,
+   "igFollowersSource": "achikochi",
+   "eigaId": "24098",
+   "yomi": "かたおかあいのすけ",
+   "birth": "1972-03-04",
+   "origin": "日本／大阪",
+   "xAccountState": "unknown",
+   "igAccountState": "have",
+   "age": 54,
+   "debutYear": 1981,
+   "careerYears": 45,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": null,
+    "igFollowers": 0.45249793228953383,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8387099831501695,
+    "recentActivity": 0.7522611157873879
+   },
+   "measuredAxes": [
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 3,
+   "score": 70.9,
+   "rank": 24
+  },
+  {
+   "name": "梅津瑞樹",
+   "genres": [
+    "2.5次元舞台",
+    "小劇場"
+   ],
+   "natalieId": "110977",
+   "achikochiSlug": null,
+   "agency": "bamboo",
+   "manualSocial": {
+    "xHandle": "MizukiUmetsu",
+    "xFollowers": 104000,
+    "checkedAt": "2026-09-16",
+    "igHandle": "umetsumizuki",
+    "igFollowers": 54000
+   },
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1992年、千葉県生まれ。2015年から2022年まで虚構の劇団のメンバーとして活動。自身がプロデュースし、 橋本祥平 と共同企画した演劇ユニット・言式を2023年に旗揚げした。主な舞台出演作に、「舞台『刀剣乱舞』」、舞台「紅葉鬼」、「ミュージカル『薄桜鬼 真改』」などがある。",
+   "officialSite": "https://bam-boo.biz/actors.php?id=9",
+   "xHandle": "mizukiumetsu",
+   "igHandle": "umetsumizuki",
+   "stages": [
+    "十周年記念特別公演「舞台『刀剣乱舞』陽伝 月と太陽と星々よ」",
+    "ACTORS☆LEAGUE in Futsal 2026",
+    "剣劇「三國志演技～蜀漢」",
+    "「チェンソーマン」ザ・ステージ レゼ篇",
+    "朗読劇「沙耶の唄」",
+    "舞台「十角館の殺人」",
+    "言式「とるわよ！」",
+    "劇団ホチキス第52回本公演「ベイビーブラフ」"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/110977",
+   "news12m": 30,
+   "news90d": 9,
+   "newsAttention12m": 38713,
+   "latestNews": {
+    "title": "植田圭輔らが送るシリーズ最終章、荒牧慶彦企画「三國志演技～蜀漢」開幕",
+    "date": "2026-08-20"
+   },
+   "daysSinceNews": 27,
+   "topNews": [
+    {
+     "title": "舞台「チェンソーマン」レゼ篇が本日開幕、レゼ役の相馬結衣「盛りだくさんな内容に」",
+     "date": "2026-07-25",
+     "score": 5916
+    },
+    {
+     "title": "朗読劇「沙耶の唄」荒牧慶彦・梅津瑞樹・佐藤流司らが匂坂郁紀演じる、末満健一の脚本・演出で",
+     "date": "2026-02-01",
+     "score": 5363
+    },
+    {
+     "title": "綾辻行人のミステリー小説「十角館の殺人」舞台化 主演に梅津瑞樹、共演に小西成弥ら",
+     "date": "2026-01-19",
+     "score": 4882
+    }
+   ],
+   "xFollowersSource": "manual",
+   "igFollowersSource": "manual",
+   "xFollowers": 104000,
+   "igFollowers": 54000,
+   "socialCheckedAt": "2026-09-16",
+   "socialNote": null,
+   "eigaId": "327813",
+   "yomi": "うめつみずき",
+   "birth": "1992-12-08",
+   "origin": "日本／千葉",
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": 33,
+   "debutYear": 2023,
+   "careerYears": 3,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.6462147233134653,
+    "igFollowers": 0.5356048316640181,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8831829019134679,
+    "recentActivity": 0.6745377997581844
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 70.5,
+   "rank": 25
+  },
+  {
+   "name": "柚希礼音",
+   "genres": [
+    "宝塚・OG",
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "natalieId": "85686",
+   "achikochiSlug": null,
+   "agency": "研音",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "6月11日生まれ、大阪府出身。1999年に85期生として 宝塚歌劇団 に入団。雪組「ノバ・ボサ・ノバ」で初舞台を踏み、その後、星組に配属。2009年、星組トップスターに就任し、6年にわたりトップを務める。2015年5月に退団後もミュージカル、コンサートなど精力的に活動中。第30回松尾芸能新人賞、第65回文化庁芸術祭賞演劇部門新人賞、第37回菊田一夫演劇賞を受賞。退団後の主な主演舞台に「ミュージカル 『バイオハザード ～ヴォイス・オブ・ガイア～』」「お気に召すまま」などがあり、10月15日からはミュージカル「ビリー・エリオット～リトル・ダンサー～」の大阪公演が控えている。",
+   "officialSite": null,
+   "xHandle": null,
+   "igHandle": null,
+   "stages": [
+    "ミュージカル「キングアーサー」",
+    "森雪之丞 50th Anniversary Musical Concert「物語を歌う言葉たち」",
+    "湖月わたる 宝塚歌劇団退団 20th Anniversary「TUMBLEWEED」",
+    "ダンスエンターテイメント演劇「PASSION ―北斎の描く夢―」",
+    "This is the Moment! ～フランク・ワイルドホーン JAPAN 25th anniversary concert～",
+    "BOOP! The Musical ブープ！ザ ミュージカル",
+    "マイ フレンド ジキル",
+    "ミュージカル「マタ・ハリ」"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/85686",
+   "news12m": 14,
+   "news90d": 5,
+   "newsAttention12m": 28364,
+   "latestNews": {
+    "title": "作詞家・森雪之丞の50周年プロジェクト始動！ライブに布袋寅泰、浅香唯、斉藤和義、斉藤由貴、影山ヒロノブら集結",
+    "date": "2026-08-17"
+   },
+   "daysSinceNews": 30,
+   "topNews": [
+    {
+     "title": "礼真琴がベティ・ブープに「BOOP! The Musical」日本初上陸、共演に松下優也・水江建太ら",
+     "date": "2026-03-09",
+     "score": 14108
+    },
+    {
+     "title": "礼真琴扮するベティ・ブープのビジュアル初公開、撮影メイキング映像も",
+     "date": "2026-04-24",
+     "score": 5300
+    },
+    {
+     "title": "「BOOP! The Musical」日本版開幕！礼真琴をミッチェルが称賛「強さとキュートさ両方ある」",
+     "date": "2026-05-28",
+     "score": 4919
+    }
+   ],
+   "xFollowersSource": null,
+   "igFollowersSource": null,
+   "eigaId": "85963",
+   "yomi": null,
+   "birth": null,
+   "origin": null,
+   "xAccountState": "unknown",
+   "igAccountState": "unknown",
+   "age": null,
+   "debutYear": 1999,
+   "careerYears": 27,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": null,
+    "igFollowers": null,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8045053618316564,
+    "recentActivity": 0.5767956705704066
+   },
+   "measuredAxes": [
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 2,
+   "score": 70.4,
+   "rank": 26
+  },
+  {
+   "name": "井上芳雄",
+   "genres": [
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "natalieId": "52205",
+   "achikochiSlug": "井上芳雄",
+   "agency": "グランアーツ",
+   "manualSocial": {
+    "xHandle": "inoueyoshio_co",
+    "xFollowers": 14000,
+    "xNote": "レーベル公式アカウント（本人名義のXは確認できず）",
+    "checkedAt": "2026-09-16"
+   },
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1979年、福岡県出身。2000年にミュージカル「エリザベート」の皇太子ルドルフ役でデビュー。以後、さまざまな舞台で活躍し、多数の演劇賞に輝く。歌手活動やテレビドラマ、バラエティ番組への出演のほか、著書も多数出版。日本テレビ系「行列のできる相談所」、WOWOW「井上芳雄ミュージカルアワー『芳雄のミュー』」、NHK総合「はやウタ」、BS-TBS「美しい日本に出会う旅」にレギュラー出演中。近年の舞台出演作にミュージカル「ベートーヴェン」「ラグタイム」など。9月から大阪・梅田芸術劇場 メインホールで上演される「ムーラン・ルージュ！ザ・ミュージカル」にも出演する。",
+   "officialSite": "https://www.grand-arts.com/yi/",
+   "xHandle": "inoueyoshio_co",
+   "igHandle": null,
+   "stages": [
+    "井上芳雄 by MYSELF 10周年コンサート「by MYBEST」",
+    "こまつ座＆ホリプロ公演「組曲虐殺」",
+    "シス・カンパニー公演「果てない～甦る母篇～」",
+    "芳雄のミュー Dream Fes.",
+    "2026 親愛なるレニー リーディング・トライアウト公演",
+    "演劇人祭2026",
+    "New HISTORY COMING ARENA LIVE -The Imperial Theatre Symphony",
+    "TSURUMIこどもホスピス開設10周年記念事業 チャリティコンサート2026「井上芳雄 STAGE of HARMONY ～あなたと生きる しあわせのひみつ～」"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/52205",
+   "news12m": 29,
+   "news90d": 24,
+   "newsAttention12m": 16030,
+   "latestNews": {
+    "title": "「果てない～甦る母篇～」大竹しのぶ・井上芳雄・伊藤沙莉ら並ぶビジュアル公開",
+    "date": "2026-09-14"
+   },
+   "daysSinceNews": 2,
+   "topNews": [
+    {
+     "title": "堂本光一、井上芳雄らミュージカル界のスターが集結「帝コン」開幕 人気作品のダイジェストやルーツメドレー披露",
+     "date": "2026-08-08",
+     "score": 2642
+    },
+    {
+     "title": "帝コン開幕、堂本光一×岡宮来夢が“まぜるな危険”に挑戦？平原綾香のツッコミ炸裂に一同笑み",
+     "date": "2026-08-08",
+     "score": 1842
+    },
+    {
+     "title": "「MUSIC FAIR」で堂本光一、井上芳雄ら出演の“帝コン”特集！披露楽曲はこちら",
+     "date": "2026-08-01",
+     "score": 1835
+    }
+   ],
+   "xFollowers": 14000,
+   "igFollowers": null,
+   "snsAccounts": [],
+   "followerSourceDate": "2026-09-11",
+   "xFollowersSource": "manual",
+   "igFollowersSource": null,
+   "socialCheckedAt": "2026-09-16",
+   "socialNote": "レーベル公式アカウント（本人名義のXは確認できず）",
+   "eigaId": "86693",
+   "yomi": "いのうえよしお",
+   "birth": "1979-07-06",
+   "origin": "日本／福岡",
+   "xAccountState": "have",
+   "igAccountState": "unknown",
+   "age": 47,
+   "debutYear": 2000,
+   "careerYears": 26,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.36720430404198795,
+    "igFollowers": null,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8308682729377448,
+    "recentActivity": 0.8750239819602064
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 3,
+   "score": 70.3,
+   "rank": 27
+  },
+  {
+   "name": "真矢ミキ",
+   "genres": [
+    "宝塚・OG",
+    "ストレートプレイ",
+    "商業演劇"
+   ],
+   "natalieId": "32382",
+   "achikochiSlug": "真矢ミキ",
+   "agency": "セブンス・アヴェニュー",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "宝塚歌劇団で花組トップスターとして活躍した後、1998年に退団。テレビドラマで仕事のできる刑事、弁護士役で人気を集め、好感度調査では常に上位ランクインを果たす。映画出演は、「踊る大捜査線 THE MOVIE」シリーズ（2003?）、「容疑者Xの献身」（2008）、「ウタヒメ☆」（2011）など。",
+   "officialSite": "https://www.oscarpro.co.jp/#/profile/entry/50601",
+   "xHandle": null,
+   "igHandle": null,
+   "stages": [
+    "「ベニスに死す」新演出版 -Morte a Venezia-",
+    "織田裕二「踊る大捜査線」新作を観て「涙腺が…」趣里・白洲迅は“宝物の日々”語る",
+    "舘ひろし主演「免許返納!?」プライムビデオで見放題独占配信、西野七瀬や黒川想矢も出演",
+    "織田裕二主演「踊る大捜査線 N.E.W.」シリーズおなじみの顔ぶれ紹介、キーワードも",
+    "映画「踊る大捜査線」8作品とSPドラマを一挙オンエア、地上波初放送作も",
+    "「踊る大捜査線 N.E.W.」予告解禁 ユースケ・サンタマリア、真矢ミキ、松下洸平ら12名集結",
+    "本日7月8日（水）放送開始の2026夏ドラマ",
+    "本日7月2日（木）放送開始の2026夏ドラマ",
+    "TVドラマ「一緒にごはんをたべるだけ」100秒超えのトレーラー公開、主題歌情報も",
+    "ドラマ「ファーストクライ」比嘉愛未、timelesz松島聡、真矢ミキらがクランクイン"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/32382",
+   "news12m": 15,
+   "news90d": 8,
+   "newsAttention12m": 4888,
+   "latestNews": {
+    "title": "織田裕二「踊る大捜査線」新作を観て「涙腺が…」趣里・白洲迅は“宝物の日々”語る",
+    "date": "2026-09-06"
+   },
+   "daysSinceNews": 10,
+   "topNews": [
+    {
+     "title": "織田裕二「踊る大捜査線」新作を観て「涙腺が…」趣里・白洲迅は“宝物の日々”語る",
+     "date": "2026-09-06",
+     "score": 1107
+    },
+    {
+     "title": "「免許返納!?」西野七瀬、舘ひろしとの再共演を喜ぶ「新たな一面をたくさん見れた」",
+     "date": "2026-05-20",
+     "score": 893
+    },
+    {
+     "title": "本日7月2日（木）放送開始の2026夏ドラマ",
+     "date": "2026-07-02",
+     "score": 524
+    }
+   ],
+   "xFollowers": null,
+   "igFollowers": null,
+   "snsAccounts": [],
+   "followerSourceDate": "2026-09-14",
+   "xFollowersSource": null,
+   "igFollowersSource": null,
+   "eigaId": "70208",
+   "yomi": null,
+   "birth": null,
+   "origin": "日本／大阪",
+   "xAccountState": "unknown",
+   "igAccountState": "unknown",
+   "age": null,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": null,
+    "igFollowers": null,
+    "xPostFrequency": null,
+    "newsCoverage": 0.71113654422486,
+    "recentActivity": 0.6870342390399722
+   },
+   "measuredAxes": [
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 2,
+   "score": 70.1,
+   "rank": 28
+  },
+  {
+   "name": "三浦宏規",
+   "genres": [
+    "ミュージカル",
+    "2.5次元舞台",
+    "商業演劇"
+   ],
+   "natalieId": "99404",
+   "achikochiSlug": "三浦宏規",
+   "agency": "ウィルビー・インターナショナル",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1999年、三重県出身。5歳でクラシックバレエを始め、数々のバレエコンクールで入賞を果たす。「ミュージカル『テニスの王子様』」3rdシーズンで跡部景吾役、「ミュージカル『刀剣乱舞』」シリーズで髭切役を務め、「恋するブロードウェイ♪」シリーズ、「Nostalgic Wonderland ～song & dance show～」シリーズに出演。そのほかの出演作に、ミュージカル「レ・ミゼラブル」「GREASE」「のだめカンタービレ」「ナビレラ」、舞台「千と千尋の神隠しSpirited Away」「キングダム」、「BOLERO -最終章-」など。2025年はCONCERT「THE BEST New HISTORY COMING」、ミュージカル「ジェイミー」に出演。",
+   "officialSite": "https://www.miurahiroki.com/",
+   "xHandle": "hirokimiura0324",
+   "igHandle": "hiroki_miura0324",
+   "stages": [
+    "カウントダウン ミュージカルコンサート 2026-2027",
+    "ミュージカル「ミー＆マイガール」",
+    "舞台「キングダムⅡ-継承-」",
+    "TSURUMIこどもホスピス開設10周年記念事業 チャリティコンサート2026「井上芳雄 STAGE of HARMONY ～あなたと生きる しあわせのひみつ～」",
+    "ミュージカル「アイ・ラブ・坊っちゃん」",
+    "ミュージカル「刀剣乱舞」髭切 単騎出陣 ～夢幻泡影～",
+    "Julian MacKay presents -The Art of Dance- ジュリアン・マッケイ＆フレンズ バレエガラ -アート・オブ・ダンス-",
+    "カウントダウン ミュージカルコンサート 2025-2026"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/99404",
+   "news12m": 35,
+   "news90d": 5,
+   "newsAttention12m": 42348,
+   "latestNews": {
+    "title": "三浦宏規・高野洸・山口祐一郎ら出演、舞台「キングダムⅡ-継承-」が開幕",
+    "date": "2026-08-11"
+   },
+   "daysSinceNews": 36,
+   "topNews": [
+    {
+     "title": "三浦宏規の髭切が自在に舞う！刀ミュ「髭切 単騎出陣」本日スタート",
+     "date": "2026-02-27",
+     "score": 13736
+    },
+    {
+     "title": "有明の新劇場EX THEATER ARIAKEまもなくオープン、寺西拓人は上田竜也のカチコミを恐れる",
+     "date": "2026-03-25",
+     "score": 6175
+    },
+    {
+     "title": "「カウントダウン ミュージカルコンサート 2025-2026」ライブ配信決定",
+     "date": "2025-12-12",
+     "score": 1856
+    }
+   ],
+   "xFollowers": 136785,
+   "igFollowers": 66999,
+   "snsAccounts": [
+    {
+     "handle": "hirokimiura0324",
+     "followers": 136785
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    },
+    {
+     "handle": "2024.06.21",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-08-26",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": "achikochi",
+   "eigaId": null,
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": null,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.6843410463601385,
+    "igFollowers": 0.5645656140754821,
+    "xPostFrequency": null,
+    "newsCoverage": 0.9008320810757572,
+    "recentActivity": 0.5691004586196147
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 70,
+   "rank": 29
+  },
+  {
+   "name": "植田圭輔",
+   "genres": [
+    "2.5次元舞台",
+    "商業演劇"
+   ],
+   "natalieId": "64404",
+   "achikochiSlug": "植田圭輔",
+   "agency": "クラッチ",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1989年大阪府出身。2006年、第19回ジュノン・スーパーボーイ・コンテストのファイナリストに選ばれ、07年のデビュー作「少年陰陽師 歌絵巻」で主演を務めた。以降、現在まで100本を超える舞台作品に出演。主な出演作に、「舞台『弱虫ペダル』」シリーズ、ミュージカル「ヘタリア」シリーズ、「舞台『K』」シリーズ、「おそ松さん on STAGE」、舞台「劇団シャイニング from うたの☆プリンスさまっ♪『天下無敵の忍び道』」「王室教師ハイネ-THE MUSICAL-」、舞台「文豪ストレイドッグス」などがある。近年は歌手、声優としても活動しており、18年には「START LINE ～時の轍～」でメジャーデビューを果たした。10月には主演作、舞台「RE:VOLVER」が上演されるほか、「朗読劇『あっくんとカノジョ』～松尾真砂の日常～」の公演を控える。",
+   "officialSite": "https://ameblo.jp/keisuke-ueda/",
+   "xHandle": "uechan_0905",
+   "igHandle": null,
+   "stages": [
+    "大阪国際文化芸術プロジェクト「伝説の喜劇作家・板尾いつぞう～逆襲の王立劇場」",
+    "10th Anniversaryミュージカル「ヘタリア～World☆Starts～」",
+    "ACTORS☆LEAGUE in Futsal 2026",
+    "剣劇「三國志演技～蜀漢」",
+    "極限選別演劇「HUNDRED LINE -最終防衛学園-」",
+    "コブクロ JUKE BOX reading musical“FAMILY”vol.3",
+    "舞台「鬼滅の刃」其ノ陸 柱稽古・無限城 突入",
+    "ACTORS☆LEAGUE in Games 2026"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/64404",
+   "news12m": 29,
+   "news90d": 4,
+   "newsAttention12m": 17039,
+   "latestNews": {
+    "title": "後藤ひろひと作のモキュメンタリー「伝説の喜劇作家・板尾いつぞう」に板尾創路ら",
+    "date": "2026-08-28"
+   },
+   "daysSinceNews": 19,
+   "topNews": [
+    {
+     "title": "「ACTORS☆LEAGUE 2026」ゲーム、バスケ、フットサル開催！プロデューサーがコメント",
+     "date": "2025-12-25",
+     "score": 1854
+    },
+    {
+     "title": "無限城でお待ちしております！舞台「鬼滅の刃」“柱稽古・無限城 突入”スタート",
+     "date": "2026-06-14",
+     "score": 1649
+    },
+    {
+     "title": "「ヘタミュ」新作が10月より大阪、東京、愛知で初の3都市上演 ビジュアル一挙解禁",
+     "date": "2026-04-29",
+     "score": 1386
+    }
+   ],
+   "xFollowers": 254358,
+   "igFollowers": 70520,
+   "snsAccounts": [
+    {
+     "handle": "uechan_0905",
+     "followers": 254358
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    },
+    {
+     "handle": "2024.06.21",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-09-11",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": "achikochi",
+   "eigaId": "89497",
+   "yomi": "うえだけいすけ",
+   "birth": "1989-09-05",
+   "origin": "日本／大阪",
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": 37,
+   "debutYear": 2006,
+   "careerYears": 20,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.7706526657157851,
+    "igFollowers": 0.5714426626918025,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8342986877881758,
+    "recentActivity": 0.5573911532493231
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 69.8,
+   "rank": 30
+  },
+  {
+   "name": "石丸幹二",
+   "genres": [
+    "ミュージカル",
+    "ストレートプレイ",
+    "商業演劇"
+   ],
+   "natalieId": "60150",
+   "achikochiSlug": "石丸幹二",
+   "agency": "アミューズ",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": null,
+   "officialSite": null,
+   "xHandle": "team_kanji",
+   "igHandle": null,
+   "stages": [
+    "ミュージカル「ラグタイム」",
+    "Daiwa House presents「ラ・カージュ・オ・フォール」",
+    "This is the Moment! ～フランク・ワイルドホーン JAPAN 25th anniversary concert～",
+    "New HISTORY COMING ARENA LIVE -The Imperial Theatre Symphony",
+    "Bunkamura Production 2026 DISCOVER WORLD THEATRE vol.16「ウェンディ＆ピーターパン」",
+    "はじめまして！",
+    "石丸幹二コンサート with クリヤ・マコト ～ちょっと懐かしい歌たち～"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/60150",
+   "news12m": 40,
+   "news90d": 15,
+   "newsAttention12m": 35700,
+   "latestNews": {
+    "title": "内野聖陽が追い詰められていく、主演映画「負けへんで」新たな場面写真",
+    "date": "2026-09-14"
+   },
+   "daysSinceNews": 2,
+   "topNews": [
+    {
+     "title": "ミセス「風と町」初披露 今夜「うたコン」にHANA、坂本冬美、島津亜矢、石丸幹二、小椋佳",
+     "date": "2026-04-14",
+     "score": 6167
+    },
+    {
+     "title": "「ウェンディ＆ピーターパン」5年ぶりに上演決定、芳根京子・Snow Man渡辺翔太がW主演",
+     "date": "2026-03-02",
+     "score": 4033
+    },
+    {
+     "title": "WEST.重岡大毅、生成AIは1日30分まで 原菜乃華の使用時間に「やめなさい!?」と兄の顔",
+     "date": "2026-08-05",
+     "score": 2991
+    }
+   ],
+   "xFollowers": 40778,
+   "igFollowers": 39000,
+   "snsAccounts": [
+    {
+     "handle": "team_kanji",
+     "followers": 40778
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    },
+    {
+     "handle": "2024.06.21",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-09-12",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": "achikochi",
+   "eigaId": "85792",
+   "yomi": "いしまるかんじ",
+   "birth": "1965-08-15",
+   "origin": "日本／愛媛",
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": 61,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.5159486701196851,
+    "igFollowers": 0.49191120339397343,
+    "xPostFrequency": null,
+    "newsCoverage": 0.9021985097843458,
+    "recentActivity": 0.7870877995018428
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 69.8,
+   "rank": 31
+  },
+  {
+   "name": "中川晃教",
+   "genres": [
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "natalieId": "72882",
+   "achikochiSlug": "中川晃教",
+   "agency": "アミューズ",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1982年、宮城県生まれ。シンガーソングライター・俳優。2001年に自ら作詞・作曲を手がけた「I Will Get Your Kiss」でデビュー。同曲で第34回日本有線大賞新人賞を受賞する。2002年、ミュージカル「モーツァルト！」で井上芳雄とW主演し、第57回文化庁芸術祭賞演劇部門新人賞、第10回読売演劇大賞優秀男優賞、杉村春子賞を受賞。ミュージシャンとして活動を続ける一方、俳優としても舞台を中心に活躍。2018年にはミュージカル「ジャージー・ボーイズ」で主演を務め、同作を第24回読売演劇大賞最優秀作品賞に導いたほか、自身も最優秀男優賞、菊田一夫演劇賞に輝いた。2020年9月より 日テレプラス「中川晃教 Live Music Studio」でナビゲーターを務める。",
+   "officialSite": "http://www.akinori.info",
+   "xHandle": "nakagawa1982aki",
+   "igHandle": null,
+   "stages": [
+    "Brand New Musical Concert 2026 Merry Christmas!",
+    "森雪之丞 50th Anniversary Musical Concert「物語を歌う言葉たち」",
+    "中川晃教 25th Anniversary Concert at Tokyo Opera City",
+    "Brand New Musical Concert 2026「TOKYO!」",
+    "芳雄のミュー Dream Fes.",
+    "ミュージカル「シークレットステージ」",
+    "ミュージカル「空白の響き」Blanked Sound",
+    "中川晃教コンサート2026 in Kobe"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/72882",
+   "news12m": 29,
+   "news90d": 9,
+   "newsAttention12m": 37992,
+   "latestNews": {
+    "title": "渡辺えりがミュージカルの新境地開拓！「シークレットステージ」開幕に市村正親「ここまで疲れる芝居とは」",
+    "date": "2026-09-08"
+   },
+   "daysSinceNews": 8,
+   "topNews": [
+    {
+     "title": "「FNS歌謡祭」タイムテーブル発表！Mrs. GREEN APPLE、Snow Man、Perfumeら出演者の登場時間・歌唱曲は TVerで配信も",
+     "date": "2025-12-03",
+     "score": 21629
+    },
+    {
+     "title": "「2025 FNS歌謡祭」にtimelesz、BE:FIRST、THE ALFEE、本田響矢、浜崎あゆみ、Aぇ! group、RIP SLYMEら23組追加",
+     "date": "2025-11-11",
+     "score": 3588
+    },
+    {
+     "title": "シルヴェスター・リーヴァイの80歳記念コンサート、3月にWOWOWで放送・配信決定",
+     "date": "2026-02-15",
+     "score": 2003
+    }
+   ],
+   "xFollowers": 28600,
+   "igFollowers": null,
+   "snsAccounts": [
+    {
+     "handle": "nakagawa1982aki",
+     "followers": 28600
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    },
+    {
+     "handle": "2024.06.21",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-09-15",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": null,
+   "eigaId": "87348",
+   "yomi": "なかがわあきのり",
+   "birth": "1982-11-05",
+   "origin": "日本／仙台",
+   "xAccountState": "have",
+   "igAccountState": "unknown",
+   "age": 43,
+   "debutYear": 2001,
+   "careerYears": 25,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.46659270277973613,
+    "igFollowers": null,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8793621810452037,
+    "recentActivity": 0.6989059709356921
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 3,
+   "score": 69.8,
+   "rank": 32
+  },
+  {
+   "name": "尾上松也",
+   "genres": [
+    "歌舞伎・伝統芸能",
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "natalieId": "28415",
+   "achikochiSlug": "尾上松也（2代目）",
+   "agency": "松竹",
+   "manualSocial": {
+    "xHandle": "onoematsuya",
+    "xFollowers": 963,
+    "xNote": "マネージャー運営アカウント",
+    "checkedAt": "2026-09-16"
+   },
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1985年1月30日生まれ、東京都出身。歌舞伎俳優。尾上松助（6代目）を父に持つ。1990年に「伽羅先代萩」の鶴千代役で初舞台を踏み、以降子役として活躍する。これまでに「義経千本桜」の源九郎判官義経、「仮名手本忠臣蔵」の顔世御前、「寿曽我対面」の曽我五郎役などを演じる。2009年より歌舞伎自主公演「挑む」を主催し、現在も年1回のペースで上演している。歌舞伎以外にも舞台やミュージカル、「さぼリーマン甘太朗」で主演を務めるなど幅広く活動。2017年に公開されたアニメ「モアナと伝説の海」では日本語吹替にも挑戦した。",
+   "officialSite": null,
+   "xHandle": "onoematsuya",
+   "igHandle": null,
+   "stages": [
+    "ミュージカル「RRR」Based on SS Rajamouli’s ‘RRR’",
+    "「當る未歳 吉例顔見世興行 東西合同大歌舞伎」昼の部",
+    "「當る未歳 吉例顔見世興行 東西合同大歌舞伎」夜の部",
+    "桶狭間の義経",
+    "詩楽劇「武と建 ～火の國のまほろば～」",
+    "SHOW-WA / MATSURI 舞台公演「デカ×ホシ」",
+    "「七月大歌舞伎」昼の部",
+    "「六月大歌舞伎」昼の部"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/28415",
+   "news12m": 89,
+   "news90d": 48,
+   "newsAttention12m": 57763,
+   "latestNews": {
+    "title": "清水崇監督作「八つ墓村」金田一が謎に迫る新映像解禁、野村芳太郎版との2本立て上映も決定",
+    "date": "2026-09-15"
+   },
+   "daysSinceNews": 1,
+   "topNews": [
+    {
+     "title": "草彅剛×樋口真嗣のNetflix映画「新幹線大爆破」2週間限定で劇場上映",
+     "date": "2025-09-17",
+     "score": 4842
+    },
+    {
+     "title": "映画「八つ墓村」尾上松也が金田一耕助に、監督は清水崇 キャスト・特報など解禁",
+     "date": "2026-06-18",
+     "score": 3905
+    },
+    {
+     "title": "亀梨和也、松たか子らがSixTONESの6周年を祝福「6SixTONES」第2弾で水槽UFOキャッチャー",
+     "date": "2026-03-26",
+     "score": 3494
+    }
+   ],
+   "xFollowers": 963,
+   "igFollowers": null,
+   "snsAccounts": [],
+   "followerSourceDate": "2026-09-12",
+   "xFollowersSource": "manual",
+   "igFollowersSource": null,
+   "socialCheckedAt": "2026-09-16",
+   "socialNote": "マネージャー運営アカウント",
+   "eigaId": "90330",
+   "yomi": "おのえまつや",
+   "birth": "1985-01-30",
+   "origin": "日本／東京",
+   "xAccountState": "have",
+   "igAccountState": "unknown",
+   "age": 41,
+   "debutYear": 1990,
+   "careerYears": 36,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0,
+    "igFollowers": null,
+    "xPostFrequency": null,
+    "newsCoverage": 0.9955214131974743,
+    "recentActivity": 1
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 3,
+   "score": 69.3,
+   "rank": 33
+  },
+  {
+   "name": "柿澤勇人",
+   "genres": [
+    "ミュージカル",
+    "ストレートプレイ",
+    "商業演劇"
+   ],
+   "natalieId": "62366",
+   "achikochiSlug": "柿澤勇人",
+   "agency": "ホリプロ",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": null,
+   "officialSite": "https://fc.horipro.jp/hayatokakizawa/",
+   "xHandle": "kakizawa_hayato",
+   "igHandle": "sukuttegoran",
+   "stages": [
+    "カキンツハルカLive Tour 2027 -AGAIN-",
+    "ミュージカル「ディア・エヴァン・ハンセン」",
+    "ミュージカル「ジキル＆ハイド」",
+    "カキンツハルカLIVE2026",
+    "「デスノート THE MUSICAL シンフォニーコンサート」台湾公演",
+    "Thanks Musical Concert「A Happiness For You ハピネスフォーユー」",
+    "ミュージカル「ボニー＆クライド」",
+    "彩の国さいたま芸術劇場開館30周年記念 彩の国シェイクスピア・シリーズ2nd Vol.1「ハムレット」"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/62366",
+   "news12m": 45,
+   "news90d": 6,
+   "newsAttention12m": 29107,
+   "latestNews": {
+    "title": "柿澤勇人・ウエンツ瑛士・木南晴夏のカキンツハルカ、全国10都市ツアー開催",
+    "date": "2026-07-27"
+   },
+   "daysSinceNews": 51,
+   "topNews": [
+    {
+     "title": "ミュージカル「ディア・エヴァン・ハンセン」日本版演出、上演決定！主演は柿澤勇人・吉沢亮",
+     "date": "2025-10-16",
+     "score": 3186
+    },
+    {
+     "title": "Aぇ! 佐野晶哉がトリツカレる“adieu”の魅力とは？上白石萌歌の隣で熱弁 「トリツカレ男」イベント開催",
+     "date": "2025-09-30",
+     "score": 2079
+    },
+    {
+     "title": "「トリツカレ男」佐野晶哉らがレッドカーペットに登場 入場者特典はステッカー",
+     "date": "2025-10-27",
+     "score": 1578
+    }
+   ],
+   "xFollowers": 48219,
+   "igFollowers": null,
+   "snsAccounts": [
+    {
+     "handle": "kakizawa_hayato",
+     "followers": 48219
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    },
+    {
+     "handle": "2024.06.21",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-07-28",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": null,
+   "eigaId": "90757",
+   "yomi": "かきざわはやと",
+   "birth": "1987-10-12",
+   "origin": "日本／神奈川",
+   "xAccountState": "have",
+   "igAccountState": "unmeasured",
+   "age": 38,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.5392691980371127,
+    "igFollowers": null,
+    "xPostFrequency": null,
+    "newsCoverage": 0.9004247379337635,
+    "recentActivity": 0.5781967642024305
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 3,
+   "score": 69.2,
+   "rank": 34
+  },
+  {
+   "name": "古川雄大",
+   "genres": [
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "natalieId": "57239",
+   "achikochiSlug": "古川雄大",
+   "agency": "アミューズ",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1987年長野県出身。2007年、テレビドラマ「風魔の小次郎」霧風役でデビューし、「ミュージカル『テニスの王子様』」不二周助役で人気を博す。その後、ミュージカル「エリザベート」、ミュージカル「1789 -バスティーユの恋人たち-」、ミュージカル「ロミオ＆ジュリエット」、ミュージカル「レディ・ベス」など話題作に多数出演。また歌手としても活動しており、15年には「Love me」をリリースした。現在上演中のミュージカル「モーツァルト！」では、主人公・ヴォルフガング・モーツァルト役を山崎育三郎とWキャストで演じる。",
+   "officialSite": "http://www.ken-on.co.jp/furukawa/",
+   "xHandle": "furukawa_staff",
+   "igHandle": null,
+   "stages": [
+    "古川雄大 The Greatest Concert vol.3 - Man of the Stage -",
+    "MoN Takanawa: The Museum of Narratives開館記念特別公演「MANGALOGUE（マンガローグ）：火の鳥」",
+    "ミュージカル「エリザベート」",
+    "古川雄大 The Orchestra Concert",
+    "ミュージカル「昭和元禄落語心中」",
+    "ミュージカル「モーツァルト！」",
+    "Yuta Furukawa 15th Anniversary Live Tour ～Delicious～"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/57239",
+   "news12m": 27,
+   "news90d": 5,
+   "newsAttention12m": 36287,
+   "latestNews": {
+    "title": "古川雄大が“1人の男がステージに向かう過程”を表現、ミュージカルコンサート第3弾スタート",
+    "date": "2026-09-11"
+   },
+   "daysSinceNews": 5,
+   "topNews": [
+    {
+     "title": "ミュージカル「昭和元禄落語心中」テレビ初放送、山崎育三郎のインタビューもOA",
+     "date": "2025-12-08",
+     "score": 9219
+    },
+    {
+     "title": "「エリザベート」望海風斗・明日海りおが新ビジュアル披露！古川雄大は寝言で歌の稽古",
+     "date": "2025-09-19",
+     "score": 5191
+    },
+    {
+     "title": "「エリザベート」開幕！新シシィの望海風斗＆明日海りお、稽古場からは“早く帰る”井上芳雄＆古川雄大が意気込み",
+     "date": "2025-10-11",
+     "score": 3270
+    }
+   ],
+   "xFollowers": 51176,
+   "igFollowers": 169958,
+   "snsAccounts": [
+    {
+     "handle": "furukawa_staff",
+     "followers": 51176
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    },
+    {
+     "handle": "2024.06.21",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-09-13",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": "achikochi",
+   "eigaId": null,
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": null,
+   "debutYear": 2007,
+   "careerYears": 19,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.5475502097233443,
+    "igFollowers": 0.6895531456082986,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8709656363361766,
+    "recentActivity": 0.6029546111679526
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 69,
+   "rank": 35
+  },
+  {
+   "name": "有澤樟太郎",
+   "genres": [
+    "2.5次元舞台",
+    "商業演劇"
+   ],
+   "natalieId": "95297",
+   "achikochiSlug": "有澤樟太郎",
+   "agency": "キャストコーポレーション",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1995年、兵庫県生まれ。2015年に「『K』第二章-AROUSAL OF KING-」で舞台デビュー。以降、ハイパープロジェクション演劇「ハイキュー!!」、「ミュージカル『刀剣乱舞』」シリーズなどに出演し、TXT vol.1「SLANG」では主演を務めた。近年の出演作に、ミュージカル「17 AGAIN」、二人芝居「息子の証明」、ミュージカル「GREASE」、ミュージカル「ジャージー・ボーイズ」、舞台「キングダム」、舞台「セトウツミ」、ミュージカル「のだめカンタービレ」など。「ミュージカル『ジョジョの奇妙な冒険 ファントムブラッド』」では主人公の“ジョジョ”ことジョナサン・ジョースター役を務める。",
+   "officialSite": "https://s-arisawa.com/",
+   "xHandle": "shotaro_arsw",
+   "igHandle": "shotaro_arisawa",
+   "stages": [
+    "ミュージカル「モーツァルト！」日本初演25周年",
+    "ミュージカル「民王」",
+    "ミュージカル「レイディ・ベス」",
+    "有澤樟太郎 10th Anniversary Concert ～ARIPA!! 2025～",
+    "ミュージカル「のだめカンタービレ」シンフォニックコンサート！",
+    "ミュージカル「ジャージー・ボーイズ」",
+    "ミュージカル「刀剣乱舞」目出度歌誉花舞 十周年祝賀祭",
+    "ブロードウェイミュージカル「キンキーブーツ」"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/95297",
+   "news12m": 18,
+   "news90d": 10,
+   "newsAttention12m": 10926,
+   "latestNews": {
+    "title": "反町隆史×杉野遥亮W主演、刑事ドラマ「オクラ～迷宮入り事件捜査～」全11話が一挙放送",
+    "date": "2026-09-07"
+   },
+   "daysSinceNews": 9,
+   "topNews": [
+    {
+     "title": "京本大我、有澤樟太郎、伊藤あさひがトリプルキャスト！ミュージカル「モーツァルト！」上演決定",
+     "date": "2026-07-21",
+     "score": 1698
+    },
+    {
+     "title": "京本大我・有澤樟太郎・伊藤あさひ、トリプルキャストでミュージカル「モーツァルト！」上演決定",
+     "date": "2026-07-21",
+     "score": 1218
+    },
+    {
+     "title": "「レイディ・ベス」場面を入れ替えベスの“運命”明確に、奥田いろは・小南満佑子が意気込み",
+     "date": "2025-12-18",
+     "score": 1160
+    }
+   ],
+   "xFollowers": 120218,
+   "igFollowers": 63621,
+   "snsAccounts": [
+    {
+     "handle": "shotaro_arsw",
+     "followers": 120218
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    },
+    {
+     "handle": "2024.06.21",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-09-15",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": "achikochi",
+   "eigaId": "315637",
+   "yomi": "ありさわしょうたろう",
+   "birth": "1995-09-28",
+   "origin": "日本／兵庫",
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": 30,
+   "debutYear": 2015,
+   "careerYears": 11,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.6663779123498336,
+    "igFollowers": 0.5576193654001674,
+    "xPostFrequency": null,
+    "newsCoverage": 0.7708225462902466,
+    "recentActivity": 0.7151423373133319
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 68.9,
+   "rank": 36
+  },
+  {
+   "name": "神木隆之介",
+   "genres": [
+    "ストレートプレイ",
+    "現代劇・翻訳劇"
+   ],
+   "natalieId": "39890",
+   "achikochiSlug": "神木隆之介",
+   "agency": "アミューズ",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1993年5月19日生まれ、埼玉県出身。2歳で芸能界デビューし、ドラマ「ムコ殿」「あいくるしい」などで注目を集める。2005年公開の主演作「妖怪大戦争」では第29回日本アカデミー賞の新人俳優賞に輝いた。出演映画は「桐島、部活やめるってよ」「バクマン。」「3月のライオン」「フォルトゥナの瞳」「屍人荘の殺人」「ラストレター」「ノイズ」「ホリック xxxHOLiC」「GHOSTBOOK おばけずかん」ほか多数。「千と千尋の神隠し」「借りぐらしのアリエッティ」「メアリと魔女の花」などアニメ作品に声の出演もしており、「君の名は。」で第11回声優アワードの主演男優賞に輝いた。「天気の子」に続き、2022年11月公開の新海誠監督作「すずめの戸締まり」にも参加。2022年12月公開の映画「Dr.コトー診療所」に出演し、2023年度前期の連続テレビ小説「らんまん」、2023年11月公開の「ゴジラ-1.0」では敷島浩一役で主演を務めた。",
+   "officialSite": "https://artist.amuse.co.jp/artist/kamiki_ryunosuke/",
+   "xHandle": "kamiki_official",
+   "igHandle": null,
+   "stages": [
+    "Amuse Presents 20th Anniversary ULTRA HANDSOME LIVE 2025“ZERO”",
+    "岩井秀人（WARE）プロデュース「いきなり本読み！in三越劇場」",
+    "長澤まさみ「ゴジラ-0.0」に気象予報官役で出演、國村隼・前原滉・奥野瑛太・井之脇海らも",
+    "「SUKIYAKI」が東京国際映画祭OP作品に、「ゴジラ-0.0」やヨン・サンホ新作も彩る",
+    "山崎貴が新たな挑戦へ「ゴジラ-0.0」メイキング映像、神木隆之介・浜辺美波は真に迫る表情",
+    "「耳をすませば」「借りぐらしのアリエッティ」4Kデジタルリマスター版のIMAX上映決定",
+    "「ゴジラ-0.0」ニューヨーク映画祭で世界初上映、監督・山崎貴も現地参加",
+    "8月は金ローでジブリ！「借りぐらしのアリエッティ」「風の谷のナウシカ」「となりのトトロ」",
+    "「ゴジラ-0.0」吉岡秀隆、山田裕貴、佐々木蔵之介、安藤サクラ、田中美央が続投！田中泯も出演",
+    "河合優実が踊る阿呆に、サントリー生ビールの新CMで阿波おどりに初挑戦"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/39890",
+   "news12m": 56,
+   "news90d": 9,
+   "newsAttention12m": 38891,
+   "latestNews": {
+    "title": "長澤まさみ「ゴジラ-0.0」に気象予報官役で出演、國村隼・前原滉・奥野瑛太・井之脇海らも",
+    "date": "2026-09-08"
+   },
+   "daysSinceNews": 8,
+   "topNews": [
+    {
+     "title": "北村匠海、初の教壇は「寝てる人もすぐわかる」ワンエン山下永玖は“北村先生”が「本当に心強い」",
+     "date": "2026-04-05",
+     "score": 5097
+    },
+    {
+     "title": "目黒蓮がanan表紙にソロで登場、「SAKAMOTO DAYS」主人公の二面性イメージしたカットも",
+     "date": "2026-04-13",
+     "score": 2262
+    },
+    {
+     "title": "YOASOBIが菅田将暉×三谷幸喜ドラマ「もしがく」主題歌書き下ろし、Ayaseボーカル参加の「劇上」",
+     "date": "2025-09-21",
+     "score": 2248
+    }
+   ],
+   "xFollowers": 710161,
+   "igFollowers": 469,
+   "snsAccounts": [
+    {
+     "handle": "kamiki_official",
+     "followers": 710161
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    },
+    {
+     "handle": "2024.06.21",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-09-10",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": "achikochi",
+   "eigaId": "24639",
+   "yomi": "かみきりゅうのすけ",
+   "birth": "1993-05-19",
+   "origin": "日本／埼玉",
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": 33,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.9135125840721711,
+    "igFollowers": 0,
+    "xPostFrequency": null,
+    "newsCoverage": 0.9347850076126759,
+    "recentActivity": 0.7089655570412776
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 68.7,
+   "rank": 37
+  },
+  {
+   "name": "崎山つばさ",
+   "genres": [
+    "2.5次元舞台",
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "natalieId": "92864",
+   "achikochiSlug": null,
+   "agency": "ケイダッシュ",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1989年11月3日生まれ、千葉県出身。2014年に俳優デビューし、主な出演作には映画「クロガラス」シリーズ、ドラマ・映画「広告会社、男子寮のおかずくん」、ミュージカル「刀剣乱舞」シリーズ、舞台・映画「死神遣いの事件帖」、舞台「幽☆遊☆白書」などがある。主演を務めた「WOWOWオリジナルドラマ 薄桜鬼」が2022年1月よりWOWOWプライムで放送、WOWOWオンデマンドで配信される。",
+   "officialSite": "http://ameblo.jp/sakiyama-tsubasa/",
+   "xHandle": null,
+   "igHandle": null,
+   "stages": [
+    "銀河鉄道999誕生50周年記念 / 紀伊國屋書店創業100周年記念提携公演 舞台「四畳半の大宇宙」",
+    "ミュージカル「刀剣乱舞」～真剣乱舞祭2026～",
+    "舞台「メイジ・ザ・キャッツアイ」",
+    "俺もそろそろシェイクスピア・シリーズ「コテンペスト」",
+    "忠臣蔵",
+    "Reading Musical「BEASTARS」episode 1",
+    "舞台「アーモンド」",
+    "舞台「死神遣いの事件帖 終（ファイナル）」"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/92864",
+   "news12m": 14,
+   "news90d": 6,
+   "newsAttention12m": 6424,
+   "latestNews": {
+    "title": "刀ミュ「真剣乱舞祭」最後の“祭”に45振りが決意の表情、メインビジュアル解禁",
+    "date": "2026-09-15"
+   },
+   "daysSinceNews": 1,
+   "topNews": [
+    {
+     "title": "上川隆也「誠心誠意、心を込めて」、素舞台×LED×殺陣で描き出す「忠臣蔵」明日開幕",
+     "date": "2025-12-11",
+     "score": 1968
+    },
+    {
+     "title": "戸塚祥太主演舞台「アーモンド」“疑似ライブ配信”の実施決定、特典コメントも",
+     "date": "2025-09-19",
+     "score": 1118
+    },
+    {
+     "title": "松本零士原作「銀河鉄道999」誕生50周年記念、舞台「四畳半の大宇宙」に鈴木福・菅原小春ら",
+     "date": "2026-09-09",
+     "score": 639
+    }
+   ],
+   "xFollowersSource": null,
+   "igFollowersSource": null,
+   "eigaId": "292316",
+   "yomi": "さきやまつばさ",
+   "birth": "1989-11-03",
+   "origin": "日本／千葉",
+   "xAccountState": "unknown",
+   "igAccountState": "unknown",
+   "age": 36,
+   "debutYear": 2014,
+   "careerYears": 12,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": null,
+    "igFollowers": null,
+    "xPostFrequency": null,
+    "newsCoverage": 0.7210503225090533,
+    "recentActivity": 0.6423235304590299
+   },
+   "measuredAxes": [
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 2,
+   "score": 68.6,
+   "rank": 38
+  },
+  {
+   "name": "望海風斗",
+   "genres": [
+    "宝塚・OG",
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "natalieId": "93417",
+   "achikochiSlug": "望海風斗",
+   "agency": "研音",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1983年、神奈川県生まれ。2001年に宝塚音楽学校に入学。2003年に89期生として宝塚歌劇団に入団し、月組公演で初舞台を踏む。同年、花組に配属。2017年に雪組トップスターに就任し、2021年に宝塚歌劇団を退団した。退団後は「ネクスト・トゥ・ノーマル」「ガイズ＆ドールズ」「ドリームガールズ」「ムーラン・ルージュ！ザ・ミュージカル」といったミュージカルを中心に活動する。2022年度に第30回読売演劇大賞優秀女優賞、2023年度に第48回菊田一夫演劇賞を受賞した。",
+   "officialSite": "https://nozomi210.com/",
+   "xHandle": "nozomifutostaff",
+   "igHandle": "nozomifuto_official",
+   "stages": [
+    "ミュージカル「Vibrant INOCHI（バイブラント・いのち）」",
+    "MOJOプロジェクト -Musicals of Japan Origin project- ミュージカル「イザボー」supported by にしたんクリニック",
+    "いきなり本読み！ in 梅田芸術劇場シアター・ドラマシティ",
+    "ブロードウェイミュージカル「ファニー・ガール」",
+    "ミュージカル「神経衰弱ぎりぎりの女たち」",
+    "阪急阪神不動産presents「エリザベート TAKARAZUKA30th スペシャル・ガラ・コンサート」",
+    "ミュージカル「エリザベート」",
+    "ワタナベ25thコンサート「ハッピーバースデー＆サンキュー」"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/93417",
+   "news12m": 26,
+   "news90d": 7,
+   "newsAttention12m": 33244,
+   "latestNews": {
+    "title": "「ファニー・ガール」開幕、望海風斗「ミュージカル続けてきて良かった」坂本昌行「観ないと後悔」",
+    "date": "2026-09-08"
+   },
+   "daysSinceNews": 8,
+   "topNews": [
+    {
+     "title": "「エリザベート」望海風斗・明日海りおが新ビジュアル披露！古川雄大は寝言で歌の稽古",
+     "date": "2025-09-19",
+     "score": 5191
+    },
+    {
+     "title": "「エリザベート」開幕！新シシィの望海風斗＆明日海りお、稽古場からは“早く帰る”井上芳雄＆古川雄大が意気込み",
+     "date": "2025-10-11",
+     "score": 3270
+    },
+    {
+     "title": "ミュージカル「エリザベート」ライブ配信決定、千秋楽含む3公演で",
+     "date": "2025-10-10",
+     "score": 2729
+    }
+   ],
+   "xFollowers": 37287,
+   "igFollowers": 128444,
+   "snsAccounts": [
+    {
+     "handle": "nozomifutostaff",
+     "followers": 37287
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    },
+    {
+     "handle": "2024.06.21",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-07-25",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": "achikochi",
+   "eigaId": "363666",
+   "yomi": "のぞみふうと",
+   "birth": null,
+   "origin": "日本／神奈川",
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": null,
+   "debutYear": 2003,
+   "careerYears": 23,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.5034963787073281,
+    "igFollowers": 0.6519498658577175,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8629776636608132,
+    "recentActivity": 0.6578901009718873
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 68.3,
+   "rank": 39
+  },
+  {
+   "name": "佐藤隆太",
+   "genres": [
+    "ストレートプレイ",
+    "小劇場"
+   ],
+   "natalieId": "30774",
+   "achikochiSlug": "佐藤隆太",
+   "agency": "トップコート",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1999年、TVドラマ『悪いオンナ 誘惑を売る女』で俳優デビュー。『池袋ウエストゲートパーク』（2000）『木更津キャッツアイ』（2002）などのコミカルな演技で人気を獲得。",
+   "officialSite": "https://www.k-factory.net/profiles/ryuta-sato",
+   "xHandle": null,
+   "igHandle": null,
+   "stages": [
+    "声舞劇！「終活を始めた途端、55歳の息子が帰ってきました」",
+    "明日を落としても",
+    "佐藤音楽祭",
+    "ラヴ・レターズ～2025 New Year Special～",
+    "「GOOD」-善き人-",
+    "「開戦前夜」キャスト陣の特別映像、池松壮亮「この作品のために俳優をやってきたかも」",
+    "本日8月6日（木）放送の2026夏ドラマ",
+    "東野圭吾を追悼、亀梨和也主演のドラマ「東野圭吾 手紙」放送 共演に佐藤隆太・本田翼ら",
+    "「開戦前夜」池松壮亮、仲野太賀、中村蒼、佐藤隆太、江口洋介、佐藤浩市のスペシャル座談会",
+    "池松壮亮×石井裕也の映画「開戦前夜」試写会感想まとめ、「今の時代に生きる者にこそ届けるべき」"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/30774",
+   "news12m": 13,
+   "news90d": 5,
+   "newsAttention12m": 6027,
+   "latestNews": {
+    "title": "「開戦前夜」キャスト陣の特別映像、池松壮亮「この作品のために俳優をやってきたかも」",
+    "date": "2026-08-15"
+   },
+   "daysSinceNews": 32,
+   "topNews": [
+    {
+     "title": "石井裕也×池松壮亮「開戦前夜」7月公開、実在した総力戦研究所と日米開戦への流れ描く",
+     "date": "2026-06-01",
+     "score": 1170
+    },
+    {
+     "title": "Aqua Timezがフジ新ドラマ「新東京水上警察」主題歌担当、主題歌書き下ろすのはこれが最後",
+     "date": "2025-09-28",
+     "score": 895
+    },
+    {
+     "title": "【試写会】池松壮亮×石井裕也の映画「開戦前夜」に50名招待 仲野太賀、岩田剛典らも出演",
+     "date": "2026-06-25",
+     "score": 870
+    }
+   ],
+   "xFollowers": null,
+   "igFollowers": 150235,
+   "snsAccounts": [],
+   "followerSourceDate": "2026-09-11",
+   "xFollowersSource": null,
+   "igFollowersSource": "achikochi",
+   "eigaId": "32613",
+   "yomi": "さとうりゅうた",
+   "birth": "1980-02-27",
+   "origin": "日本／東京",
+   "xAccountState": "unknown",
+   "igAccountState": "have",
+   "age": 46,
+   "debutYear": 1999,
+   "careerYears": 27,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": null,
+    "igFollowers": 0.6729909174679591,
+    "xPostFrequency": null,
+    "newsCoverage": 0.7116496751552224,
+    "recentActivity": 0.584290186025728
+   },
+   "measuredAxes": [
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 3,
+   "score": 66,
+   "rank": 40
+  },
+  {
+   "name": "昆夏美",
+   "genres": [
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "natalieId": "91593",
+   "achikochiSlug": null,
+   "agency": "ホリプロ",
+   "manualSocial": {
+    "xHandle": "khooon3",
+    "xFollowers": 32000,
+    "igHandle": "konnatsumi",
+    "igFollowers": 50000,
+    "checkedAt": "2026-09-16"
+   },
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1991年6月28日生まれのミュージカル俳優、アーティスト。2011年9月ミュージカル「ロミオ＆ジュリエット」のヒロイン・ジュリエット役でプロデビュー。その後も「ハムレット」「レ・ミゼラブル」「ミス・サイゴン」など、多数のミュージカル作品に出演する。2013年4月にテレビアニメ「銀河機攻隊マジェスティックプリンス」のオープニングテーマ「私は想像する」でアーティストデビュー。その後も「銀河機攻隊マジェスティックプリンス」第2期オープニングテーマ「PROMPT」、テレビアニメ「一週間フレンズ。」のオープニングテーマ「虹のかけら」をシングルリリース。2015年8月にテレビアニメ「ケイオスドラゴン 赤竜戦役」のオープニングテーマである「ISOtone」を表題曲とした作品を4thシングルとして発表する。",
+   "officialSite": "https://www.toho-ent.co.jp/actor/1059",
+   "xHandle": "khooon3",
+   "igHandle": "konnatsumi",
+   "stages": [
+    "ミュージカル「FOUR MINUTES -4分間のピアニスト-」",
+    "森雪之丞 50th Anniversary Musical Concert「物語を歌う言葉たち」",
+    "アニマーシブライブ「竜とそばかすの姫」",
+    "新作ミュージカル「ニコラ・テスラ ～エジソンが恐れた孤高の天才～」",
+    "Kon Natsumi15th Anniversary Concert「Coeur（クール）」",
+    "ミュージカル「奇跡を呼ぶ男」",
+    "THIS IS IKU 2026 日本武道館",
+    "Concert for LEVAY ～Happy 80th Birthday～",
+    "新作ミュージカル「ニコラ・テスラ」開幕、海宝直人「スピード感とエネルギーを全身で体感して」",
+    "新作ミュージカル「ニコラ・テスラ」出演者たちが歌唱披露、海宝直人「誰も見たことのない作品に」"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/91593",
+   "news12m": 32,
+   "news90d": 9,
+   "newsAttention12m": 16386,
+   "latestNews": {
+    "title": "新作ミュージカル「ニコラ・テスラ」開幕、海宝直人「スピード感とエネルギーを全身で体感して」",
+    "date": "2026-09-07"
+   },
+   "daysSinceNews": 9,
+   "topNews": [
+    {
+     "title": "永尾柚乃、ME:I・MOMONAらディズニーファミリーが「ズートピア2」前夜祭に集結",
+     "date": "2025-12-04",
+     "score": 2467
+    },
+    {
+     "title": "シルヴェスター・リーヴァイの80歳記念コンサート、3月にWOWOWで放送・配信決定",
+     "date": "2026-02-15",
+     "score": 2003
+    },
+    {
+     "title": "シルヴェスター・リーヴァイの80歳を祝うコンサート開催決定！マーク・ザイベルトらも来日",
+     "date": "2025-11-18",
+     "score": 1644
+    }
+   ],
+   "xFollowersSource": "manual",
+   "igFollowersSource": "manual",
+   "xFollowers": 32000,
+   "igFollowers": 50000,
+   "socialCheckedAt": "2026-09-16",
+   "socialNote": null,
+   "eigaId": "283944",
+   "yomi": "こんなつみ",
+   "birth": "1991-06-28",
+   "origin": "日本／東京",
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": 35,
+   "debutYear": 2011,
+   "careerYears": 15,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.4822214954152623,
+    "igFollowers": 0.5252714434702798,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8401373332319649,
+    "recentActivity": 0.7076830217161456
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 65.7,
+   "rank": 41
+  },
+  {
+   "name": "新妻聖子",
+   "genres": [
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "natalieId": "60257",
+   "achikochiSlug": null,
+   "agency": "アップフロントクリエイト",
+   "manualSocial": {
+    "xHandle": "seikoniizuma",
+    "xFollowers": 52000,
+    "igHandle": "seikoniizuma",
+    "igFollowers": 60000,
+    "checkedAt": "2026-09-16"
+   },
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1980年、愛知県生まれ。大学在学中の2002年､TBS「王様のブランチ」でタレント活動開始。2003年､5000倍のオーディションを勝ち抜き､初舞台でミュージカル「レ・ミゼラブル」エポニーヌ役を演じる。続くミュージカル「ミス・サイゴン」ではヒロインのキム役を演じ、豊かな声量と表現力で来日した海外スタッフからも絶賛された。第31回菊田一夫演劇賞、第61回文化庁芸術祭演劇部門新人賞、第7回岩谷時子賞奨励賞を受賞。2010年、翌2011年と2年連続でミュージカル誌が選ぶ最優秀女優賞を獲得。数々の舞台でヒロインを務め、ミュージカル界屈指の歌姫として第一線で活躍しているほか、ドラマやバラエティ、歌番組等にも多数出演する。",
+   "officialSite": "https://www.seikoniizuma.com/",
+   "xHandle": "seikoniizuma",
+   "igHandle": "seikoniizuma",
+   "stages": [
+    "ハリウッド・フェスティバル・オーケストラ ニューイヤーコンサート！",
+    "森雪之丞 50th Anniversary Musical Concert「物語を歌う言葉たち」",
+    "ミュージカル「101ダルメシアンズ」",
+    "高野菜々ソロコンサート「GIFT」",
+    "Concert for LEVAY ～Happy 80th Birthday～",
+    "ラミン・カリムルー×サマンサ・バークス ミュージカルコンサート Home Love Family",
+    "～松本 隆 作詞活動55周年記念 オフィシャル・プロジェクト～ 風街ぽえてぃっく2025",
+    "新妻聖子コンサート2025"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/60257",
+   "news12m": 19,
+   "news90d": 8,
+   "newsAttention12m": 17073,
+   "latestNews": {
+    "title": "新妻聖子＆蘭寿とむのクルエラ降臨！「101ダルメシアンズ」制作発表、悪役2人は稽古で泣く",
+    "date": "2026-08-28"
+   },
+   "daysSinceNews": 19,
+   "topNews": [
+    {
+     "title": "AMEFURASSHI、BUDDiiS、≠ME、えびちゅう、僕青メンバーら総勢160名の芸能人が合唱バトル",
+     "date": "2025-12-14",
+     "score": 5019
+    },
+    {
+     "title": "BE:FIRST・MANATO、三代目JSB・ØMI、コブクロ小渕、矢井田瞳らが選ぶ“最強のサビ歌唱”は？「EIGHT-JAM」SPで発表",
+     "date": "2026-03-17",
+     "score": 2136
+    },
+    {
+     "title": "シルヴェスター・リーヴァイの80歳記念コンサート、3月にWOWOWで放送・配信決定",
+     "date": "2026-02-15",
+     "score": 2003
+    }
+   ],
+   "xFollowersSource": "manual",
+   "igFollowersSource": "manual",
+   "xFollowers": 52000,
+   "igFollowers": 60000,
+   "socialCheckedAt": "2026-09-16",
+   "socialNote": null,
+   "eigaId": "85596",
+   "yomi": "にいづませいこ",
+   "birth": "1980-10-08",
+   "origin": "日本／愛知",
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": 45,
+   "debutYear": 2003,
+   "careerYears": 23,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.5497726316826715,
+    "igFollowers": 0.5497513779475368,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8002298716237117,
+    "recentActivity": 0.6654318350081987
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 65.6,
+   "rank": 42
+  },
+  {
+   "name": "太田基裕",
+   "genres": [
+    "2.5次元舞台",
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "natalieId": "68265",
+   "achikochiSlug": "太田基裕",
+   "agency": "アバンセ",
+   "manualSocial": {
+    "igHandle": "motohiro.ota_0119",
+    "igFollowers": 13000,
+    "checkedAt": "2026-09-16"
+   },
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1987年、東京都生まれ。2009年に「ミュージカル『テニスの王子様』The Final Match 立海 Second feat. The Rivals」で舞台デビュー。近年ではミュージカル「ジャージー・ボーイズ」、「ミュージカル『刀剣乱舞』」シリーズ、「演劇調異譚『xxxHOLiC』」シリーズ、ミュージカル「ストーリー・オブ・マイ・ライフ」などに出演している。",
+   "officialSite": null,
+   "xHandle": "motohiro0119",
+   "igHandle": "motohiro.ota_0119",
+   "stages": [
+    "ミュージカル「刀剣乱舞」～真剣乱舞祭2026～",
+    "PARCO PRODUCE 2026 ミュージカル「ジョン＆ジェン」",
+    "ミュージカル「ゴースト」",
+    "朗読劇「汝、星のごとく」",
+    "ミュージカル「最後の事件」",
+    "ミュージカル「十二国記 -月の影 影の海-」",
+    "KOKAMI@network vol.21「サヨナラソング ー帰ってきた鶴ー」",
+    "ミュージカル「ダンス オブ ヴァンパイア」"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/68265",
+   "news12m": 17,
+   "news90d": 6,
+   "newsAttention12m": 27830,
+   "latestNews": {
+    "title": "刀ミュ「真剣乱舞祭」最後の“祭”に45振りが決意の表情、メインビジュアル解禁",
+    "date": "2026-09-15"
+   },
+   "daysSinceNews": 1,
+   "topNews": [
+    {
+     "title": "ミュージカル「十二国記」本日開幕！柚香光「怒涛の旅路を一緒に体験して」",
+     "date": "2025-12-09",
+     "score": 11520
+    },
+    {
+     "title": "柚香光主演ミュージカル「十二国記」ライブ配信決定！アーカイブ付き",
+     "date": "2025-12-12",
+     "score": 4059
+    },
+    {
+     "title": "ミュージカル「最後の事件」日本初演 コナン・ドイル役に加藤和樹ら、ホームズ役に渡辺大輔ら",
+     "date": "2025-10-10",
+     "score": 3286
+    }
+   ],
+   "xFollowers": 160122,
+   "igFollowers": 13000,
+   "snsAccounts": [
+    {
+     "handle": "motohiro0119",
+     "followers": 160122
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    },
+    {
+     "handle": "2024.06.21",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-09-11",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": "manual",
+   "socialCheckedAt": "2026-09-16",
+   "socialNote": null,
+   "eigaId": "91345",
+   "yomi": "おおたもとひろ",
+   "birth": "1987-01-19",
+   "origin": "日本／東京",
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": 39,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.7062587774827103,
+    "igFollowers": 0.34440701535311613,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8188070163022981,
+    "recentActivity": 0.6423235304590299
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 65.3,
+   "rank": 43
+  },
+  {
+   "name": "松下優也",
+   "genres": [
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "natalieId": "8611",
+   "achikochiSlug": "松下優也",
+   "agency": "SOLD OUT",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "兵庫県出身、1990年生まれの男性シンガー。2008年11月、Jin Nakamuraプロデュースのもとシングル「foolish foolish」でデビュー。2010年6月に1stアルバム「I AM ME」をリリースする。その後、2011年には3枚のシングルを発表したほか、全国8カ所を回る全国ツアーも実施。同年12月には東京・国立代々木競技場第一体育館で開催された「MICHAEL JACKSON TRIBUTE LIVE」に最年少アーティストとして出演する。2012年には1月にシングル「キミへのラブソング～10年先も～」を発売した後、2月に2ndアルバム「2U」をリリース。3月から自己最大規模となる全22カ所の全国ツアーを敢行する。また、TBS系ドラマ「カルテット」の主演および主題歌を担当し、フジテレビ系昼ドラマ「明日の光をつかめ2」に出演するなど、俳優としても注目を集めている。",
+   "officialSite": "http://www.matsushitayuya.com/",
+   "xHandle": "youya_mtst",
+   "igHandle": null,
+   "stages": [
+    "ミュージカル「ジャック・ザ・リッパー」",
+    "森雪之丞 50th Anniversary Musical Concert「物語を歌う言葉たち」",
+    "THE ALUCARD SHOW",
+    "BOOP! The Musical ブープ！ザ ミュージカル",
+    "COCOON PRODUCTION 2026「クワイエットルームにようこそ The Musical」",
+    "ミュージカル「マリー・キュリー」",
+    "有澤樟太郎 10th Anniversary Concert ～ARIPA!! 2025～",
+    "YUYA MATSUSHITA 1st Musical Concert 2025 MAVERICK",
+    "松下洸平と松下優也はリアル「ケイン＆アベル」？ 山口祐一郎も2人の相性に太鼓判",
+    "松下優也「Midnight Party」MV"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/8611",
+   "news12m": 17,
+   "news90d": 7,
+   "newsAttention12m": 29964,
+   "latestNews": {
+    "title": "新生アルカードが迫力パフォーマンス披露、初演から続投の松下優也「負けてられません」",
+    "date": "2026-09-03"
+   },
+   "daysSinceNews": 13,
+   "topNews": [
+    {
+     "title": "礼真琴がベティ・ブープに「BOOP! The Musical」日本初上陸、共演に松下優也・水江建太ら",
+     "date": "2026-03-09",
+     "score": 14108
+    },
+    {
+     "title": "礼真琴扮するベティ・ブープのビジュアル初公開、撮影メイキング映像も",
+     "date": "2026-04-24",
+     "score": 5300
+    },
+    {
+     "title": "「BOOP! The Musical」日本版開幕！礼真琴をミッチェルが称賛「強さとキュートさ両方ある」",
+     "date": "2026-05-28",
+     "score": 4919
+    }
+   ],
+   "xFollowers": 42060,
+   "igFollowers": 51062,
+   "snsAccounts": [
+    {
+     "handle": "youya_mtst",
+     "followers": 42060
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    },
+    {
+     "handle": "2024.06.21",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-08-18",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": "achikochi",
+   "eigaId": "85794",
+   "yomi": "まつしたゆうや",
+   "birth": "1990-05-24",
+   "origin": "日本／兵庫",
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": 36,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.5202555205416538,
+    "igFollowers": 0.5280934251229448,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8229590617799074,
+    "recentActivity": 0.6615370104518128
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 65.1,
+   "rank": 44
+  },
+  {
+   "name": "明日海りお",
+   "genres": [
+    "宝塚・OG",
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "natalieId": "91594",
+   "achikochiSlug": "明日海りお",
+   "agency": "研音",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": null,
+   "officialSite": null,
+   "xHandle": "asumirio_staff",
+   "igHandle": null,
+   "stages": [
+    "詩と音楽の光景「エレクトラ」",
+    "ミュージカル「レベッカ」",
+    "阪急阪神不動産presents「エリザベート TAKARAZUKA30th スペシャル・ガラ・コンサート」",
+    "ミュージカル「エリザベート」",
+    "ミュージカル「コレット」",
+    "ミュージカル「昭和元禄落語心中」",
+    "ミュージカル「9 to 5」",
+    "井上芳雄 by MYSELF × Greenville Concert 2024"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/91594",
+   "news12m": 15,
+   "news90d": 3,
+   "newsAttention12m": 28196,
+   "latestNews": {
+    "title": "明日放送のTBS「ラヴィット！」に明日海りお・松下優也が出演",
+    "date": "2026-08-17"
+   },
+   "daysSinceNews": 30,
+   "topNews": [
+    {
+     "title": "ミュージカル「昭和元禄落語心中」テレビ初放送、山崎育三郎のインタビューもOA",
+     "date": "2025-12-08",
+     "score": 9219
+    },
+    {
+     "title": "「エリザベート」望海風斗・明日海りおが新ビジュアル披露！古川雄大は寝言で歌の稽古",
+     "date": "2025-09-19",
+     "score": 5191
+    },
+    {
+     "title": "「エリザベート」開幕！新シシィの望海風斗＆明日海りお、稽古場からは“早く帰る”井上芳雄＆古川雄大が意気込み",
+     "date": "2025-10-11",
+     "score": 3270
+    }
+   ],
+   "xFollowers": 55743,
+   "igFollowers": null,
+   "snsAccounts": [
+    {
+     "handle": "asumirio_staff",
+     "followers": 55743
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    },
+    {
+     "handle": "2024.06.21",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-09-12",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": null,
+   "eigaId": "259665",
+   "yomi": null,
+   "birth": "1985-06-26",
+   "origin": null,
+   "xAccountState": "have",
+   "igAccountState": "unknown",
+   "age": 41,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.5594437050775661,
+    "igFollowers": null,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8096121283835659,
+    "recentActivity": 0.5022673947090665
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 3,
+   "score": 63.9,
+   "rank": 45
+  },
+  {
+   "name": "立石俊樹",
+   "genres": [
+    "2.5次元舞台",
+    "商業演劇"
+   ],
+   "natalieId": "105804",
+   "achikochiSlug": null,
+   "agency": "A-Light",
+   "manualSocial": {
+    "xHandle": "t___tateishi",
+    "xFollowers": 105000,
+    "igHandle": "toshiki_tateishi",
+    "igFollowers": 88000,
+    "checkedAt": "2026-09-16"
+   },
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1993年、秋田県生まれ。2017年に「ミュージカル『テニスの王子様』3rdシーズン」 幸村精市役で俳優デビュー。「MANKAI STAGE『A3!』」茅ヶ崎至役でも知られ、テレビドラマ「社内マリッジハニー」「テレビ演劇 サクセス荘3」「FLAIR BARTENDER'Z」「壁サー同人作家の猫屋敷くんは承認欲求をこじらせている」などに出演。「ミュージカル『黒執事』～寄宿学校の秘密～」ではセバスチャン・ミカエリス役で主演を務めた。近年の出演作にミュージカル「エリザベート」、ミュージカル「太平洋序曲」など。",
+   "officialSite": "https://a-light.jp/talent/tateishi-toshiki",
+   "xHandle": "t___tateishi",
+   "igHandle": "toshiki_tateishi",
+   "stages": [
+    "古川雄大 The Greatest Concert vol.3 - Man of the Stage -",
+    "ミュージカル「ディア・エヴァン・ハンセン」",
+    "MANKAI STAGE「A3!」ACT3!～SPRING ＆ SUMMER 2026～",
+    "忠臣蔵",
+    "月刊「根本宗子」ラグジュアリー vol.1",
+    "MANKAI STAGE「A3!」Bloom Fan Meeting 2025",
+    "ミュージカル「黒執事」～緑の魔女と人狼の森～",
+    "MANKAI STAGE「A3!」ACT3! 2025"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/105804",
+   "news12m": 13,
+   "news90d": 2,
+   "newsAttention12m": 15487,
+   "latestNews": {
+    "title": "古川雄大が“1人の男がステージに向かう過程”を表現、ミュージカルコンサート第3弾スタート",
+    "date": "2026-09-11"
+   },
+   "daysSinceNews": 5,
+   "topNews": [
+    {
+     "title": "ミュージカル「ディア・エヴァン・ハンセン」日本版演出、上演決定！主演は柿澤勇人・吉沢亮",
+     "date": "2025-10-16",
+     "score": 3186
+    },
+    {
+     "title": "古川雄大が“1人の男がステージに向かう過程”を表現、ミュージカルコンサート第3弾スタート",
+     "date": "2026-09-11",
+     "score": 2055
+    },
+    {
+     "title": "上川隆也「誠心誠意、心を込めて」、素舞台×LED×殺陣で描き出す「忠臣蔵」明日開幕",
+     "date": "2025-12-11",
+     "score": 1968
+    }
+   ],
+   "xFollowersSource": "manual",
+   "igFollowersSource": "manual",
+   "xFollowers": 105000,
+   "igFollowers": 88000,
+   "socialCheckedAt": "2026-09-16",
+   "socialNote": null,
+   "eigaId": "321440",
+   "yomi": "たていしとしき",
+   "birth": "1993-12-19",
+   "origin": "日本／秋田",
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": 32,
+   "debutYear": 2017,
+   "careerYears": 9,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.6475461892248952,
+    "igFollowers": 0.601175175543909,
+    "xPostFrequency": null,
+    "newsCoverage": 0.7646830246345531,
+    "recentActivity": 0.4814521245887891
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 63.4,
+   "rank": 46
+  },
+  {
+   "name": "木下晴香",
+   "genres": [
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "natalieId": "102418",
+   "achikochiSlug": "木下晴香",
+   "agency": "ホリプロ",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "佐賀県出身。2017年にミュージカル「ロミオ＆ジュリエット」のジュリエット役でデビュー。以降ミュージカルを中心に活躍。主な出演作品として2017年、2019年には「ロミオ＆ジュリエット」、2018年、2021年に「モーツァルト！」、2019年には「銀河鉄道999 さよならメーテル～僕の永遠」、「ファントム」、202年には「プロデューサーズ」、葵わかなとW主演を努めた「アナスタシア」など。2019年にはディズニー実写映画「アラジン」のプレミアム吹き替え版でジャスミン役を演じ話題となり、NHK「紅白歌合戦」出演を果たした。",
+   "officialSite": "https://tristone.co.jp/actors/haruka/",
+   "xHandle": "haru_147",
+   "igHandle": "haruka_kinoshita_official",
+   "stages": [
+    "カウントダウン ミュージカルコンサート 2026-2027",
+    "古川雄大 The Greatest Concert vol.3 - Man of the Stage -",
+    "ラヴ・レターズ～2026 Summer Special～",
+    "ミュージカル「ディア・エヴァン・ハンセン」",
+    "音楽劇「コーカサスの白墨の輪」",
+    "Concert for LEVAY ～Happy 80th Birthday～",
+    "カウントダウン ミュージカルコンサート 2025-2026",
+    "Sound Theater 2025",
+    "古川雄大が“1人の男がステージに向かう過程”を表現、ミュージカルコンサート第3弾スタート",
+    "柿澤勇人・吉沢亮が現代を生きる誰もが抱える思い届ける、「ディア・エヴァン・ハンセン」明日開幕"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/102418",
+   "news12m": 22,
+   "news90d": 4,
+   "newsAttention12m": 23642,
+   "latestNews": {
+    "title": "古川雄大が“1人の男がステージに向かう過程”を表現、ミュージカルコンサート第3弾スタート",
+    "date": "2026-09-11"
+   },
+   "daysSinceNews": 5,
+   "topNews": [
+    {
+     "title": "ミュージカル「ディア・エヴァン・ハンセン」日本版演出、上演決定！主演は柿澤勇人・吉沢亮",
+     "date": "2025-10-16",
+     "score": 3186
+    },
+    {
+     "title": "永尾柚乃、ME:I・MOMONAらディズニーファミリーが「ズートピア2」前夜祭に集結",
+     "date": "2025-12-04",
+     "score": 2467
+    },
+    {
+     "title": "今夏上演「ラヴ・レターズ」に牧島輝＆梅澤美波、丸山智己＆柚香光、小林唯＆木下晴香",
+     "date": "2026-05-13",
+     "score": 2291
+    }
+   ],
+   "xFollowers": 35870,
+   "igFollowers": 38542,
+   "snsAccounts": [
+    {
+     "handle": "haru_147",
+     "followers": 35870
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    },
+    {
+     "handle": "2024.06.21",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-07-06",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": "achikochi",
+   "eigaId": "309821",
+   "yomi": "きのしたはるか",
+   "birth": "1999-02-05",
+   "origin": "日本／佐賀",
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": 27,
+   "debutYear": 2017,
+   "careerYears": 9,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.4981058223996838,
+    "igFollowers": 0.4903250963471381,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8303055958933996,
+    "recentActivity": 0.5854062339067564
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 62.1,
+   "rank": 47
+  },
+  {
+   "name": "花總まり",
+   "genres": [
+    "宝塚・OG",
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "natalieId": "66478",
+   "achikochiSlug": "花總まり",
+   "agency": "エヴァーグリーン・エンタテイメント",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "東京都生まれ。1991年に宝塚歌劇団へ入団。1994年より雪組トップ娘役、1998年より宙組トップ娘役を務め、2006年に退団した。トップ在任歴は歴代最長。2010年、本格的に活動を再開し、ミュージカル「レディ・ベス」「エリザベート」「マリー・アントワネット」など主演作品のほか、テレビドラマ「おんな城主 直虎」「精霊の守り人」（共にNHK）などに出演。オーストリア共和国有功栄誉金章、菊田一夫演劇賞演劇大賞、読売演劇大賞優秀女優賞、松尾芸能賞演劇部門優秀賞など演劇賞の受賞歴多数。",
+   "officialSite": "https://www.blooming-net.com/blooming-agency/hanafusa-mari/",
+   "xHandle": null,
+   "igHandle": "hanafusamari_official",
+   "stages": [
+    "ミュージカル「AGATHA（アガサ）」",
+    "MoN Takanawa: The Museum of Narratives開館記念特別公演「MANGALOGUE（マンガローグ）：火の鳥」",
+    "「いきなり本読み！」in博多座 ミュージカル版",
+    "ミュージカル「破果（パグァ）」",
+    "ミュージカル「バグダッド・カフェ」",
+    "デビュー35周年記念 石丸幹二 オーケストラコンサート2025",
+    "田代万里生15th Anniversary SYMPHONIC MUSICAL CONCERT 2025 ～YOU ARE HERE～",
+    "CONCERT「THE BEST New HISTORY COMING」"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/66478",
+   "news12m": 16,
+   "news90d": 3,
+   "newsAttention12m": 7650,
+   "latestNews": {
+    "title": "花總まり・浦井健治ら出演、ミュージカル「破果（パグァ）」NHK BSP4Kで放送",
+    "date": "2026-08-04"
+   },
+   "daysSinceNews": 43,
+   "topNews": [
+    {
+     "title": "ミュージカル「AGATHA」日本版上演決定！アガサ・クリスティ役は花總まり",
+     "date": "2025-11-21",
+     "score": 1454
+    },
+    {
+     "title": "花總まりが主演するミュージカル「破果（パグァ）」本日開幕",
+     "date": "2026-03-07",
+     "score": 872
+    },
+    {
+     "title": "花總まりと浦井健治の「“ケミ”が楽しみ」、ミュージカル「破果」日本初演にイ・ジナが期待",
+     "date": "2025-12-17",
+     "score": 791
+    }
+   ],
+   "xFollowers": null,
+   "igFollowers": 80720,
+   "snsAccounts": [],
+   "followerSourceDate": "2026-07-18",
+   "xFollowersSource": null,
+   "igFollowersSource": "achikochi",
+   "eigaId": "272692",
+   "yomi": "はなふさまり",
+   "birth": "1973-02-28",
+   "origin": "日本／東京",
+   "xAccountState": "unknown",
+   "igAccountState": "have",
+   "age": 53,
+   "debutYear": 1991,
+   "careerYears": 35,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": null,
+    "igFollowers": 0.5895810082373967,
+    "xPostFrequency": null,
+    "newsCoverage": 0.741416407038581,
+    "recentActivity": 0.48559443548235054
+   },
+   "measuredAxes": [
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 3,
+   "score": 61.8,
+   "rank": 48
+  },
+  {
+   "name": "濱田めぐみ",
+   "genres": [
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "natalieId": "94956",
+   "achikochiSlug": "濱田めぐみ",
+   "agency": "ホリプロ",
+   "manualSocial": {
+    "igHandle": "megumi_hamada",
+    "igFollowers": 22000,
+    "checkedAt": "2026-09-16"
+   },
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1972年、福岡県生まれ。1995年、劇団四季オーディションに合格、3カ月後には「美女と野獣」のヒロイン役に抜てきされ、劇団四季デビューを果たす。その後、「ライオンキング」「アイーダ」「ウィキッド」のオリジナルキャストを務めるなど看板女優として活躍し、2010年に退団。近年も「レ・ミゼラブル」「アリージャンス」「メリー・ポピンズ」「ビリー・エリオット ～リトル・ダンサー～」など、ミュージカルを中心に活動している。",
+   "officialSite": "http://www.horipro.co.jp/hamadamegumi/",
+   "xHandle": "megumihamada",
+   "igHandle": "megumi_hamada",
+   "stages": [
+    "井上芳雄 by MYSELF 10周年コンサート「by MYBEST」",
+    "ミュージカル「ファインディング・ネバーランド」",
+    "福井晶一デビュー30周年記念コンサート ～Curtains Never Falls～",
+    "This is the Moment! ～フランク・ワイルドホーン JAPAN 25th anniversary concert～",
+    "新作ミュージカル「ニコラ・テスラ ～エジソンが恐れた孤高の天才～」",
+    "フレンズ・オブ・ディズニー ミュージック フェスティバル 2026",
+    "ミュージカル「メリー・ポピンズ」",
+    "デスノート THE MUSICAL"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/94956",
+   "news12m": 21,
+   "news90d": 7,
+   "newsAttention12m": 6832,
+   "latestNews": {
+    "title": "福井晶一がデビュー30周年記念コンサート開催、ゲストに今井清隆・濱田めぐみ",
+    "date": "2026-09-12"
+   },
+   "daysSinceNews": 4,
+   "topNews": [
+    {
+     "title": "「デスノート THE MUSICAL」に向けて加藤清史郎・渡邉蒼が意気込み、三浦宏規は“L座り”披露",
+     "date": "2025-10-09",
+     "score": 1211
+    },
+    {
+     "title": "加藤清史郎・渡邉蒼が“キラ”に扮する「デスノート THE MUSICAL」開幕",
+     "date": "2025-11-26",
+     "score": 644
+    },
+    {
+     "title": "「メリー・ポピンズ」2026年版キャストが意気込み、濱田めぐみ「いろいろな自分に出会って」",
+     "date": "2025-12-16",
+     "score": 573
+    }
+   ],
+   "xFollowers": 55780,
+   "igFollowers": 22000,
+   "snsAccounts": [
+    {
+     "handle": "megumihamada",
+     "followers": 55780
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    },
+    {
+     "handle": "2024.06.21",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-09-11",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": "manual",
+   "socialCheckedAt": "2026-09-16",
+   "socialNote": null,
+   "eigaId": "301003",
+   "yomi": "はまだめぐみ",
+   "birth": "1972-08-02",
+   "origin": "日本／福岡",
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": 54,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.5595360273929951,
+    "igFollowers": 0.4150415025002597,
+    "xPostFrequency": null,
+    "newsCoverage": 0.7567967836479847,
+    "recentActivity": 0.6630202422724152
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 61.7,
+   "rank": 49
+  },
+  {
+   "name": "松田凌",
+   "genres": [
+    "2.5次元舞台",
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "natalieId": "64402",
+   "achikochiSlug": null,
+   "agency": "エーチーム",
+   "manualSocial": {
+    "xHandle": "ryo_matsuda0913",
+    "xFollowers": 14000,
+    "igHandle": "matsudaryo_9",
+    "igFollowers": 47000,
+    "xNote": "スタッフ運営アカウント",
+    "checkedAt": "2026-09-16"
+   },
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1991年9月13日生まれ、兵庫県出身。2012年、「ミュージカル『薄桜鬼』斎藤一篇」で舞台初主演を務めた。近年の出演作に、日本テレビ開局65年記念舞台「魔界転生」「少年社中20周年記念ファイナル 第36回公演『トゥーランドット～廃墟に眠る少年の夢～』」、Zu々プロデュース「Being at home with Claude ～クロードと一緒に～」、舞台「+GOLD FISH」などがある。7月にDisGOONie Presents Vol.6 舞台「PANDORA」に出演予定。",
+   "officialSite": "https://matsuda-ryo.com/",
+   "xHandle": "ryo_matsuda0913",
+   "igHandle": "matsudaryo_9",
+   "stages": [
+    "大阪国際文化芸術プロジェクト「伝説の喜劇作家・板尾いつぞう～逆襲の王立劇場」",
+    "十周年記念特別公演「舞台『刀剣乱舞』陽伝 月と太陽と星々よ」",
+    "ACTORS☆LEAGUE in Futsal 2026",
+    "剣劇「三國志演技～蜀漢」",
+    "ACTORS☆LEAGUE in Basketball 2026",
+    "俺もそろそろシェイクスピア・シリーズ「コテンペスト」",
+    "劇団時間制作「社会で生きる動物」",
+    "二十五億秒トリップ"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/64402",
+   "news12m": 24,
+   "news90d": 9,
+   "newsAttention12m": 14082,
+   "latestNews": {
+    "title": "松田凌が主演映画でメンズセラピストの送迎ドライバーに、平埜生成・押田岳・木津つばさも出演",
+    "date": "2026-09-02"
+   },
+   "daysSinceNews": 14,
+   "topNews": [
+    {
+     "title": "刀ステ「陽伝 月と太陽と星々よ」13振りのビジュアル解禁！初登場の鬼丸国綱役は松田昇大",
+     "date": "2026-07-17",
+     "score": 4828
+    },
+    {
+     "title": "佐藤流司「人生の尊さを思い出して頂きたい」、舞台「二十五億秒トリップ」ビジュアル解禁",
+     "date": "2025-11-11",
+     "score": 1177
+    },
+    {
+     "title": "佐藤流司の舞台「二十五億秒トリップ」開幕、殺陣・アクション・ダンス交えてマルチバース描く",
+     "date": "2026-01-30",
+     "score": 1097
+    }
+   ],
+   "xFollowersSource": "manual",
+   "igFollowersSource": "manual",
+   "xFollowers": 14000,
+   "igFollowers": 47000,
+   "socialCheckedAt": "2026-09-16",
+   "socialNote": "スタッフ運営アカウント",
+   "eigaId": "91131",
+   "yomi": "まつだりょう",
+   "birth": "1991-09-13",
+   "origin": "日本／兵庫",
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": 35,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.36720430404198795,
+    "igFollowers": 0.5169635818139995,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8082174334806504,
+    "recentActivity": 0.6912107589849001
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 61.4,
+   "rank": 50
+  },
+  {
+   "name": "小池徹平",
+   "genres": [
+    "ミュージカル",
+    "ストレートプレイ",
+    "商業演劇"
+   ],
+   "natalieId": "46532",
+   "achikochiSlug": "小池徹平",
+   "agency": "エンズタワー",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1986年1月5日生まれ、大阪府出身。15歳のときに「ジュノン・スーパーボーイ・コンテスト」でグランプリを受賞し、芸能界に入る。2002年、ドラマ「天体観測」で俳優デビュー。その後、映画「ラブ★コン」「KIDS」「ホームレス中学生」「ブラック会社に勤めてるんだが、もう俺は限界かもしれない」「サラリーマンNEO 劇場版（笑）」、ドラマ「シバトラ～童顔刑事・柴田竹虎～」「鉄の骨」「ボーダーライン」などに出演した。舞台「1789～バスティーユの恋人たち～」「キンキーブーツ」での演技を評価され、第42回（2016年度）菊田一夫演劇賞の演劇賞を受賞。",
+   "officialSite": "https://teppei.fanmo.jp/",
+   "xHandle": "ktpchannel_1102",
+   "igHandle": "teppei.koike_official",
+   "stages": [
+    "森雪之丞 50th Anniversary Musical Concert「物語を歌う言葉たち」",
+    "ミュージカル「ETERNITY（エタニティ）」",
+    "THE FAVORITE ザ・フェイヴァリット",
+    "MOJOプロジェクト-Musicals of Japan Origin project- 第2弾 ミュージカル「どろんぱ」supported by にしたんクリニック",
+    "「デスノート THE MUSICAL シンフォニーコンサート」台湾公演",
+    "ミュージカル「ある男」",
+    "Thanks Musical Concert「A Happiness For You ハピネスフォーユー」",
+    "billboard classics KAI SHOUMA Orchestra Concert 2024"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/46532",
+   "news12m": 32,
+   "news90d": 5,
+   "newsAttention12m": 15307,
+   "latestNews": {
+    "title": "柚香光主演で日本初演、「フランケンシュタイン」誕生に迫るミュージカル「メアリ・シェリー」",
+    "date": "2026-08-21"
+   },
+   "daysSinceNews": 26,
+   "topNews": [
+    {
+     "title": "柚香光主演で日本初演、「フランケンシュタイン」誕生に迫るミュージカル「メアリ・シェリー」",
+     "date": "2026-08-21",
+     "score": 2530
+    },
+    {
+     "title": "沢口靖子「科捜研の女」ファンに涙で感謝、内藤剛志「26年間、主役でいてくれてありがとう」",
+     "date": "2026-01-20",
+     "score": 1458
+    },
+    {
+     "title": "「科捜研の女 ファイナル」で佐藤流司が所轄の若手エースに、味方良介らゲスト出演",
+     "date": "2026-01-12",
+     "score": 1309
+    }
+   ],
+   "xFollowers": 6803,
+   "igFollowers": 230177,
+   "snsAccounts": [
+    {
+     "handle": "ktpchannel_1102",
+     "followers": 6803
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    },
+    {
+     "handle": "2024.06.21",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-09-12",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": "achikochi",
+   "eigaId": "30656",
+   "yomi": "こいけてっぺい",
+   "birth": "1986-01-05",
+   "origin": "日本／大阪",
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": 40,
+   "debutYear": 2002,
+   "careerYears": 24,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.26679947737736315,
+    "igFollowers": 0.7302767688609578,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8363093807290866,
+    "recentActivity": 0.5819258118709345
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 61.4,
+   "rank": 51
+  },
+  {
+   "name": "海宝直人",
+   "genres": [
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "natalieId": "94952",
+   "achikochiSlug": "海宝直人",
+   "agency": "ホリプロ",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "千葉県出身。7歳のときに劇団四季「美女と野獣」チップ役で舞台デビュー。その後「ライオンキング」の初代ヤングシンバに抜擢される。舞台を中心に活躍を続け、近年は劇団四季「ノートルダムの鐘」カジモド役、「アラジン」アラジン役などを演じた。2018年「TRIOPERAS」でウェストエンドデビュー。主な出演作に、スタフォード・アリマ演出「アリージャンス～忠誠～」、トム・サザーランド演出「イリュージョニスト」、ダルコ・トレスニャク演出「アナスタシア」、ローレンス・コナー / ジェームズ・パウエル演出「レ・ミゼラブル」、藤田俊太郎演出「ジャージー・ボーイズ」など。またロックバンド・シアノタイプのボーカルとしても活動している。",
+   "officialSite": "https://kaihonaoto.com/",
+   "xHandle": "naotosea",
+   "igHandle": null,
+   "stages": [
+    "ミュージカル「スウィーニー・トッド フリート街の悪魔の理髪師」",
+    "KURUMU OKAMIYA 1st CONCERT「The Fanfare」",
+    "新作ミュージカル「ニコラ・テスラ ～エジソンが恐れた孤高の天才～」",
+    "ミュージカル「レベッカ」",
+    "フレンズ・オブ・ディズニー ミュージック フェスティバル 2026",
+    "ミュージカル「ISSA in Paris」",
+    "海宝直人×オーケストラ more in TOKYO Encore 舞台芸能活動30周年記念コンサート",
+    "ラミン・カリムルー×サマンサ・バークス ミュージカルコンサート Home Love Family"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/94952",
+   "news12m": 21,
+   "news90d": 5,
+   "newsAttention12m": 10835,
+   "latestNews": {
+    "title": "新作ミュージカル「ニコラ・テスラ」開幕、海宝直人「スピード感とエネルギーを全身で体感して」",
+    "date": "2026-09-07"
+   },
+   "daysSinceNews": 9,
+   "topNews": [
+    {
+     "title": "「レベッカ」海宝直人が除幕に初挑戦！明日海りおはタイトル曲にプレッシャー「毎日ステーキ必要」",
+     "date": "2026-03-27",
+     "score": 1639
+    },
+    {
+     "title": "岡宮来夢1stコンサート生中継決定、黒羽麻璃央・海宝直人ゲスト回がテレ朝チャンネル1で",
+     "date": "2026-08-26",
+     "score": 1456
+    },
+    {
+     "title": "映画「ウィキッド ふたりの魔女」金曜ロードショーで地上波初放送",
+     "date": "2026-02-13",
+     "score": 1169
+    }
+   ],
+   "xFollowers": 48856,
+   "igFollowers": 21000,
+   "snsAccounts": [
+    {
+     "handle": "naotosea",
+     "followers": 48856
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    },
+    {
+     "handle": "2024.06.21",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-08-01",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": "achikochi",
+   "eigaId": "23809",
+   "yomi": "かいほうなおと",
+   "birth": "1988-07-04",
+   "origin": "日本／千葉",
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": 38,
+   "debutYear": 2018,
+   "careerYears": 8,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.5410952221106423,
+    "igFollowers": 0.4087955336211146,
+    "xPostFrequency": null,
+    "newsCoverage": 0.7827112721297863,
+    "recentActivity": 0.6037289123981783
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 60.5,
+   "rank": 52
+  },
+  {
+   "name": "松たか子",
+   "genres": [
+    "ストレートプレイ",
+    "現代劇・翻訳劇",
+    "商業演劇"
+   ],
+   "natalieId": "1062",
+   "achikochiSlug": "松たか子",
+   "agency": "コンバインド",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1977年6月10日生まれ、東京都出身。1993年に舞台「人情噺文七元結」で俳優デビュー。ドラマ、映画、舞台など多くの作品に出演しているほか、歌手としても活動。主な映画出演作には「四月物語」「告白」「夢売るふたり」「小さいおうち」「アナと雪の女王」「ラストレター」「ファーストキス 1ST KISS」など。",
+   "officialSite": "http://www.matsutakako.jp/",
+   "xHandle": "hiromi_takutaka",
+   "igHandle": null,
+   "stages": [
+    "PARCO PRODUCE 2026「ずらかるやつら」",
+    "大パルコ人⑤オカタイロックオペラ「雨の傍聴席、おんなは裸足…」",
+    "CONCERT「THE BEST New HISTORY COMING」",
+    "ここからどうなる？「ナギダイアリー」松山ケンイチ演じる好浩の初登場シーン解禁",
+    "「ナギダイアリー」松たか子のアドリブは無自覚？深田晃司が明かす制作秘話",
+    "西川美和の特集で「蛇イチゴ」「すばらしき世界」など6本、仲野太賀が舞台挨拶に登壇決定",
+    "松たか子・永山瑛太がW主演、雪に閉ざされたホテル舞台の坂元裕二新作「ずらかるやつら」",
+    "朝ドラ「ブラッサム」石橋静河ら試写会でトーク、加賀まりこの参加に「これ以上の安心はない」",
+    "「ナギダイアリー」主演・松たか子、岡山県奈義町での撮影は「とっても幸せ」",
+    "なんて凛々しい映画！濱口竜介、三宅唱らが「ナギダイアリー」を推薦"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/1062",
+   "news12m": 45,
+   "news90d": 14,
+   "newsAttention12m": 39132,
+   "latestNews": {
+    "title": "ここからどうなる？「ナギダイアリー」松山ケンイチ演じる好浩の初登場シーン解禁",
+    "date": "2026-09-10"
+   },
+   "daysSinceNews": 6,
+   "topNews": [
+    {
+     "title": "松たか子・永山瑛太がW主演、雪に閉ざされたホテル舞台の坂元裕二新作「ずらかるやつら」",
+     "date": "2026-09-09",
+     "score": 11014
+    },
+    {
+     "title": "亀梨和也、松たか子らがSixTONESの6周年を祝福「6SixTONES」第2弾で水槽UFOキャッチャー",
+     "date": "2026-03-26",
+     "score": 3494
+    },
+    {
+     "title": "今夜「GOスト」松村北斗の挑発に松たか子「カッチーン！」京本大我は持ちギャグで念願の“ご本人コラボ”実現",
+     "date": "2025-10-26",
+     "score": 3482
+    }
+   ],
+   "xFollowers": 608,
+   "igFollowers": null,
+   "snsAccounts": [
+    {
+     "handle": "hiromi_takutaka",
+     "followers": 608
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    },
+    {
+     "handle": "2024.06.21",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-09-09",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": null,
+   "eigaId": null,
+   "xAccountState": "have",
+   "igAccountState": "unknown",
+   "age": null,
+   "debutYear": 1993,
+   "careerYears": 33,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0,
+    "igFollowers": null,
+    "xPostFrequency": null,
+    "newsCoverage": 0.91705736379358,
+    "recentActivity": 0.7860589035528818
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 3,
+   "score": 59.7,
+   "rank": 53
+  },
+  {
+   "name": "財木琢磨",
+   "genres": [
+    "2.5次元舞台",
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "natalieId": "86172",
+   "achikochiSlug": null,
+   "agency": "リバプール",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": null,
+   "officialSite": null,
+   "xHandle": null,
+   "igHandle": null,
+   "stages": [
+    "罠",
+    "The MELT -Cross of Roots-",
+    "忠臣蔵",
+    "氷艶 hyoen 2025 -鏡紋の夜叉-",
+    "R-System Cue.01「Birdman」",
+    "丸美屋食品ミュージカル「アニー」",
+    "観月ありさ＆ひょうろくが復讐劇「仮面教師」で親子役、北乃きい・川島海荷らも出演",
+    "NHK BS時代劇「大岡越前9」9月6日スタート、中山優馬・山本千尋・渡辺哲・野波麻帆が出演",
+    "「罠」演出の深作健太「気持ちよく騙されて、楽しんでいただけましたなら幸いです」",
+    "上川隆也主演「罠」再演決定、全国8カ所をツアー"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/86172",
+   "news12m": 8,
+   "news90d": 2,
+   "newsAttention12m": 5114,
+   "latestNews": {
+    "title": "観月ありさ＆ひょうろくが復讐劇「仮面教師」で親子役、北乃きい・川島海荷らも出演",
+    "date": "2026-09-11"
+   },
+   "daysSinceNews": 5,
+   "topNews": [
+    {
+     "title": "上川隆也「誠心誠意、心を込めて」、素舞台×LED×殺陣で描き出す「忠臣蔵」明日開幕",
+     "date": "2025-12-11",
+     "score": 1968
+    },
+    {
+     "title": "高橋大輔・荒川静香・増田貴久・平原綾香ら出演、新基軸のアイスショー「The MELT」開催決定",
+     "date": "2026-01-12",
+     "score": 1830
+    },
+    {
+     "title": "キーワードは“ストレート”「忠臣蔵」に上川隆也「作品の歴史を踏まえつつ、楽しめる作品に」",
+     "date": "2025-09-29",
+     "score": 517
+    }
+   ],
+   "xFollowersSource": null,
+   "igFollowersSource": null,
+   "eigaId": "284322",
+   "yomi": "ざいきたくま",
+   "birth": "1992-10-15",
+   "origin": "日本／福岡",
+   "xAccountState": "unknown",
+   "igAccountState": "unknown",
+   "age": 33,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": null,
+    "igFollowers": null,
+    "xPostFrequency": null,
+    "newsCoverage": 0.665172825162146,
+    "recentActivity": 0.4915117106943746
+   },
+   "measuredAxes": [
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 2,
+   "score": 58.9,
+   "rank": 54
+  },
+  {
+   "name": "段田安則",
+   "genres": [
+    "ストレートプレイ",
+    "新劇",
+    "商業演劇"
+   ],
+   "natalieId": "15623",
+   "achikochiSlug": "段田安則",
+   "agency": "シス・カンパニー",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1981年、青年座研究所第5期卒業後、劇団“夢の遊眠社”に入団。数多くの舞台、TVドラマで演技を磨く。NHK連続テレビ小説「ふたりっ子」（1996）の父親役で注目される。TV番組のナレーションなど、幅広く活躍している。",
+   "officialSite": null,
+   "xHandle": null,
+   "igHandle": null,
+   "stages": [
+    "パルコ・プロデュース2026「スリーゴースト」",
+    "パルコ・プロデュース 2026「メアリー・ステュアート」",
+    "パルコ・プロデュース 2025「星の降る時」",
+    "シス・カンパニー公演「やなぎにツバメは」",
+    "シス・カンパニー公演 / 日本文学シアターVol.7【織田作之助】「夫婦パラダイス」～街の灯はそこに～",
+    "PARCO PRODUCE 2024「リア王」",
+    "チ・チャンウク×今田美桜「メリーベリーラブ」日韓新キャスト7名が一挙解禁",
+    "堺雅人が夢のガジェットに魅せられる主人公に、新作舞台「スリーゴースト」詳細解禁",
+    "宮沢りえ、PARCO劇場での「メアリー・ステュアート」開幕に「前を向いて挑戦し続けたい」",
+    "Rockon Social ClubがライブBD/DVD発売 デーモン閣下、綾小路翔、MISIAら豪華ゲスト出演"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/15623",
+   "news12m": 10,
+   "news90d": 2,
+   "newsAttention12m": 2657,
+   "latestNews": {
+    "title": "チ・チャンウク×今田美桜「メリーベリーラブ」日韓新キャスト7名が一挙解禁",
+    "date": "2026-09-15"
+   },
+   "daysSinceNews": 1,
+   "topNews": [
+    {
+     "title": "宮沢りえ・若村麻由美が初共演、栗山民也演出「メアリー・ステュアート」PARCO劇場ほかで上演",
+     "date": "2025-11-10",
+     "score": 680
+    },
+    {
+     "title": "本日1月13日（火）放送開始のドラマ（2025-26冬）",
+     "date": "2026-01-13",
+     "score": 614
+    },
+    {
+     "title": "「メアリー・ステュアート」宮沢りえ・若村麻由美の姿収めたビジュアル解禁",
+     "date": "2025-12-25",
+     "score": 340
+    }
+   ],
+   "xFollowers": null,
+   "igFollowers": null,
+   "snsAccounts": [],
+   "followerSourceDate": "2026-09-12",
+   "xFollowersSource": null,
+   "igFollowersSource": null,
+   "eigaId": null,
+   "xAccountState": "unknown",
+   "igAccountState": "unknown",
+   "age": null,
+   "debutYear": 1981,
+   "careerYears": 45,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": null,
+    "igFollowers": null,
+    "xPostFrequency": null,
+    "newsCoverage": 0.645300574529731,
+    "recentActivity": 0.4966418519949027
+   },
+   "measuredAxes": [
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 2,
+   "score": 58,
+   "rank": 55
+  },
+  {
+   "name": "浦井健治",
+   "genres": [
+    "ミュージカル",
+    "ストレートプレイ",
+    "商業演劇"
+   ],
+   "natalieId": "87447",
+   "achikochiSlug": null,
+   "agency": "ホリプロ",
+   "manualSocial": {
+    "xHandle": "Kenji_Staff",
+    "xFollowers": 33000,
+    "igHandle": "kenji_urai_staff",
+    "igFollowers": 3722,
+    "xNote": "スタッフ運営アカウント",
+    "checkedAt": "2026-09-16"
+   },
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "東京都出身。2000年、テレビドラマ「仮面ライダークウガ」でデビュー。2004年ミュージカル「エリザベート」ルドルフ皇太子役に抜擢され、その後も幅広いジャンルの作品に出演。2015年に第22回読売演劇大賞最優秀男優賞、2017年には第67回芸術選奨文部科学大臣演劇部門新人賞など、数々の演劇賞を受賞。近年の出演舞台に、ダレン・ヤップ演出「GHOST」、山田和也演出「オトコ・フタリ」、鵜山仁演出「リチャード二世」、藤田俊太郎演出「天保十二年のシェイクスピア」、福山桜子演出「ヘドウィグ・アンド・アングリーインチ」など。現在は、ラジオ「浦井健治のDressing Room」（ニッポン放送）のパーソナリティーを務め、2021年3月にはデビュー20周年を記念したアルバム「Piece」をリリースした。",
+   "officialSite": "https://uraikenji.jp/",
+   "xHandle": "Kenji_Staff",
+   "igHandle": "kenji_urai_staff",
+   "stages": [
+    "井上芳雄 by MYSELF 10周年コンサート「by MYBEST」",
+    "ミュージカル「キングアーサー」",
+    "島田歌穂「Musical, Musical, Musical!!」Vol.6",
+    "KURUMU OKAMIYA 1st CONCERT「The Fanfare」",
+    "ミュージカル「ゴースト」",
+    "舞台「鬼滅の刃」其ノ陸 柱稽古・無限城 突入",
+    "ミュージカル「最強のふたり」",
+    "「いきなり本読み！」in博多座 ミュージカル版"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/87447",
+   "news12m": 29,
+   "news90d": 5,
+   "newsAttention12m": 17395,
+   "latestNews": {
+    "title": "「井上芳雄 by MYSELF」10周年コンサートがトヨタアリーナで、浦井健治・田代万里生ら参加",
+    "date": "2026-08-31"
+   },
+   "daysSinceNews": 16,
+   "topNews": [
+    {
+     "title": "シルヴェスター・リーヴァイの80歳記念コンサート、3月にWOWOWで放送・配信決定",
+     "date": "2026-02-15",
+     "score": 2003
+    },
+    {
+     "title": "無限城でお待ちしております！舞台「鬼滅の刃」“柱稽古・無限城 突入”スタート",
+     "date": "2026-06-14",
+     "score": 1649
+    },
+    {
+     "title": "シルヴェスター・リーヴァイの80歳を祝うコンサート開催決定！マーク・ザイベルトらも来日",
+     "date": "2025-11-18",
+     "score": 1644
+    }
+   ],
+   "xFollowersSource": "manual",
+   "igFollowersSource": "manual",
+   "xFollowers": 33000,
+   "igFollowers": 3722,
+   "socialCheckedAt": "2026-09-16",
+   "socialNote": "スタッフ運営アカウント",
+   "eigaId": "88671",
+   "yomi": "うらいけんじ",
+   "birth": "1981-08-06",
+   "origin": "日本／東京",
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": 45,
+   "debutYear": 2000,
+   "careerYears": 26,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.486502884779145,
+    "igFollowers": 0.17650239578759358,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8354607269511032,
+    "recentActivity": 0.5947511651222543
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 56,
+   "rank": 56
+  },
+  {
+   "name": "市村正親",
+   "genres": [
+    "ミュージカル",
+    "ストレートプレイ",
+    "商業演劇"
+   ],
+   "natalieId": "41513",
+   "achikochiSlug": "市村正親",
+   "agency": "オフィスPSC",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "俳優、西村晃の付き人を経て、1973年に劇団四季の「イエス・キリスト=スーパースター」で俳優としてデビュー。舞台を中心に実力派俳優としてテレビ、映画でも活躍。出演は「ホテルビーナス]（2004）、「十三人の刺客」（2010）ほか。",
+   "officialSite": null,
+   "xHandle": null,
+   "igHandle": null,
+   "stages": [
+    "ミュージカル「スウィーニー・トッド フリート街の悪魔の理髪師」",
+    "Daiwa House presents「ラ・カージュ・オ・フォール」",
+    "ミュージカル「シークレットステージ」",
+    "New HISTORY COMING ARENA LIVE -The Imperial Theatre Symphony",
+    "音楽劇「エノケン」",
+    "氷艶 hyoen 2025 -鏡紋の夜叉-",
+    "Thanks Musical Concert「A Happiness For You ハピネスフォーユー」",
+    "ミュージカル「屋根の上のヴァイオリン弾き」"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/41513",
+   "news12m": 30,
+   "news90d": 5,
+   "newsAttention12m": 12764,
+   "latestNews": {
+    "title": "渡辺えりがミュージカルの新境地開拓！「シークレットステージ」開幕に市村正親「ここまで疲れる芝居とは」",
+    "date": "2026-09-08"
+   },
+   "daysSinceNews": 8,
+   "topNews": [
+    {
+     "title": "帝コン開幕、堂本光一×岡宮来夢が“まぜるな危険”に挑戦？平原綾香のツッコミ炸裂に一同笑み",
+     "date": "2026-08-08",
+     "score": 1842
+    },
+    {
+     "title": "市村正親がパワフルに演じる音楽劇「エノケン」開幕、本田響矢が尊敬語る「市村さんはずっと元気」",
+     "date": "2025-10-06",
+     "score": 1723
+    },
+    {
+     "title": "宮本浩次の新曲「I love 人生！」、高橋一生主演のドラマ「リボーン」主題歌に決定",
+     "date": "2026-03-27",
+     "score": 1311
+    }
+   ],
+   "xFollowers": null,
+   "igFollowers": 253,
+   "snsAccounts": [],
+   "followerSourceDate": "2026-09-10",
+   "xFollowersSource": null,
+   "igFollowersSource": "achikochi",
+   "eigaId": "16531",
+   "yomi": "いちむらまさちか",
+   "birth": "1949-01-28",
+   "origin": "日本／埼玉",
+   "xAccountState": "unknown",
+   "igAccountState": "have",
+   "age": 77,
+   "debutYear": 1973,
+   "careerYears": 53,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": null,
+    "igFollowers": 0,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8208290840194051,
+    "recentActivity": 0.6050114477233103
+   },
+   "measuredAxes": [
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 3,
+   "score": 53.4,
+   "rank": 57
+  },
+  {
+   "name": "高橋一生",
+   "genres": [
+    "ストレートプレイ",
+    "現代劇・翻訳劇"
+   ],
+   "natalieId": "35735",
+   "achikochiSlug": "高橋一生",
+   "agency": "ボックスコーポレーション",
+   "noAccount": {
+    "x": true,
+    "ig": true,
+    "source": "所属事務所（ボックスコーポレーション）の公表コメント。ORICON NEWS 2024-03 の偽アカウント注意喚起記事で確認",
+    "checkedAt": "2026-09-16"
+   },
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "1980年12月9日生まれ、東京都出身。1990年に「ほしをつぐもの」で映画初出演を果たす。1995年、スタジオジブリの劇場アニメ「耳をすませば」で天沢聖司に声を当てた。映画・ドラマ・舞台と数多くの作品に出演し、2015年にドラマ「民王」で第1回コンフィデンスアワード・ドラマ賞と第86回ザテレビジョンドラマアカデミー賞の助演男優賞に輝く。近年の出演作に「シン・ゴジラ」「嘘を愛する女」「空飛ぶタイヤ」「億男」「ロマンスドール」、NHK大河ドラマ「おんな城主 直虎」やドラマ「カルテット」「東京独身男子」「凪のお暇」など。",
+   "officialSite": "http://www.my-pro.co.jp/aa/takahashi.html",
+   "xHandle": null,
+   "igHandle": null,
+   "stages": [
+    "NODA・MAP番外公演「THE BEE」",
+    "OTOBUTAI 2024 HORYUJI",
+    "NODA・MAP番外公演「THE BEE」に高橋一生・二階堂ふみ・河内大和・川平慈英",
+    "高橋一生「ポリティカルパン」で石原さとみとだまし合う、野木亜紀子とは初タッグ",
+    "堀田真由と高橋一生が夏目真悟の劇場アニメ「ghost／夜の果て」に参加、特報解禁",
+    "「耳をすませば」「借りぐらしのアリエッティ」4Kデジタルリマスター版のIMAX上映決定",
+    "夏目真悟監督初の劇場アニメ、キャストに堀田真由＆高橋一生 ボイス聴ける特報映像も",
+    "高橋一生・斎藤工・水上恒司がドラマ「犯罪者」で共鳴、内野聖陽やチョン・イルら8名も語る",
+    "高橋一生、斎藤工、水上恒司のドラマ「犯罪者」本予告 チョン・イルの出演も明らかに",
+    "高橋一生×斎藤工×水上恒司のドラマ「犯罪者」に内野聖陽、マキタスポーツ、井上瑞稀、光嶌なづな"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/35735",
+   "news12m": 48,
+   "news90d": 9,
+   "newsAttention12m": 30617,
+   "latestNews": {
+    "title": "NODA・MAP番外公演「THE BEE」に高橋一生・二階堂ふみ・河内大和・川平慈英",
+    "date": "2026-09-08"
+   },
+   "daysSinceNews": 8,
+   "topNews": [
+    {
+     "title": "「岸辺露伴」高橋一生×渡辺一貴がタッグ、岡山の妖怪をモチーフにした「脛擦りの森」公開",
+     "date": "2026-01-22",
+     "score": 8505
+    },
+    {
+     "title": "NODA・MAP番外公演「THE BEE」に高橋一生・二階堂ふみ・河内大和・川平慈英",
+     "date": "2026-09-08",
+     "score": 2073
+    },
+    {
+     "title": "飯豊まりえ×高橋一生、岸辺露伴シリーズ最新作「泉京香は黙らない」5月に放送",
+     "date": "2026-03-03",
+     "score": 1505
+    }
+   ],
+   "xFollowers": null,
+   "igFollowers": null,
+   "snsAccounts": [],
+   "followerSourceDate": "2026-09-10",
+   "xFollowersSource": null,
+   "igFollowersSource": null,
+   "eigaId": "45027",
+   "yomi": "たかはしいっせい",
+   "birth": "1980-12-09",
+   "origin": "日本／東京",
+   "xAccountState": "none",
+   "igAccountState": "none",
+   "age": 45,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0,
+    "igFollowers": 0,
+    "xPostFrequency": null,
+    "newsCoverage": 0.9085930671535571,
+    "recentActivity": 0.7089655570412776
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 45.6,
+   "rank": 58
+  },
+  {
+   "name": "鹿賀丈史",
+   "genres": [
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "natalieId": "15613",
+   "achikochiSlug": "鹿賀丈史",
+   "agency": "テアトル・ド・ポッシュ",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": "劇団四季に在籍していた1972?79年の間に、主役を演じたロック・ミュージカル『ジーザスクライストスーパースター』や『ウエストサイド物語』『レ・ミゼラブル』などの舞台に。退団後は「麻雀放浪記」（1984）をはじめ、多くの映画に出演する一方、人気バラエティー番組『料理の鉄人』で個性豊かな司会ぶりも披露した。",
+   "officialSite": null,
+   "xHandle": null,
+   "igHandle": null,
+   "stages": [
+    "Daiwa House presents「ラ・カージュ・オ・フォール」",
+    "「デスノート THE MUSICAL シンフォニーコンサート」台湾公演",
+    "ミュージカル「ある男」",
+    "Thanks Musical Concert「A Happiness For You ハピネスフォーユー」",
+    "CONCERT「THE BEST New HISTORY COMING」",
+    "デスミュ2015年・2017年・2025年版を3カ月連続OA、最新公演はテレビ初放送",
+    "「ラ・カージュ・オ・フォール」初のWキャスト上演！佐藤隆紀＆石丸幹二のカップル誕生",
+    "浦井健治・小池徹平ら出演のミュージカル「ある男」WOWOWで12月に放送・配信",
+    "デスミュコンサート台湾公演、遥海・ソニン・小野田龍之介・鹿賀丈史の出演が決定",
+    "「徹子の部屋」で「初回拝見！魅惑の70代」特集、由美かおる・夏木マリ・草刈正雄ら登場"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/15613",
+   "news12m": 4,
+   "news90d": 0,
+   "newsAttention12m": 1117,
+   "latestNews": {
+    "title": "デスミュ2015年・2017年・2025年版を3カ月連続OA、最新公演はテレビ初放送",
+    "date": "2026-05-27"
+   },
+   "daysSinceNews": 112,
+   "topNews": [
+    {
+     "title": "デスミュ2015年・2017年・2025年版を3カ月連続OA、最新公演はテレビ初放送",
+     "date": "2026-05-27",
+     "score": 413
+    },
+    {
+     "title": "浦井健治・小池徹平ら出演のミュージカル「ある男」WOWOWで12月に放送・配信",
+     "date": "2025-10-25",
+     "score": 386
+    },
+    {
+     "title": "「ラ・カージュ・オ・フォール」初のWキャスト上演！佐藤隆紀＆石丸幹二のカップル誕生",
+     "date": "2026-03-17",
+     "score": 258
+    }
+   ],
+   "xFollowers": null,
+   "igFollowers": null,
+   "snsAccounts": [],
+   "followerSourceDate": "2026-09-13",
+   "xFollowersSource": null,
+   "igFollowersSource": null,
+   "eigaId": "23862",
+   "yomi": "かがたけし",
+   "birth": "1950-10-12",
+   "origin": "日本／石川",
+   "xAccountState": "unknown",
+   "igAccountState": "unknown",
+   "age": 75,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": null,
+    "igFollowers": null,
+    "xPostFrequency": null,
+    "newsCoverage": 0.5301621417157704,
+    "recentActivity": 0.1523452259339945
+   },
+   "measuredAxes": [
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 2,
+   "score": 36.4,
+   "rank": 59
+  },
+  {
+   "name": "龍真咲",
+   "genres": [
+    "宝塚・OG",
+    "ミュージカル"
+   ],
+   "natalieId": "93400",
+   "achikochiSlug": "龍真咲",
+   "agency": "フリー",
+   "fetchedAt": "2026-09-15T16:27:18.623Z",
+   "sourceErrors": [],
+   "profile": null,
+   "officialSite": null,
+   "xHandle": "masakiryufree",
+   "igHandle": null,
+   "stages": [
+    "SPECIAL ENTERTAINMENT STAGE「RUNWAY」",
+    "ベルサイユのばら50～半世紀の軌跡～"
+   ],
+   "natalieUrl": "https://natalie.mu/stage/artist/93400",
+   "news12m": 0,
+   "news90d": 0,
+   "newsAttention12m": 0,
+   "latestNews": {
+    "title": "宝塚歌劇100周年メンバーが集結するショー「RUNWAY」ビジュアル解禁",
+    "date": "2024-08-21"
+   },
+   "daysSinceNews": 756,
+   "topNews": [],
+   "xFollowers": 11161,
+   "igFollowers": 56434,
+   "snsAccounts": [
+    {
+     "handle": "masakiryufree",
+     "followers": 11161
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    },
+    {
+     "handle": "2024.06.21",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-07-27",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": "achikochi",
+   "eigaId": null,
+   "xAccountState": "have",
+   "igAccountState": "have",
+   "age": null,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "metrics": {
+    "xFollowers": 0.33567363684837676,
+    "igFollowers": 0.5415244050299836,
+    "xPostFrequency": null,
+    "newsCoverage": 0,
+    "recentActivity": 0
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "coverage": 4,
+   "score": 19,
+   "rank": 60
+  }
+ ]
+}

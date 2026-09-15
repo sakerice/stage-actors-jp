@@ -1,0 +1,63 @@
+name: ランキング週次更新
+
+on:
+  schedule:
+    # 本番: 毎週金曜 10:00 JST（= 金 01:00 UTC）
+    - cron: '0 1 * * 5'
+    # 予備: 毎週土曜 11:00 JST（= 土 02:00 UTC）。前日に更新できていた場合はスキップする。
+    - cron: '0 2 * * 6'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: '前日に更新済みでも強制的に実行する'
+        type: boolean
+        default: true
+
+concurrency:
+  group: ranking-update
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: 実行要否を判定（土曜の予備枠のみスキップしうる）
+        id: gate
+        run: |
+          if [ "${{ github.event.schedule }}" = "0 2 * * 6" ]; then
+            node scripts/should-run.mjs --max-age-hours 30
+          else
+            echo "金曜の本番枠 / 手動実行なので無条件に実行する"
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: データ収集
+        if: steps.gate.outputs.run == 'true'
+        run: node scripts/update-ranking.mjs
+
+      - name: 収集結果を検証
+        if: steps.gate.outputs.run == 'true'
+        run: node scripts/verify-ranking.mjs
+
+      - name: 差分をコミット
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/ranking.json; then
+            echo "内容に変化なし。コミットしない。"
+            exit 0
+          fi
+          git add data/ranking.json
+          git commit -m "chore(data): ランキングを週次更新 ($(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M JST'))"
+          git push

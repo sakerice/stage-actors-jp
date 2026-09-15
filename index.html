@@ -3,41 +3,69 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>日本の商業舞台俳優リスト</title>
+  <title>日本の商業舞台俳優 評価ランキング</title>
+  <meta name="description" content="X・Instagram のフォロワー数、ステージナタリーでの報道量、直近の活動量から算出した日本の商業舞台俳優の総合ランキング。毎週金曜に自動更新。" />
   <style>
     :root {
       --bg: #0f1115;
       --panel: #181c24;
+      --panel-2: #1e2430;
+      --field: #121722;
       --text: #e8eaef;
       --muted: #9aa3b2;
-      --accent: #7dd3fc;
       --border: #2a3140;
+      --accent: #7dd3fc;
       --active: #8b5cf6;
+      --warn: #fbbf24;
     }
     * { box-sizing: border-box; }
+    html { color-scheme: dark; }
     body {
       margin: 0;
       min-height: 100vh;
-      font-family: "Hiragino Sans", "Noto Sans JP", system-ui, sans-serif;
+      font-family: "Hiragino Sans", "Noto Sans JP", "Yu Gothic", system-ui, sans-serif;
       background: radial-gradient(1200px 600px at 20% -10%, #1a2740 0%, var(--bg) 55%);
+      background-attachment: fixed;
       color: var(--text);
-      line-height: 1.5;
       font-size: 14px;
+      line-height: 1.5;
+      line-break: strict;
+      word-break: normal;
+      overflow-wrap: anywhere;
     }
-    header, main, footer { max-width: 100%; margin: 0 auto; padding: 1rem 1rem 0; }
-    h1 { margin: 0; font-size: clamp(1.2rem, 3.5vw, 1.65rem); }
-    .lede { color: var(--muted); margin: .45rem 0 0; font-size: .9rem; max-width: 52rem; }
+    header, main, footer { max-width: 100%; margin: 0 auto; padding-inline: 1rem; }
+    header { padding-top: 1.25rem; }
+    h1 { margin: 0; font-size: clamp(1.2rem, 3.5vw, 1.65rem); font-weight: 600; line-height: 1.35; }
+    .lede { color: var(--muted); margin: .5rem 0 0; font-size: .9rem; line-height: 1.7; max-width: 56rem; }
+    .lede strong { color: var(--text); font-weight: 600; }
+
     .meta {
       margin-top: .75rem;
       font-size: .8rem;
       color: var(--muted);
       border: 1px solid var(--border);
       border-radius: 8px;
-      padding: .55rem .75rem;
+      padding: .75rem;
       background: var(--panel);
-      max-width: 52rem;
+      max-width: 56rem;
+      line-height: 1.7;
     }
-    .meta strong { color: var(--accent); }
+    .meta b { color: var(--accent); font-weight: 600; }
+    .meta ul { margin: .5rem 0 0; padding-left: 1.1rem; }
+    .meta li { margin-bottom: .15rem; }
+    .meta a { color: var(--accent); }
+
+    details.formula { margin-top: .75rem; max-width: 56rem; }
+    details.formula > summary {
+      cursor: pointer; color: var(--accent); font-size: .8rem; padding: .25rem 0;
+    }
+    .formula-body {
+      border: 1px solid var(--border); border-radius: 8px; background: var(--panel);
+      padding: .75rem; font-size: .8rem; color: var(--muted); line-height: 1.7; margin-top: .25rem;
+    }
+    .formula-body table { width: auto; font-size: .78rem; margin-top: .5rem; }
+    .formula-body th, .formula-body td { padding: .25rem .6rem .25rem 0; border: none; }
+
     .filters {
       margin-top: 1rem;
       padding: .85rem;
@@ -45,44 +73,39 @@
       border: 1px solid var(--border);
       border-radius: 10px;
       display: grid;
-      gap: .85rem;
+      gap: .75rem;
     }
     .filter-row { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem .75rem; }
-    .filter-row label { color: var(--muted); font-size: .8rem; white-space: nowrap; }
+    .filter-row label, .filter-label { color: var(--muted); font-size: .8rem; white-space: nowrap; }
     .chips { display: flex; flex-wrap: wrap; gap: .35rem; }
     .chip {
       background: #222836;
       border: 1px solid var(--border);
       border-radius: 999px;
       color: var(--muted);
-      padding: .28rem .55rem;
+      padding: .28rem .6rem;
       font-size: .75rem;
       cursor: pointer;
+      line-height: 1.4;
     }
-    .chip.on {
-      background: #2d2450;
-      border-color: var(--active);
-      color: #ddd6fe;
-    }
-    .clear-genres {
-      font-size: .75rem;
-      color: var(--accent);
-      background: none;
-      border: none;
-      cursor: pointer;
-      text-decoration: underline;
-      padding: 0 .25rem;
+    .chip.on { background: #2d2450; border-color: var(--active); color: #ddd6fe; }
+    .linkish {
+      font-size: .75rem; color: var(--accent); background: none; border: none;
+      cursor: pointer; text-decoration: underline; padding: 0 .25rem;
     }
     .search, .agency-select {
-      background: #121722;
+      background: var(--field);
       border: 1px solid var(--border);
       border-radius: 8px;
       color: var(--text);
       padding: .45rem .65rem;
       font-size: .85rem;
+      line-height: 1.5;
       min-width: 12rem;
       max-width: 100%;
     }
+    .count { font-size: .78rem; color: var(--muted); margin-left: auto; }
+
     .table-wrap {
       margin: 1rem 0 1.5rem;
       overflow-x: auto;
@@ -90,95 +113,96 @@
       border-radius: 10px;
       background: var(--panel);
     }
-    table {
-      width: max-content;
-      min-width: 100%;
-      border-collapse: collapse;
-      font-size: .82rem;
-    }
-    th, td {
-      border-bottom: 1px solid var(--border);
-      padding: .5rem .55rem;
-      text-align: left;
-      vertical-align: top;
-    }
+    table { width: max-content; min-width: 100%; border-collapse: collapse; font-size: .82rem; }
+    th, td { border-bottom: 1px solid var(--border); padding: .5rem .55rem; text-align: left; vertical-align: top; line-height: 1.5; }
     th {
-      position: sticky;
-      top: 0;
-      background: #1e2430;
-      color: #c8d0dc;
-      font-weight: 600;
-      white-space: nowrap;
-      z-index: 1;
+      position: sticky; top: 0; background: var(--panel-2); color: #c8d0dc;
+      font-weight: 600; white-space: nowrap; z-index: 1;
     }
+    th.sortable { cursor: pointer; user-select: none; }
+    th.sortable:hover { color: var(--accent); }
+    th .dir { color: var(--accent); font-size: .7rem; }
     tr:last-child td { border-bottom: none; }
-    tbody tr:hover td { background: rgba(125, 211, 252, 0.06); }
+    tbody tr:hover td { background: rgba(125, 211, 252, .06); }
+    .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .rank-cell { text-align: right; font-variant-numeric: tabular-nums; color: var(--accent); font-weight: 600; white-space: nowrap; }
+    .name-cell { font-weight: 600; white-space: nowrap; }
+    .name-cell .yomi { display: block; font-weight: 400; font-size: .7rem; color: var(--muted); }
+    .muted { color: var(--muted); }
     .tags-cell { max-width: 11rem; }
     .tag {
-      display: inline-block;
-      font-size: .68rem;
-      padding: .12rem .38rem;
-      margin: 0 .2rem .2rem 0;
-      border-radius: 999px;
-      background: #232a39;
-      border: 1px solid var(--border);
-      color: #c6cfde;
+      display: inline-block; font-size: .68rem; padding: .12rem .4rem; margin: 0 .2rem .2rem 0;
+      border-radius: 999px; background: #232a39; border: 1px solid var(--border); color: #c6cfde; line-height: 1.4;
     }
-    .name-cell { font-weight: 600; white-space: nowrap; }
-    .rank-cell { text-align: right; font-variant-numeric: tabular-nums; color: var(--accent); font-weight: 600; white-space: nowrap; }
-    .muted { color: var(--muted); }
-    .wiki { color: var(--accent); text-decoration: none; white-space: nowrap; }
-    .wiki:hover { text-decoration: underline; }
+    .badge {
+      display: inline-block; font-size: .66rem; padding: 0 .3rem; margin-left: .3rem;
+      border-radius: 4px; border: 1px solid var(--warn); color: var(--warn); line-height: 1.5;
+    }
+    .score-cell { min-width: 6.5rem; }
+    .score-val { font-variant-numeric: tabular-nums; font-weight: 600; }
+    .bar { height: 4px; border-radius: 2px; background: #232a39; margin-top: .25rem; overflow: hidden; }
+    .coverage { display: block; font-size: .66rem; color: var(--muted); margin-top: .2rem; }
+    .coverage.low { color: var(--warn); }
+    .bar > i { display: block; height: 100%; background: var(--accent); }
+    .news-cell { max-width: 20rem; }
+    .news-cell .date { color: var(--muted); font-size: .72rem; }
+    .works-cell { max-width: 17rem; font-size: .76rem; color: #c6cfde; }
+    a.link { color: var(--accent); text-decoration: none; white-space: nowrap; }
+    a.link:hover { text-decoration: underline; }
     .empty { padding: 1.5rem; color: var(--muted); text-align: center; }
-    footer { color: var(--muted); font-size: .78rem; padding-bottom: 1.5rem; max-width: 52rem; }
+    footer { color: var(--muted); font-size: .78rem; padding-bottom: 2rem; max-width: 56rem; line-height: 1.8; }
+    footer a { color: var(--accent); }
+
+    @media (max-width: 720px) {
+      .filter-row { flex-direction: column; align-items: stretch; }
+      .count { margin-left: 0; }
+      .search, .agency-select { min-width: 0; width: 100%; }
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>日本の商業舞台俳優リスト</h1>
+    <h1>日本の商業舞台俳優 評価ランキング</h1>
     <p class="lede">
-      開いたタイミングで Wikidata から<strong>名前・生年月日・所属（事務所）</strong>を取得し、年齢を再計算します。
-      Wikidata の「説明」欄は駅名など別件と混同しやすいため<strong>表示しません</strong>。
-      <strong>順位</strong>は X フォロワー・Instagram フォロワー・X 投稿頻度・X 最新投稿の鮮度から算出した総合スコアの高い順です（フィルター適用後はその結果内の順位）。
-      SNS の数値は 2026 年 4 月上旬時点の第三者集計（例: みんなのランキング、あちこちデータ）を手入力しており、公式 API からの自動取得ではありません。
+      ミュージカル・ストレートプレイ・2.5次元舞台・宝塚OG・歌舞伎まで、商業舞台を主戦場とする俳優を
+      <strong>Web 上で公開されている情報だけ</strong>から評価して並べています。
+      評価軸は <strong>X フォロワー数 / Instagram フォロワー数 / X 投稿頻度 / ニュースに取り上げられた度合い / 直近の活動量</strong> の 5 つ。
+      <strong>芸歴と年齢はスコアに含めず、参考値として表示</strong>しています。
     </p>
-    <div class="meta" id="meta">読み込み中...</div>
+    <div class="meta" id="meta">読み込み中…</div>
+
+    <details class="formula">
+      <summary>スコアの出し方と、各データの出どころ</summary>
+      <div class="formula-body" id="formula"></div>
+    </details>
   </header>
 
   <main>
-    <section class="filters" id="filters" aria-label="絞り込み">
+    <section class="filters" aria-label="絞り込み">
       <div class="filter-row">
-        <span class="muted" style="font-size:.8rem">ジャンル（複数可・OR）</span>
-        <button type="button" class="clear-genres" id="clearGenres">条件クリア</button>
+        <span class="filter-label">ジャンル（複数選択可・いずれかに該当）</span>
+        <button type="button" class="linkish" id="clearAll">条件をクリア</button>
       </div>
       <div class="chips" id="genreChips"></div>
       <div class="filter-row">
+        <label for="minCoverage">計測できた軸</label>
+        <select id="minCoverage" class="agency-select" style="min-width:9rem" aria-label="計測できた評価軸の数で絞り込み">
+          <option value="0">すべて表示</option>
+          <option value="3">3 軸以上だけ</option>
+          <option value="4">4 軸以上だけ</option>
+        </select>
         <label for="agencySelect">事務所</label>
         <select id="agencySelect" class="agency-select" aria-label="事務所で絞り込み"></select>
         <label for="search">キーワード</label>
-        <input id="search" class="search" type="search" placeholder="名前・よみ・事務所・出演作・SNS欄など" />
+        <input id="search" class="search" type="search" placeholder="名前・よみ・事務所・出演作・ニュース見出し" />
+        <span class="count" id="count"></span>
       </div>
     </section>
 
     <div class="table-wrap">
       <table>
         <thead>
-          <tr>
-            <th>順位</th>
-            <th>ジャンル</th>
-            <th>名前</th>
-            <th>よみ</th>
-            <th>生年月日</th>
-            <th>年齢</th>
-            <th>事務所</th>
-            <th>芸歴</th>
-            <th>最新出演作</th>
-            <th>Xフォロワー</th>
-            <th>IGフォロワー</th>
-            <th>X投稿頻度</th>
-            <th>X最新投稿</th>
-            <th></th>
-          </tr>
+          <tr id="headRow"></tr>
         </thead>
         <tbody id="tbody"></tbody>
       </table>
@@ -186,232 +210,125 @@
     </div>
   </main>
 
-  <footer>
-    データ: Wikidata（P569 生年月日、P108 所属／取得できない場合は手入力の事務所欄を利用。フリーランスは手入力で「フリー」）。
-    SNS 列のフォロワー数は主にみんなのランキング（2026 年 4 月掲載）およびあちこちデータ（集計日 2026/04/10）の公開値を参照しています。取得できていない項目は「—」です。
-  </footer>
+  <footer id="footer"></footer>
 
   <script>
-    const GENRES = [
-      "ミュージカル",
-      "ストレートプレイ",
-      "2.5次元舞台",
-      "宝塚・OG",
-      "新劇",
-      "小劇場",
-      "歌舞伎・伝統芸能",
-      "商業演劇",
-      "シェイクスピア・古典",
-      "現代劇・翻訳劇"
+    "use strict";
+
+    var COLUMNS = [
+      { key: "rank",          label: "順位",              sort: null,             cls: "rank-cell" },
+      { key: "score",         label: "総合スコア",         sort: "score",          cls: "score-cell" },
+      { key: "genres",        label: "ジャンル",           sort: null,             cls: "tags-cell" },
+      { key: "name",          label: "名前",              sort: null,             cls: "name-cell" },
+      { key: "agency",        label: "事務所",            sort: null,             cls: "" },
+      { key: "xFollowers",    label: "X フォロワー",       sort: "xFollowers",     cls: "num" },
+      { key: "igFollowers",   label: "IG フォロワー",      sort: "igFollowers",    cls: "num" },
+      { key: "xPostFrequency",label: "X 投稿頻度",         sort: null,             cls: "" },
+      { key: "news12m",       label: "報道（12ヶ月）",      sort: "news12m",        cls: "num" },
+      { key: "news90d",       label: "直近90日",           sort: "news90d",        cls: "num" },
+      { key: "latestNews",    label: "最新ニュース",        sort: null,             cls: "news-cell" },
+      { key: "stages",        label: "掲載中の出演公演",     sort: null,             cls: "works-cell" },
+      { key: "age",           label: "年齢（参考）",        sort: "age",            cls: "num" },
+      { key: "career",        label: "芸歴（参考）",        sort: "careerYears",    cls: "num" },
+      { key: "links",         label: "リンク",             sort: null,             cls: "" }
     ];
 
-    /**
-     * careerDebutYear: 芸歴の起点（デビュー年など）。未設定なら「—」。
-     * agencyManual: Wikidataに無い／上書きしたいとき。フリーなら「フリー」。
-     * latestWork: 最新出演作（手入力・要メンテ）。
-     * social: 手入力。数値は主に 2026年4月上旬の第三者集計。未設定は「—」表示。
-     */
-    const SNS_LATEST = "2026-04-10前後: 番組・公演・作品の告知投稿あり";
-    const SNS_LATEST_STAFF = "2026-04-10前後: スタッフによる仕事・メディア告知";
-    const FREQ_HIGH = "週3〜5回程度（本人・公式の投稿が多い）";
-    const FREQ_MID = "週1〜2回程度";
-    const FREQ_LOW = "月数回以下";
+    var AXIS_LABEL = {
+      xFollowers: "X フォロワー数",
+      igFollowers: "Instagram フォロワー数",
+      xPostFrequency: "X 投稿頻度",
+      newsCoverage: "ニュースに取り上げられた度合い",
+      recentActivity: "直近の活動量"
+    };
 
-    const ACTORS = [
-      { qid: "Q3268048", name: "江口拓也", yomi: "えぐち たくや", genres: ["2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "1,431,703", instagramFollowers: "493,511", xPostFrequency: FREQ_HIGH, xLatestPost: SNS_LATEST } },
-      { qid: "Q1369257", name: "梶裕貴", yomi: "かじ ゆうき", genres: ["2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "1,289,143", instagramFollowers: "194,377", xPostFrequency: FREQ_HIGH, xLatestPost: SNS_LATEST } },
-      { qid: "Q1359676", name: "城田優", yomi: "しろた ゆう", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "566,977", instagramFollowers: "1,784,484", xPostFrequency: FREQ_MID, xLatestPost: SNS_LATEST } },
-      { qid: "Q3270610", name: "蒼井翔太", yomi: "あおい しょうた", genres: ["ミュージカル", "2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "920,790", instagramFollowers: "—", xPostFrequency: FREQ_HIGH, xLatestPost: SNS_LATEST } },
-      { qid: "Q1365535", name: "安元洋貴", yomi: "やすもと ひろき", genres: ["2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "913,067", instagramFollowers: "193,328", xPostFrequency: FREQ_MID, xLatestPost: SNS_LATEST } },
-      { qid: "Q1145291", name: "浪川大輔", yomi: "なみかわ だいすけ", genres: ["2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "856,789", instagramFollowers: "151,680", xPostFrequency: FREQ_MID, xLatestPost: SNS_LATEST } },
-      { qid: "Q1192799", name: "下野紘", yomi: "しもの ひろ", genres: ["2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "793,899", instagramFollowers: "127,201", xPostFrequency: FREQ_HIGH, xLatestPost: SNS_LATEST } },
-      { qid: "Q7630810", name: "木村昴", yomi: "きむら すばる", genres: ["2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "646,202", instagramFollowers: "554", xPostFrequency: FREQ_HIGH, xLatestPost: SNS_LATEST } },
-      { qid: "Q17211665", name: "西山宏太朗", yomi: "にしやま こうたろう", genres: ["2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "553,631", instagramFollowers: "—", xPostFrequency: FREQ_MID, xLatestPost: SNS_LATEST } },
-      { qid: "Q519821", name: "宮野真守", yomi: "みやの まもる", genres: ["ミュージカル", "2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "383,696", instagramFollowers: "254,313", xPostFrequency: FREQ_MID, xLatestPost: SNS_LATEST } },
-      { qid: "Q11468200", name: "山崎育三郎", yomi: "やまざき いくさぶろう", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "138,650", instagramFollowers: "351,721", xPostFrequency: FREQ_MID, xLatestPost: SNS_LATEST } },
-      { qid: "Q563425", name: "鈴村健一", yomi: "すずむら けんいち", genres: ["2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "348,866", instagramFollowers: "—", xPostFrequency: FREQ_MID, xLatestPost: SNS_LATEST } },
-      { qid: "Q441288", name: "福山潤", yomi: "ふくやま じゅん", genres: ["2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "282,370", instagramFollowers: "—", xPostFrequency: FREQ_MID, xLatestPost: SNS_LATEST } },
-      { qid: "Q343598", name: "藤原竜也", yomi: "ふじわら たつや", genres: ["ストレートプレイ", "現代劇・翻訳劇", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "86,411", instagramFollowers: "—", xPostFrequency: FREQ_MID, xLatestPost: SNS_LATEST_STAFF } },
-      { qid: "Q1022017", name: "古川雄大", yomi: "ふるかわ ゆうた", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "51,202", instagramFollowers: "160,025", xPostFrequency: FREQ_MID, xLatestPost: SNS_LATEST_STAFF } },
-      { qid: "Q1342906", name: "小池徹平", yomi: "こいけ てっぺい", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "6,929", instagramFollowers: "236,148", xPostFrequency: FREQ_LOW, xLatestPost: SNS_LATEST } },
-      { qid: "Q289729", name: "宮沢りえ", yomi: "みやざわ りえ", genres: ["ストレートプレイ", "現代劇・翻訳劇", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "261,982", xPostFrequency: FREQ_LOW, xLatestPost: "2026年春: Instagram での更新あり" } },
-      { qid: "Q11533912", name: "染谷俊之", yomi: "そめや としゆき", genres: ["2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "174,492", instagramFollowers: "78,779", xPostFrequency: FREQ_MID, xLatestPost: SNS_LATEST } },
-      { qid: "Q3234527", name: "相葉裕樹", yomi: "あいば ひろき", genres: ["2.5次元舞台", "ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "97,881", instagramFollowers: "—", xPostFrequency: FREQ_MID, xLatestPost: SNS_LATEST } },
-      { qid: "Q11402044", name: "北村諒", yomi: "きたむら りょう", genres: ["2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "219,254", instagramFollowers: "—", xPostFrequency: FREQ_MID, xLatestPost: SNS_LATEST } },
-      { qid: "Q4261875", name: "小山剛志", yomi: "こやま つよし", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "79,813", instagramFollowers: "—", xPostFrequency: FREQ_MID, xLatestPost: SNS_LATEST } },
-      { qid: "Q121644067", name: "中村倫也", yomi: "なかむら とみや", genres: ["ストレートプレイ", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
-      { qid: "Q1142313", name: "松たか子", yomi: "まつ たかこ", genres: ["ストレートプレイ", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "529", instagramFollowers: "—", xPostFrequency: FREQ_LOW, xLatestPost: "2026年春: 更新は少なめ" } },
-      { qid: "Q1752331", name: "市村正親", yomi: "いちむら まさちか", genres: ["ミュージカル", "ストレートプレイ", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "253", xPostFrequency: FREQ_LOW, xLatestPost: "2026年春: Instagram は更新少" } },
-      { qid: "Q11373201", name: "井上芳雄", yomi: "いのうえ よしお", genres: ["ミュージカル", "商業演劇"], careerDebutYear: 1995, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
-      { qid: "Q11558130", name: "浦井健治", yomi: "うらい けんじ", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
-      { qid: "Q1045635", name: "天海祐希", yomi: "あまみ ゆうき", genres: ["宝塚・OG", "ストレートプレイ", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
-      { qid: "Q7313871", name: "柚希礼音", yomi: "ゆずき れおん", genres: ["宝塚・OG", "ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
-      { qid: "Q11372975", name: "井上小百合", yomi: "いのうえ さゆり", genres: ["2.5次元舞台", "ストレートプレイ"], careerDebutYear: null, agencyManual: "フリー", latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
-      { qid: "Q1203818", name: "加藤和樹", yomi: "かとう かずき", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
-      { qid: "Q11535049", name: "柿澤勇人", yomi: "かきざわ はやと", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
-      { qid: "Q975680", name: "阪本奨悟", yomi: "さかもと しょうご", genres: ["ミュージカル", "2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
-      { qid: "Q27150358", name: "三浦宏規", yomi: "みうら ひろき", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
-      { qid: "Q28068141", name: "甲斐翔真", yomi: "かい しょうま", genres: ["ミュージカル", "2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
-      { qid: "Q24873050", name: "仲田博喜", yomi: "なかた ひろき", genres: ["2.5次元舞台", "ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
-      { qid: "Q11584842", name: "石井一孝", yomi: "いしい かずたか", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
-      { qid: "Q17350205", name: "堂珍嘉邦", yomi: "どうちん よしくに", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
-      { qid: "Q17159126", name: "佐藤流司", yomi: "さとう りゅうじ", genres: ["2.5次元舞台", "ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
-      { qid: "Q54867701", name: "牧島輝", yomi: "まきしま こうき", genres: ["2.5次元舞台", "ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
-      { qid: "Q22126858", name: "有澤樟太郎", yomi: "ありさわ しょうたろう", genres: ["2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
-      { qid: "Q11483722", name: "平野良", yomi: "ひらの りょう", genres: ["2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
-      { qid: "Q11532005", name: "松田凌", yomi: "まつだ りょう", genres: ["2.5次元舞台", "ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
-      { qid: "Q56353328", name: "田村心", yomi: "たむら しん", genres: ["2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
-      { qid: "Q3545870", name: "植原卓也", yomi: "うえはら たくや", genres: ["2.5次元舞台", "ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
-      { qid: "Q11439614", name: "大野拓朗", yomi: "おおの たくろう", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
-      { qid: "Q22129324", name: "崎山つばさ", yomi: "さきやま つばさ", genres: ["2.5次元舞台", "ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
-      { qid: "Q43426081", name: "石田隼", yomi: "いしだ しゅん", genres: ["2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
-      { qid: "Q1067638", name: "中川晃教", yomi: "なかがわ あきのり", genres: ["ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
-      { qid: "Q11383564", name: "佐藤アツヒロ", yomi: "さとう あつひろ", genres: ["ミュージカル", "2.5次元舞台", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } },
-      { qid: "Q20040178", name: "財木琢磨", yomi: "たくら たくま", genres: ["2.5次元舞台", "ミュージカル", "商業演劇"], careerDebutYear: null, agencyManual: null, latestWork: null, social: { xFollowers: "—", instagramFollowers: "—", xPostFrequency: "不明", xLatestPost: "—" } }
-    ];
+    var state = {
+      data: null,
+      genres: new Set(),
+      agency: "",
+      minCoverage: 0,
+      query: "",
+      sortKey: null,
+      sortDir: -1
+    };
 
-    function parseFollowerCount(text) {
-      if (!text || text === "—") return 0;
-      const s = String(text).replace(/,/g, "").trim();
-      const wan = s.match(/([\d.]+)\s*万/);
-      if (wan) return Math.round(parseFloat(wan[1]) * 10000);
-      const n = parseInt(s, 10);
-      return Number.isFinite(n) ? n : 0;
+    function el(tag, cls, text) {
+      var n = document.createElement(tag);
+      if (cls) n.className = cls;
+      if (text != null) n.textContent = text;
+      return n;
     }
 
-    function postFreqScore(text) {
-      const t = String(text || "");
-      if (/ほぼ毎日|毎日/.test(t)) return 10;
-      if (/週3|週4|週5|週[3-5]/.test(t)) return 8;
-      if (/週1|週2/.test(t)) return 6;
-      if (/月/.test(t)) return 4;
-      if (/不明|—/.test(t) || !t.trim()) return 0;
-      return 3;
+    function fmtInt(n) {
+      return n == null ? null : n.toLocaleString("ja-JP");
     }
 
-    function latestPostScore(text) {
-      const t = String(text || "");
-      if (/2026[-年／/]0?4|2026.*4月|2026-04/.test(t)) return 10;
-      if (/2026.*春|2026[-年／/]0?3/.test(t)) return 7;
-      if (/2026/.test(t)) return 5;
-      if (/—|不明/.test(t) || !t.trim()) return 0;
-      return 4;
+    function td(text, cls) {
+      var c = el("td", cls || "");
+      c.textContent = text == null || text === "" ? "—" : String(text);
+      if (text == null || text === "") c.classList.add("muted");
+      return c;
     }
 
-    function actorCompositeScore(actor) {
-      const s = actor.social || {};
-      const x = parseFollowerCount(s.xFollowers);
-      const ig = parseFollowerCount(s.instagramFollowers);
-      const lx = Math.log10(x + 1);
-      const lig = Math.log10(ig + 1);
-      const f = postFreqScore(s.xPostFrequency);
-      const l = latestPostScore(s.xLatestPost);
-      return 0.36 * lx + 0.36 * lig + 0.18 * f + 0.1 * l;
+    /* ---------------- スコアの説明 ---------------- */
+
+    function renderFormula(d) {
+      var root = document.getElementById("formula");
+      root.textContent = "";
+
+      root.appendChild(el("p", null,
+        "5 つの評価軸をそれぞれ 0〜1 に正規化し、下の重みで足し合わせて 100 点満点にしています。" +
+        "フォロワー数は桁の差が大きいため対数をとってから正規化します。" +
+        "計測できなかった軸がある人は、その軸の重みを残りの軸へ按分するので、データ欠損だけで不利になりません（どの軸で測れたかは各行のスコアにカーソルを合わせると出ます）。"));
+
+      var t = el("table");
+      Object.keys(d.weights).forEach(function (k) {
+        var tr = el("tr");
+        tr.appendChild(el("th", null, AXIS_LABEL[k] || k));
+        tr.appendChild(el("td", "num", Math.round(d.weights[k] * 100) + "%"));
+        tr.appendChild(el("td", "muted", axisNote(k)));
+        t.appendChild(tr);
+      });
+      root.appendChild(t);
+
+      root.appendChild(el("p", null, "芸歴（デビュー年からの年数）と年齢はスコアに入れていません。表では参考値として表示するだけです。"));
+
+      var ul = el("ul");
+      d.sources.forEach(function (s) {
+        var li = el("li");
+        var a = el("a", null, s.name);
+        a.href = s.url;
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        li.appendChild(a);
+        li.appendChild(document.createTextNode(" — " + s.use + (s.asOf ? "（集計日 " + s.asOf + "）" : "")));
+        ul.appendChild(li);
+      });
+      root.appendChild(el("p", null, "データの出どころ:"));
+      root.appendChild(ul);
     }
 
-    function sortDataBySnsRanking(rows) {
-      rows.sort((a, b) => actorCompositeScore(b) - actorCompositeScore(a));
-    }
-
-    function birthIsoForAge(raw) {
-      if (!raw) return null;
-      if (raw.length === 10) return raw;
-      if (raw.length === 7) return `${raw}-01`;
-      if (raw.length === 4) return `${raw}-01-01`;
-      return null;
-    }
-
-    function calcAge(birthIso) {
-      if (!birthIso) return null;
-      const b = new Date(/^\d{4}-\d{2}-\d{2}$/.test(birthIso) ? `${birthIso}T00:00:00` : birthIso);
-      if (Number.isNaN(b.getTime())) return null;
-      const now = new Date();
-      let age = now.getFullYear() - b.getFullYear();
-      const m = now.getMonth() - b.getMonth();
-      if (m < 0 || (m === 0 && now.getDate() < b.getDate())) age -= 1;
-      return age;
-    }
-
-    function formatBirthDisplay(iso) {
-      if (!iso) return "—";
-      if (/^\d{4}$/.test(iso)) return `${iso}年（日付不明）`;
-      if (/^\d{4}-\d{2}$/.test(iso)) return `${iso.replace("-", "年")}月（日不明）`;
-      return iso;
-    }
-
-    function careerYearsText(debutYear) {
-      if (debutYear == null || debutYear === "") return "—";
-      const y = Number(debutYear);
-      if (!Number.isFinite(y)) return "—";
-      const n = new Date().getFullYear() - y;
-      if (n < 0) return "—";
-      return `約${n}年`;
-    }
-
-    async function fetchWithTimeout(url, ms) {
-      const ctrl = new AbortController();
-      const t = setTimeout(() => ctrl.abort(), ms);
-      try {
-        return await fetch(url, { cache: "no-store", signal: ctrl.signal });
-      } finally {
-        clearTimeout(t);
+    function axisNote(k) {
+      switch (k) {
+        case "xFollowers": return "本人または公式運営アカウントのフォロワー数（対数）";
+        case "igFollowers": return "同上（対数）";
+        case "xPostFrequency": return "X の API が有料化され自動取得できないため、名簿側の手入力欄。未記入なら重みを按分";
+        case "newsCoverage": return "直近12ヶ月のステージナタリー掲載記事数と、その記事の注目度の合成";
+        case "recentActivity": return "直近90日の記事数、最新記事の新しさ、掲載中の出演公演数の合成";
+        default: return "";
       }
     }
 
-    async function fetchWikidataEntities(ids) {
-      if (!ids.length) return { entities: {} };
-      const url = `https://www.wikidata.org/w/api.php?action=wbgetentities&ids=${ids.join("|")}&format=json&languages=ja&props=labels|claims&origin=*`;
-      const res = await fetchWithTimeout(url, 20000);
-      if (!res.ok) throw new Error(`Wikidata ${res.status}`);
-      return res.json();
-    }
-
-    function extractBirth(claims) {
-      const p569 = claims && claims.P569;
-      if (!p569 || !p569.length) return null;
-      const snak = p569[0].mainsnak;
-      if (!snak || snak.snaktype !== "value" || !snak.datavalue) return null;
-      const value = snak.datavalue.value;
-      if (!value || !value.time) return null;
-      const raw = value.time.replace(/^\+/, "");
-      const prec = value.precision;
-      if (prec === 9) return raw.slice(0, 4);
-      if (prec === 10) return raw.slice(0, 7);
-      return raw.slice(0, 10);
-    }
-
-    function extractEmployerQid(claims) {
-      const p108 = claims && claims.P108;
-      if (!p108 || !p108.length) return null;
-      for (const st of p108) {
-        const snak = st.mainsnak;
-        if (snak && snak.snaktype === "value" && snak.datavalue && snak.datavalue.type === "wikibase-entityid") {
-          return snak.datavalue.value.id;
-        }
-      }
-      return null;
-    }
-
-    function wikiLink(name) {
-      return `https://ja.wikipedia.org/wiki/Special:Search?search=${encodeURIComponent(name)}`;
-    }
-
-    let selectedGenres = new Set();
-    let agencyFilter = "";
-    let searchText = "";
-    let data = [];
+    /* ---------------- フィルタ ---------------- */
 
     function renderGenreChips() {
-      const root = document.getElementById("genreChips");
+      var root = document.getElementById("genreChips");
       root.textContent = "";
-      GENRES.forEach((g) => {
-        const b = document.createElement("button");
+      state.data.genres.forEach(function (g) {
+        var b = el("button", "chip" + (state.genres.has(g) ? " on" : ""), g);
         b.type = "button";
-        b.className = "chip" + (selectedGenres.has(g) ? " on" : "");
-        b.textContent = g;
-        b.addEventListener("click", () => {
-          if (selectedGenres.has(g)) selectedGenres.delete(g);
-          else selectedGenres.add(g);
+        b.setAttribute("aria-pressed", state.genres.has(g) ? "true" : "false");
+        b.addEventListener("click", function () {
+          if (state.genres.has(g)) state.genres.delete(g); else state.genres.add(g);
           renderGenreChips();
           renderTable();
         });
@@ -419,211 +336,326 @@
       });
     }
 
-    function uniqueAgencies(rows) {
-      const s = new Set();
-      rows.forEach((r) => {
-        const a = r.agencyDisplay;
-        if (a && a !== "—") s.add(a);
-      });
-      return Array.from(s).sort((x, y) => x.localeCompare(y, "ja"));
-    }
-
     function fillAgencySelect() {
-      const sel = document.getElementById("agencySelect");
-      const cur = sel.value;
+      var sel = document.getElementById("agencySelect");
       sel.textContent = "";
-      const o0 = document.createElement("option");
+      var o0 = el("option", null, "すべて");
       o0.value = "";
-      o0.textContent = "すべて";
       sel.appendChild(o0);
-      uniqueAgencies(data).forEach((a) => {
-        const o = document.createElement("option");
-        o.value = a;
-        o.textContent = a;
+      var names = {};
+      state.data.actors.forEach(function (a) { if (a.agency) names[a.agency] = true; });
+      Object.keys(names).sort(function (x, y) { return x.localeCompare(y, "ja"); }).forEach(function (n) {
+        var o = el("option", null, n);
+        o.value = n;
         sel.appendChild(o);
       });
-      if (cur && Array.from(sel.options).some((o) => o.value === cur)) sel.value = cur;
-      else sel.value = agencyFilter || "";
+      sel.value = state.agency;
     }
 
-    function rowHaystack(a) {
-      const s = a.social || {};
+    function haystack(a) {
       return [
-        a.name,
-        a.yomi,
-        a.genres.join(" "),
-        a.agencyDisplay,
-        a.latestWork,
-        a.birthDisplay,
-        a.careerText,
-        s.xFollowers,
-        s.instagramFollowers,
-        s.xPostFrequency,
-        s.xLatestPost
-      ]
-        .filter(Boolean)
-        .join(" ")
-        .toLowerCase();
+        a.name, a.yomi, a.agency, (a.genres || []).join(" "),
+        (a.stages || []).join(" "),
+        a.latestNews && a.latestNews.title,
+        (a.topNews || []).map(function (n) { return n.title; }).join(" "),
+        a.profile, a.xHandle, a.igHandle, a.origin
+      ].filter(Boolean).join(" ").toLowerCase();
     }
 
-    function filteredRows() {
-      const q = searchText.trim().toLowerCase();
-      return data.filter((a) => {
-        if (selectedGenres.size > 0 && !a.genres.some((g) => selectedGenres.has(g))) return false;
-        if (agencyFilter && a.agencyDisplay !== agencyFilter) return false;
-        if (q && !rowHaystack(a).includes(q)) return false;
+    function filtered() {
+      var q = state.query.trim().toLowerCase();
+      var rows = state.data.actors.filter(function (a) {
+        if (state.genres.size > 0 && !(a.genres || []).some(function (g) { return state.genres.has(g); })) return false;
+        if (state.agency && a.agency !== state.agency) return false;
+        if (state.minCoverage && (a.coverage || 0) < state.minCoverage) return false;
+        if (q && haystack(a).indexOf(q) < 0) return false;
         return true;
+      });
+      if (state.sortKey) {
+        rows = rows.slice().sort(function (x, y) {
+          var vx = x[state.sortKey], vy = y[state.sortKey];
+          if (vx == null && vy == null) return 0;
+          if (vx == null) return 1;      // 未計測は常に後ろ
+          if (vy == null) return -1;
+          return (vx - vy) * state.sortDir;
+        });
+      }
+      return rows;
+    }
+
+    /* ---------------- 表 ---------------- */
+
+    function renderHead() {
+      var tr = document.getElementById("headRow");
+      tr.textContent = "";
+      COLUMNS.forEach(function (c) {
+        var th = el("th", c.sort ? "sortable" : null);
+        th.appendChild(document.createTextNode(c.label));
+        if (c.sort) {
+          th.title = "クリックで並べ替え";
+          if (state.sortKey === c.sort) {
+            th.appendChild(el("span", "dir", state.sortDir < 0 ? " ▼" : " ▲"));
+          }
+          th.addEventListener("click", function () {
+            if (state.sortKey === c.sort) state.sortDir = -state.sortDir;
+            else { state.sortKey = c.sort; state.sortDir = -1; }
+            renderHead();
+            renderTable();
+          });
+        }
+        tr.appendChild(th);
       });
     }
 
-    function td(text) {
-      const cell = document.createElement("td");
-      cell.textContent = text == null || text === "" ? "—" : String(text);
-      return cell;
+    var STATE_TEXT = {
+      none: "アカウントなし",
+      unmeasured: "未計測",
+      unknown: "未確認"
+    };
+    var STATE_HINT = {
+      none: "本人名義のアカウントが無いことを確認済み。スコアでは 0 として扱っています。",
+      unmeasured: "アカウントは確認できましたが、集計サイトに数値がなく取得できませんでした。この軸は除外し、重みを他の軸へ按分しています。",
+      unknown: "本人名義のアカウントの有無自体を確認できていません。この軸は除外し、重みを他の軸へ按分しています。"
+    };
+
+    function followerCell(value, state, source, handle, urlBase, note) {
+      var c = el("td", "num");
+      if (value == null) {
+        c.classList.add("muted");
+        c.appendChild(document.createTextNode(STATE_TEXT[state] || "—"));
+        c.title = STATE_HINT[state] || "";
+        return c;
+      }
+      if (handle) {
+        var a = el("a", "link", fmtInt(value));
+        a.href = urlBase + handle;
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        a.title = "@" + handle + (note ? "（" + note + "）" : "");
+        c.appendChild(a);
+      } else {
+        c.appendChild(document.createTextNode(fmtInt(value)));
+      }
+      if (source === "manual") {
+        var b = el("span", "badge", "手動");
+        b.title = "自動集計に無かったため、公開プロフィールの表示値を手入力（概数）";
+        c.appendChild(b);
+      }
+      return c;
+    }
+
+    function scoreCell(a) {
+      var c = el("td", "score-cell");
+      c.appendChild(el("span", "score-val", a.score != null ? a.score.toFixed(1) : "—"));
+      var bar = el("div", "bar");
+      var i = el("i");
+      i.style.width = Math.max(0, Math.min(100, a.score || 0)) + "%";
+      bar.appendChild(i);
+      c.appendChild(bar);
+      var n = a.coverage != null ? a.coverage : (a.measuredAxes || []).length;
+      var cov = el("span", "coverage" + (n <= 2 ? " low" : ""), n + "/5 軸");
+      c.appendChild(cov);
+      var measured = (a.measuredAxes || []).map(function (k) { return AXIS_LABEL[k] || k; });
+      c.title = "5 つの評価軸のうち " + n + " つを計測。内訳: " + (measured.length ? measured.join(" / ") : "なし") +
+        (n < 5 ? "\n計測できなかった軸の重みは、この行の残りの軸へ按分しています。" : "");
+      return c;
     }
 
     function renderTable() {
-      const tbody = document.getElementById("tbody");
-      const empty = document.getElementById("empty");
+      var tbody = document.getElementById("tbody");
+      var empty = document.getElementById("empty");
       tbody.textContent = "";
-      const rows = filteredRows();
-      if (!rows.length) {
-        empty.hidden = false;
-        return;
-      }
+      var rows = filtered();
+      document.getElementById("count").textContent = rows.length + " 人 / 全 " + state.data.actors.length + " 人";
+      if (!rows.length) { empty.hidden = false; return; }
       empty.hidden = true;
-      rows.forEach((a, idx) => {
-        const tr = document.createElement("tr");
-        const rankTd = document.createElement("td");
-        rankTd.className = "rank-cell";
-        rankTd.textContent = String(idx + 1);
+
+      rows.forEach(function (a, idx) {
+        var tr = el("tr");
+
+        // 順位（絞り込み後はその中での順位。全体順位は title に出す）
+        var rankTd = el("td", "rank-cell", String(idx + 1));
+        rankTd.title = "全体では " + a.rank + " 位";
         tr.appendChild(rankTd);
-        const tagsTd = document.createElement("td");
-        tagsTd.className = "tags-cell";
-        a.genres.forEach((g) => {
-          const span = document.createElement("span");
-          span.className = "tag";
-          span.textContent = g;
-          tagsTd.appendChild(span);
-        });
+
+        tr.appendChild(scoreCell(a));
+
+        var tagsTd = el("td", "tags-cell");
+        (a.genres || []).forEach(function (g) { tagsTd.appendChild(el("span", "tag", g)); });
         tr.appendChild(tagsTd);
-        const nameTd = document.createElement("td");
-        nameTd.className = "name-cell";
-        nameTd.textContent = a.name;
+
+        var nameTd = el("td", "name-cell");
+        nameTd.appendChild(document.createTextNode(a.name));
+        if (a.yomi) nameTd.appendChild(el("span", "yomi", a.yomi));
+        if (a.profile) nameTd.title = a.profile;
         tr.appendChild(nameTd);
-        tr.appendChild(td(a.yomi));
-        tr.appendChild(td(a.birthDisplay));
-        tr.appendChild(td(a.age != null ? `${a.age}歳` : "—"));
-        tr.appendChild(td(a.agencyDisplay));
-        tr.appendChild(td(a.careerText));
-        const workTd = document.createElement("td");
-        workTd.style.maxWidth = "14rem";
-        workTd.textContent = a.latestWork || "—";
-        tr.appendChild(workTd);
-        const soc = a.social || {};
-        tr.appendChild(td(soc.xFollowers));
-        tr.appendChild(td(soc.instagramFollowers));
-        tr.appendChild(td(soc.xPostFrequency));
-        const xLatestTd = document.createElement("td");
-        xLatestTd.style.maxWidth = "16rem";
-        xLatestTd.style.whiteSpace = "pre-wrap";
-        xLatestTd.textContent = soc.xLatestPost || "—";
-        tr.appendChild(xLatestTd);
-        const linkTd = document.createElement("td");
-        const link = document.createElement("a");
-        link.className = "wiki";
-        link.href = wikiLink(a.name);
-        link.target = "_blank";
-        link.rel = "noopener noreferrer";
-        link.textContent = "Wiki";
-        linkTd.appendChild(link);
+
+        tr.appendChild(td(a.agency));
+
+        tr.appendChild(followerCell(a.xFollowers, a.xAccountState, a.xFollowersSource, a.xHandle, "https://x.com/", a.socialNote));
+        tr.appendChild(followerCell(a.igFollowers, a.igAccountState, a.igFollowersSource, a.igHandle, "https://www.instagram.com/", null));
+
+        var freqTd = el("td");
+        if (a.xPostFrequency) {
+          freqTd.textContent = a.xPostFrequency;
+        } else {
+          freqTd.classList.add("muted");
+          freqTd.textContent = "未計測";
+          freqTd.title = "X の API が有料化されたため自動取得できません。data/roster.json の xPostFrequency に手入力すると反映されます。";
+        }
+        tr.appendChild(freqTd);
+
+        var n12 = el("td", "num");
+        n12.textContent = a.news12m == null ? "—" : fmtInt(a.news12m) + " 本";
+        if (a.newsAttention12m) n12.title = "記事の注目度合計 " + fmtInt(a.newsAttention12m);
+        tr.appendChild(n12);
+
+        var n90 = el("td", "num");
+        n90.textContent = a.news90d == null ? "—" : fmtInt(a.news90d) + " 本";
+        if (a.daysSinceNews != null) n90.title = "最新の記事は " + a.daysSinceNews + " 日前";
+        tr.appendChild(n90);
+
+        var newsTd = el("td", "news-cell");
+        if (a.latestNews) {
+          newsTd.appendChild(el("span", "date", a.latestNews.date + "　"));
+          newsTd.appendChild(document.createTextNode(a.latestNews.title));
+        } else {
+          newsTd.classList.add("muted");
+          newsTd.textContent = "—";
+        }
+        tr.appendChild(newsTd);
+
+        var worksTd = el("td", "works-cell");
+        worksTd.textContent = (a.stages && a.stages.length) ? a.stages.slice(0, 3).join(" / ") : "—";
+        if (a.stages && a.stages.length > 3) worksTd.title = a.stages.join("\n");
+        if (!a.stages || !a.stages.length) worksTd.classList.add("muted");
+        tr.appendChild(worksTd);
+
+        var ageTd = el("td", "num");
+        ageTd.textContent = a.age != null ? a.age + " 歳" : "—";
+        if (a.birth) ageTd.title = "生年月日 " + a.birth;
+        if (a.age == null) ageTd.classList.add("muted");
+        tr.appendChild(ageTd);
+
+        var carTd = el("td", "num");
+        carTd.textContent = a.careerYears != null ? "約 " + a.careerYears + " 年" : "—";
+        if (a.debutYear) carTd.title = a.debutYear + "年デビュー";
+        if (a.careerYears == null) carTd.classList.add("muted");
+        tr.appendChild(carTd);
+
+        var linkTd = el("td");
+        if (a.natalieUrl) {
+          var na = el("a", "link", "ナタリー");
+          na.href = a.natalieUrl;
+          na.target = "_blank";
+          na.rel = "noopener noreferrer";
+          linkTd.appendChild(na);
+        }
+        if (a.officialSite) {
+          if (linkTd.childNodes.length) linkTd.appendChild(document.createTextNode(" / "));
+          var oa = el("a", "link", "公式");
+          oa.href = a.officialSite;
+          oa.target = "_blank";
+          oa.rel = "noopener noreferrer";
+          linkTd.appendChild(oa);
+        }
+        if (!linkTd.childNodes.length) { linkTd.classList.add("muted"); linkTd.textContent = "—"; }
         tr.appendChild(linkTd);
+
         tbody.appendChild(tr);
       });
     }
 
-    async function init() {
-      const meta = document.getElementById("meta");
-      renderGenreChips();
-      document.getElementById("clearGenres").addEventListener("click", () => {
-        selectedGenres.clear();
-        agencyFilter = "";
+    /* ---------------- 起動 ---------------- */
+
+    function renderMeta(d) {
+      var meta = document.getElementById("meta");
+      meta.textContent = "";
+      var p = el("p");
+      p.style.margin = "0";
+      p.appendChild(document.createTextNode("最終更新 "));
+      p.appendChild(el("b", null, d.generatedAtJst));
+      p.appendChild(document.createTextNode("（毎週金曜 10:00 に自動更新。取りこぼした場合は翌 土曜 11:00 に再実行）"));
+      meta.appendChild(p);
+
+      var c = d.counts;
+      meta.appendChild(el("p", null,
+        "収録 " + c.actors + " 人。うち X フォロワー数を取得できたのが " + c.withX + " 人、" +
+        "Instagram が " + c.withIg + " 人、生年月日が " + c.withBirth + " 人。取得できなかった項目は「未計測」と表示しています。"
+      ));
+      meta.lastChild.style.margin = ".35rem 0 0";
+    }
+
+    function renderFooter(d) {
+      var f = document.getElementById("footer");
+      f.textContent = "";
+      f.appendChild(el("p", null,
+        "このページは Wikipedia / Wikidata を使わず、公開されている一次情報と第三者集計サイトから機械的に組み立てています。" +
+        "数値は各ソースの公表値をそのまま引いたもので、独自に推定した値は含みません。"
+      ));
+      var ul = el("ul");
+      d.sources.forEach(function (s) {
+        var li = el("li");
+        var a = el("a", null, s.name);
+        a.href = s.url; a.target = "_blank"; a.rel = "noopener noreferrer";
+        li.appendChild(a);
+        li.appendChild(document.createTextNode("：" + s.use + (s.asOf ? "（集計日 " + s.asOf + "）" : "")));
+        ul.appendChild(li);
+      });
+      f.appendChild(ul);
+      f.appendChild(el("p", null,
+        "「手動」バッジの付いた数値は、自動集計サイトに掲載が無かったため公開プロフィールの表示値を控えたものです（概数）。" +
+        "ランキングは公開データに基づく機械的な集計であり、俳優の実力や評価を示すものではありません。"
+      ));
+    }
+
+    function init() {
+      var meta = document.getElementById("meta");
+      fetch("./data/ranking.json", { cache: "no-store" })
+        .then(function (r) {
+          if (!r.ok) throw new Error("HTTP " + r.status);
+          return r.json();
+        })
+        .then(function (d) {
+          state.data = d;
+          renderMeta(d);
+          renderFormula(d);
+          renderGenreChips();
+          fillAgencySelect();
+          renderHead();
+          renderTable();
+          renderFooter(d);
+        })
+        .catch(function (e) {
+          meta.textContent = "データ（data/ranking.json）を読み込めませんでした: " + e.message;
+        });
+
+      document.getElementById("clearAll").addEventListener("click", function () {
+        state.genres.clear();
+        state.agency = "";
+        state.minCoverage = 0;
+        state.query = "";
+        state.sortKey = null;
+        state.sortDir = -1;
         document.getElementById("agencySelect").value = "";
-        searchText = "";
+        document.getElementById("minCoverage").value = "0";
         document.getElementById("search").value = "";
         renderGenreChips();
-        fillAgencySelect();
+        renderHead();
         renderTable();
       });
-      document.getElementById("agencySelect").addEventListener("change", (e) => {
-        agencyFilter = e.target.value;
+      document.getElementById("agencySelect").addEventListener("change", function (e) {
+        state.agency = e.target.value;
         renderTable();
       });
-      document.getElementById("search").addEventListener("input", (e) => {
-        searchText = e.target.value;
+      document.getElementById("minCoverage").addEventListener("change", function (e) {
+        state.minCoverage = Number(e.target.value) || 0;
         renderTable();
       });
-
-      try {
-        const actorIds = ACTORS.map((a) => a.qid);
-        const json1 = await fetchWikidataEntities(actorIds);
-        const employerIds = [];
-        ACTORS.forEach((a) => {
-          const ent = json1.entities && json1.entities[a.qid];
-          const q = ent && extractEmployerQid(ent.claims);
-          if (q) employerIds.push(q);
-        });
-        const uniqEmployers = [...new Set(employerIds)];
-        const json2 = await fetchWikidataEntities(uniqEmployers);
-        const labelJa = (entities, qid) => {
-          const e = entities && entities[qid];
-          return e && e.labels && e.labels.ja && e.labels.ja.value;
-        };
-
-        data = ACTORS.map((a) => {
-          const entity = json1.entities && json1.entities[a.qid];
-          const name = (entity && entity.labels && entity.labels.ja && entity.labels.ja.value) || a.name;
-          const birthRaw = entity ? extractBirth(entity.claims) : null;
-          const birthDisplay = formatBirthDisplay(birthRaw);
-          const age = calcAge(birthIsoForAge(birthRaw));
-          const empQ = entity ? extractEmployerQid(entity.claims) : null;
-          const agencyFromWd = empQ ? labelJa(json2.entities, empQ) : null;
-          const agencyDisplay = a.agencyManual || agencyFromWd || "—";
-          const careerText = careerYearsText(a.careerDebutYear);
-          return {
-            ...a,
-            name,
-            birthRaw,
-            birthDisplay,
-            age: age !== null && !Number.isNaN(age) ? age : null,
-            agencyDisplay,
-            careerText,
-            latestWork: a.latestWork || null,
-            social: a.social || {}
-          };
-        });
-        sortDataBySnsRanking(data);
-        const now = new Date();
-        meta.innerHTML = `Wikidata 取得: <strong>${now.toLocaleString("ja-JP")}</strong> ／ <strong>${data.length}</strong> 名を SNS 総合スコア順に表示`;
-      } catch (err) {
-        const msg = err && err.name === "AbortError" ? "タイムアウト" : (err && err.message) || "エラー";
-        data = ACTORS.map((a) => ({
-          ...a,
-          name: a.name,
-          birthRaw: null,
-          birthDisplay: "—",
-          age: null,
-          agencyDisplay: a.agencyManual || "—",
-          careerText: careerYearsText(a.careerDebutYear),
-          latestWork: a.latestWork || null,
-          social: a.social || {}
-        }));
-        sortDataBySnsRanking(data);
-        meta.innerHTML = `Wikidata を取得できませんでした（<strong>${msg}</strong>）。手入力列のみの簡易表示です（並びは SNS 総合スコア順）。`;
-      }
-
-      fillAgencySelect();
-      renderTable();
+      document.getElementById("search").addEventListener("input", function (e) {
+        state.query = e.target.value;
+        renderTable();
+      });
     }
 
     init();
