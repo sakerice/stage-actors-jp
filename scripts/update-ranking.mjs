@@ -24,7 +24,8 @@ import {
   achikochiPerson,
   eigaPersonId,
   eigaPerson,
-  snsHandlesFromSite
+  snsHandlesFromSite,
+  natalieStages
 } from './sources.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -142,6 +143,21 @@ async function collect(actor) {
       row.stages = a.stages;
       row.natalieUrl = `https://natalie.mu/stage/artist/${natalieId}`;
 
+      // 人物ページの公演欄は 8 件で頭打ちなので、一覧ページから日程つきで取り直す
+      const plays = await natalieStages(natalieId);
+      await sleep(350);
+      if (plays.length) {
+        row.stages = plays.slice(0, 10).map((p) => p.title);
+        row.stagesTotal = plays.length;
+        const overlaps = (p, fromDays) => {
+          if (!p.end) return false;
+          return days(p.end) <= fromDays && days(p.start || p.end) >= -370;
+        };
+        row.stages12m = plays.filter((p) => overlaps(p, 365)).length;
+        row.stagesUpcoming = plays.filter((p) => p.end && days(p.end) <= 0).length;
+        row.stageList = plays.slice(0, 10);
+      }
+
       const news = await natalieNews(natalieId, NOW);
       const in12m = news.filter((n) => n.date && days(n.date) <= 365);
       const in90d = news.filter((n) => n.date && days(n.date) <= 90);
@@ -254,7 +270,9 @@ function score(rows) {
   const actRaw = rows.map((r) => {
     if (r.news90d == null) return null;
     const freshness = r.daysSinceNews == null ? 0 : Math.max(0, 1 - r.daysSinceNews / 180);
-    return Math.log10((r.news90d || 0) + 1) * 0.55 + freshness * 0.3 + Math.log10((r.stages?.length || 0) + 1) * 0.15;
+    // 公演は「直近12ヶ月に上演があったもの」を数える。人物ページの表示上限(8件)は使わない。
+    const recentPlays = r.stages12m != null ? r.stages12m : (r.stages?.length || 0);
+    return Math.log10((r.news90d || 0) + 1) * 0.55 + freshness * 0.3 + Math.log10(recentPlays + 1) * 0.15;
   });
 
   const nx = followerNormalizer(rows.map((r) => log(r.xFollowers)));

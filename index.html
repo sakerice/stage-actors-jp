@@ -143,6 +143,7 @@
     .bar { height: 4px; border-radius: 2px; background: #232a39; margin-top: .25rem; overflow: hidden; }
     .coverage { display: block; font-size: .66rem; color: var(--muted); margin-top: .2rem; }
     .coverage.low { color: var(--warn); }
+    .sub { display: block; font-size: .66rem; color: var(--muted); }
     .bar > i { display: block; height: 100%; background: var(--accent); }
     .news-cell { max-width: 20rem; }
     .news-cell .date { color: var(--muted); font-size: .72rem; }
@@ -227,7 +228,8 @@
       { key: "news12m",       label: "報道（12ヶ月）",      sort: "news12m",        cls: "num" },
       { key: "news90d",       label: "直近90日",           sort: "news90d",        cls: "num" },
       { key: "latestNews",    label: "最新ニュース",        sort: null,             cls: "news-cell" },
-      { key: "stages",        label: "掲載中の出演公演",     sort: null,             cls: "works-cell" },
+      { key: "stages12m",     label: "公演（12ヶ月）",      sort: "stages12m",      cls: "num" },
+      { key: "stages",        label: "出演公演",            sort: null,             cls: "works-cell" },
       { key: "age",           label: "年齢（参考）",        sort: "age",            cls: "num" },
       { key: "career",        label: "芸歴（参考）",        sort: "careerYears",    cls: "num" },
       { key: "links",         label: "リンク",             sort: null,             cls: "" }
@@ -313,7 +315,7 @@
         case "igFollowers": return "同上（対数）";
         case "xPostFrequency": return "X の API が有料化され自動取得できないため、名簿側の手入力欄。未記入なら重みを按分";
         case "newsCoverage": return "直近12ヶ月のステージナタリー掲載記事数と、その記事の注目度の合成";
-        case "recentActivity": return "直近90日の記事数、最新記事の新しさ、掲載中の出演公演数の合成";
+        case "recentActivity": return "直近90日の記事数、最新記事の新しさ、直近12ヶ月に上演があった公演数の合成";
         default: return "";
       }
     }
@@ -525,10 +527,31 @@
         }
         tr.appendChild(newsTd);
 
+        var p12 = el("td", "num");
+        if (a.stages12m == null) {
+          p12.classList.add("muted");
+          p12.textContent = "—";
+        } else {
+          p12.textContent = a.stages12m + " 本";
+          if (a.stagesUpcoming) {
+            p12.appendChild(el("span", "sub", "上演予定 " + a.stagesUpcoming));
+          }
+          p12.title = "直近12ヶ月に上演があった公演の本数" +
+            (a.stagesUpcoming ? "。うち " + a.stagesUpcoming + " 本はこれから／上演中" : "");
+        }
+        tr.appendChild(p12);
+
         var worksTd = el("td", "works-cell");
-        worksTd.textContent = (a.stages && a.stages.length) ? a.stages.slice(0, 3).join(" / ") : "—";
-        if (a.stages && a.stages.length > 3) worksTd.title = a.stages.join("\n");
-        if (!a.stages || !a.stages.length) worksTd.classList.add("muted");
+        var list = a.stageList || (a.stages || []).map(function (t) { return { title: t }; });
+        if (list.length) {
+          worksTd.textContent = list.slice(0, 3).map(function (p) { return p.title; }).join(" / ");
+          worksTd.title = list.map(function (p) {
+            return p.start ? p.title + "（" + p.start + " 〜 " + p.end + "）" : p.title;
+          }).join("\n");
+        } else {
+          worksTd.classList.add("muted");
+          worksTd.textContent = "—";
+        }
         tr.appendChild(worksTd);
 
         var ageTd = el("td", "num");
@@ -581,7 +604,9 @@
       var c = d.counts;
       meta.appendChild(el("p", null,
         "収録 " + c.actors + " 人。うち X フォロワー数を取得できたのが " + c.withX + " 人、" +
-        "Instagram が " + c.withIg + " 人、生年月日が " + c.withBirth + " 人。取得できなかった項目は「未計測」と表示しています。"
+        "Instagram が " + c.withIg + " 人、生年月日が " + c.withBirth + " 人。" +
+        "数値が無い欄は「アカウントなし（確認済み・0 点として算入）」「未計測（アカウントはあるが数値を取れない）」" +
+        "「未確認（アカウントの有無を確認できていない）」を区別して表示しています。"
       ));
       meta.lastChild.style.margin = ".35rem 0 0";
     }

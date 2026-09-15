@@ -77,10 +77,15 @@ export async function natalieArtist(id) {
     return m ? m[1] : null;
   };
 
-  // 出演公演（ステージナタリーが作品ページを持つもの）
-  const a = h.indexOf('の公演・舞台');
-  const b = h.indexOf('の映画作品');
-  const seg = a >= 0 ? h.slice(a, b > a ? b : a + 30000) : '';
+  // 出演公演。セクションは id="play" で始まり、次の NA_section の直前で終わる。
+  // 終端を文字数で切ると、映画セクションが無い人でニュース見出しまで拾ってしまう。
+  const start = h.search(/NA_section[^"]*" id="play"/);
+  let seg = '';
+  if (start >= 0) {
+    const rest = h.slice(start + 40);
+    const nextIdx = rest.search(/NA_section[^"]*" id="[a-z_]+"/);
+    seg = nextIdx >= 0 ? rest.slice(0, nextIdx) : rest;
+  }
   const stages = [...new Set([...seg.matchAll(/NA_card_title[^>]*>([^<]+)</g)].map((m) => stripTags(m[1])))];
 
   return {
@@ -243,4 +248,53 @@ export async function snsHandlesFromSite(url) {
     ...new Set([...h.matchAll(/https?:\/\/(?:www\.)?instagram\.com\/([A-Za-z0-9_.]{2,30})/g)].map((m) => m[1]))
   ].filter((s) => !bad.test(s));
   return { xHandle: x[0] || null, igHandle: ig[0] || null };
+}
+
+/* ------------------------------------------------------------------ *
+ * 出演公演の一覧（日程つき）
+ * 人物ページに出るのは先頭 8 件で頭打ちになるため、一覧ページを見る。
+ * ------------------------------------------------------------------ */
+
+function parsePeriod(text) {
+  // 「2026年11月10日（火）〜12月31日（木）」「2026年8月20日（木）」などを想定
+  const t = text.replace(/（[^）]*）/g, '');
+  const parts = t.split(/[〜~]/);
+  const abs = /(\d{4})年(\d{1,2})月(\d{1,2})?日?/;
+  const m1 = parts[0] && parts[0].match(abs);
+  if (!m1) return null;
+  const y = +m1[1];
+  const start = new Date(Date.UTC(y, +m1[2] - 1, m1[3] ? +m1[3] : 1));
+  let end = start;
+  if (parts[1]) {
+    const m2 = parts[1].match(abs);
+    if (m2) {
+      end = new Date(Date.UTC(+m2[1], +m2[2] - 1, m2[3] ? +m2[3] : 28));
+    } else {
+      const m3 = parts[1].match(/(\d{1,2})月(\d{1,2})?日?/);
+      if (m3) {
+        let ey = y;
+        if (+m3[1] < +m1[2]) ey += 1; // 年またぎ
+        end = new Date(Date.UTC(ey, +m3[1] - 1, m3[2] ? +m3[2] : 28));
+      }
+    }
+  }
+  return { start: start.toISOString().slice(0, 10), end: end.toISOString().slice(0, 10) };
+}
+
+export async function natalieStages(id) {
+  let h;
+  try {
+    h = await get(`https://natalie.mu/profile/${id}/play`, { retries: 1 });
+  } catch {
+    return [];
+  }
+  const out = [];
+  const re = /NA_card_title">([^<]+)<\/p>\s*(?:<p class="NA_card_summary">([^<]*)<\/p>)?/g;
+  let m;
+  while ((m = re.exec(h))) {
+    const title = stripTags(m[1]);
+    const period = m[2] ? parsePeriod(stripTags(m[2])) : null;
+    out.push({ title, start: period && period.start, end: period && period.end });
+  }
+  return out;
 }
