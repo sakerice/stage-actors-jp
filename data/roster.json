@@ -24,8 +24,10 @@
       "manualSocial": {
         "xHandle": "inoueyoshio_co",
         "xFollowers": 14000,
-        "xNote": "レーベル公式アカウント（本人名義のXは確認できず）",
-        "checkedAt": "2026-09-16"
+        "igHandle": "inoueyoshio_co",
+        "igFollowers": 16000,
+        "checkedAt": "2026-09-18",
+        "xNote": "レーベル（日本コロムビア）公式アカウント。X・Instagram とも同一ハンドルで、本人名義の個人アカウントは確認できず"
       }
     },
     {
@@ -400,7 +402,13 @@
       ],
       "natalieId": "14139",
       "achikochiSlug": "大竹しのぶ",
-      "agency": "ホリプロ"
+      "agency": "ホリプロ",
+      "manualSocial": {
+        "xHandle": "mariar0717",
+        "xFollowers": 389,
+        "checkedAt": "2026-09-18",
+        "xNote": "2015年開設の期間限定オフィシャルアカウント。公式サイト otake-shinobu.com を掲出"
+      }
     },
     {
       "name": "高橋一生",
@@ -519,7 +527,12 @@
       ],
       "natalieId": "69845",
       "achikochiSlug": "和田雅成",
-      "agency": "ルビーパレード"
+      "agency": "ルビーパレード",
+      "manualSocial": {
+        "igHandle": "masanariwada_",
+        "igFollowers": 55000,
+        "checkedAt": "2026-09-18"
+      }
     },
     {
       "name": "黒羽麻璃央",
@@ -567,7 +580,15 @@
       ],
       "natalieId": "128214",
       "achikochiSlug": "新木宏典",
-      "agency": "ワタナベエンターテインメント"
+      "agency": "ワタナベエンターテインメント",
+      "manualSocial": {
+        "xHandle": "araki_hiro0614",
+        "xFollowers": 126000,
+        "igHandle": "araki_hiro0614",
+        "igFollowers": 111000,
+        "checkedAt": "2026-09-18",
+        "xNote": "あちこちデータの人物ページが 2026-09-18 時点で 404。公式 lit.link 記載のアカウントから直接控えた"
+      }
     },
     {
       "name": "有澤樟太郎",
@@ -691,7 +712,12 @@
       ],
       "natalieId": "73276",
       "achikochiSlug": "北村諒",
-      "agency": "フリー"
+      "agency": "フリー",
+      "manualSocial": {
+        "igHandle": "ryooo_kitamu",
+        "igFollowers": 42000,
+        "checkedAt": "2026-09-18"
+      }
     },
     {
       "name": "松田凌",
@@ -721,7 +747,12 @@
       ],
       "natalieId": "106030",
       "achikochiSlug": "松本幸四郎（10代目）",
-      "agency": "松竹"
+      "agency": "松竹",
+      "manualSocial": {
+        "xHandle": "koshirofficial",
+        "xFollowers": 3531,
+        "checkedAt": "2026-09-18"
+      }
     },
     {
       "name": "尾上松也",
@@ -791,8 +822,35 @@
       "natalieId": "93414",
       "agency": "BLUE LABEL",
       "achikochiSlug": "咲妃みゆ"
+    },
+    {
+      "name": "吉原光夫",
+      "genres": [
+        "ミュージカル",
+        "商業演劇"
+      ],
+      "natalieId": "99541",
+      "agency": "COME TRUE next",
+      "achikochiSlug": null
+    },
+    {
+      "name": "早乙女太一",
+      "genres": [
+        "ストレートプレイ",
+        "商業演劇"
+      ],
+      "natalieId": "65358",
+      "agency": "LDH JAPAN",
+      "achikochiSlug": null,
+      "manualSocial": {
+        "xHandle": "taichi_saotome",
+        "igHandle": "taichisaotome_official",
+        "checkedAt": "2026-09-18",
+        "xFollowers": 24000,
+        "igFollowers": 100000
+      }
     }
   ],
-  "manualSocialNote": "あちこちデータが数値を持たない人の補完。2026-09-16 に X / Instagram の公開プロフィール表示値を目視で控えたもの（X・Instagram とも数値は丸め表示）。自動取得できた場合はそちらを優先する。",
+  "manualSocialNote": "あちこちデータが数値を持たない人の補完。X / Instagram の公開プロフィール表示値を目視で控えたもの（X・Instagram とも数値は丸め表示）。各エントリの checkedAt が確認日。自動取得できた場合はそちらを優先する。",
   "noAccountNote": "本人名義のアカウントが「無い」と公表・確認できた場合のみ true にする。未確認のものは空にしておくこと（0点扱いにすると事実と違うランキングになる）。"
 }
