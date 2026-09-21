@@ -75,6 +75,27 @@ node scripts/rescore.mjs --dry    # 順位がどう動くか確認するだけ
 node scripts/rescore.mjs          # data/ranking.json に反映
 ```
 
+### 取得に失敗したときの引き継ぎ
+
+`update-ranking.mjs` は実行前に既存の `data/ranking.json` を読み、**取得に失敗したソースの
+フィールドだけ前回値を引き継ぐ**（`SOURCE_FIELDS` の単位）。引き継いだ場合は
+`natalieAsOf` / `achikochiAsOf` が更新されないので、いつのデータかが残る。
+
+これは**ステージナタリーがデータセンターの IP を HTTP 405 で弾く**ため。
+GitHub Actions のランナーが該当し、引き継ぎが無いと報道量・活動量が全欠測になって
+順位が実態と無関係な並びに化ける。
+
+`verify-ranking.mjs` は値の有無だけでなく**鮮度**も見る。
+
+| 状態 | 挙動 |
+|---|---|
+| 中央値 10 日超 | 警告（コミットはする） |
+| 半数以上が 21 日超 | **失敗**（コミットしない） |
+| そのソースから一度も取れていない | **失敗** |
+
+サイト側も、いずれかのソースが 10 日以上古いとページ冒頭に
+「⚠ 一部のデータが更新できていません」と表示する。黙って古い順位を出し続けないため。
+
 ## 自動更新
 
 `.github/workflows/weekly-ranking-update.yml`

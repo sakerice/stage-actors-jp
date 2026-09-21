@@ -131,6 +131,7 @@ async function collect(actor) {
         .sort((a, b) => b.score - a.score)
         .slice(0, 3)
         .map((n) => ({ title: n.title, date: n.date, score: n.score, url: n.url || null }));
+      row.natalieAsOf = NOW.toISOString().slice(0, 10);
     }
   } catch (e) {
     row.sourceErrors.push('natalie: ' + e.message);
@@ -155,6 +156,9 @@ async function collect(actor) {
   }
   row.xFollowersSource = row.xFollowers != null ? 'achikochi' : null;
   row.igFollowersSource = row.igFollowers != null ? 'achikochi' : null;
+  if (!row.sourceErrors.some((e) => e.startsWith('achikochi'))) {
+    row.achikochiAsOf = NOW.toISOString().slice(0, 10);
+  }
 
   // ステージナタリーにリンクが無い場合、フォロワー集計側のアカウント名で補う
   if (!row.xHandle && row.snsAccounts?.length) row.xHandle = row.snsAccounts[0].handle;
@@ -218,17 +222,81 @@ async function collect(actor) {
   return row;
 }
 
+/* ------------------------------------------------------------------ *
+ * 取得に失敗したソースは、前回の値を引き継ぐ
+ *
+ * ステージナタリーはデータセンターの IP から叩くと HTTP 405 で弾かれる
+ * （GitHub Actions のランナーが該当する）。そのたびに報道量・活動量が
+ * 全欠測になって、順位が実態と無関係な並びに化けるのを防ぐ。
+ * 引き継いだ場合は natalieAsOf / achikochiAsOf が更新されないので、
+ * verify-ranking.mjs が「いつのデータか」で鮮度を見張る。
+ * ------------------------------------------------------------------ */
+
+/** どのフィールドがどのソース由来か。引き継ぎはこの単位で行う。 */
+const SOURCE_FIELDS = {
+  natalie: [
+    'profile', 'officialSite', 'natalieUrl', 'stages', 'stageList', 'stagesTotal',
+    'stages12m', 'stagesUpcoming', 'news12m', 'news90d', 'newsAttention12m',
+    'latestNews', 'topNews', 'daysSinceNews', 'natalieAsOf'
+  ],
+  achikochi: ['xFollowers', 'igFollowers', 'snsAccounts', 'followerSourceDate', 'achikochiAsOf'],
+  eiga: ['yomi', 'birth', 'origin']
+};
+
+function carryForward(row, prev) {
+  if (!prev) return row;
+  const carried = [];
+  for (const [source, fields] of Object.entries(SOURCE_FIELDS)) {
+    const failed = row.sourceErrors.some((e) => e.startsWith(source + ':'));
+    // エラーは出ていないが値が空、というケース（ID 未解決など）も引き継ぎ対象にする
+    const empty = fields.every((f) => row[f] == null);
+    if (!failed && !empty) continue;
+    let did = false;
+    for (const f of fields) {
+      if (row[f] == null && prev[f] != null) {
+        row[f] = prev[f];
+        did = true;
+      }
+    }
+    if (did) carried.push(source);
+  }
+  if (carried.length) {
+    row.carriedForward = carried;
+    // 引き継いだ「最新記事」からの経過日数は、今日を基準に計算し直す
+    if (carried.includes('natalie') && row.latestNews?.date) {
+      row.daysSinceNews = Math.round(days(row.latestNews.date));
+    }
+    // 引き継ぎ元がフォロワー数なら、出どころの表記も戻す
+    if (carried.includes('achikochi')) {
+      if (row.xFollowers != null && !row.xFollowersSource) row.xFollowersSource = 'achikochi';
+      if (row.igFollowers != null && !row.igFollowersSource) row.igFollowersSource = 'achikochi';
+    }
+  }
+  return row;
+}
+
 /* ------------------------------------------------------------------ */
 
 const roster = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'roster.json'), 'utf8'));
+
+let previous = new Map();
+try {
+  const old = JSON.parse(fs.readFileSync(OUT, 'utf8'));
+  previous = new Map(old.actors.map((a) => [a.name, a]));
+  process.stderr.write(`前回の結果を ${previous.size} 人ぶん読み込んだ（取得失敗時の引き継ぎ用）\n`);
+} catch {
+  process.stderr.write('前回の結果が無いので、引き継ぎなしで収集する\n');
+}
+
 const targets = roster.actors.slice(0, LIMIT);
 const rows = [];
 for (const a of targets) {
-  const r = await collect(a);
+  const r = carryForward(await collect(a), previous.get(a.name));
   rows.push(r);
   process.stderr.write(
     `${String(rows.length).padStart(2)}/${targets.length} ${r.name}  X=${r.xFollowers ?? '-'} IG=${r.igFollowers ?? '-'} ` +
       `news12m=${r.news12m ?? '-'} 90d=${r.news90d ?? '-'} birth=${r.birth ?? '-'}` +
+      (r.carriedForward ? `  [前回値を引き継ぎ: ${r.carriedForward.join(',')}]` : '') +
       (r.sourceErrors.length ? `  !${r.sourceErrors.join(';')}` : '') +
       '\n'
   );
@@ -238,6 +306,27 @@ for (const a of targets) {
 score(rows);
 
 const followerDates = [...new Set(rows.map((r) => r.followerSourceDate).filter(Boolean))].sort();
+
+/** 各ソースについて「何日前のデータか」の中央値。ページ側で鮮度を出すために持たせる。 */
+function freshnessOf(field) {
+  const ds = rows
+    .map((r) => r[field])
+    .filter(Boolean)
+    .sort();
+  if (!ds.length) return null;
+  const median = ds[Math.floor(ds.length / 2)];
+  return {
+    asOf: median,
+    oldest: ds[0],
+    newest: ds[ds.length - 1],
+    ageDays: Math.floor((NOW - new Date(median + 'T00:00:00+09:00')) / DAY)
+  };
+}
+const freshness = {
+  natalie: freshnessOf('natalieAsOf'),
+  achikochi: freshnessOf('achikochiAsOf')
+};
+const carriedCount = rows.filter((r) => r.carriedForward?.length).length;
 const out = {
   generatedAt: NOW.toISOString(),
   generatedAtJst: new Intl.DateTimeFormat('ja-JP', {
@@ -246,13 +335,21 @@ const out = {
     timeStyle: 'short'
   }).format(NOW),
   weights: WEIGHTS,
+  freshness,
+  carriedForwardCount: carriedCount,
   genres: roster.genres,
   sources: [
-    { name: 'ステージナタリー', url: 'https://natalie.mu/stage', use: '報道量（直近12ヶ月の記事数・注目度）、直近の活動量、出演公演、公式SNSリンク' },
+    {
+      name: 'ステージナタリー',
+      url: 'https://natalie.mu/stage',
+      use: '報道量（直近12ヶ月の記事数・注目度）、直近の活動量、出演公演、公式SNSリンク',
+      fetchedAsOf: freshness.natalie?.asOf || null
+    },
       {
       name: 'あちこちデータ',
       url: 'https://achikochi-data.com/',
       use: 'X / Instagram のフォロワー数',
+      fetchedAsOf: freshness.achikochi?.asOf || null,
       asOf: followerDates.length
         ? followerDates[0] === followerDates[followerDates.length - 1]
           ? followerDates[0]

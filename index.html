@@ -54,6 +54,12 @@
     .meta ul { margin: .5rem 0 0; padding-left: 1.1rem; }
     .meta li { margin-bottom: .15rem; }
     .meta a { color: var(--accent); }
+    .meta .stale {
+      margin: .5rem 0 0; padding: .5rem .65rem; border: 1px solid var(--warn);
+      border-radius: 6px; color: var(--warn);
+    }
+    .meta .stale strong { font-weight: 600; }
+    .meta .stale ul { margin: .35rem 0 0; }
 
     details.formula { margin-top: .75rem; max-width: 56rem; }
     details.formula > summary {
@@ -315,7 +321,11 @@
         a.target = "_blank";
         a.rel = "noopener noreferrer";
         li.appendChild(a);
-        li.appendChild(document.createTextNode(" — " + s.use + (s.asOf ? "（集計日 " + s.asOf + "）" : "")));
+        li.appendChild(document.createTextNode(
+          " — " + s.use +
+          (s.asOf ? "（集計日 " + s.asOf + "）" : "") +
+          (s.fetchedAsOf ? "　取得 " + s.fetchedAsOf : "")
+        ));
         ul.appendChild(li);
       });
       root.appendChild(el("p", null, "データの出どころ:"));
@@ -640,6 +650,27 @@
       p.appendChild(document.createTextNode("（毎週金曜 10:00 に自動更新。取りこぼした場合は翌 土曜 11:00 に再実行）"));
       meta.appendChild(p);
 
+      // データが古いままなら、順位を出す前にそう言う
+      var stale = [];
+      var FRESH_LABEL = { natalie: "ステージナタリー（報道量・活動量）", achikochi: "フォロワー数" };
+      Object.keys(d.freshness || {}).forEach(function (k) {
+        var f = d.freshness[k];
+        if (f && f.ageDays != null && f.ageDays >= 10) {
+          stale.push(FRESH_LABEL[k] + "：" + f.asOf + "（" + f.ageDays + " 日前）");
+        }
+      });
+      if (stale.length) {
+        var warn = el("p", "stale");
+        warn.appendChild(el("strong", null, "⚠ 一部のデータが更新できていません。"));
+        warn.appendChild(document.createTextNode(
+          " 取得元にアクセスできなかったため、以下は前回取得した値をそのまま使っています。順位もその分だけ古い状態です。"
+        ));
+        var su = el("ul");
+        stale.forEach(function (t) { su.appendChild(el("li", null, t)); });
+        warn.appendChild(su);
+        meta.appendChild(warn);
+      }
+
       var c = d.counts;
       meta.appendChild(el("p", null,
         "収録 " + c.actors + " 人。うち X フォロワー数を取得できたのが " + c.withX + " 人、" +
@@ -663,7 +694,11 @@
         var a = el("a", null, s.name);
         a.href = s.url; a.target = "_blank"; a.rel = "noopener noreferrer";
         li.appendChild(a);
-        li.appendChild(document.createTextNode("：" + s.use + (s.asOf ? "（集計日 " + s.asOf + "）" : "")));
+        li.appendChild(document.createTextNode(
+          "：" + s.use +
+          (s.asOf ? "（集計日 " + s.asOf + "）" : "") +
+          (s.fetchedAsOf ? "　取得 " + s.fetchedAsOf : "")
+        ));
         ul.appendChild(li);
       });
       f.appendChild(ul);
