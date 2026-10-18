@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-10-11T09:24:25.967Z",
- "generatedAtJst": "2026/10/11 18:24",
+ "generatedAt": "2026-10-18T07:29:22.397Z",
+ "generatedAtJst": "2026/10/18 16:29",
  "weights": {
   "xFollowers": 0.22,
   "igFollowers": 0.18,
@@ -13,12 +13,12 @@
    "asOf": "2026-10-09",
    "oldest": "2026-10-09",
    "newest": "2026-10-09",
-   "ageDays": 2
+   "ageDays": 9
   },
   "achikochi": {
-   "asOf": "2026-10-11",
-   "oldest": "2026-10-11",
-   "newest": "2026-10-11",
+   "asOf": "2026-10-18",
+   "oldest": "2026-10-18",
+   "newest": "2026-10-18",
    "ageDays": 0
   }
  },
@@ -45,8 +45,8 @@
    "name": "あちこちデータ",
    "url": "https://achikochi-data.com/",
    "use": "X / Instagram のフォロワー数",
-   "fetchedAsOf": "2026-10-11",
-   "asOf": "2026-07-18 〜 2026-10-11"
+   "fetchedAsOf": "2026-10-18",
+   "asOf": "2026-07-27 〜 2026-10-17"
   },
   {
    "name": "映画.com",
@@ -57,7 +57,7 @@
  "counts": {
   "actors": 71,
   "withX": 54,
-  "withIg": 51,
+  "withIg": 50,
   "withBirth": 56,
   "withErrors": 71
  },
@@ -71,16 +71,16 @@
    "natalieId": "48864",
    "achikochiSlug": "城田優",
    "agency": "ホリプロ",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/48864 -> HTTP 405"
    ],
-   "xFollowers": 558742,
-   "igFollowers": 1713234,
+   "xFollowers": 558226,
+   "igFollowers": 1711819,
    "snsAccounts": [
     {
      "handle": "U_and_YOU",
-     "followers": 558742
+     "followers": 558226
     },
     {
      "handle": "yu_LPstaff",
@@ -95,11 +95,11 @@
      "followers": 2026
     },
     {
-     "handle": "2022.05.31",
+     "handle": "2022.07.03",
      "followers": 2026
     },
     {
-     "handle": "2022.07.03",
+     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -107,10 +107,10 @@
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-08",
+   "followerSourceDate": "2026-10-15",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "U_and_YOU",
    "eigaId": "83106",
    "yomi": "しろたゆう",
@@ -220,17 +220,17 @@
      "url": "https://natalie.mu/stage/news/684314"
     }
    ],
-   "daysSinceNews": 6,
+   "daysSinceNews": 13,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.8804871113362522,
+    "xFollowers": 0.8804892605683273,
     "igFollowers": 1,
     "xPostFrequency": null,
     "newsCoverage": 0.8777237771575555,
-    "recentActivity": 0.876071123430396
+    "recentActivity": 0.8750177649270136
    },
    "measuredAxes": [
     "xFollowers",
@@ -256,16 +256,16 @@
    "natalieId": "57822",
    "achikochiSlug": "山崎育三郎",
    "agency": "研音",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/57822 -> HTTP 405"
    ],
-   "xFollowers": 138008,
-   "igFollowers": 349772,
+   "xFollowers": 137749,
+   "igFollowers": 349942,
    "snsAccounts": [
     {
      "handle": "ikusaburo_0118",
-     "followers": 138008
+     "followers": 137749
     },
     {
      "handle": "iku_fc",
@@ -280,11 +280,11 @@
      "followers": 2026
     },
     {
-     "handle": "2022.05.31",
+     "handle": "2022.07.03",
      "followers": 2026
     },
     {
-     "handle": "2022.07.03",
+     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -292,10 +292,10 @@
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-07",
+   "followerSourceDate": "2026-10-14",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "ikusaburo_0118",
    "eigaId": "248452",
    "yomi": "やまざきいくさぶろう",
@@ -405,17 +405,17 @@
      "url": "https://natalie.mu/music/news/679218"
     }
    ],
-   "daysSinceNews": 7,
+   "daysSinceNews": 14,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.6858447137524166,
-    "igFollowers": 0.786620371736891,
+    "xFollowers": 0.6856850721173285,
+    "igFollowers": 0.7867729331859252,
     "xPostFrequency": null,
     "newsCoverage": 0.9725240141173098,
-    "recentActivity": 0.8650442861072347
+    "recentActivity": 0.8638972027740845
    },
    "measuredAxes": [
     "xFollowers",
@@ -441,16 +441,16 @@
    "natalieId": "57819",
    "achikochiSlug": "中村倫也（俳優）",
    "agency": "トップコート",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/57819 -> HTTP 405"
    ],
-   "xFollowers": 1318574,
+   "xFollowers": 1317168,
    "igFollowers": null,
    "snsAccounts": [
     {
      "handle": "senritsutareme",
-     "followers": 1318574
+     "followers": 1317168
     },
     {
      "handle": "yangotonaki_s",
@@ -465,18 +465,18 @@
      "followers": 2026
     },
     {
-     "handle": "2022.05.31",
+     "handle": "2022.07.03",
      "followers": 2026
     },
     {
-     "handle": "2022.07.03",
+     "handle": "2022.05.31",
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-10",
+   "followerSourceDate": "2026-10-17",
    "xFollowersSource": "achikochi",
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "senritsutareme",
    "eigaId": "247120",
    "yomi": "なかむらともや",
@@ -538,17 +538,17 @@
      "url": "https://natalie.mu/music/news/671270"
     }
    ],
-   "daysSinceNews": 5,
+   "daysSinceNews": 12,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
     "xFollowers": 1,
-    "igFollowers": 0.4954117314680686,
+    "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.917046434544294,
-    "recentActivity": 0.732207293934046
+    "recentActivity": 0.7299311357706985
    },
    "measuredAxes": [
     "xFollowers",
@@ -563,7 +563,7 @@
    ],
    "coverage": 3,
    "coverageOf": 4,
-   "score": 80.8,
+   "score": 80.7,
    "rank": 3
   },
   {
@@ -576,16 +576,16 @@
    "natalieId": "59936",
    "achikochiSlug": "生田斗真",
    "agency": "エスプレッソ",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/59936 -> HTTP 405"
    ],
-   "xFollowers": 278636,
+   "xFollowers": 278380,
    "igFollowers": 1364389,
    "snsAccounts": [
     {
      "handle": "TOMA_IKUTA10",
-     "followers": 278636
+     "followers": 278380
     },
     {
      "handle": "2022.07.25",
@@ -593,10 +593,6 @@
     },
     {
      "handle": "2022.07.25",
-     "followers": 2026
-    },
-    {
-     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -604,14 +600,18 @@
      "followers": 2026
     },
     {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
      "handle": "2025.03.04",
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-08",
+   "followerSourceDate": "2026-10-15",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "TOMA_IKUTA10",
    "eigaId": "84455",
    "yomi": "いくたとうま",
@@ -667,17 +667,17 @@
      "url": "https://natalie.mu/music/news/678594"
     }
    ],
-   "daysSinceNews": 5,
+   "daysSinceNews": 12,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.7836399457836289,
-    "igFollowers": 0.9694236215866519,
+    "xFollowers": 0.7836283720012519,
+    "igFollowers": 0.9695312060560785,
     "xPostFrequency": null,
     "newsCoverage": 0.9164866854868696,
-    "recentActivity": 0.5464786209750596
+    "recentActivity": 0.5426238244636639
    },
    "measuredAxes": [
     "xFollowers",
@@ -691,7 +691,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 80.4,
+   "score": 80.3,
    "rank": 4
   },
   {
@@ -703,16 +703,16 @@
    "natalieId": "86676",
    "achikochiSlug": "荒牧慶彦",
    "agency": "Pasture",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/86676 -> HTTP 405"
    ],
-   "xFollowers": 323964,
+   "xFollowers": 323799,
    "igFollowers": 143275,
    "snsAccounts": [
     {
      "handle": "ara_mackey",
-     "followers": 323964
+     "followers": 323799
     },
     {
      "handle": "aramakiofficial",
@@ -727,11 +727,11 @@
      "followers": 2026
     },
     {
-     "handle": "2022.05.31",
+     "handle": "2022.07.03",
      "followers": 2026
     },
     {
-     "handle": "2022.07.03",
+     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -739,10 +739,10 @@
      "followers": 202
     }
    ],
-   "followerSourceDate": "2026-10-07",
+   "followerSourceDate": "2026-10-14",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "ara_mackey",
    "eigaId": "279835",
    "yomi": "あらまきよしひこ",
@@ -852,17 +852,17 @@
      "url": "https://natalie.mu/stage/news/683401"
     }
    ],
-   "daysSinceNews": 13,
+   "daysSinceNews": 20,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.8046197881285369,
-    "igFollowers": 0.666758041530321,
+    "xFollowers": 0.8046683709311895,
+    "igFollowers": 0.6668320368493298,
     "xPostFrequency": null,
     "newsCoverage": 0.8695902210237514,
-    "recentActivity": 0.7288721334365914
+    "recentActivity": 0.7265676274033414
    },
    "measuredAxes": [
     "xFollowers",
@@ -876,7 +876,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 77.9,
+   "score": 77.8,
    "rank": 5
   },
   {
@@ -888,16 +888,16 @@
    "agency": "アミューズ",
    "natalieId": "70346",
    "achikochiSlug": "小関裕太",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/70346 -> HTTP 405"
    ],
-   "xFollowers": 201752,
+   "xFollowers": 201605,
    "igFollowers": 260802,
    "snsAccounts": [
     {
      "handle": "yutakoseki",
-     "followers": 201752
+     "followers": 201605
     },
     {
      "handle": "2022.07.25",
@@ -905,10 +905,6 @@
     },
     {
      "handle": "2022.07.25",
-     "followers": 2026
-    },
-    {
-     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -916,14 +912,18 @@
      "followers": 2026
     },
     {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
      "handle": "2025.03.04",
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-09",
+   "followerSourceDate": "2026-10-16",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "yutakoseki",
    "eigaId": "92995",
    "yomi": "こせきゆうた",
@@ -1027,17 +1027,17 @@
      "url": "https://natalie.mu/stage/news/649881"
     }
    ],
-   "daysSinceNews": 6,
+   "daysSinceNews": 13,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.7386995378125225,
-    "igFollowers": 0.7472014121400642,
+    "xFollowers": 0.738707781759027,
+    "igFollowers": 0.7472843348847651,
     "xPostFrequency": null,
     "newsCoverage": 0.8243722467740991,
-    "recentActivity": 0.7226024053238616
+    "recentActivity": 0.7202446084708751
    },
    "measuredAxes": [
     "xFollowers",
@@ -1064,16 +1064,16 @@
    "natalieId": "86022",
    "achikochiSlug": "佐藤流司",
    "agency": "劇団ひまわり",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/86022 -> HTTP 405"
    ],
-   "xFollowers": 248201,
-   "igFollowers": 142322,
+   "xFollowers": 248002,
+   "igFollowers": 142122,
    "snsAccounts": [
     {
      "handle": "ryuji7117",
-     "followers": 248201
+     "followers": 248002
     },
     {
      "handle": "satoryujiST",
@@ -1092,18 +1092,18 @@
      "followers": 2026
     },
     {
-     "handle": "2022.05.31",
+     "handle": "2022.07.03",
      "followers": 2026
     },
     {
-     "handle": "2022.07.03",
+     "handle": "2022.05.31",
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-08",
+   "followerSourceDate": "2026-10-15",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "ryuji7117",
    "eigaId": "286277",
    "yomi": "さとうりゅうじ",
@@ -1213,17 +1213,17 @@
      "url": "https://natalie.mu/stage/news/659486"
     }
    ],
-   "daysSinceNews": 25,
+   "daysSinceNews": 32,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.7675400031610733,
-    "igFollowers": 0.6658617759763344,
+    "xFollowers": 0.7675423389729423,
+    "igFollowers": 0.6657467955995253,
     "xPostFrequency": null,
     "newsCoverage": 0.8585277390018345,
-    "recentActivity": 0.6827050452469656
+    "recentActivity": 0.6800081327281002
    },
    "measuredAxes": [
     "xFollowers",
@@ -1237,7 +1237,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 75.5,
+   "score": 75.4,
    "rank": 7
   },
   {
@@ -1250,16 +1250,16 @@
    "natalieId": "99753",
    "achikochiSlug": "高野洸",
    "agency": "エイベックス・マネジメント",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/99753 -> HTTP 405"
    ],
-   "xFollowers": 168038,
+   "xFollowers": 167948,
    "igFollowers": 156243,
    "snsAccounts": [
     {
      "handle": "AKIRAT_official",
-     "followers": 168038
+     "followers": 167948
     },
     {
      "handle": "2022.07.25",
@@ -1267,10 +1267,6 @@
     },
     {
      "handle": "2022.07.25",
-     "followers": 2026
-    },
-    {
-     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -1278,14 +1274,18 @@
      "followers": 2026
     },
     {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
      "handle": "2025.03.04",
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-10",
+   "followerSourceDate": "2026-10-17",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "AKIRAT_official",
    "eigaId": "300006",
    "yomi": "たかのあきら",
@@ -1394,17 +1394,17 @@
      "url": "https://natalie.mu/music/news/650670"
     }
    ],
-   "daysSinceNews": 12,
+   "daysSinceNews": 19,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.7132484978604987,
-    "igFollowers": 0.678394414644128,
+    "xFollowers": 0.713279850160115,
+    "igFollowers": 0.6784697013418484,
     "xPostFrequency": null,
     "newsCoverage": 0.8570812248896115,
-    "recentActivity": 0.7226327596852868
+    "recentActivity": 0.7202752208353227
    },
    "measuredAxes": [
     "xFollowers",
@@ -1430,7 +1430,7 @@
    "agency": "松竹",
    "natalieId": "115387",
    "achikochiSlug": "市川團十郎（13代目）",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/115387 -> HTTP 405"
    ],
@@ -1450,11 +1450,11 @@
      "followers": 2026
     },
     {
-     "handle": "2022.05.31",
+     "handle": "2022.07.03",
      "followers": 2026
     },
     {
-     "handle": "2022.07.03",
+     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -1462,10 +1462,10 @@
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-07",
+   "followerSourceDate": "2026-10-14",
    "xFollowersSource": null,
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "DANJURO_HAKUEN",
    "eigaId": "87188",
    "yomi": null,
@@ -1574,17 +1574,17 @@
      "url": "https://natalie.mu/owarai/news/667214"
     }
    ],
-   "daysSinceNews": 7,
+   "daysSinceNews": 14,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.36734632820493884,
-    "igFollowers": 0.9609256312587725,
+    "xFollowers": 0.367400887337438,
+    "igFollowers": 0.9610322726402031,
     "xPostFrequency": null,
     "newsCoverage": 0.8625417486348715,
-    "recentActivity": 0.8109137182734677
+    "recentActivity": 0.8093065412519141
    },
    "measuredAxes": [
     "igFollowers",
@@ -1599,7 +1599,7 @@
    ],
    "coverage": 3,
    "coverageOf": 4,
-   "score": 74.9,
+   "score": 74.8,
    "rank": 9
   },
   {
@@ -1612,16 +1612,16 @@
    "natalieId": "5017",
    "achikochiSlug": "加藤和樹",
    "agency": "アミューズ",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/5017 -> HTTP 405"
    ],
-   "xFollowers": 162364,
+   "xFollowers": 162601,
    "igFollowers": 31000,
    "snsAccounts": [
     {
      "handle": "kazuki_kato1007",
-     "followers": 162364
+     "followers": 162601
     },
     {
      "handle": "2022.07.25",
@@ -1629,10 +1629,6 @@
     },
     {
      "handle": "2022.07.25",
-     "followers": 2026
-    },
-    {
-     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -1640,14 +1636,18 @@
      "followers": 2026
     },
     {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
      "handle": "2025.03.04",
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-05",
+   "followerSourceDate": "2026-10-12",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "kazuki_kato1007",
    "eigaId": "84081",
    "yomi": "かとうかずき",
@@ -1757,17 +1757,17 @@
      "url": "https://natalie.mu/stage/news/664626"
     }
    ],
-   "daysSinceNews": 4,
+   "daysSinceNews": 11,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.7084673535412649,
-    "igFollowers": 0.461181239277116,
+    "xFollowers": 0.7087756341438217,
+    "igFollowers": 0.46123242014153104,
     "xPostFrequency": null,
     "newsCoverage": 0.8839016246805087,
-    "recentActivity": 0.8368138291800595
+    "recentActivity": 0.8354267953794984
    },
    "measuredAxes": [
     "xFollowers",
@@ -1798,7 +1798,7 @@
     "igFollowers": 58000,
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/69845 -> HTTP 405"
    ],
@@ -1822,11 +1822,11 @@
      "followers": 2026
     },
     {
-     "handle": "2022.05.31",
+     "handle": "2022.07.03",
      "followers": 2026
     },
     {
-     "handle": "2022.07.03",
+     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -1834,10 +1834,10 @@
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-06",
+   "followerSourceDate": "2026-10-13",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "masanari6",
    "igHandle": "masanariwada_",
    "socialCheckedAt": "2026-10-09",
@@ -1950,17 +1950,17 @@
      "url": "https://natalie.mu/music/news/668438"
     }
    ],
-   "daysSinceNews": 4,
+   "daysSinceNews": 11,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.732561139922512,
-    "igFollowers": 0.5453108555894406,
+    "xFollowers": 0.7326699416097157,
+    "igFollowers": 0.5453713729708669,
     "xPostFrequency": null,
     "newsCoverage": 0.8518353606902656,
-    "recentActivity": 0.7549348643703561
+    "recentActivity": 0.7528518837798469
    },
    "measuredAxes": [
     "xFollowers",
@@ -1974,7 +1974,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 73.8,
+   "score": 73.7,
    "rank": 11
   },
   {
@@ -1994,13 +1994,13 @@
     "igFollowers": 80000,
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/92891 -> HTTP 405"
    ],
    "xFollowersSource": "manual",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "maximum083",
    "igHandle": "maximumhikaru",
    "xFollowers": 115000,
@@ -2115,17 +2115,17 @@
      "url": "https://natalie.mu/stage/news/671772"
     }
    ],
-   "daysSinceNews": 10,
+   "daysSinceNews": 17,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.6604590948871618,
-    "igFollowers": 0.5884981902401345,
+    "xFollowers": 0.6605571878106553,
+    "igFollowers": 0.5885635004555508,
     "xPostFrequency": null,
     "newsCoverage": 0.8672570169863576,
-    "recentActivity": 0.7426463752988904
+    "recentActivity": 0.7404589462148949
    },
    "measuredAxes": [
     "xFollowers",
@@ -2152,7 +2152,7 @@
    "natalieId": "86284",
    "achikochiSlug": "黒羽麻璃央",
    "agency": "TRUSTAR",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/86284 -> HTTP 405"
    ],
@@ -2172,11 +2172,11 @@
      "followers": 2026
     },
     {
-     "handle": "2022.05.31",
+     "handle": "2022.07.03",
      "followers": 2026
     },
     {
-     "handle": "2022.07.03",
+     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -2184,10 +2184,10 @@
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-07",
+   "followerSourceDate": "2026-10-14",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "m_kuroba",
    "eigaId": "279826",
    "yomi": "くろばまりお",
@@ -2297,17 +2297,17 @@
      "url": "https://natalie.mu/stage/news/643870"
     }
    ],
-   "daysSinceNews": 6,
+   "daysSinceNews": 13,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.7111368785275773,
-    "igFollowers": 0.6714915420965395,
+    "xFollowers": 0.7112424982335649,
+    "igFollowers": 0.6715660627288742,
     "xPostFrequency": null,
     "newsCoverage": 0.8106122355808184,
-    "recentActivity": 0.6717186777314244
+    "recentActivity": 0.6689283843640907
    },
    "measuredAxes": [
     "xFollowers",
@@ -2321,7 +2321,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 72.5,
+   "score": 72.4,
    "rank": 13
   },
   {
@@ -2333,16 +2333,16 @@
    "natalieId": "64404",
    "achikochiSlug": "植田圭輔",
    "agency": "クラッチ",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/64404 -> HTTP 405"
    ],
-   "xFollowers": 253705,
+   "xFollowers": 253529,
    "igFollowers": 70520,
    "snsAccounts": [
     {
      "handle": "uechan_0905",
-     "followers": 253705
+     "followers": 253529
     },
     {
      "handle": "2022.07.25",
@@ -2350,10 +2350,6 @@
     },
     {
      "handle": "2022.07.25",
-     "followers": 2026
-    },
-    {
-     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -2361,14 +2357,18 @@
      "followers": 2026
     },
     {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
      "handle": "2025.03.04",
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-09",
+   "followerSourceDate": "2026-10-16",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "uechan_0905",
    "eigaId": "89497",
    "yomi": "うえだけいすけ",
@@ -2478,17 +2478,17 @@
      "url": "https://natalie.mu/comic/news/670237"
     }
    ],
-   "daysSinceNews": 5,
+   "daysSinceNews": 12,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.7705929330950381,
-    "igFollowers": 0.5715593978948617,
+    "xFollowers": 0.7706107755434967,
+    "igFollowers": 0.5716228282809169,
     "xPostFrequency": null,
     "newsCoverage": 0.8401554995764182,
-    "recentActivity": 0.6503585750885641
+    "recentActivity": 0.6473867272169472
    },
    "measuredAxes": [
     "xFollowers",
@@ -2502,7 +2502,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 72.3,
+   "score": 72.2,
    "rank": 14
   },
   {
@@ -2515,7 +2515,7 @@
    "natalieId": "100774",
    "achikochiSlug": "甲斐翔真",
    "agency": "アミューズ",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/100774 -> HTTP 405"
    ],
@@ -2535,11 +2535,11 @@
      "followers": 2026
     },
     {
-     "handle": "2022.05.31",
+     "handle": "2022.07.03",
      "followers": 2026
     },
     {
-     "handle": "2022.07.03",
+     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -2550,7 +2550,7 @@
    "followerSourceDate": "2026-10-02",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "kai_shouma",
    "eigaId": "299732",
    "yomi": "かいしょうま",
@@ -2660,17 +2660,17 @@
      "url": "https://natalie.mu/music/news/657179"
     }
    ],
-   "daysSinceNews": 12,
+   "daysSinceNews": 19,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.6301419242227688,
-    "igFollowers": 0.6741338507896651,
+    "xFollowers": 0.630235514369443,
+    "igFollowers": 0.6742086646595201,
     "xPostFrequency": null,
     "newsCoverage": 0.8746835560042909,
-    "recentActivity": 0.6464114013986096
+    "recentActivity": 0.6434060037274163
    },
    "measuredAxes": [
     "xFollowers",
@@ -2684,7 +2684,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 71.9,
+   "score": 71.8,
    "rank": 15
   },
   {
@@ -2701,16 +2701,16 @@
     "igFollowers": 42000,
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/73276 -> HTTP 405"
    ],
-   "xFollowers": 228773,
+   "xFollowers": 228640,
    "igFollowers": 42000,
    "snsAccounts": [
     {
      "handle": "Ryo_Kitamu",
-     "followers": 228773
+     "followers": 228640
     },
     {
      "handle": "2022.07.25",
@@ -2718,10 +2718,6 @@
     },
     {
      "handle": "2022.07.25",
-     "followers": 2026
-    },
-    {
-     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -2729,14 +2725,18 @@
      "followers": 2026
     },
     {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
      "handle": "2025.03.04",
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-08",
+   "followerSourceDate": "2026-10-15",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "Ryo_Kitamu",
    "igHandle": "ryooo_kitamu",
    "socialCheckedAt": "2026-10-09",
@@ -2849,17 +2849,17 @@
      "url": "https://natalie.mu/stage/news/683401"
     }
    ],
-   "daysSinceNews": 5,
+   "daysSinceNews": 12,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.7561946757198992,
-    "igFollowers": 0.5019639830243275,
+    "xFollowers": 0.7562260311743396,
+    "igFollowers": 0.5020196898666021,
     "xPostFrequency": null,
     "newsCoverage": 0.809900938595268,
-    "recentActivity": 0.7208709409945483
+    "recentActivity": 0.7184984272109715
    },
    "measuredAxes": [
     "xFollowers",
@@ -2894,13 +2894,13 @@
     "checkedAt": "2026-10-09",
     "xNote": "あちこちデータの人物ページが 2026-09-18 時点で 404。公式 lit.link 記載のアカウントから直接控えた"
    },
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/128214 -> HTTP 405"
    ],
    "xFollowersSource": "manual",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "araki_hiro0614",
    "igHandle": "araki_hiro0614",
    "xFollowers": 126000,
@@ -3014,17 +3014,17 @@
      "url": "https://natalie.mu/eiga/news/647744"
     }
    ],
-   "daysSinceNews": 5,
+   "daysSinceNews": 12,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.6731741724704481,
-    "igFollowers": 0.6324807280323063,
+    "xFollowers": 0.6732741538668875,
+    "igFollowers": 0.6325509193315821,
     "xPostFrequency": null,
     "newsCoverage": 0.8326450515127282,
-    "recentActivity": 0.6548394672174632
+    "recentActivity": 0.6519057055930341
    },
    "measuredAxes": [
     "xFollowers",
@@ -3038,7 +3038,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 71,
+   "score": 70.9,
    "rank": 17
   },
   {
@@ -3051,7 +3051,7 @@
    "natalieId": "99404",
    "achikochiSlug": "三浦宏規",
    "agency": "ウィルビー・インターナショナル",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/99404 -> HTTP 405"
    ],
@@ -3071,11 +3071,11 @@
      "followers": 2026
     },
     {
-     "handle": "2022.05.31",
+     "handle": "2022.07.03",
      "followers": 2026
     },
     {
-     "handle": "2022.07.03",
+     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -3086,7 +3086,7 @@
    "followerSourceDate": "2026-08-26",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "hirokimiura0324",
    "eigaId": null,
    "xAccountState": "have",
@@ -3193,17 +3193,17 @@
      "url": "https://natalie.mu/stage/news/651773"
     }
    ],
-   "daysSinceNews": 12,
+   "daysSinceNews": 19,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.6846057299796179,
-    "igFollowers": 0.564680944424268,
+    "xFollowers": 0.6847074092176115,
+    "igFollowers": 0.5647436114549121,
     "xPostFrequency": null,
     "newsCoverage": 0.8715925040777263,
-    "recentActivity": 0.6242972416061204
+    "recentActivity": 0.6211038801696822
    },
    "measuredAxes": [
     "xFollowers",
@@ -3217,7 +3217,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 70.4,
+   "score": 70.3,
    "rank": 18
   },
   {
@@ -3236,13 +3236,13 @@
     "igHandle": "umetsumizuki",
     "igFollowers": 54000
    },
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/110977 -> HTTP 405"
    ],
    "xFollowersSource": "manual",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "MizukiUmetsu",
    "igHandle": "umetsumizuki",
    "xFollowers": 104000,
@@ -3357,17 +3357,17 @@
      "url": "https://natalie.mu/stage/news/656662"
     }
    ],
-   "daysSinceNews": 23,
+   "daysSinceNews": 30,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.6464646607574301,
-    "igFollowers": 0.5357142458587673,
+    "xFollowers": 0.6465606751949627,
+    "igFollowers": 0.5357736982298686,
     "xPostFrequency": null,
     "newsCoverage": 0.8508927480723745,
-    "recentActivity": 0.6947134253540769
+    "recentActivity": 0.6921185804860109
    },
    "measuredAxes": [
     "xFollowers",
@@ -3381,7 +3381,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 70,
+   "score": 69.9,
    "rank": 19
   },
   {
@@ -3393,16 +3393,16 @@
    "natalieId": "61580",
    "achikochiSlug": "鈴木拡樹",
    "agency": "オウサム",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/61580 -> HTTP 405"
    ],
-   "xFollowers": 227203,
+   "xFollowers": 226985,
    "igFollowers": null,
    "snsAccounts": [
     {
      "handle": "hiroki_0604",
-     "followers": 227203
+     "followers": 226985
     },
     {
      "handle": "2022.07.25",
@@ -3410,10 +3410,6 @@
     },
     {
      "handle": "2022.07.25",
-     "followers": 2026
-    },
-    {
-     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -3421,14 +3417,18 @@
      "followers": 2026
     },
     {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
      "handle": "2025.03.04",
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-05",
+   "followerSourceDate": "2026-10-12",
    "xFollowersSource": "achikochi",
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "hiroki_0604",
    "eigaId": "87515",
    "yomi": "すずきひろき",
@@ -3538,17 +3538,17 @@
      "url": "https://natalie.mu/stage/news/655504"
     }
    ],
-   "daysSinceNews": 11,
+   "daysSinceNews": 18,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.7552361525850443,
-    "igFollowers": 0.4954117314680686,
+    "xFollowers": 0.7552146844459018,
+    "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.8330443010468129,
-    "recentActivity": 0.630830103332641
+    "recentActivity": 0.6276922692732075
    },
    "measuredAxes": [
     "xFollowers",
@@ -3563,7 +3563,7 @@
    ],
    "coverage": 3,
    "coverageOf": 4,
-   "score": 69.7,
+   "score": 69.6,
    "rank": 20
   },
   {
@@ -3576,7 +3576,7 @@
    "natalieId": "60150",
    "achikochiSlug": "石丸幹二",
    "agency": "アミューズ",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/60150 -> HTTP 405"
    ],
@@ -3596,11 +3596,11 @@
      "followers": 2026
     },
     {
-     "handle": "2022.05.31",
+     "handle": "2022.07.03",
      "followers": 2026
     },
     {
-     "handle": "2022.07.03",
+     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -3608,10 +3608,10 @@
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-10",
+   "followerSourceDate": "2026-10-17",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "team_kanji",
    "eigaId": "85792",
    "yomi": "いしまるかんじ",
@@ -3719,17 +3719,17 @@
      "url": "https://natalie.mu/music/news/683846"
     }
    ],
-   "daysSinceNews": 3,
+   "daysSinceNews": 10,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.516148224365626,
-    "igFollowers": 0.4954117314680686,
+    "xFollowers": 0.5162248839024178,
+    "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.8846319856928525,
-    "recentActivity": 0.8034339697491282
+    "recentActivity": 0.8017632170950879
    },
    "measuredAxes": [
     "xFollowers",
@@ -3743,7 +3743,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 69.7,
+   "score": 69.6,
    "rank": 21
   },
   {
@@ -3763,7 +3763,7 @@
     "checkedAt": "2026-10-09",
     "xNote": "レーベル（日本コロムビア）公式アカウント。X・Instagram とも同一ハンドルで、本人名義の個人アカウントは確認できず"
    },
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/52205 -> HTTP 405"
    ],
@@ -3773,7 +3773,7 @@
    "followerSourceDate": "2026-10-09",
    "xFollowersSource": "manual",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "inoueyoshio_co",
    "igHandle": "inoueyoshio_co",
    "socialCheckedAt": "2026-10-09",
@@ -3886,17 +3886,17 @@
      "url": "https://natalie.mu/music/news/684131"
     }
    ],
-   "daysSinceNews": 7,
+   "daysSinceNews": 14,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.36734632820493884,
-    "igFollowers": 0.3723609432019302,
+    "xFollowers": 0.367400887337438,
+    "igFollowers": 0.3724022669881652,
     "xPostFrequency": null,
     "newsCoverage": 1,
-    "recentActivity": 0.8798190160605176
+    "recentActivity": 0.8787975135271154
    },
    "measuredAxes": [
     "xFollowers",
@@ -3922,7 +3922,7 @@
    "natalieId": "95297",
    "achikochiSlug": "有澤樟太郎",
    "agency": "キャストコーポレーション",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/95297 -> HTTP 405"
    ],
@@ -3942,11 +3942,11 @@
      "followers": 2026
     },
     {
-     "handle": "2022.05.31",
+     "handle": "2022.07.03",
      "followers": 2026
     },
     {
-     "handle": "2022.07.03",
+     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -3957,7 +3957,7 @@
    "followerSourceDate": "2026-09-29",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "shotaro_arsw",
    "eigaId": "315637",
    "yomi": "ありさわしょうたろう",
@@ -4067,17 +4067,17 @@
      "url": "https://natalie.mu/stage/news/681633"
     }
    ],
-   "daysSinceNews": 5,
+   "daysSinceNews": 12,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.6665557356478922,
-    "igFollowers": 0.55765726391763,
+    "xFollowers": 0.6666547340586751,
+    "igFollowers": 0.557719151475891,
     "xPostFrequency": null,
     "newsCoverage": 0.7613815291456112,
-    "recentActivity": 0.7152262678983063
+    "recentActivity": 0.7128057760762827
    },
    "measuredAxes": [
     "xFollowers",
@@ -4103,16 +4103,16 @@
    "natalieId": "39890",
    "achikochiSlug": "神木隆之介",
    "agency": "アミューズ",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/39890 -> HTTP 405"
    ],
-   "xFollowers": 709331,
+   "xFollowers": 708441,
    "igFollowers": 463,
    "snsAccounts": [
     {
      "handle": "kamiki_official",
-     "followers": 709331
+     "followers": 708441
     },
     {
      "handle": "2022.07.25",
@@ -4120,10 +4120,6 @@
     },
     {
      "handle": "2022.07.25",
-     "followers": 2026
-    },
-    {
-     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -4131,14 +4127,18 @@
      "followers": 2026
     },
     {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
      "handle": "2025.03.04",
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-08",
+   "followerSourceDate": "2026-10-15",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "kamiki_official",
    "eigaId": "24639",
    "yomi": "かみきりゅうのすけ",
@@ -4200,17 +4200,17 @@
      "url": "https://natalie.mu/music/news/671270"
     }
    ],
-   "daysSinceNews": 5,
+   "daysSinceNews": 12,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.9137031289647894,
+    "xFollowers": 0.9136640539044326,
     "igFollowers": 0,
     "xPostFrequency": null,
     "newsCoverage": 0.9082657419703841,
-    "recentActivity": 0.6721051518048949
+    "recentActivity": 0.6693181433519646
    },
    "measuredAxes": [
     "xFollowers",
@@ -4244,14 +4244,14 @@
     "checkedAt": "2026-10-09",
     "xNote": "所属事務所 CULEN のアーティストページに掲出"
    },
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/93435 -> HTTP 405"
    ],
    "achikochiSlug": null,
    "xFollowersSource": "manual",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "m_rey_official",
    "igHandle": "macoto_rey_official",
    "xFollowers": 39000,
@@ -4353,17 +4353,17 @@
      "url": "https://natalie.mu/stage/news/669502"
     }
    ],
-   "daysSinceNews": 29,
+   "daysSinceNews": 36,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.50994303896697,
-    "igFollowers": 0.615752389625647,
+    "xFollowers": 0.5100187768951697,
+    "igFollowers": 0.6158207244512701,
     "xPostFrequency": null,
     "newsCoverage": 0.8625144968421263,
-    "recentActivity": 0.5923251985478167
+    "recentActivity": 0.5888600842773483
    },
    "measuredAxes": [
     "xFollowers",
@@ -4377,7 +4377,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 66.1,
+   "score": 66,
    "rank": 25
   },
   {
@@ -4390,7 +4390,7 @@
    "natalieId": "26676",
    "achikochiSlug": "藤原竜也",
    "agency": "ホリプロ",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/26676 -> HTTP 405"
    ],
@@ -4410,11 +4410,11 @@
      "followers": 2026
     },
     {
-     "handle": "2022.05.31",
+     "handle": "2022.07.03",
      "followers": 2026
     },
     {
-     "handle": "2022.07.03",
+     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -4425,7 +4425,7 @@
    "followerSourceDate": "2026-09-25",
    "xFollowersSource": "achikochi",
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "fujiwara_staff",
    "eigaId": null,
    "xAccountState": "have",
@@ -4496,17 +4496,17 @@
      "url": "https://natalie.mu/eiga/news/684135"
     }
    ],
-   "daysSinceNews": 6,
+   "daysSinceNews": 13,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.6203065949909055,
-    "igFollowers": 0.4954117314680686,
+    "xFollowers": 0.6203987243715681,
+    "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.7983520563586372,
-    "recentActivity": 0.6585220018791206
+    "recentActivity": 0.6556195407014251
    },
    "measuredAxes": [
     "xFollowers",
@@ -4521,7 +4521,7 @@
    ],
    "coverage": 3,
    "coverageOf": 4,
-   "score": 66,
+   "score": 65.9,
    "rank": 26
   },
   {
@@ -4540,13 +4540,13 @@
     "igFollowers": 51000,
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/91593 -> HTTP 405"
    ],
    "xFollowersSource": "manual",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "khooon3",
    "igHandle": "konnatsumi",
    "xFollowers": 32000,
@@ -4661,17 +4661,17 @@
      "url": "https://natalie.mu/stage/news/648616"
     }
    ],
-   "daysSinceNews": 6,
+   "daysSinceNews": 13,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.48240800495093333,
-    "igFollowers": 0.5280381432464241,
+    "xFollowers": 0.4824796533117306,
+    "igFollowers": 0.5280967437407933,
     "xPostFrequency": null,
     "newsCoverage": 0.8232429364180984,
-    "recentActivity": 0.7361132016958204
+    "recentActivity": 0.7338702425839627
    },
    "measuredAxes": [
     "xFollowers",
@@ -4685,134 +4685,8 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 66,
+   "score": 65.9,
    "rank": 27
-  },
-  {
-   "name": "宮沢りえ",
-   "genres": [
-    "ストレートプレイ",
-    "現代劇・翻訳劇",
-    "商業演劇"
-   ],
-   "natalieId": "17474",
-   "achikochiSlug": "宮沢りえ",
-   "agency": "研音",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
-   "sourceErrors": [
-    "natalie: https://natalie.mu/stage/artist/17474 -> HTTP 405"
-   ],
-   "xFollowers": null,
-   "igFollowers": 272487,
-   "snsAccounts": [],
-   "followerSourceDate": "2026-10-07",
-   "xFollowersSource": null,
-   "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
-   "eigaId": "72368",
-   "yomi": "みやざわりえ",
-   "birth": "1973-04-06",
-   "origin": "日本／東京",
-   "xAccountState": "unknown",
-   "igAccountState": "have",
-   "age": 53,
-   "debutYear": null,
-   "careerYears": null,
-   "xPostFrequency": null,
-   "profile": "1973年4月6日生まれ、東京都出身。11歳でモデルデビューし、1988年公開の初主演映画「ぼくらの七日間戦争」で日本アカデミー賞新人賞に輝く。2002年「たそがれ清兵衛」、2014年「紙の月」、2016年「湯を沸かすほどの熱い愛」で日本アカデミー賞最優秀主演女優賞を受賞するなど、数々の映画賞を獲得している。近年の出演映画に「トイレのピエタ」「TOO YOUNG TO DIE！若くして死ぬ」「人間失格 太宰治と3人の女たち」「決戦は日曜日」など。日本テレビ系の2021年10月期・2022年1月期ドラマ「真犯人フラグ」に出演中のほか、2022年放送の大河ドラマ「鎌倉殿の13人」で牧の方を演じる。",
-   "natalieUrl": "https://natalie.mu/stage/artist/17474",
-   "stages": [
-    "パルコ・プロデュース 2026「メアリー・ステュアート」",
-    "Bunkamura Production 2025 / DISCOVER WORLD THEATRE vol.15「リア王」NINAGAWA MEMORIAL",
-    "シス・カンパニー公演「昭和から騒ぎ」",
-    "そのいのち",
-    "PARCO PRODUCE 2024 舞台「オーランド」"
-   ],
-   "stageList": [
-    {
-     "title": "パルコ・プロデュース 2026「メアリー・ステュアート」",
-     "start": "2026-04-08",
-     "end": "2026-05-31"
-    },
-    {
-     "title": "Bunkamura Production 2025 / DISCOVER WORLD THEATRE vol.15「リア王」NINAGAWA MEMORIAL",
-     "start": "2025-10-09",
-     "end": "2025-11-16"
-    },
-    {
-     "title": "シス・カンパニー公演「昭和から騒ぎ」",
-     "start": "2025-05-25",
-     "end": "2025-07-10"
-    },
-    {
-     "title": "そのいのち",
-     "start": "2024-11-09",
-     "end": "2024-11-09"
-    },
-    {
-     "title": "PARCO PRODUCE 2024 舞台「オーランド」",
-     "start": "2024-06-29",
-     "end": "2024-06-29"
-    }
-   ],
-   "stagesTotal": 5,
-   "stages12m": 2,
-   "stagesUpcoming": 0,
-   "news12m": 37,
-   "news90d": 6,
-   "newsAttention12m": 41977,
-   "latestNews": {
-    "title": "北村匠海にとって「しびれ」は「20年の答え」、内山拓也は宮沢りえとの濃い日々回想",
-    "date": "2026-09-26",
-    "url": "https://natalie.mu/eiga/news/691112"
-   },
-   "topNews": [
-    {
-     "title": "映画ラストマン舞台挨拶に“3人”の永瀬廉「本物の永瀬、しゃべっていいですか？」",
-     "date": "2025-12-29",
-     "score": 5418,
-     "url": "https://natalie.mu/music/news/654387"
-    },
-    {
-     "title": "福山雅治がいっぱい？大泉洋との「映画ラストマン」現場はモノマネ祭り",
-     "date": "2025-11-19",
-     "score": 3347,
-     "url": "https://natalie.mu/eiga/news/648774"
-    },
-    {
-     "title": "DEZERTの新曲が西島秀俊主演ドラマ「人間標本」の挿入歌に決定",
-     "date": "2025-11-07",
-     "score": 2932,
-     "url": "https://natalie.mu/music/news/647356"
-    }
-   ],
-   "daysSinceNews": 15,
-   "natalieAsOf": "2026-10-09",
-   "carriedForward": [
-    "natalie"
-   ],
-   "metrics": {
-    "xFollowers": 0.36734632820493884,
-    "igFollowers": 0.7530875828514595,
-    "xPostFrequency": null,
-    "newsCoverage": 0.8801874516383656,
-    "recentActivity": 0.5861397898697858
-   },
-   "measuredAxes": [
-    "igFollowers",
-    "newsCoverage",
-    "recentActivity"
-   ],
-   "imputedAxes": [
-    "xFollowers"
-   ],
-   "droppedAxes": [
-    "xPostFrequency"
-   ],
-   "coverage": 3,
-   "coverageOf": 4,
-   "score": 65.8,
-   "rank": 28
   },
   {
    "name": "望海風斗",
@@ -4824,7 +4698,7 @@
    "natalieId": "93417",
    "achikochiSlug": "望海風斗",
    "agency": "研音",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/93417 -> HTTP 405"
    ],
@@ -4844,11 +4718,11 @@
      "followers": 2026
     },
     {
-     "handle": "2022.05.31",
+     "handle": "2022.07.03",
      "followers": 2026
     },
     {
-     "handle": "2022.07.03",
+     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -4859,7 +4733,7 @@
    "followerSourceDate": "2026-10-03",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "nozomifutostaff",
    "eigaId": "363666",
    "yomi": "のぞみふうと",
@@ -4969,17 +4843,17 @@
      "url": "https://natalie.mu/stage/news/665099"
     }
    ],
-   "daysSinceNews": 33,
+   "daysSinceNews": 40,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.5037806774761677,
-    "igFollowers": 0.6524849882296104,
+    "xFollowers": 0.5038555001560818,
+    "igFollowers": 0.6525573995570264,
     "xPostFrequency": null,
     "newsCoverage": 0.8043717510261055,
-    "recentActivity": 0.6273834367891247
+    "recentActivity": 0.6242163070916412
    },
    "measuredAxes": [
     "xFollowers",
@@ -4992,6 +4866,132 @@
     "xPostFrequency"
    ],
    "coverage": 4,
+   "coverageOf": 4,
+   "score": 65.7,
+   "rank": 28
+  },
+  {
+   "name": "宮沢りえ",
+   "genres": [
+    "ストレートプレイ",
+    "現代劇・翻訳劇",
+    "商業演劇"
+   ],
+   "natalieId": "17474",
+   "achikochiSlug": "宮沢りえ",
+   "agency": "研音",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "sourceErrors": [
+    "natalie: https://natalie.mu/stage/artist/17474 -> HTTP 405"
+   ],
+   "xFollowers": null,
+   "igFollowers": 272487,
+   "snsAccounts": [],
+   "followerSourceDate": "2026-10-07",
+   "xFollowersSource": null,
+   "igFollowersSource": "achikochi",
+   "achikochiAsOf": "2026-10-18",
+   "eigaId": "72368",
+   "yomi": "みやざわりえ",
+   "birth": "1973-04-06",
+   "origin": "日本／東京",
+   "xAccountState": "unknown",
+   "igAccountState": "have",
+   "age": 53,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "profile": "1973年4月6日生まれ、東京都出身。11歳でモデルデビューし、1988年公開の初主演映画「ぼくらの七日間戦争」で日本アカデミー賞新人賞に輝く。2002年「たそがれ清兵衛」、2014年「紙の月」、2016年「湯を沸かすほどの熱い愛」で日本アカデミー賞最優秀主演女優賞を受賞するなど、数々の映画賞を獲得している。近年の出演映画に「トイレのピエタ」「TOO YOUNG TO DIE！若くして死ぬ」「人間失格 太宰治と3人の女たち」「決戦は日曜日」など。日本テレビ系の2021年10月期・2022年1月期ドラマ「真犯人フラグ」に出演中のほか、2022年放送の大河ドラマ「鎌倉殿の13人」で牧の方を演じる。",
+   "natalieUrl": "https://natalie.mu/stage/artist/17474",
+   "stages": [
+    "パルコ・プロデュース 2026「メアリー・ステュアート」",
+    "Bunkamura Production 2025 / DISCOVER WORLD THEATRE vol.15「リア王」NINAGAWA MEMORIAL",
+    "シス・カンパニー公演「昭和から騒ぎ」",
+    "そのいのち",
+    "PARCO PRODUCE 2024 舞台「オーランド」"
+   ],
+   "stageList": [
+    {
+     "title": "パルコ・プロデュース 2026「メアリー・ステュアート」",
+     "start": "2026-04-08",
+     "end": "2026-05-31"
+    },
+    {
+     "title": "Bunkamura Production 2025 / DISCOVER WORLD THEATRE vol.15「リア王」NINAGAWA MEMORIAL",
+     "start": "2025-10-09",
+     "end": "2025-11-16"
+    },
+    {
+     "title": "シス・カンパニー公演「昭和から騒ぎ」",
+     "start": "2025-05-25",
+     "end": "2025-07-10"
+    },
+    {
+     "title": "そのいのち",
+     "start": "2024-11-09",
+     "end": "2024-11-09"
+    },
+    {
+     "title": "PARCO PRODUCE 2024 舞台「オーランド」",
+     "start": "2024-06-29",
+     "end": "2024-06-29"
+    }
+   ],
+   "stagesTotal": 5,
+   "stages12m": 2,
+   "stagesUpcoming": 0,
+   "news12m": 37,
+   "news90d": 6,
+   "newsAttention12m": 41977,
+   "latestNews": {
+    "title": "北村匠海にとって「しびれ」は「20年の答え」、内山拓也は宮沢りえとの濃い日々回想",
+    "date": "2026-09-26",
+    "url": "https://natalie.mu/eiga/news/691112"
+   },
+   "topNews": [
+    {
+     "title": "映画ラストマン舞台挨拶に“3人”の永瀬廉「本物の永瀬、しゃべっていいですか？」",
+     "date": "2025-12-29",
+     "score": 5418,
+     "url": "https://natalie.mu/music/news/654387"
+    },
+    {
+     "title": "福山雅治がいっぱい？大泉洋との「映画ラストマン」現場はモノマネ祭り",
+     "date": "2025-11-19",
+     "score": 3347,
+     "url": "https://natalie.mu/eiga/news/648774"
+    },
+    {
+     "title": "DEZERTの新曲が西島秀俊主演ドラマ「人間標本」の挿入歌に決定",
+     "date": "2025-11-07",
+     "score": 2932,
+     "url": "https://natalie.mu/music/news/647356"
+    }
+   ],
+   "daysSinceNews": 22,
+   "natalieAsOf": "2026-10-09",
+   "carriedForward": [
+    "natalie"
+   ],
+   "metrics": {
+    "xFollowers": 0.367400887337438,
+    "igFollowers": 0.753171158830246,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8801874516383656,
+    "recentActivity": 0.5826221014696372
+   },
+   "measuredAxes": [
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "imputedAxes": [
+    "xFollowers"
+   ],
+   "droppedAxes": [
+    "xPostFrequency"
+   ],
+   "coverage": 3,
    "coverageOf": 4,
    "score": 65.7,
    "rank": 29
@@ -5010,13 +5010,13 @@
     "xFollowers": 129000,
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/86677 -> HTTP 405"
    ],
    "xFollowersSource": "manual",
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "hashimotoshohey",
    "igHandle": null,
    "xFollowers": 129000,
@@ -5130,17 +5130,17 @@
      "url": "https://natalie.mu/stage/news/678051"
     }
    ],
-   "daysSinceNews": 5,
+   "daysSinceNews": 12,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.6764494101811696,
-    "igFollowers": 0.4954117314680686,
+    "xFollowers": 0.6765498780235444,
+    "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.7851630892574333,
-    "recentActivity": 0.5967794226627385
+    "recentActivity": 0.5933521679692896
    },
    "measuredAxes": [
     "xFollowers",
@@ -5155,7 +5155,7 @@
    ],
    "coverage": 3,
    "coverageOf": 4,
-   "score": 65.5,
+   "score": 65.4,
    "rank": 30
   },
   {
@@ -5167,7 +5167,7 @@
    "natalieId": "72882",
    "achikochiSlug": "中川晃教",
    "agency": "アミューズ",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/72882 -> HTTP 405"
    ],
@@ -5187,11 +5187,11 @@
      "followers": 2026
     },
     {
-     "handle": "2022.05.31",
+     "handle": "2022.07.03",
      "followers": 2026
     },
     {
-     "handle": "2022.07.03",
+     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -5202,7 +5202,7 @@
    "followerSourceDate": "2026-09-15",
    "xFollowersSource": "achikochi",
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "nakagawa1982aki",
    "eigaId": "87348",
    "yomi": "なかがわあきのり",
@@ -5312,17 +5312,17 @@
      "url": "https://natalie.mu/stage/news/660129"
     }
    ],
-   "daysSinceNews": 16,
+   "daysSinceNews": 23,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.4667731675436887,
-    "igFollowers": 0.4954117314680686,
+    "xFollowers": 0.46684249378200854,
+    "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.8612600721458216,
-    "recentActivity": 0.7040423808901214
+    "recentActivity": 0.7015268293628295
    },
    "measuredAxes": [
     "xFollowers",
@@ -5356,13 +5356,13 @@
     "igFollowers": 61000,
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/60257 -> HTTP 405"
    ],
    "xFollowersSource": "manual",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "seikoniizuma",
    "igHandle": "seikoniizuma",
    "xFollowers": 52000,
@@ -5477,17 +5477,17 @@
      "url": "https://natalie.mu/stage/news/660129"
     }
    ],
-   "daysSinceNews": 16,
+   "daysSinceNews": 23,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.5499852680732817,
-    "igFollowers": 0.5520834941212538,
+    "xFollowers": 0.5500669531666377,
+    "igFollowers": 0.5521447631149854,
     "xPostFrequency": null,
     "newsCoverage": 0.7827347040776937,
-    "recentActivity": 0.6681756755742954
+    "recentActivity": 0.6653552677449169
    },
    "measuredAxes": [
     "xFollowers",
@@ -5501,7 +5501,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 65.2,
+   "score": 65.1,
    "rank": 32
   },
   {
@@ -5513,7 +5513,7 @@
    "natalieId": "8611",
    "achikochiSlug": "松下優也",
    "agency": "SOLD OUT",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/8611 -> HTTP 405"
    ],
@@ -5533,11 +5533,11 @@
      "followers": 2026
     },
     {
-     "handle": "2022.05.31",
+     "handle": "2022.07.03",
      "followers": 2026
     },
     {
-     "handle": "2022.07.03",
+     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -5548,7 +5548,7 @@
    "followerSourceDate": "2026-10-06",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "youya_mtst",
    "eigaId": "85794",
    "yomi": "まつしたゆうや",
@@ -5658,17 +5658,17 @@
      "url": "https://natalie.mu/stage/news/673595"
     }
    ],
-   "daysSinceNews": 4,
+   "daysSinceNews": 11,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.520727838600591,
-    "igFollowers": 0.5297389329630456,
+    "xFollowers": 0.5208051783123585,
+    "igFollowers": 0.5297977222072608,
     "xPostFrequency": null,
     "newsCoverage": 0.8064738922589347,
-    "recentActivity": 0.6685837659169793
+    "recentActivity": 0.6657668267338479
    },
    "measuredAxes": [
     "xFollowers",
@@ -5682,7 +5682,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 64.8,
+   "score": 64.7,
    "rank": 33
   },
   {
@@ -5701,17 +5701,17 @@
     "xNote": "マネージャー運営アカウント",
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/28415 -> HTTP 405"
    ],
    "xFollowers": 964,
    "igFollowers": null,
    "snsAccounts": [],
-   "followerSourceDate": "2026-10-10",
+   "followerSourceDate": "2026-10-17",
    "xFollowersSource": "manual",
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "onoematsuya",
    "igHandle": null,
    "socialCheckedAt": "2026-10-09",
@@ -5823,14 +5823,14 @@
      "url": "https://natalie.mu/stage/news/643693"
     }
    ],
-   "daysSinceNews": 4,
+   "daysSinceNews": 11,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
     "xFollowers": 0,
-    "igFollowers": 0.4954117314680686,
+    "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.9699216965360037,
     "recentActivity": 1
@@ -5860,7 +5860,7 @@
    "natalieId": "57239",
    "achikochiSlug": "古川雄大",
    "agency": "アミューズ",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/57239 -> HTTP 405"
    ],
@@ -5880,11 +5880,11 @@
      "followers": 2026
     },
     {
-     "handle": "2022.05.31",
+     "handle": "2022.07.03",
      "followers": 2026
     },
     {
-     "handle": "2022.07.03",
+     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -5895,7 +5895,7 @@
    "followerSourceDate": "2026-10-11",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "furukawa_staff",
    "eigaId": null,
    "xAccountState": "have",
@@ -5984,17 +5984,17 @@
      "url": "https://natalie.mu/stage/news/643870"
     }
    ],
-   "daysSinceNews": 30,
+   "daysSinceNews": 37,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.5480527035693318,
-    "igFollowers": 0.6895928277679296,
+    "xFollowers": 0.5481341016337051,
+    "igFollowers": 0.6896693572405397,
     "xPostFrequency": null,
     "newsCoverage": 0.8163441570581481,
-    "recentActivity": 0.4850534844326366
+    "recentActivity": 0.4806765925735753
    },
    "measuredAxes": [
     "xFollowers",
@@ -6008,7 +6008,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 64.4,
+   "score": 64.3,
    "rank": 35
   },
   {
@@ -6021,17 +6021,17 @@
    "natalieId": "11860",
    "achikochiSlug": "堤真一",
    "agency": "シス・カンパニー",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/11860 -> HTTP 405"
    ],
    "xFollowers": null,
    "igFollowers": null,
    "snsAccounts": [],
-   "followerSourceDate": "2026-10-07",
+   "followerSourceDate": "2026-10-14",
    "xFollowersSource": null,
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "eigaId": "48740",
    "yomi": "つつみしんいち",
    "birth": "1964-07-07",
@@ -6104,17 +6104,17 @@
      "url": "https://natalie.mu/music/news/666158"
     }
    ],
-   "daysSinceNews": 7,
+   "daysSinceNews": 14,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.36734632820493884,
-    "igFollowers": 0.4954117314680686,
+    "xFollowers": 0.367400887337438,
+    "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.8892322314114309,
-    "recentActivity": 0.7272831179160285
+    "recentActivity": 0.7249651057245939
    },
    "measuredAxes": [
     "newsCoverage",
@@ -6141,17 +6141,17 @@
    "agency": "松竹",
    "natalieId": "57480",
    "achikochiSlug": "中村芝翫（8代目）",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/57480 -> HTTP 405"
    ],
    "xFollowers": null,
    "igFollowers": null,
    "snsAccounts": [],
-   "followerSourceDate": "2026-10-05",
+   "followerSourceDate": "2026-10-12",
    "xFollowersSource": null,
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "eigaId": null,
    "xAccountState": "unknown",
    "igAccountState": "unknown",
@@ -6255,17 +6255,17 @@
      "url": "https://natalie.mu/eiga/news/680789"
     }
    ],
-   "daysSinceNews": 9,
+   "daysSinceNews": 16,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.36734632820493884,
-    "igFollowers": 0.4954117314680686,
+    "xFollowers": 0.367400887337438,
+    "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.852661155582126,
-    "recentActivity": 0.7516102421902777
+    "recentActivity": 0.7494990033024221
    },
    "measuredAxes": [
     "newsCoverage",
@@ -6280,7 +6280,7 @@
    ],
    "coverage": 2,
    "coverageOf": 4,
-   "score": 63.8,
+   "score": 63.7,
    "rank": 37
   },
   {
@@ -6299,13 +6299,13 @@
     "igFollowers": 89000,
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/105804 -> HTTP 405"
    ],
    "xFollowersSource": "manual",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "t___tateishi",
    "igHandle": "toshiki_tateishi",
    "xFollowers": 105000,
@@ -6420,17 +6420,17 @@
      "url": "https://natalie.mu/stage/news/689194"
     }
    ],
-   "daysSinceNews": 23,
+   "daysSinceNews": 30,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.6477966416419404,
-    "igFollowers": 0.6028154727511724,
+    "xFollowers": 0.6478928539083771,
+    "igFollowers": 0.6028823718666406,
     "xPostFrequency": null,
     "newsCoverage": 0.7496110833878713,
-    "recentActivity": 0.5125629480986541
+    "recentActivity": 0.5084198784792371
    },
    "measuredAxes": [
     "xFollowers",
@@ -6444,7 +6444,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 63.7,
+   "score": 63.6,
    "rank": 38
   },
   {
@@ -6462,16 +6462,16 @@
     "igFollowers": 14000,
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/68265 -> HTTP 405"
    ],
-   "xFollowers": 159813,
+   "xFollowers": 159626,
    "igFollowers": 14000,
    "snsAccounts": [
     {
      "handle": "motohiro0119",
-     "followers": 159813
+     "followers": 159626
     },
     {
      "handle": "2022.07.25",
@@ -6479,10 +6479,6 @@
     },
     {
      "handle": "2022.07.25",
-     "followers": 2026
-    },
-    {
-     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -6490,14 +6486,18 @@
      "followers": 2026
     },
     {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
      "handle": "2025.03.04",
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-09",
+   "followerSourceDate": "2026-10-16",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "motohiro0119",
    "igHandle": "motohiro.ota_0119",
    "socialCheckedAt": "2026-10-09",
@@ -6609,17 +6609,17 @@
      "url": "https://natalie.mu/stage/news/643720"
     }
    ],
-   "daysSinceNews": 26,
+   "daysSinceNews": 33,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.7062630701634057,
-    "igFollowers": 0.3544291707120127,
+    "xFollowers": 0.7062049761285774,
+    "igFollowers": 0.35446850447016676,
     "xPostFrequency": null,
     "newsCoverage": 0.7968332785503623,
-    "recentActivity": 0.5861704561077604
+    "recentActivity": 0.5826530283614919
    },
    "measuredAxes": [
     "xFollowers",
@@ -6633,7 +6633,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 63.5,
+   "score": 63.4,
    "rank": 39
   },
   {
@@ -6652,17 +6652,17 @@
     "checkedAt": "2026-10-09",
     "xNote": "公式ファンクラブのスタッフ運営アカウント（公式サイト sakihimiyu.com に掲出）"
    },
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/93414 -> HTTP 405"
    ],
    "xFollowers": 8646,
-   "igFollowers": 92676,
+   "igFollowers": 92689,
    "snsAccounts": [],
-   "followerSourceDate": "2026-10-08",
+   "followerSourceDate": "2026-10-15",
    "xFollowersSource": "manual",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "miyusakihi_FC",
    "igHandle": null,
    "socialCheckedAt": "2026-10-09",
@@ -6771,17 +6771,17 @@
      "url": "https://natalie.mu/stage/news/655910"
     }
    ],
-   "daysSinceNews": 10,
+   "daysSinceNews": 17,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.3002673012037779,
-    "igFollowers": 0.608250870309385,
+    "xFollowers": 0.30031189760290783,
+    "igFollowers": 0.6083372116398831,
     "xPostFrequency": null,
     "newsCoverage": 0.8012606367290036,
-    "recentActivity": 0.7635453655600299
+    "recentActivity": 0.7615355716625466
    },
    "measuredAxes": [
     "xFollowers",
@@ -6808,17 +6808,17 @@
    "agency": "ホリプロ",
    "natalieId": "58910",
    "achikochiSlug": "吉田鋼太郎",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/58910 -> HTTP 405"
    ],
    "xFollowers": null,
    "igFollowers": null,
    "snsAccounts": [],
-   "followerSourceDate": "2026-10-07",
+   "followerSourceDate": "2026-10-14",
    "xFollowersSource": null,
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "eigaId": "83422",
    "yomi": "よしだこうたろう",
    "birth": "1959-01-14",
@@ -6897,17 +6897,17 @@
      "url": "https://natalie.mu/music/news/654630"
     }
    ],
-   "daysSinceNews": 3,
+   "daysSinceNews": 10,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.36734632820493884,
-    "igFollowers": 0.4954117314680686,
+    "xFollowers": 0.367400887337438,
+    "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.8946514602921157,
-    "recentActivity": 0.6621340300872006
+    "recentActivity": 0.6592622700724042
    },
    "measuredAxes": [
     "newsCoverage",
@@ -6922,163 +6922,8 @@
    ],
    "coverage": 2,
    "coverageOf": 4,
-   "score": 62.9,
+   "score": 62.8,
    "rank": 41
-  },
-  {
-   "name": "片岡愛之助",
-   "genres": [
-    "歌舞伎・伝統芸能",
-    "商業演劇"
-   ],
-   "natalieId": "44936",
-   "achikochiSlug": "片岡愛之助（6代目）",
-   "agency": "松竹",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
-   "sourceErrors": [
-    "natalie: https://natalie.mu/stage/artist/44936 -> HTTP 405"
-   ],
-   "xFollowers": null,
-   "igFollowers": 29453,
-   "snsAccounts": [],
-   "followerSourceDate": "2026-09-30",
-   "xFollowersSource": null,
-   "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
-   "eigaId": "24098",
-   "yomi": "かたおかあいのすけ",
-   "birth": "1972-03-04",
-   "origin": "日本／大阪",
-   "xAccountState": "unknown",
-   "igAccountState": "have",
-   "age": 54,
-   "debutYear": null,
-   "careerYears": null,
-   "xPostFrequency": null,
-   "profile": "1972年3月4日生まれ、大阪府出身。1981年、十三代目片岡仁左衛門の部屋子となり、片岡千代丸を名乗って初舞台を飾る。1992年、二代目 片岡秀太郎 の養子となり、六代目として片岡愛之助を襲名。歌舞伎のみならずドラマや映画など映像分野にも活躍の場を広げる。近年の出演作は「七つの会議」「総理の夫」など。2022年のNHK大河ドラマ「鎌倉殿の13人」に北条宗時役で出演。",
-   "natalieUrl": "https://natalie.mu/stage/artist/44936",
-   "stages": [
-    "スクランブル歌舞伎「はたらく細胞」",
-    "「當る未歳 吉例顔見世興行 東西合同大歌舞伎」昼の部",
-    "「當る未歳 吉例顔見世興行 東西合同大歌舞伎」夜の部",
-    "「錦秋十月大歌舞伎」第一部",
-    "「錦秋十月大歌舞伎」第二部",
-    "長崎スタジアムシティ アリーナ歌舞伎舞踊特別公演",
-    "大阪松竹座さよなら公演「御名残五月大歌舞伎」昼の部",
-    "大阪松竹座さよなら公演「御名残五月大歌舞伎」夜の部",
-    "「Gracias Osaka Shochikuza」",
-    "流白浪燦星 碧翠の麗城"
-   ],
-   "stageList": [
-    {
-     "title": "スクランブル歌舞伎「はたらく細胞」",
-     "start": "2027-04-01",
-     "end": "2027-04-01"
-    },
-    {
-     "title": "「當る未歳 吉例顔見世興行 東西合同大歌舞伎」昼の部",
-     "start": "2026-12-01",
-     "end": "2026-12-01"
-    },
-    {
-     "title": "「當る未歳 吉例顔見世興行 東西合同大歌舞伎」夜の部",
-     "start": "2026-12-01",
-     "end": "2026-12-01"
-    },
-    {
-     "title": "「錦秋十月大歌舞伎」第一部",
-     "start": "2026-10-02",
-     "end": "2026-10-02"
-    },
-    {
-     "title": "「錦秋十月大歌舞伎」第二部",
-     "start": "2026-10-02",
-     "end": "2026-10-02"
-    },
-    {
-     "title": "長崎スタジアムシティ アリーナ歌舞伎舞踊特別公演",
-     "start": "2026-08-07",
-     "end": "2026-08-07"
-    },
-    {
-     "title": "大阪松竹座さよなら公演「御名残五月大歌舞伎」昼の部",
-     "start": "2026-05-02",
-     "end": "2026-05-02"
-    },
-    {
-     "title": "大阪松竹座さよなら公演「御名残五月大歌舞伎」夜の部",
-     "start": "2026-05-02",
-     "end": "2026-05-02"
-    },
-    {
-     "title": "「Gracias Osaka Shochikuza」",
-     "start": "2026-03-28",
-     "end": "2026-03-28"
-    },
-    {
-     "title": "流白浪燦星 碧翠の麗城",
-     "start": "2026-03-05",
-     "end": "2027-02-26"
-    }
-   ],
-   "stagesTotal": 30,
-   "stages12m": 16,
-   "stagesUpcoming": 4,
-   "news12m": 35,
-   "news90d": 13,
-   "newsAttention12m": 11483,
-   "latestNews": {
-    "title": "「錦秋十月大歌舞伎」秋めく歌舞伎座で開幕、仁左衛門・八代目菊五郎が交互出演の「盛綱陣屋」ほか",
-    "date": "2026-10-03",
-    "url": "https://natalie.mu/stage/news/692233"
-   },
-   "topNews": [
-    {
-     "title": "片岡愛之助が白血球役、スクランブル歌舞伎「はたらく細胞」2027年4月に上演決定",
-     "date": "2026-08-15",
-     "score": 2303,
-     "url": "https://natalie.mu/stage/news/685193"
-    },
-    {
-     "title": "なにわ男子・大橋和也が片岡愛之助と息ぴったり、桃屋テレビCMで再び“親ビン子ビン”に",
-     "date": "2026-05-26",
-     "score": 1209,
-     "url": "https://natalie.mu/music/news/673425"
-    },
-    {
-     "title": "三谷かぶき「歌舞伎絶対続魂」ライブ配信決定！配信限定のメイキング映像も",
-     "date": "2025-11-02",
-     "score": 681,
-     "url": "https://natalie.mu/stage/news/646646"
-    }
-   ],
-   "daysSinceNews": 8,
-   "natalieAsOf": "2026-10-09",
-   "carriedForward": [
-    "natalie"
-   ],
-   "metrics": {
-    "xFollowers": 0.36734632820493884,
-    "igFollowers": 0.4543065704106429,
-    "xPostFrequency": null,
-    "newsCoverage": 0.8048968602375186,
-    "recentActivity": 0.7958052510854011
-   },
-   "measuredAxes": [
-    "igFollowers",
-    "newsCoverage",
-    "recentActivity"
-   ],
-   "imputedAxes": [
-    "xFollowers"
-   ],
-   "droppedAxes": [
-    "xPostFrequency"
-   ],
-   "coverage": 3,
-   "coverageOf": 4,
-   "score": 62.6,
-   "rank": 42
   },
   {
    "name": "濱田めぐみ",
@@ -7094,7 +6939,7 @@
     "igFollowers": 23000,
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/94956 -> HTTP 405"
    ],
@@ -7114,11 +6959,11 @@
      "followers": 2026
     },
     {
-     "handle": "2022.05.31",
+     "handle": "2022.07.03",
      "followers": 2026
     },
     {
-     "handle": "2022.07.03",
+     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -7129,7 +6974,7 @@
    "followerSourceDate": "2026-10-09",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "megumihamada",
    "igHandle": "megumi_hamada",
    "socialCheckedAt": "2026-10-09",
@@ -7242,17 +7087,17 @@
      "url": "https://natalie.mu/stage/news/660596"
     }
    ],
-   "daysSinceNews": 4,
+   "daysSinceNews": 11,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.5586627147593326,
-    "igFollowers": 0.42109579609552145,
+    "xFollowers": 0.5587456886472868,
+    "igFollowers": 0.42114252836693705,
     "xPostFrequency": null,
     "newsCoverage": 0.736343847617437,
-    "recentActivity": 0.717589604005251
+    "recentActivity": 0.7151891998355446
    },
    "measuredAxes": [
     "xFollowers",
@@ -7265,6 +7110,161 @@
     "xPostFrequency"
    ],
    "coverage": 4,
+   "coverageOf": 4,
+   "score": 62.5,
+   "rank": 42
+  },
+  {
+   "name": "片岡愛之助",
+   "genres": [
+    "歌舞伎・伝統芸能",
+    "商業演劇"
+   ],
+   "natalieId": "44936",
+   "achikochiSlug": "片岡愛之助（6代目）",
+   "agency": "松竹",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "sourceErrors": [
+    "natalie: https://natalie.mu/stage/artist/44936 -> HTTP 405"
+   ],
+   "xFollowers": null,
+   "igFollowers": 29453,
+   "snsAccounts": [],
+   "followerSourceDate": "2026-09-30",
+   "xFollowersSource": null,
+   "igFollowersSource": "achikochi",
+   "achikochiAsOf": "2026-10-18",
+   "eigaId": "24098",
+   "yomi": "かたおかあいのすけ",
+   "birth": "1972-03-04",
+   "origin": "日本／大阪",
+   "xAccountState": "unknown",
+   "igAccountState": "have",
+   "age": 54,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "profile": "1972年3月4日生まれ、大阪府出身。1981年、十三代目片岡仁左衛門の部屋子となり、片岡千代丸を名乗って初舞台を飾る。1992年、二代目 片岡秀太郎 の養子となり、六代目として片岡愛之助を襲名。歌舞伎のみならずドラマや映画など映像分野にも活躍の場を広げる。近年の出演作は「七つの会議」「総理の夫」など。2022年のNHK大河ドラマ「鎌倉殿の13人」に北条宗時役で出演。",
+   "natalieUrl": "https://natalie.mu/stage/artist/44936",
+   "stages": [
+    "スクランブル歌舞伎「はたらく細胞」",
+    "「當る未歳 吉例顔見世興行 東西合同大歌舞伎」昼の部",
+    "「當る未歳 吉例顔見世興行 東西合同大歌舞伎」夜の部",
+    "「錦秋十月大歌舞伎」第一部",
+    "「錦秋十月大歌舞伎」第二部",
+    "長崎スタジアムシティ アリーナ歌舞伎舞踊特別公演",
+    "大阪松竹座さよなら公演「御名残五月大歌舞伎」昼の部",
+    "大阪松竹座さよなら公演「御名残五月大歌舞伎」夜の部",
+    "「Gracias Osaka Shochikuza」",
+    "流白浪燦星 碧翠の麗城"
+   ],
+   "stageList": [
+    {
+     "title": "スクランブル歌舞伎「はたらく細胞」",
+     "start": "2027-04-01",
+     "end": "2027-04-01"
+    },
+    {
+     "title": "「當る未歳 吉例顔見世興行 東西合同大歌舞伎」昼の部",
+     "start": "2026-12-01",
+     "end": "2026-12-01"
+    },
+    {
+     "title": "「當る未歳 吉例顔見世興行 東西合同大歌舞伎」夜の部",
+     "start": "2026-12-01",
+     "end": "2026-12-01"
+    },
+    {
+     "title": "「錦秋十月大歌舞伎」第一部",
+     "start": "2026-10-02",
+     "end": "2026-10-02"
+    },
+    {
+     "title": "「錦秋十月大歌舞伎」第二部",
+     "start": "2026-10-02",
+     "end": "2026-10-02"
+    },
+    {
+     "title": "長崎スタジアムシティ アリーナ歌舞伎舞踊特別公演",
+     "start": "2026-08-07",
+     "end": "2026-08-07"
+    },
+    {
+     "title": "大阪松竹座さよなら公演「御名残五月大歌舞伎」昼の部",
+     "start": "2026-05-02",
+     "end": "2026-05-02"
+    },
+    {
+     "title": "大阪松竹座さよなら公演「御名残五月大歌舞伎」夜の部",
+     "start": "2026-05-02",
+     "end": "2026-05-02"
+    },
+    {
+     "title": "「Gracias Osaka Shochikuza」",
+     "start": "2026-03-28",
+     "end": "2026-03-28"
+    },
+    {
+     "title": "流白浪燦星 碧翠の麗城",
+     "start": "2026-03-05",
+     "end": "2027-02-26"
+    }
+   ],
+   "stagesTotal": 30,
+   "stages12m": 16,
+   "stagesUpcoming": 4,
+   "news12m": 35,
+   "news90d": 13,
+   "newsAttention12m": 11483,
+   "latestNews": {
+    "title": "「錦秋十月大歌舞伎」秋めく歌舞伎座で開幕、仁左衛門・八代目菊五郎が交互出演の「盛綱陣屋」ほか",
+    "date": "2026-10-03",
+    "url": "https://natalie.mu/stage/news/692233"
+   },
+   "topNews": [
+    {
+     "title": "片岡愛之助が白血球役、スクランブル歌舞伎「はたらく細胞」2027年4月に上演決定",
+     "date": "2026-08-15",
+     "score": 2303,
+     "url": "https://natalie.mu/stage/news/685193"
+    },
+    {
+     "title": "なにわ男子・大橋和也が片岡愛之助と息ぴったり、桃屋テレビCMで再び“親ビン子ビン”に",
+     "date": "2026-05-26",
+     "score": 1209,
+     "url": "https://natalie.mu/music/news/673425"
+    },
+    {
+     "title": "三谷かぶき「歌舞伎絶対続魂」ライブ配信決定！配信限定のメイキング映像も",
+     "date": "2025-11-02",
+     "score": 681,
+     "url": "https://natalie.mu/stage/news/646646"
+    }
+   ],
+   "daysSinceNews": 15,
+   "natalieAsOf": "2026-10-09",
+   "carriedForward": [
+    "natalie"
+   ],
+   "metrics": {
+    "xFollowers": 0.367400887337438,
+    "igFollowers": 0.45435698833965377,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8048968602375186,
+    "recentActivity": 0.7940696565971024
+   },
+   "measuredAxes": [
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "imputedAxes": [
+    "xFollowers"
+   ],
+   "droppedAxes": [
+    "xPostFrequency"
+   ],
+   "coverage": 3,
    "coverageOf": 4,
    "score": 62.5,
    "rank": 43
@@ -7287,13 +7287,13 @@
     "xNote": "スタッフ運営アカウント",
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/64402 -> HTTP 405"
    ],
    "xFollowersSource": "manual",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "ryo_matsuda0913",
    "igHandle": "matsudaryo_9",
    "xFollowers": 14000,
@@ -7408,17 +7408,17 @@
      "url": "https://natalie.mu/stage/news/658277"
     }
    ],
-   "daysSinceNews": 5,
+   "daysSinceNews": 12,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.36734632820493884,
-    "igFollowers": 0.5198965548345088,
+    "xFollowers": 0.367400887337438,
+    "igFollowers": 0.519954251793571,
     "xPostFrequency": null,
     "newsCoverage": 0.7944008068403273,
-    "recentActivity": 0.7523314793647932
+    "recentActivity": 0.7502263707778952
    },
    "measuredAxes": [
     "xFollowers",
@@ -7432,7 +7432,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 62.5,
+   "score": 62.4,
    "rank": 44
   },
   {
@@ -7450,7 +7450,7 @@
     "xFollowers": 3640,
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/106030 -> HTTP 405"
    ],
@@ -7460,7 +7460,7 @@
    "followerSourceDate": "2026-08-21",
    "xFollowersSource": "manual",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "koshirofficial",
    "igHandle": null,
    "socialCheckedAt": "2026-10-09",
@@ -7573,17 +7573,17 @@
      "url": "https://natalie.mu/eiga/news/685998"
     }
    ],
-   "daysSinceNews": 20,
+   "daysSinceNews": 27,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.1798723787164749,
-    "igFollowers": 0.5828199650205464,
+    "xFollowers": 0.17989909378122396,
+    "igFollowers": 0.5828846450792037,
     "xPostFrequency": null,
     "newsCoverage": 0.8590219922441578,
-    "recentActivity": 0.8053957904682449
+    "recentActivity": 0.8037417127054308
    },
    "measuredAxes": [
     "xFollowers",
@@ -7597,7 +7597,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 62.5,
+   "score": 62.4,
    "rank": 45
   },
   {
@@ -7610,7 +7610,7 @@
    "natalieId": "46532",
    "achikochiSlug": "小池徹平",
    "agency": "エンズタワー",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/46532 -> HTTP 405"
    ],
@@ -7630,11 +7630,11 @@
      "followers": 2026
     },
     {
-     "handle": "2022.05.31",
+     "handle": "2022.07.03",
      "followers": 2026
     },
     {
-     "handle": "2022.07.03",
+     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -7642,10 +7642,10 @@
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-10",
+   "followerSourceDate": "2026-10-17",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "ktpchannel_1102",
    "eigaId": "30656",
    "yomi": "こいけてっぺい",
@@ -7755,17 +7755,17 @@
      "url": "https://natalie.mu/eiga/news/656151"
     }
    ],
-   "daysSinceNews": 10,
+   "daysSinceNews": 17,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.2669026678139489,
-    "igFollowers": 0.7301280603323191,
+    "xFollowers": 0.2669423088199957,
+    "igFollowers": 0.7302090883145502,
     "xPostFrequency": null,
     "newsCoverage": 0.8187039037381778,
-    "recentActivity": 0.6247797019577489
+    "recentActivity": 0.6215904412904616
    },
    "measuredAxes": [
     "xFollowers",
@@ -7779,7 +7779,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 61.9,
+   "score": 61.8,
    "rank": 46
   },
   {
@@ -7791,13 +7791,13 @@
    "natalieId": "94046",
    "achikochiSlug": null,
    "agency": "松竹",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/94046 -> HTTP 405"
    ],
    "xFollowersSource": null,
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "eigaId": "53604",
    "yomi": null,
    "birth": "1981-10-31",
@@ -7906,17 +7906,17 @@
      "url": "https://natalie.mu/stage/news/656540"
     }
    ],
-   "daysSinceNews": 9,
+   "daysSinceNews": 16,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.36734632820493884,
-    "igFollowers": 0.4954117314680686,
+    "xFollowers": 0.367400887337438,
+    "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.8275495251900336,
-    "recentActivity": 0.7056848349969239
+    "recentActivity": 0.7031832438398676
    },
    "measuredAxes": [
     "newsCoverage",
@@ -7931,7 +7931,7 @@
    ],
    "coverage": 2,
    "coverageOf": 4,
-   "score": 61.9,
+   "score": 61.8,
    "rank": 47
   },
   {
@@ -7944,17 +7944,17 @@
    "natalieId": "11825",
    "achikochiSlug": "天海祐希",
    "agency": "研音",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/11825 -> HTTP 405"
    ],
    "xFollowers": null,
    "igFollowers": null,
    "snsAccounts": [],
-   "followerSourceDate": "2026-10-09",
+   "followerSourceDate": "2026-10-16",
    "xFollowersSource": null,
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "eigaId": null,
    "xAccountState": "unknown",
    "igAccountState": "unknown",
@@ -8018,17 +8018,17 @@
      "url": "https://natalie.mu/music/news/657548"
     }
    ],
-   "daysSinceNews": 21,
+   "daysSinceNews": 28,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.36734632820493884,
-    "igFollowers": 0.4954117314680686,
+    "xFollowers": 0.367400887337438,
+    "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.9047568510715694,
-    "recentActivity": 0.5828758759221997
+    "recentActivity": 0.5793304452265815
    },
    "measuredAxes": [
     "newsCoverage",
@@ -8043,7 +8043,7 @@
    ],
    "coverage": 2,
    "coverageOf": 4,
-   "score": 61.3,
+   "score": 61.2,
    "rank": 48
   },
   {
@@ -8055,7 +8055,7 @@
    "natalieId": "94952",
    "achikochiSlug": "海宝直人",
    "agency": "ホリプロ",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/94952 -> HTTP 405"
    ],
@@ -8075,11 +8075,11 @@
      "followers": 2026
     },
     {
-     "handle": "2022.05.31",
+     "handle": "2022.07.03",
      "followers": 2026
     },
     {
-     "handle": "2022.07.03",
+     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -8090,7 +8090,7 @@
    "followerSourceDate": "2026-08-01",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "naotosea",
    "eigaId": "23809",
    "yomi": "かいほうなおと",
@@ -8200,17 +8200,17 @@
      "url": "https://natalie.mu/stage/news/659854"
     }
    ],
-   "daysSinceNews": 6,
+   "daysSinceNews": 13,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.5413045023264542,
-    "igFollowers": 0.40887904301364425,
+    "xFollowers": 0.5413848981322572,
+    "igFollowers": 0.408924419497075,
     "xPostFrequency": null,
     "newsCoverage": 0.7632675195318541,
-    "recentActivity": 0.65363545781477
+    "recentActivity": 0.6506914624693744
    },
    "measuredAxes": [
     "xFollowers",
@@ -8244,13 +8244,13 @@
     "igFollowers": 56000,
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/92864 -> HTTP 405"
    ],
    "xFollowersSource": "manual",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "tsubasa_skym",
    "igHandle": "sakiyamaofficial",
    "xFollowers": 77000,
@@ -8365,17 +8365,17 @@
      "url": "https://natalie.mu/stage/news/681816"
     }
    ],
-   "daysSinceNews": 15,
+   "daysSinceNews": 22,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.6046259544736756,
-    "igFollowers": 0.5405982514345254,
+    "xFollowers": 0.6047157549290763,
+    "igFollowers": 0.5406582458216628,
     "xPostFrequency": null,
     "newsCoverage": 0.6739839695105759,
-    "recentActivity": 0.5921601487598022
+    "recentActivity": 0.5886936316153426
    },
    "measuredAxes": [
     "xFollowers",
@@ -8407,13 +8407,13 @@
     "xNote": "所属事務所（FROM FIRST / COME TRUE next）のプロフィールに掲出",
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/99541 -> HTTP 405"
    ],
    "xFollowersSource": "manual",
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "mitsuoYoshihara",
    "igHandle": null,
    "xFollowers": 26000,
@@ -8515,17 +8515,17 @@
      "url": "https://natalie.mu/eiga/news/663263"
     }
    ],
-   "daysSinceNews": 12,
+   "daysSinceNews": 19,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.45350721371845754,
-    "igFollowers": 0.4954117314680686,
+    "xFollowers": 0.4535745696664086,
+    "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.8010288402352972,
-    "recentActivity": 0.6137915363241135
+    "recentActivity": 0.6105088795248903
    },
    "measuredAxes": [
     "xFollowers",
@@ -8540,7 +8540,7 @@
    ],
    "coverage": 3,
    "coverageOf": 4,
-   "score": 60.9,
+   "score": 60.8,
    "rank": 51
   },
   {
@@ -8553,7 +8553,7 @@
    "natalieId": "62366",
    "achikochiSlug": "柿澤勇人",
    "agency": "ホリプロ",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/62366 -> HTTP 405"
    ],
@@ -8573,11 +8573,11 @@
      "followers": 2026
     },
     {
-     "handle": "2022.05.31",
+     "handle": "2022.07.03",
      "followers": 2026
     },
     {
-     "handle": "2022.07.03",
+     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -8588,7 +8588,7 @@
    "followerSourceDate": "2026-07-28",
    "xFollowersSource": "achikochi",
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "kakizawa_hayato",
    "eigaId": "90757",
    "yomi": "かきざわはやと",
@@ -8685,17 +8685,17 @@
      "url": "https://natalie.mu/music/news/675608"
     }
    ],
-   "daysSinceNews": 76,
+   "daysSinceNews": 83,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.5394777719988375,
-    "igFollowers": 0.4954117314680686,
+    "xFollowers": 0.5395578964943964,
+    "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.859231267031695,
-    "recentActivity": 0.4487504497559052
+    "recentActivity": 0.4440649929252746
    },
    "measuredAxes": [
     "xFollowers",
@@ -8710,7 +8710,7 @@
    ],
    "coverage": 3,
    "coverageOf": 4,
-   "score": 60.8,
+   "score": 60.7,
    "rank": 52
   },
   {
@@ -8729,13 +8729,13 @@
     "xFollowers": 24000,
     "igFollowers": 100000
    },
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/65358 -> HTTP 405"
    ],
    "xFollowersSource": "manual",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "taichi_saotome",
    "igHandle": "taichisaotome_official",
    "xFollowers": 24000,
@@ -8820,17 +8820,17 @@
      "url": "https://natalie.mu/eiga/news/648622"
     }
    ],
-   "daysSinceNews": 24,
+   "daysSinceNews": 31,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.442366333473127,
-    "igFollowers": 0.6184655412495087,
+    "xFollowers": 0.4424320347515882,
+    "igFollowers": 0.6185341771746423,
     "xPostFrequency": null,
     "newsCoverage": 0.7851708502113531,
-    "recentActivity": 0.5412833789370683
+    "recentActivity": 0.5373844244172299
    },
    "measuredAxes": [
     "xFollowers",
@@ -8844,7 +8844,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 60.8,
+   "score": 60.7,
    "rank": 53
   },
   {
@@ -8865,13 +8865,13 @@
     "xNote": "スタッフ運営アカウント（公式リンク集で STAFF X と明示）",
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/85686 -> HTTP 405"
    ],
    "xFollowersSource": "manual",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "YuzukiReonstaff",
    "igHandle": "reonyuzuki_official",
    "xFollowers": 11000,
@@ -8985,17 +8985,17 @@
      "url": "https://natalie.mu/stage/news/673595"
     }
    ],
-   "daysSinceNews": 4,
+   "daysSinceNews": 11,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.33378114485859,
-    "igFollowers": 0.6383978353278242,
+    "xFollowers": 0.3338307188118593,
+    "igFollowers": 0.6384686832944587,
     "xPostFrequency": null,
     "newsCoverage": 0.7807241054471803,
-    "recentActivity": 0.6126586629670147
+    "recentActivity": 0.6093663770820046
    },
    "measuredAxes": [
     "xFollowers",
@@ -9009,7 +9009,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 60.2,
+   "score": 60.1,
    "rank": 54
   },
   {
@@ -9022,7 +9022,7 @@
    "natalieId": "91594",
    "achikochiSlug": "明日海りお",
    "agency": "研音",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/91594 -> HTTP 405"
    ],
@@ -9042,11 +9042,11 @@
      "followers": 2026
     },
     {
-     "handle": "2022.05.31",
+     "handle": "2022.07.03",
      "followers": 2026
     },
     {
-     "handle": "2022.07.03",
+     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -9054,10 +9054,10 @@
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-10",
+   "followerSourceDate": "2026-10-17",
    "xFollowersSource": "achikochi",
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "asumirio_staff",
    "eigaId": "259665",
    "yomi": null,
@@ -9165,17 +9165,17 @@
      "url": "https://natalie.mu/stage/news/643870"
     }
    ],
-   "daysSinceNews": 11,
+   "daysSinceNews": 18,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.5597224927475795,
-    "igFollowers": 0.4954117314680686,
+    "xFollowers": 0.5598056240362296,
+    "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.7690087871543035,
-    "recentActivity": 0.47737001443075655
+    "recentActivity": 0.472927815367386
    },
    "measuredAxes": [
     "xFollowers",
@@ -9190,7 +9190,7 @@
    ],
    "coverage": 3,
    "coverageOf": 4,
-   "score": 59.2,
+   "score": 59.1,
    "rank": 55
   },
   {
@@ -9202,13 +9202,13 @@
    "natalieId": "102418",
    "achikochiSlug": "木下晴香",
    "agency": "ホリプロ",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/102418 -> HTTP 405"
    ],
    "xFollowersSource": null,
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "eigaId": "309821",
    "yomi": "きのしたはるか",
    "birth": "1999-02-05",
@@ -9317,17 +9317,17 @@
      "url": "https://natalie.mu/stage/news/671772"
     }
    ],
-   "daysSinceNews": 6,
+   "daysSinceNews": 13,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.36734632820493884,
-    "igFollowers": 0.4954117314680686,
+    "xFollowers": 0.367400887337438,
+    "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.8108180266615871,
-    "recentActivity": 0.5906170928609615
+    "recentActivity": 0.5871374602014
    },
    "measuredAxes": [
     "newsCoverage",
@@ -9342,7 +9342,7 @@
    ],
    "coverage": 2,
    "coverageOf": 4,
-   "score": 58.6,
+   "score": 58.5,
    "rank": 56
   },
   {
@@ -9355,7 +9355,7 @@
    "natalieId": "1062",
    "achikochiSlug": "松たか子",
    "agency": "コンバインド",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/1062 -> HTTP 405"
    ],
@@ -9375,11 +9375,11 @@
      "followers": 2026
     },
     {
-     "handle": "2022.05.31",
+     "handle": "2022.07.03",
      "followers": 2026
     },
     {
-     "handle": "2022.07.03",
+     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -9387,10 +9387,10 @@
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-07",
+   "followerSourceDate": "2026-10-14",
    "xFollowersSource": "achikochi",
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "hiromi_takutaka",
    "eigaId": null,
    "xAccountState": "have",
@@ -9455,17 +9455,17 @@
      "url": "https://natalie.mu/music/news/645695"
     }
    ],
-   "daysSinceNews": 9,
+   "daysSinceNews": 16,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
     "xFollowers": 0,
-    "igFollowers": 0.4954117314680686,
+    "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.9125497730441288,
-    "recentActivity": 0.7909624157148252
+    "recentActivity": 0.7891856585696922
    },
    "measuredAxes": [
     "xFollowers",
@@ -9499,7 +9499,7 @@
     "checkedAt": "2026-10-09",
     "xNote": "2015年開設の期間限定オフィシャルアカウント。公式サイト otake-shinobu.com を掲出"
    },
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/14139 -> HTTP 405"
    ],
@@ -9509,7 +9509,7 @@
    "followerSourceDate": "2026-09-05",
    "xFollowersSource": "manual",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "mariar0717",
    "igHandle": null,
    "socialCheckedAt": "2026-10-09",
@@ -9622,17 +9622,17 @@
      "url": "https://natalie.mu/eiga/news/684135"
     }
    ],
-   "daysSinceNews": 11,
+   "daysSinceNews": 18,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
     "xFollowers": 0,
-    "igFollowers": 0.7760946648954986,
+    "igFollowers": 0.7761807941488904,
     "xPostFrequency": null,
     "newsCoverage": 0.7842894485680478,
-    "recentActivity": 0.7238367690879801
+    "recentActivity": 0.7214894639589824
    },
    "measuredAxes": [
     "xFollowers",
@@ -9650,163 +9650,6 @@
    "rank": 58
   },
   {
-   "name": "花總まり",
-   "genres": [
-    "宝塚・OG",
-    "ミュージカル",
-    "商業演劇"
-   ],
-   "natalieId": "66478",
-   "achikochiSlug": "花總まり",
-   "agency": "エヴァーグリーン・エンタテイメント",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
-   "sourceErrors": [
-    "natalie: https://natalie.mu/stage/artist/66478 -> HTTP 405"
-   ],
-   "xFollowers": null,
-   "igFollowers": 80720,
-   "snsAccounts": [],
-   "followerSourceDate": "2026-07-18",
-   "xFollowersSource": null,
-   "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
-   "eigaId": "272692",
-   "yomi": "はなふさまり",
-   "birth": "1973-02-28",
-   "origin": "日本／東京",
-   "xAccountState": "unknown",
-   "igAccountState": "have",
-   "age": 53,
-   "debutYear": null,
-   "careerYears": null,
-   "xPostFrequency": null,
-   "profile": "東京都生まれ。1991年に宝塚歌劇団へ入団。1994年より雪組トップ娘役、1998年より宙組トップ娘役を務め、2006年に退団した。トップ在任歴は歴代最長。2010年、本格的に活動を再開し、ミュージカル「レディ・ベス」「エリザベート」「マリー・アントワネット」など主演作品のほか、テレビドラマ「おんな城主 直虎」「精霊の守り人」（共にNHK）などに出演。オーストリア共和国有功栄誉金章、菊田一夫演劇賞演劇大賞、読売演劇大賞優秀女優賞、松尾芸能賞演劇部門優秀賞など演劇賞の受賞歴多数。",
-   "officialSite": "https://www.blooming-net.com/blooming-agency/hanafusa-mari/",
-   "natalieUrl": "https://natalie.mu/stage/artist/66478",
-   "stages": [
-    "ミュージカル「モーツァルト！」日本初演25周年",
-    "ミュージカル「AGATHA（アガサ）」",
-    "MoN Takanawa: The Museum of Narratives開館記念特別公演「MANGALOGUE（マンガローグ）：火の鳥」",
-    "「いきなり本読み！」in博多座 ミュージカル版",
-    "ミュージカル「破果（パグァ）」",
-    "ミュージカル「バグダッド・カフェ」",
-    "デビュー35周年記念 石丸幹二 オーケストラコンサート2025",
-    "田代万里生15th Anniversary SYMPHONIC MUSICAL CONCERT 2025 ～YOU ARE HERE～",
-    "CONCERT「THE BEST New HISTORY COMING」",
-    "舞台「応天の門」"
-   ],
-   "stageList": [
-    {
-     "title": "ミュージカル「モーツァルト！」日本初演25周年",
-     "start": "2027-02-10",
-     "end": "2027-02-10"
-    },
-    {
-     "title": "ミュージカル「AGATHA（アガサ）」",
-     "start": "2026-07-18",
-     "end": "2026-09-06"
-    },
-    {
-     "title": "MoN Takanawa: The Museum of Narratives開館記念特別公演「MANGALOGUE（マンガローグ）：火の鳥」",
-     "start": "2026-04-22",
-     "end": "2026-05-16"
-    },
-    {
-     "title": "「いきなり本読み！」in博多座 ミュージカル版",
-     "start": "2026-04-14",
-     "end": "2026-04-14"
-    },
-    {
-     "title": "ミュージカル「破果（パグァ）」",
-     "start": "2026-03-07",
-     "end": "2026-04-05"
-    },
-    {
-     "title": "ミュージカル「バグダッド・カフェ」",
-     "start": "2025-11-02",
-     "end": "2025-12-14"
-    },
-    {
-     "title": "デビュー35周年記念 石丸幹二 オーケストラコンサート2025",
-     "start": "2025-05-22",
-     "end": "2025-08-14"
-    },
-    {
-     "title": "田代万里生15th Anniversary SYMPHONIC MUSICAL CONCERT 2025 ～YOU ARE HERE～",
-     "start": "2025-03-21",
-     "end": "2025-03-21"
-    },
-    {
-     "title": "CONCERT「THE BEST New HISTORY COMING」",
-     "start": "2025-02-14",
-     "end": "2025-02-14"
-    },
-    {
-     "title": "舞台「応天の門」",
-     "start": "2024-12-04",
-     "end": "2024-12-04"
-    }
-   ],
-   "stagesTotal": 15,
-   "stages12m": 6,
-   "stagesUpcoming": 1,
-   "news12m": 17,
-   "news90d": 4,
-   "newsAttention12m": 9099,
-   "latestNews": {
-    "title": "ミュージカル「モーツァルト！」追加キャストに吉柳咲良・朝月希和・津田英佑ら",
-    "date": "2026-09-29",
-    "url": "https://natalie.mu/stage/news/691560"
-   },
-   "topNews": [
-    {
-     "title": "ミュージカル「AGATHA」日本版上演決定！アガサ・クリスティ役は花總まり",
-     "date": "2025-11-21",
-     "score": 1454,
-     "url": "https://natalie.mu/stage/news/649019"
-    },
-    {
-     "title": "ミュージカル「モーツァルト！」追加キャストに吉柳咲良・朝月希和・津田英佑ら",
-     "date": "2026-09-29",
-     "score": 1449,
-     "url": "https://natalie.mu/stage/news/691560"
-    },
-    {
-     "title": "花總まりが主演するミュージカル「破果（パグァ）」本日開幕",
-     "date": "2026-03-07",
-     "score": 872,
-     "url": "https://natalie.mu/stage/news/662982"
-    }
-   ],
-   "daysSinceNews": 12,
-   "natalieAsOf": "2026-10-09",
-   "carriedForward": [
-    "natalie"
-   ],
-   "metrics": {
-    "xFollowers": 0.36734632820493884,
-    "igFollowers": 0.5897014487701218,
-    "xPostFrequency": null,
-    "newsCoverage": 0.7353401861296863,
-    "recentActivity": 0.5715660493752228
-   },
-   "measuredAxes": [
-    "igFollowers",
-    "newsCoverage",
-    "recentActivity"
-   ],
-   "imputedAxes": [
-    "xFollowers"
-   ],
-   "droppedAxes": [
-    "xPostFrequency"
-   ],
-   "coverage": 3,
-   "coverageOf": 4,
-   "score": 57.6,
-   "rank": 59
-  },
-  {
    "name": "田代万里生",
    "genres": [
     "ミュージカル",
@@ -9821,13 +9664,13 @@
     "igNote": "ホリプロ公式ファンサイト（fc.horipro.jp/tashiromario）掲出のアカウント",
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/95116 -> HTTP 405"
    ],
    "xFollowersSource": null,
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": null,
    "igHandle": "mario_tashiro_official",
    "igFollowers": 18000,
@@ -9938,17 +9781,17 @@
      "url": "https://natalie.mu/stage/news/660129"
     }
    ],
-   "daysSinceNews": 4,
+   "daysSinceNews": 11,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.36734632820493884,
-    "igFollowers": 0.38817801252607176,
+    "xFollowers": 0.367400887337438,
+    "igFollowers": 0.388221091655351,
     "xPostFrequency": null,
     "newsCoverage": 0.7701734647830593,
-    "recentActivity": 0.6646236234484052
+    "recentActivity": 0.6617730242349457
    },
    "measuredAxes": [
     "igFollowers",
@@ -9963,8 +9806,8 @@
    ],
    "coverage": 3,
    "coverageOf": 4,
-   "score": 57,
-   "rank": 60
+   "score": 56.9,
+   "rank": 59
   },
   {
    "name": "坂本昌行",
@@ -9976,17 +9819,17 @@
    "natalieId": "40512",
    "agency": "STARTO ENTERTAINMENT",
    "achikochiSlug": "坂本昌行",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/40512 -> HTTP 405"
    ],
    "xFollowers": null,
-   "igFollowers": 80123,
+   "igFollowers": 80331,
    "snsAccounts": [],
-   "followerSourceDate": "2026-10-09",
+   "followerSourceDate": "2026-10-16",
    "xFollowersSource": null,
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "eigaId": null,
    "xAccountState": "unknown",
    "igAccountState": "have",
@@ -10072,17 +9915,17 @@
      "url": "https://natalie.mu/stage/news/645615"
     }
    ],
-   "daysSinceNews": 7,
+   "daysSinceNews": 14,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.36734632820493884,
-    "igFollowers": 0.588704511950621,
+    "xFollowers": 0.367400887337438,
+    "igFollowers": 0.5891180658452561,
     "xPostFrequency": null,
     "newsCoverage": 0.7409577288626717,
-    "recentActivity": 0.5127457006945841
+    "recentActivity": 0.5086041844177477
    },
    "measuredAxes": [
     "igFollowers",
@@ -10097,8 +9940,8 @@
    ],
    "coverage": 3,
    "coverageOf": 4,
-   "score": 56.3,
-   "rank": 61
+   "score": 56.2,
+   "rank": 60
   },
   {
    "name": "成河",
@@ -10116,13 +9959,13 @@
     "xNote": "スタッフ運営アカウント（所属事務所ブルー・ジュピターのプロフィールに掲出）",
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/72210 -> HTTP 405"
    ],
    "xFollowersSource": "manual",
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "tw_de_songha_sc",
    "igHandle": null,
    "xFollowers": 11000,
@@ -10236,17 +10079,17 @@
      "url": "https://natalie.mu/stage/news/688408"
     }
    ],
-   "daysSinceNews": 5,
+   "daysSinceNews": 12,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.33378114485859,
-    "igFollowers": 0.4954117314680686,
+    "xFollowers": 0.3338307188118593,
+    "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.7096326982922905,
-    "recentActivity": 0.6443382161985479
+    "recentActivity": 0.6413151970712418
    },
    "measuredAxes": [
     "xFollowers",
@@ -10261,7 +10104,160 @@
    ],
    "coverage": 3,
    "coverageOf": 4,
-   "score": 55.9,
+   "score": 55.8,
+   "rank": 61
+  },
+  {
+   "name": "花總まり",
+   "genres": [
+    "宝塚・OG",
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "natalieId": "66478",
+   "achikochiSlug": "花總まり",
+   "agency": "エヴァーグリーン・エンタテイメント",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "sourceErrors": [
+    "natalie: https://natalie.mu/stage/artist/66478 -> HTTP 405"
+   ],
+   "xFollowersSource": null,
+   "igFollowersSource": null,
+   "achikochiAsOf": "2026-10-18",
+   "eigaId": "272692",
+   "yomi": "はなふさまり",
+   "birth": "1973-02-28",
+   "origin": "日本／東京",
+   "xAccountState": "unknown",
+   "igAccountState": "unknown",
+   "age": 53,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "profile": "東京都生まれ。1991年に宝塚歌劇団へ入団。1994年より雪組トップ娘役、1998年より宙組トップ娘役を務め、2006年に退団した。トップ在任歴は歴代最長。2010年、本格的に活動を再開し、ミュージカル「レディ・ベス」「エリザベート」「マリー・アントワネット」など主演作品のほか、テレビドラマ「おんな城主 直虎」「精霊の守り人」（共にNHK）などに出演。オーストリア共和国有功栄誉金章、菊田一夫演劇賞演劇大賞、読売演劇大賞優秀女優賞、松尾芸能賞演劇部門優秀賞など演劇賞の受賞歴多数。",
+   "officialSite": "https://www.blooming-net.com/blooming-agency/hanafusa-mari/",
+   "natalieUrl": "https://natalie.mu/stage/artist/66478",
+   "stages": [
+    "ミュージカル「モーツァルト！」日本初演25周年",
+    "ミュージカル「AGATHA（アガサ）」",
+    "MoN Takanawa: The Museum of Narratives開館記念特別公演「MANGALOGUE（マンガローグ）：火の鳥」",
+    "「いきなり本読み！」in博多座 ミュージカル版",
+    "ミュージカル「破果（パグァ）」",
+    "ミュージカル「バグダッド・カフェ」",
+    "デビュー35周年記念 石丸幹二 オーケストラコンサート2025",
+    "田代万里生15th Anniversary SYMPHONIC MUSICAL CONCERT 2025 ～YOU ARE HERE～",
+    "CONCERT「THE BEST New HISTORY COMING」",
+    "舞台「応天の門」"
+   ],
+   "stageList": [
+    {
+     "title": "ミュージカル「モーツァルト！」日本初演25周年",
+     "start": "2027-02-10",
+     "end": "2027-02-10"
+    },
+    {
+     "title": "ミュージカル「AGATHA（アガサ）」",
+     "start": "2026-07-18",
+     "end": "2026-09-06"
+    },
+    {
+     "title": "MoN Takanawa: The Museum of Narratives開館記念特別公演「MANGALOGUE（マンガローグ）：火の鳥」",
+     "start": "2026-04-22",
+     "end": "2026-05-16"
+    },
+    {
+     "title": "「いきなり本読み！」in博多座 ミュージカル版",
+     "start": "2026-04-14",
+     "end": "2026-04-14"
+    },
+    {
+     "title": "ミュージカル「破果（パグァ）」",
+     "start": "2026-03-07",
+     "end": "2026-04-05"
+    },
+    {
+     "title": "ミュージカル「バグダッド・カフェ」",
+     "start": "2025-11-02",
+     "end": "2025-12-14"
+    },
+    {
+     "title": "デビュー35周年記念 石丸幹二 オーケストラコンサート2025",
+     "start": "2025-05-22",
+     "end": "2025-08-14"
+    },
+    {
+     "title": "田代万里生15th Anniversary SYMPHONIC MUSICAL CONCERT 2025 ～YOU ARE HERE～",
+     "start": "2025-03-21",
+     "end": "2025-03-21"
+    },
+    {
+     "title": "CONCERT「THE BEST New HISTORY COMING」",
+     "start": "2025-02-14",
+     "end": "2025-02-14"
+    },
+    {
+     "title": "舞台「応天の門」",
+     "start": "2024-12-04",
+     "end": "2024-12-04"
+    }
+   ],
+   "stagesTotal": 15,
+   "stages12m": 6,
+   "stagesUpcoming": 1,
+   "news12m": 17,
+   "news90d": 4,
+   "newsAttention12m": 9099,
+   "latestNews": {
+    "title": "ミュージカル「モーツァルト！」追加キャストに吉柳咲良・朝月希和・津田英佑ら",
+    "date": "2026-09-29",
+    "url": "https://natalie.mu/stage/news/691560"
+   },
+   "topNews": [
+    {
+     "title": "ミュージカル「AGATHA」日本版上演決定！アガサ・クリスティ役は花總まり",
+     "date": "2025-11-21",
+     "score": 1454,
+     "url": "https://natalie.mu/stage/news/649019"
+    },
+    {
+     "title": "ミュージカル「モーツァルト！」追加キャストに吉柳咲良・朝月希和・津田英佑ら",
+     "date": "2026-09-29",
+     "score": 1449,
+     "url": "https://natalie.mu/stage/news/691560"
+    },
+    {
+     "title": "花總まりが主演するミュージカル「破果（パグァ）」本日開幕",
+     "date": "2026-03-07",
+     "score": 872,
+     "url": "https://natalie.mu/stage/news/662982"
+    }
+   ],
+   "daysSinceNews": 19,
+   "natalieAsOf": "2026-10-09",
+   "carriedForward": [
+    "natalie"
+   ],
+   "metrics": {
+    "xFollowers": 0.367400887337438,
+    "igFollowers": 0.49546671115609237,
+    "xPostFrequency": null,
+    "newsCoverage": 0.7353401861296863,
+    "recentActivity": 0.5679244885258035
+   },
+   "measuredAxes": [
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "imputedAxes": [
+    "xFollowers",
+    "igFollowers"
+   ],
+   "droppedAxes": [
+    "xPostFrequency"
+   ],
+   "coverage": 2,
+   "coverageOf": 4,
+   "score": 55.7,
    "rank": 62
   },
   {
@@ -10282,13 +10278,13 @@
     "xNote": "スタッフ運営アカウント",
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/87447 -> HTTP 405"
    ],
    "xFollowersSource": "manual",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "Kenji_Staff",
    "igHandle": "kenji_urai_staff",
    "xFollowers": 33000,
@@ -10403,17 +10399,17 @@
      "url": "https://natalie.mu/stage/news/648616"
     }
    ],
-   "daysSinceNews": 41,
+   "daysSinceNews": 48,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.48669105023424286,
-    "igFollowers": 0.1769706254578139,
+    "xFollowers": 0.4867633347229041,
+    "igFollowers": 0.17699026526276607,
     "xPostFrequency": null,
     "newsCoverage": 0.8231705606129966,
-    "recentActivity": 0.5934757693642705
+    "recentActivity": 0.5900204346027172
    },
    "measuredAxes": [
     "xFollowers",
@@ -10427,7 +10423,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 55.6,
+   "score": 55.5,
    "rank": 63
   },
   {
@@ -10447,13 +10443,13 @@
     "igFollowers": 5171,
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/86172 -> HTTP 405"
    ],
    "xFollowersSource": "manual",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "takuma_zaiki",
    "igHandle": "takuma_zaiki_official",
    "xFollowers": 50000,
@@ -10466,7 +10462,7 @@
    "origin": "日本／福岡",
    "xAccountState": "have",
    "igAccountState": "have",
-   "age": 33,
+   "age": 34,
    "debutYear": null,
    "careerYears": null,
    "xPostFrequency": null,
@@ -10550,17 +10546,17 @@
      "url": "https://natalie.mu/eiga/news/655798"
     }
    ],
-   "daysSinceNews": 4,
+   "daysSinceNews": 11,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.5445261549598671,
-    "igFollowers": 0.22068612103563431,
+    "xFollowers": 0.544607029253025,
+    "igFollowers": 0.22071061228869723,
     "xPostFrequency": null,
     "newsCoverage": 0.653901491036443,
-    "recentActivity": 0.5548623159720204
+    "recentActivity": 0.5510787783686312
    },
    "measuredAxes": [
     "xFollowers",
@@ -10574,7 +10570,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 51.6,
+   "score": 51.5,
    "rank": 64
   },
   {
@@ -10587,17 +10583,17 @@
    "natalieId": "15623",
    "achikochiSlug": "段田安則",
    "agency": "シス・カンパニー",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/15623 -> HTTP 405"
    ],
    "xFollowers": null,
    "igFollowers": null,
    "snsAccounts": [],
-   "followerSourceDate": "2026-10-10",
+   "followerSourceDate": "2026-10-17",
    "xFollowersSource": null,
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "eigaId": null,
    "xAccountState": "unknown",
    "igAccountState": "unknown",
@@ -10678,17 +10674,17 @@
      "url": "https://natalie.mu/stage/news/653897"
     }
    ],
-   "daysSinceNews": 4,
+   "daysSinceNews": 11,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.36734632820493884,
-    "igFollowers": 0.4954117314680686,
+    "xFollowers": 0.367400887337438,
+    "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.6488453837612052,
-    "recentActivity": 0.502819261675332
+    "recentActivity": 0.4985933736262448
    },
    "measuredAxes": [
     "newsCoverage",
@@ -10703,7 +10699,7 @@
    ],
    "coverage": 2,
    "coverageOf": 4,
-   "score": 51.4,
+   "score": 51.3,
    "rank": 65
   },
   {
@@ -10716,7 +10712,7 @@
    "natalieId": "41513",
    "achikochiSlug": "市村正親",
    "agency": "オフィスPSC",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/41513 -> HTTP 405"
    ],
@@ -10726,7 +10722,7 @@
    "followerSourceDate": "2026-09-24",
    "xFollowersSource": null,
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "eigaId": "16531",
    "yomi": "いちむらまさちか",
    "birth": "1949-01-28",
@@ -10834,17 +10830,17 @@
      "url": "https://natalie.mu/stage/news/656254"
     }
    ],
-   "daysSinceNews": 6,
+   "daysSinceNews": 13,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.36734632820493884,
+    "xFollowers": 0.367400887337438,
     "igFollowers": 0,
     "xPostFrequency": null,
     "newsCoverage": 0.7742818121584322,
-    "recentActivity": 0.6295957395685224
+    "recentActivity": 0.6264474137851003
    },
    "measuredAxes": [
     "igFollowers",
@@ -10859,7 +10855,7 @@
    ],
    "coverage": 3,
    "coverageOf": 4,
-   "score": 48.5,
+   "score": 48.4,
    "rank": 66
   },
   {
@@ -10877,17 +10873,17 @@
     "checkedAt": "2026-10-09",
     "xNote": "スタッフ運営アカウント（公式サイト ryutasato.com に掲出）"
    },
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/30774 -> HTTP 405"
    ],
    "xFollowers": 1337,
-   "igFollowers": 149822,
+   "igFollowers": 149855,
    "snsAccounts": [],
-   "followerSourceDate": "2026-10-09",
+   "followerSourceDate": "2026-10-16",
    "xFollowersSource": "manual",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "ryutasato_info",
    "igHandle": null,
    "socialCheckedAt": "2026-10-09",
@@ -10970,17 +10966,17 @@
      "url": "https://natalie.mu/eiga/news/683878"
     }
    ],
-   "daysSinceNews": 57,
+   "daysSinceNews": 64,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.04052944372866965,
-    "igFollowers": 0.6727587029871273,
+    "xFollowers": 0.040535463256076695,
+    "igFollowers": 0.6728629446909818,
     "xPostFrequency": null,
     "newsCoverage": 0.6834320728865251,
-    "recentActivity": 0.5089718887721844
+    "recentActivity": 0.5047982962191105
    },
    "measuredAxes": [
     "xFollowers",
@@ -10994,7 +10990,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 48.1,
+   "score": 48,
    "rank": 67
   },
   {
@@ -11017,7 +11013,7 @@
     "source": "オスカープロモーション公式お知らせ「真矢ミキ『なりすまし』Instagram に関するお知らせ」に「真矢ミキが現在行っているSNSはInstagramのみ」と明記",
     "checkedAt": "2026-09-16"
    },
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/32382 -> HTTP 405"
    ],
@@ -11027,7 +11023,7 @@
    "followerSourceDate": "2026-10-05",
    "xFollowersSource": null,
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": null,
    "igHandle": "mikimayaofficial",
    "socialCheckedAt": "2026-10-09",
@@ -11086,17 +11082,17 @@
      "url": "https://natalie.mu/eiga/news/691456"
     }
    ],
-   "daysSinceNews": 13,
+   "daysSinceNews": 20,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
     "xFollowers": 0,
-    "igFollowers": 0.5626634254631545,
+    "igFollowers": 0.5627258685940483,
     "xPostFrequency": null,
     "newsCoverage": 0.7094111259261658,
-    "recentActivity": 0.5598880860692507
+    "recentActivity": 0.5561472660133329
    },
    "measuredAxes": [
     "xFollowers",
@@ -11110,7 +11106,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 47,
+   "score": 46.9,
    "rank": 68
   },
   {
@@ -11128,17 +11124,17 @@
     "source": "所属事務所（ボックスコーポレーション）の公表コメント。ORICON NEWS 2024-03 の偽アカウント注意喚起記事で確認",
     "checkedAt": "2026-09-16"
    },
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/35735 -> HTTP 405"
    ],
    "xFollowers": null,
    "igFollowers": null,
    "snsAccounts": [],
-   "followerSourceDate": "2026-10-08",
+   "followerSourceDate": "2026-10-15",
    "xFollowersSource": null,
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "eigaId": "45027",
    "yomi": "たかはしいっせい",
    "birth": "1980-12-09",
@@ -11199,7 +11195,7 @@
      "url": "https://natalie.mu/music/news/689687"
     }
    ],
-   "daysSinceNews": 4,
+   "daysSinceNews": 11,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
@@ -11209,7 +11205,7 @@
     "igFollowers": 0,
     "xPostFrequency": null,
     "newsCoverage": 0.9053492281201225,
-    "recentActivity": 0.658294892941309
+    "recentActivity": 0.6553905014053513
    },
    "measuredAxes": [
     "xFollowers",
@@ -11223,7 +11219,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 44.3,
+   "score": 44.2,
    "rank": 69
   },
   {
@@ -11235,7 +11231,7 @@
    "natalieId": "15613",
    "achikochiSlug": "鹿賀丈史",
    "agency": "テアトル・ド・ポッシュ",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/15613 -> HTTP 405"
    ],
@@ -11245,7 +11241,7 @@
    "followerSourceDate": "2026-10-11",
    "xFollowersSource": null,
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "eigaId": "23862",
    "yomi": "かがたけし",
    "birth": "1950-10-12",
@@ -11323,17 +11319,17 @@
      "url": "https://natalie.mu/stage/news/664308"
     }
    ],
-   "daysSinceNews": 137,
+   "daysSinceNews": 144,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.36734632820493884,
-    "igFollowers": 0.4954117314680686,
+    "xFollowers": 0.367400887337438,
+    "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.4943733066552827,
-    "recentActivity": 0.10347366723747513
+    "recentActivity": 0.09585346069431813
    },
    "measuredAxes": [
     "newsCoverage",
@@ -11348,7 +11344,7 @@
    ],
    "coverage": 2,
    "coverageOf": 4,
-   "score": 36.8,
+   "score": 36.6,
    "rank": 70
   },
   {
@@ -11360,7 +11356,7 @@
    "natalieId": "93400",
    "achikochiSlug": "龍真咲",
    "agency": "フリー",
-   "fetchedAt": "2026-10-11T09:24:25.967Z",
+   "fetchedAt": "2026-10-18T07:29:22.397Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/93400 -> HTTP 405"
    ],
@@ -11380,11 +11376,11 @@
      "followers": 2026
     },
     {
-     "handle": "2022.05.31",
+     "handle": "2022.07.03",
      "followers": 2026
     },
     {
-     "handle": "2022.07.03",
+     "handle": "2022.05.31",
      "followers": 2026
     },
     {
@@ -11395,7 +11391,7 @@
    "followerSourceDate": "2026-07-27",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-11",
+   "achikochiAsOf": "2026-10-18",
    "xHandle": "masakiryufree",
    "eigaId": null,
    "xAccountState": "have",
@@ -11433,14 +11429,14 @@
     "url": "https://natalie.mu/stage/news/587459"
    },
    "topNews": [],
-   "daysSinceNews": 781,
+   "daysSinceNews": 788,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.3358034658475832,
-    "igFollowers": 0.5416350284844609,
+    "xFollowers": 0.33585334016067725,
+    "igFollowers": 0.5416951379308007,
     "xPostFrequency": null,
     "newsCoverage": 0,
     "recentActivity": 0
