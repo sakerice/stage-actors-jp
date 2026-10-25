@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-10-18T07:29:22.397Z",
- "generatedAtJst": "2026/10/18 16:29",
+ "generatedAt": "2026-10-25T07:52:43.452Z",
+ "generatedAtJst": "2026/10/25 16:52",
  "weights": {
   "xFollowers": 0.22,
   "igFollowers": 0.18,
@@ -13,12 +13,12 @@
    "asOf": "2026-10-09",
    "oldest": "2026-10-09",
    "newest": "2026-10-09",
-   "ageDays": 9
+   "ageDays": 16
   },
   "achikochi": {
-   "asOf": "2026-10-18",
-   "oldest": "2026-10-18",
-   "newest": "2026-10-18",
+   "asOf": "2026-10-25",
+   "oldest": "2026-10-25",
+   "newest": "2026-10-25",
    "ageDays": 0
   }
  },
@@ -45,8 +45,8 @@
    "name": "あちこちデータ",
    "url": "https://achikochi-data.com/",
    "use": "X / Instagram のフォロワー数",
-   "fetchedAsOf": "2026-10-18",
-   "asOf": "2026-07-27 〜 2026-10-17"
+   "fetchedAsOf": "2026-10-25",
+   "asOf": "2026-08-01 〜 2026-10-24"
   },
   {
    "name": "映画.com",
@@ -56,8 +56,8 @@
  ],
  "counts": {
   "actors": 71,
-  "withX": 54,
-  "withIg": 50,
+  "withX": 53,
+  "withIg": 49,
   "withBirth": 56,
   "withErrors": 71
  },
@@ -71,16 +71,16 @@
    "natalieId": "48864",
    "achikochiSlug": "城田優",
    "agency": "ホリプロ",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/48864 -> HTTP 405"
    ],
-   "xFollowers": 558226,
+   "xFollowers": 557708,
    "igFollowers": 1711819,
    "snsAccounts": [
     {
      "handle": "U_and_YOU",
-     "followers": 558226
+     "followers": 557708
     },
     {
      "handle": "yu_LPstaff",
@@ -107,10 +107,10 @@
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-15",
+   "followerSourceDate": "2026-10-22",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "U_and_YOU",
    "eigaId": "83106",
    "yomi": "しろたゆう",
@@ -220,17 +220,17 @@
      "url": "https://natalie.mu/stage/news/684314"
     }
    ],
-   "daysSinceNews": 13,
+   "daysSinceNews": 20,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.8804892605683273,
+    "xFollowers": 0.8805323097209435,
     "igFollowers": 1,
     "xPostFrequency": null,
     "newsCoverage": 0.8777237771575555,
-    "recentActivity": 0.8750177649270136
+    "recentActivity": 0.8739463464527902
    },
    "measuredAxes": [
     "xFollowers",
@@ -256,7 +256,7 @@
    "natalieId": "57822",
    "achikochiSlug": "山崎育三郎",
    "agency": "研音",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/57822 -> HTTP 405"
    ],
@@ -292,10 +292,10 @@
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-14",
+   "followerSourceDate": "2026-10-21",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "ikusaburo_0118",
    "eigaId": "248452",
    "yomi": "やまざきいくさぶろう",
@@ -405,17 +405,17 @@
      "url": "https://natalie.mu/music/news/679218"
     }
    ],
-   "daysSinceNews": 14,
+   "daysSinceNews": 21,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.6856850721173285,
+    "xFollowers": 0.6858192635214194,
     "igFollowers": 0.7867729331859252,
     "xPostFrequency": null,
     "newsCoverage": 0.9725240141173098,
-    "recentActivity": 0.8638972027740845
+    "recentActivity": 0.8627304525454929
    },
    "measuredAxes": [
     "xFollowers",
@@ -429,7 +429,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 83.9,
+   "score": 83.8,
    "rank": 2
   },
   {
@@ -441,16 +441,16 @@
    "natalieId": "57819",
    "achikochiSlug": "中村倫也（俳優）",
    "agency": "トップコート",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/57819 -> HTTP 405"
    ],
-   "xFollowers": 1317168,
+   "xFollowers": 1315318,
    "igFollowers": null,
    "snsAccounts": [
     {
      "handle": "senritsutareme",
-     "followers": 1317168
+     "followers": 1315318
     },
     {
      "handle": "yangotonaki_s",
@@ -473,10 +473,10 @@
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-17",
+   "followerSourceDate": "2026-10-24",
    "xFollowersSource": "achikochi",
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "senritsutareme",
    "eigaId": "247120",
    "yomi": "なかむらともや",
@@ -538,7 +538,7 @@
      "url": "https://natalie.mu/music/news/671270"
     }
    ],
-   "daysSinceNews": 12,
+   "daysSinceNews": 19,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
@@ -548,7 +548,7 @@
     "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.917046434544294,
-    "recentActivity": 0.7299311357706985
+    "recentActivity": 0.7276159525746325
    },
    "measuredAxes": [
     "xFollowers",
@@ -576,16 +576,16 @@
    "natalieId": "59936",
    "achikochiSlug": "生田斗真",
    "agency": "エスプレッソ",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/59936 -> HTTP 405"
    ],
-   "xFollowers": 278380,
-   "igFollowers": 1364389,
+   "xFollowers": 277918,
+   "igFollowers": 1361691,
    "snsAccounts": [
     {
      "handle": "TOMA_IKUTA10",
-     "followers": 278380
+     "followers": 277918
     },
     {
      "handle": "2022.07.25",
@@ -608,10 +608,10 @@
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-15",
+   "followerSourceDate": "2026-10-22",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "TOMA_IKUTA10",
    "eigaId": "84455",
    "yomi": "いくたとうま",
@@ -667,17 +667,17 @@
      "url": "https://natalie.mu/music/news/678594"
     }
    ],
-   "daysSinceNews": 12,
+   "daysSinceNews": 19,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.7836283720012519,
-    "igFollowers": 0.9695312060560785,
+    "xFollowers": 0.7835504568847355,
+    "igFollowers": 0.9692653477447936,
     "xPostFrequency": null,
     "newsCoverage": 0.9164866854868696,
-    "recentActivity": 0.5426238244636639
+    "recentActivity": 0.5387029369563073
    },
    "measuredAxes": [
     "xFollowers",
@@ -691,7 +691,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 80.3,
+   "score": 80.2,
    "rank": 4
   },
   {
@@ -703,20 +703,20 @@
    "natalieId": "86676",
    "achikochiSlug": "荒牧慶彦",
    "agency": "Pasture",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/86676 -> HTTP 405"
    ],
-   "xFollowers": 323799,
-   "igFollowers": 143275,
+   "xFollowers": 323531,
+   "igFollowers": 143147,
    "snsAccounts": [
     {
      "handle": "ara_mackey",
-     "followers": 323799
+     "followers": 323531
     },
     {
      "handle": "aramakiofficial",
-     "followers": 105527
+     "followers": 105383
     },
     {
      "handle": "2022.07.25",
@@ -739,10 +739,10 @@
      "followers": 202
     }
    ],
-   "followerSourceDate": "2026-10-14",
+   "followerSourceDate": "2026-10-21",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "ara_mackey",
    "eigaId": "279835",
    "yomi": "あらまきよしひこ",
@@ -852,17 +852,17 @@
      "url": "https://natalie.mu/stage/news/683401"
     }
    ],
-   "daysSinceNews": 20,
+   "daysSinceNews": 27,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.8046683709311895,
-    "igFollowers": 0.6668320368493298,
+    "xFollowers": 0.804710555016769,
+    "igFollowers": 0.6667119908578371,
     "xPostFrequency": null,
     "newsCoverage": 0.8695902210237514,
-    "recentActivity": 0.7265676274033414
+    "recentActivity": 0.7242236103093947
    },
    "measuredAxes": [
     "xFollowers",
@@ -880,24 +880,24 @@
    "rank": 5
   },
   {
-   "name": "小関裕太",
+   "name": "市川團十郎",
    "genres": [
-    "ミュージカル",
+    "歌舞伎・伝統芸能",
     "商業演劇"
    ],
-   "agency": "アミューズ",
-   "natalieId": "70346",
-   "achikochiSlug": "小関裕太",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "agency": "松竹",
+   "natalieId": "115387",
+   "achikochiSlug": "市川團十郎（13代目）",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
-    "natalie: https://natalie.mu/stage/artist/70346 -> HTTP 405"
+    "natalie: https://natalie.mu/stage/artist/115387 -> HTTP 405"
    ],
-   "xFollowers": 201605,
-   "igFollowers": 260802,
+   "xFollowers": null,
+   "igFollowers": 1280326,
    "snsAccounts": [
     {
-     "handle": "yutakoseki",
-     "followers": 201605
+     "handle": "DANJURO_HAKUEN",
+     "followers": 89214
     },
     {
      "handle": "2022.07.25",
@@ -920,10 +920,191 @@
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-16",
+   "followerSourceDate": "2026-10-21",
+   "xFollowersSource": null,
+   "igFollowersSource": "achikochi",
+   "achikochiAsOf": "2026-10-25",
+   "xHandle": "DANJURO_HAKUEN",
+   "eigaId": "87188",
+   "yomi": null,
+   "birth": "1977-12-06",
+   "origin": "日本／東京",
+   "xAccountState": "unmeasured",
+   "igAccountState": "have",
+   "age": 48,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "officialSite": "http://www.naritaya.jp/",
+   "natalieUrl": "https://natalie.mu/stage/artist/115387",
+   "stages": [
+    "初春大歌舞伎",
+    "「十二月大歌舞伎」第三部",
+    "「十二月大歌舞伎」第二部",
+    "「市川團十郎特別公演」昼の部",
+    "「市川團十郎特別公演」夜の部",
+    "「七月大歌舞伎」昼の部",
+    "「七月大歌舞伎」夜の部",
+    "尾上菊之助改め八代目尾上菊五郎襲名披露 尾上丑之助改め六代目尾上菊之助襲名披露「六月博多座大歌舞伎」昼の部",
+    "尾上菊之助改め八代目尾上菊五郎襲名披露 尾上丑之助改め六代目尾上菊之助襲名披露「六月博多座大歌舞伎」夜の部",
+    "「團菊祭五月大歌舞伎」昼の部"
+   ],
+   "stageList": [
+    {
+     "title": "初春大歌舞伎",
+     "start": "2027-01-01",
+     "end": "2027-01-01"
+    },
+    {
+     "title": "「十二月大歌舞伎」第三部",
+     "start": "2026-12-02",
+     "end": "2026-12-02"
+    },
+    {
+     "title": "「十二月大歌舞伎」第二部",
+     "start": "2026-12-02",
+     "end": "2026-12-02"
+    },
+    {
+     "title": "「市川團十郎特別公演」昼の部",
+     "start": "2026-10-03",
+     "end": "2026-10-03"
+    },
+    {
+     "title": "「市川團十郎特別公演」夜の部",
+     "start": "2026-10-03",
+     "end": "2026-10-03"
+    },
+    {
+     "title": "「七月大歌舞伎」昼の部",
+     "start": "2026-07-02",
+     "end": "2026-07-02"
+    },
+    {
+     "title": "「七月大歌舞伎」夜の部",
+     "start": "2026-07-02",
+     "end": "2026-07-02"
+    },
+    {
+     "title": "尾上菊之助改め八代目尾上菊五郎襲名披露 尾上丑之助改め六代目尾上菊之助襲名披露「六月博多座大歌舞伎」昼の部",
+     "start": "2026-06-02",
+     "end": "2026-06-02"
+    },
+    {
+     "title": "尾上菊之助改め八代目尾上菊五郎襲名披露 尾上丑之助改め六代目尾上菊之助襲名披露「六月博多座大歌舞伎」夜の部",
+     "start": "2026-06-02",
+     "end": "2026-06-02"
+    },
+    {
+     "title": "「團菊祭五月大歌舞伎」昼の部",
+     "start": "2026-05-03",
+     "end": "2026-05-03"
+    }
+   ],
+   "stagesTotal": 30,
+   "stages12m": 13,
+   "stagesUpcoming": 3,
+   "news12m": 44,
+   "news90d": 15,
+   "newsAttention12m": 23587,
+   "latestNews": {
+    "title": "南座で「市川團十郎特別公演」が開幕、歌舞伎の世界を堪能できる演目がずらり",
+    "date": "2026-10-04",
+    "url": "https://natalie.mu/stage/news/692315"
+   },
+   "topNews": [
+    {
+     "title": "【完全版】「ベストアーティスト2025」タイムテーブル発表！ミセス、Snow Man、HANA、Perfume、M!LKら出演者の登場時間は",
+     "date": "2025-11-28",
+     "score": 10869,
+     "url": "https://natalie.mu/music/news/649757"
+    },
+    {
+     "title": "King & Prince髙橋海人×市川團十郎×RIEHATAがコラボ！「ベストアーティスト」オープニングアクトで",
+     "date": "2025-11-22",
+     "score": 3506,
+     "url": "https://natalie.mu/music/news/649157"
+    },
+    {
+     "title": "ザコシ、ランジャタイ、島田珠代ら24組「市川團十郎を笑わせたら1000万円」挑戦 司会は東野幸治",
+     "date": "2026-04-06",
+     "score": 1640,
+     "url": "https://natalie.mu/owarai/news/667214"
+    }
+   ],
+   "daysSinceNews": 21,
+   "natalieAsOf": "2026-10-09",
+   "carriedForward": [
+    "natalie"
+   ],
+   "metrics": {
+    "xFollowers": 0.44251862053035507,
+    "igFollowers": 0.9609900025791439,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8625417486348715,
+    "recentActivity": 0.8076718089677867
+   },
+   "measuredAxes": [
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "imputedAxes": [
+    "xFollowers"
+   ],
+   "droppedAxes": [
+    "xPostFrequency"
+   ],
+   "coverage": 3,
+   "coverageOf": 4,
+   "score": 76.6,
+   "rank": 6
+  },
+  {
+   "name": "小関裕太",
+   "genres": [
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "agency": "アミューズ",
+   "natalieId": "70346",
+   "achikochiSlug": "小関裕太",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
+   "sourceErrors": [
+    "natalie: https://natalie.mu/stage/artist/70346 -> HTTP 405"
+   ],
+   "xFollowers": 201494,
+   "igFollowers": 261300,
+   "snsAccounts": [
+    {
+     "handle": "yutakoseki",
+     "followers": 201494
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2025.03.04",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-10-23",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "yutakoseki",
    "eigaId": "92995",
    "yomi": "こせきゆうた",
@@ -1027,17 +1208,17 @@
      "url": "https://natalie.mu/stage/news/649881"
     }
    ],
-   "daysSinceNews": 13,
+   "daysSinceNews": 20,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.738707781759027,
-    "igFollowers": 0.7472843348847651,
+    "xFollowers": 0.7387756661105709,
+    "igFollowers": 0.7475405587178117,
     "xPostFrequency": null,
     "newsCoverage": 0.8243722467740991,
-    "recentActivity": 0.7202446084708751
+    "recentActivity": 0.71784638687904
    },
    "measuredAxes": [
     "xFollowers",
@@ -1051,8 +1232,8 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 76.3,
-   "rank": 6
+   "score": 76.2,
+   "rank": 7
   },
   {
    "name": "佐藤流司",
@@ -1064,16 +1245,16 @@
    "natalieId": "86022",
    "achikochiSlug": "佐藤流司",
    "agency": "劇団ひまわり",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/86022 -> HTTP 405"
    ],
-   "xFollowers": 248002,
+   "xFollowers": 247913,
    "igFollowers": 142122,
    "snsAccounts": [
     {
      "handle": "ryuji7117",
-     "followers": 248002
+     "followers": 247913
     },
     {
      "handle": "satoryujiST",
@@ -1100,10 +1281,10 @@
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-15",
+   "followerSourceDate": "2026-10-22",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "ryuji7117",
    "eigaId": "286277",
    "yomi": "さとうりゅうじ",
@@ -1213,17 +1394,17 @@
      "url": "https://natalie.mu/stage/news/659486"
     }
    ],
-   "daysSinceNews": 32,
+   "daysSinceNews": 39,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.7675423389729423,
+    "xFollowers": 0.7676425725572169,
     "igFollowers": 0.6657467955995253,
     "xPostFrequency": null,
     "newsCoverage": 0.8585277390018345,
-    "recentActivity": 0.6800081327281002
+    "recentActivity": 0.6772649812874489
    },
    "measuredAxes": [
     "xFollowers",
@@ -1237,8 +1418,8 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 75.4,
-   "rank": 7
+   "score": 75.3,
+   "rank": 8
   },
   {
    "name": "高野洸",
@@ -1250,12 +1431,12 @@
    "natalieId": "99753",
    "achikochiSlug": "高野洸",
    "agency": "エイベックス・マネジメント",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/99753 -> HTTP 405"
    ],
    "xFollowers": 167948,
-   "igFollowers": 156243,
+   "igFollowers": 156228,
    "snsAccounts": [
     {
      "handle": "AKIRAT_official",
@@ -1282,10 +1463,10 @@
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-17",
+   "followerSourceDate": "2026-10-24",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "AKIRAT_official",
    "eigaId": "300006",
    "yomi": "たかのあきら",
@@ -1394,17 +1575,17 @@
      "url": "https://natalie.mu/music/news/650670"
     }
    ],
-   "daysSinceNews": 19,
+   "daysSinceNews": 26,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.713279850160115,
-    "igFollowers": 0.6784697013418484,
+    "xFollowers": 0.7134194419763801,
+    "igFollowers": 0.678456806208657,
     "xPostFrequency": null,
     "newsCoverage": 0.8570812248896115,
-    "recentActivity": 0.7202752208353227
+    "recentActivity": 0.717877261670006
    },
    "measuredAxes": [
     "xFollowers",
@@ -1418,188 +1599,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 75.3,
-   "rank": 8
-  },
-  {
-   "name": "市川團十郎",
-   "genres": [
-    "歌舞伎・伝統芸能",
-    "商業演劇"
-   ],
-   "agency": "松竹",
-   "natalieId": "115387",
-   "achikochiSlug": "市川團十郎（13代目）",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
-   "sourceErrors": [
-    "natalie: https://natalie.mu/stage/artist/115387 -> HTTP 405"
-   ],
-   "xFollowers": null,
-   "igFollowers": 1280729,
-   "snsAccounts": [
-    {
-     "handle": "DANJURO_HAKUEN",
-     "followers": 89520
-    },
-    {
-     "handle": "2022.07.25",
-     "followers": 2026
-    },
-    {
-     "handle": "2022.07.25",
-     "followers": 2026
-    },
-    {
-     "handle": "2022.07.03",
-     "followers": 2026
-    },
-    {
-     "handle": "2022.05.31",
-     "followers": 2026
-    },
-    {
-     "handle": "2025.03.04",
-     "followers": 2026
-    }
-   ],
-   "followerSourceDate": "2026-10-14",
-   "xFollowersSource": null,
-   "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-18",
-   "xHandle": "DANJURO_HAKUEN",
-   "eigaId": "87188",
-   "yomi": null,
-   "birth": "1977-12-06",
-   "origin": "日本／東京",
-   "xAccountState": "unmeasured",
-   "igAccountState": "have",
-   "age": 48,
-   "debutYear": null,
-   "careerYears": null,
-   "xPostFrequency": null,
-   "officialSite": "http://www.naritaya.jp/",
-   "natalieUrl": "https://natalie.mu/stage/artist/115387",
-   "stages": [
-    "初春大歌舞伎",
-    "「十二月大歌舞伎」第三部",
-    "「十二月大歌舞伎」第二部",
-    "「市川團十郎特別公演」昼の部",
-    "「市川團十郎特別公演」夜の部",
-    "「七月大歌舞伎」昼の部",
-    "「七月大歌舞伎」夜の部",
-    "尾上菊之助改め八代目尾上菊五郎襲名披露 尾上丑之助改め六代目尾上菊之助襲名披露「六月博多座大歌舞伎」昼の部",
-    "尾上菊之助改め八代目尾上菊五郎襲名披露 尾上丑之助改め六代目尾上菊之助襲名披露「六月博多座大歌舞伎」夜の部",
-    "「團菊祭五月大歌舞伎」昼の部"
-   ],
-   "stageList": [
-    {
-     "title": "初春大歌舞伎",
-     "start": "2027-01-01",
-     "end": "2027-01-01"
-    },
-    {
-     "title": "「十二月大歌舞伎」第三部",
-     "start": "2026-12-02",
-     "end": "2026-12-02"
-    },
-    {
-     "title": "「十二月大歌舞伎」第二部",
-     "start": "2026-12-02",
-     "end": "2026-12-02"
-    },
-    {
-     "title": "「市川團十郎特別公演」昼の部",
-     "start": "2026-10-03",
-     "end": "2026-10-03"
-    },
-    {
-     "title": "「市川團十郎特別公演」夜の部",
-     "start": "2026-10-03",
-     "end": "2026-10-03"
-    },
-    {
-     "title": "「七月大歌舞伎」昼の部",
-     "start": "2026-07-02",
-     "end": "2026-07-02"
-    },
-    {
-     "title": "「七月大歌舞伎」夜の部",
-     "start": "2026-07-02",
-     "end": "2026-07-02"
-    },
-    {
-     "title": "尾上菊之助改め八代目尾上菊五郎襲名披露 尾上丑之助改め六代目尾上菊之助襲名披露「六月博多座大歌舞伎」昼の部",
-     "start": "2026-06-02",
-     "end": "2026-06-02"
-    },
-    {
-     "title": "尾上菊之助改め八代目尾上菊五郎襲名披露 尾上丑之助改め六代目尾上菊之助襲名披露「六月博多座大歌舞伎」夜の部",
-     "start": "2026-06-02",
-     "end": "2026-06-02"
-    },
-    {
-     "title": "「團菊祭五月大歌舞伎」昼の部",
-     "start": "2026-05-03",
-     "end": "2026-05-03"
-    }
-   ],
-   "stagesTotal": 30,
-   "stages12m": 13,
-   "stagesUpcoming": 3,
-   "news12m": 44,
-   "news90d": 15,
-   "newsAttention12m": 23587,
-   "latestNews": {
-    "title": "南座で「市川團十郎特別公演」が開幕、歌舞伎の世界を堪能できる演目がずらり",
-    "date": "2026-10-04",
-    "url": "https://natalie.mu/stage/news/692315"
-   },
-   "topNews": [
-    {
-     "title": "【完全版】「ベストアーティスト2025」タイムテーブル発表！ミセス、Snow Man、HANA、Perfume、M!LKら出演者の登場時間は",
-     "date": "2025-11-28",
-     "score": 10869,
-     "url": "https://natalie.mu/music/news/649757"
-    },
-    {
-     "title": "King & Prince髙橋海人×市川團十郎×RIEHATAがコラボ！「ベストアーティスト」オープニングアクトで",
-     "date": "2025-11-22",
-     "score": 3506,
-     "url": "https://natalie.mu/music/news/649157"
-    },
-    {
-     "title": "ザコシ、ランジャタイ、島田珠代ら24組「市川團十郎を笑わせたら1000万円」挑戦 司会は東野幸治",
-     "date": "2026-04-06",
-     "score": 1640,
-     "url": "https://natalie.mu/owarai/news/667214"
-    }
-   ],
-   "daysSinceNews": 14,
-   "natalieAsOf": "2026-10-09",
-   "carriedForward": [
-    "natalie"
-   ],
-   "metrics": {
-    "xFollowers": 0.367400887337438,
-    "igFollowers": 0.9610322726402031,
-    "xPostFrequency": null,
-    "newsCoverage": 0.8625417486348715,
-    "recentActivity": 0.8093065412519141
-   },
-   "measuredAxes": [
-    "igFollowers",
-    "newsCoverage",
-    "recentActivity"
-   ],
-   "imputedAxes": [
-    "xFollowers"
-   ],
-   "droppedAxes": [
-    "xPostFrequency"
-   ],
-   "coverage": 3,
-   "coverageOf": 4,
-   "score": 74.8,
+   "score": 75.2,
    "rank": 9
   },
   {
@@ -1612,7 +1612,7 @@
    "natalieId": "5017",
    "achikochiSlug": "加藤和樹",
    "agency": "アミューズ",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/5017 -> HTTP 405"
    ],
@@ -1647,7 +1647,7 @@
    "followerSourceDate": "2026-10-12",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "kazuki_kato1007",
    "eigaId": "84081",
    "yomi": "かとうかずき",
@@ -1757,17 +1757,17 @@
      "url": "https://natalie.mu/stage/news/664626"
     }
    ],
-   "daysSinceNews": 11,
+   "daysSinceNews": 18,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.7087756341438217,
+    "xFollowers": 0.7089143444663863,
     "igFollowers": 0.46123242014153104,
     "xPostFrequency": null,
     "newsCoverage": 0.8839016246805087,
-    "recentActivity": 0.8354267953794984
+    "recentActivity": 0.8340159807009998
    },
    "measuredAxes": [
     "xFollowers",
@@ -1781,7 +1781,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 74.5,
+   "score": 74.4,
    "rank": 10
   },
   {
@@ -1798,16 +1798,16 @@
     "igFollowers": 58000,
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/69845 -> HTTP 405"
    ],
-   "xFollowers": 193048,
+   "xFollowers": 196315,
    "igFollowers": 58000,
    "snsAccounts": [
     {
      "handle": "masanari6",
-     "followers": 193048
+     "followers": 196315
     },
     {
      "handle": "wm_officialsite",
@@ -1834,10 +1834,10 @@
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-13",
+   "followerSourceDate": "2026-10-20",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "masanari6",
    "igHandle": "masanariwada_",
    "socialCheckedAt": "2026-10-09",
@@ -1950,17 +1950,17 @@
      "url": "https://natalie.mu/music/news/668438"
     }
    ],
-   "daysSinceNews": 11,
+   "daysSinceNews": 18,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.7326699416097157,
+    "xFollowers": 0.7351499961896778,
     "igFollowers": 0.5453713729708669,
     "xPostFrequency": null,
     "newsCoverage": 0.8518353606902656,
-    "recentActivity": 0.7528518837798469
+    "recentActivity": 0.7507331902116523
    },
    "measuredAxes": [
     "xFollowers",
@@ -1994,13 +1994,13 @@
     "igFollowers": 80000,
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/92891 -> HTTP 405"
    ],
    "xFollowersSource": "manual",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "maximum083",
    "igHandle": "maximumhikaru",
    "xFollowers": 115000,
@@ -2115,17 +2115,17 @@
      "url": "https://natalie.mu/stage/news/671772"
     }
    ],
-   "daysSinceNews": 17,
+   "daysSinceNews": 24,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.6605571878106553,
+    "xFollowers": 0.6606864615838772,
     "igFollowers": 0.5885635004555508,
     "xPostFrequency": null,
     "newsCoverage": 0.8672570169863576,
-    "recentActivity": 0.7404589462148949
+    "recentActivity": 0.7382340133699804
    },
    "measuredAxes": [
     "xFollowers",
@@ -2139,7 +2139,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 73,
+   "score": 72.9,
    "rank": 12
   },
   {
@@ -2152,16 +2152,16 @@
    "natalieId": "86284",
    "achikochiSlug": "黒羽麻璃央",
    "agency": "TRUSTAR",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/86284 -> HTTP 405"
    ],
-   "xFollowers": 165508,
-   "igFollowers": 148415,
+   "xFollowers": 165254,
+   "igFollowers": 148299,
    "snsAccounts": [
     {
      "handle": "m_kuroba",
-     "followers": 165508
+     "followers": 165254
     },
     {
      "handle": "2022.07.25",
@@ -2184,10 +2184,10 @@
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-14",
+   "followerSourceDate": "2026-10-21",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "m_kuroba",
    "eigaId": "279826",
    "yomi": "くろばまりお",
@@ -2297,17 +2297,17 @@
      "url": "https://natalie.mu/stage/news/643870"
     }
    ],
-   "daysSinceNews": 13,
+   "daysSinceNews": 20,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.7112424982335649,
-    "igFollowers": 0.6715660627288742,
+    "xFollowers": 0.7111678408811806,
+    "igFollowers": 0.6714610446388308,
     "xPostFrequency": null,
     "newsCoverage": 0.8106122355808184,
-    "recentActivity": 0.6689283843640907
+    "recentActivity": 0.6660902510479753
    },
    "measuredAxes": [
     "xFollowers",
@@ -2321,7 +2321,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 72.4,
+   "score": 72.3,
    "rank": 13
   },
   {
@@ -2333,16 +2333,16 @@
    "natalieId": "64404",
    "achikochiSlug": "植田圭輔",
    "agency": "クラッチ",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/64404 -> HTTP 405"
    ],
-   "xFollowers": 253529,
+   "xFollowers": 253335,
    "igFollowers": 70520,
    "snsAccounts": [
     {
      "handle": "uechan_0905",
-     "followers": 253529
+     "followers": 253335
     },
     {
      "handle": "2022.07.25",
@@ -2365,10 +2365,10 @@
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-16",
+   "followerSourceDate": "2026-10-23",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "uechan_0905",
    "eigaId": "89497",
    "yomi": "うえだけいすけ",
@@ -2478,17 +2478,17 @@
      "url": "https://natalie.mu/comic/news/670237"
     }
    ],
-   "daysSinceNews": 12,
+   "daysSinceNews": 19,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.7706107755434967,
+    "xFollowers": 0.7706550005154291,
     "igFollowers": 0.5716228282809169,
     "xPostFrequency": null,
     "newsCoverage": 0.8401554995764182,
-    "recentActivity": 0.6473867272169472
+    "recentActivity": 0.6443639266205631
    },
    "measuredAxes": [
     "xFollowers",
@@ -2515,7 +2515,7 @@
    "natalieId": "100774",
    "achikochiSlug": "甲斐翔真",
    "agency": "アミューズ",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/100774 -> HTTP 405"
    ],
@@ -2550,7 +2550,7 @@
    "followerSourceDate": "2026-10-02",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "kai_shouma",
    "eigaId": "299732",
    "yomi": "かいしょうま",
@@ -2660,17 +2660,17 @@
      "url": "https://natalie.mu/music/news/657179"
     }
    ],
-   "daysSinceNews": 19,
+   "daysSinceNews": 26,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.630235514369443,
+    "xFollowers": 0.630358854065785,
     "igFollowers": 0.6742086646595201,
     "xPostFrequency": null,
     "newsCoverage": 0.8746835560042909,
-    "recentActivity": 0.6434060037274163
+    "recentActivity": 0.6403490781157051
    },
    "measuredAxes": [
     "xFollowers",
@@ -2701,16 +2701,16 @@
     "igFollowers": 42000,
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/73276 -> HTTP 405"
    ],
-   "xFollowers": 228640,
+   "xFollowers": 228601,
    "igFollowers": 42000,
    "snsAccounts": [
     {
      "handle": "Ryo_Kitamu",
-     "followers": 228640
+     "followers": 228601
     },
     {
      "handle": "2022.07.25",
@@ -2733,10 +2733,10 @@
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-15",
+   "followerSourceDate": "2026-10-22",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "Ryo_Kitamu",
    "igHandle": "ryooo_kitamu",
    "socialCheckedAt": "2026-10-09",
@@ -2849,17 +2849,17 @@
      "url": "https://natalie.mu/stage/news/683401"
     }
    ],
-   "daysSinceNews": 12,
+   "daysSinceNews": 19,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.7562260311743396,
+    "xFollowers": 0.7563502750816719,
     "igFollowers": 0.5020196898666021,
     "xPostFrequency": null,
     "newsCoverage": 0.809900938595268,
-    "recentActivity": 0.7184984272109715
+    "recentActivity": 0.716085236364825
    },
    "measuredAxes": [
     "xFollowers",
@@ -2873,7 +2873,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 71.3,
+   "score": 71.2,
    "rank": 16
   },
   {
@@ -2894,13 +2894,13 @@
     "checkedAt": "2026-10-09",
     "xNote": "あちこちデータの人物ページが 2026-09-18 時点で 404。公式 lit.link 記載のアカウントから直接控えた"
    },
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/128214 -> HTTP 405"
    ],
    "xFollowersSource": "manual",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "araki_hiro0614",
    "igHandle": "araki_hiro0614",
    "xFollowers": 126000,
@@ -3014,17 +3014,17 @@
      "url": "https://natalie.mu/eiga/news/647744"
     }
    ],
-   "daysSinceNews": 12,
+   "daysSinceNews": 19,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.6732741538668875,
+    "xFollowers": 0.6734059164029544,
     "igFollowers": 0.6325509193315821,
     "xPostFrequency": null,
     "newsCoverage": 0.8326450515127282,
-    "recentActivity": 0.6519057055930341
+    "recentActivity": 0.6489216442375821
    },
    "measuredAxes": [
     "xFollowers",
@@ -3051,7 +3051,7 @@
    "natalieId": "99404",
    "achikochiSlug": "三浦宏規",
    "agency": "ウィルビー・インターナショナル",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/99404 -> HTTP 405"
    ],
@@ -3086,7 +3086,7 @@
    "followerSourceDate": "2026-08-26",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "hirokimiura0324",
    "eigaId": null,
    "xAccountState": "have",
@@ -3193,17 +3193,17 @@
      "url": "https://natalie.mu/stage/news/651773"
     }
    ],
-   "daysSinceNews": 19,
+   "daysSinceNews": 26,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.6847074092176115,
+    "xFollowers": 0.68484140928903,
     "igFollowers": 0.5647436114549121,
     "xPostFrequency": null,
     "newsCoverage": 0.8715925040777263,
-    "recentActivity": 0.6211038801696822
+    "recentActivity": 0.6178557681291141
    },
    "measuredAxes": [
     "xFollowers",
@@ -3236,13 +3236,13 @@
     "igHandle": "umetsumizuki",
     "igFollowers": 54000
    },
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/110977 -> HTTP 405"
    ],
    "xFollowersSource": "manual",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "MizukiUmetsu",
    "igHandle": "umetsumizuki",
    "xFollowers": 104000,
@@ -3357,17 +3357,17 @@
      "url": "https://natalie.mu/stage/news/656662"
     }
    ],
-   "daysSinceNews": 30,
+   "daysSinceNews": 37,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.6465606751949627,
+    "xFollowers": 0.6466872097927868,
     "igFollowers": 0.5357736982298686,
     "xPostFrequency": null,
     "newsCoverage": 0.8508927480723745,
-    "recentActivity": 0.6921185804860109
+    "recentActivity": 0.6894792466595298
    },
    "measuredAxes": [
     "xFollowers",
@@ -3381,7 +3381,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 69.9,
+   "score": 69.8,
    "rank": 19
   },
   {
@@ -3393,16 +3393,16 @@
    "natalieId": "61580",
    "achikochiSlug": "鈴木拡樹",
    "agency": "オウサム",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/61580 -> HTTP 405"
    ],
-   "xFollowers": 226985,
+   "xFollowers": 226875,
    "igFollowers": null,
    "snsAccounts": [
     {
      "handle": "hiroki_0604",
-     "followers": 226985
+     "followers": 226875
     },
     {
      "handle": "2022.07.25",
@@ -3425,10 +3425,10 @@
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-12",
+   "followerSourceDate": "2026-10-19",
    "xFollowersSource": "achikochi",
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "hiroki_0604",
    "eigaId": "87515",
    "yomi": "すずきひろき",
@@ -3538,17 +3538,17 @@
      "url": "https://natalie.mu/stage/news/655504"
     }
    ],
-   "daysSinceNews": 18,
+   "daysSinceNews": 25,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.7552146844459018,
+    "xFollowers": 0.7552949893458143,
     "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.8330443010468129,
-    "recentActivity": 0.6276922692732075
+    "recentActivity": 0.624500636633866
    },
    "measuredAxes": [
     "xFollowers",
@@ -3576,7 +3576,7 @@
    "natalieId": "60150",
    "achikochiSlug": "石丸幹二",
    "agency": "アミューズ",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/60150 -> HTTP 405"
    ],
@@ -3608,18 +3608,15 @@
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-17",
+   "followerSourceDate": "2026-10-24",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "team_kanji",
-   "eigaId": "85792",
-   "yomi": "いしまるかんじ",
-   "birth": "1965-08-15",
-   "origin": "日本／愛媛",
+   "eigaId": null,
    "xAccountState": "have",
    "igAccountState": "have",
-   "age": 61,
+   "age": null,
    "debutYear": null,
    "careerYears": null,
    "xPostFrequency": null,
@@ -3719,17 +3716,21 @@
      "url": "https://natalie.mu/music/news/683846"
     }
    ],
-   "daysSinceNews": 10,
+   "daysSinceNews": 17,
    "natalieAsOf": "2026-10-09",
+   "yomi": "いしまるかんじ",
+   "birth": "1965-08-15",
+   "origin": "日本／愛媛",
    "carriedForward": [
-    "natalie"
+    "natalie",
+    "eiga"
    ],
    "metrics": {
-    "xFollowers": 0.5162248839024178,
+    "xFollowers": 0.5163259112469152,
     "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.8846319856928525,
-    "recentActivity": 0.8017632170950879
+    "recentActivity": 0.8000638191658473
    },
    "measuredAxes": [
     "xFollowers",
@@ -3763,7 +3764,7 @@
     "checkedAt": "2026-10-09",
     "xNote": "レーベル（日本コロムビア）公式アカウント。X・Instagram とも同一ハンドルで、本人名義の個人アカウントは確認できず"
    },
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/52205 -> HTTP 405"
    ],
@@ -3773,7 +3774,7 @@
    "followerSourceDate": "2026-10-09",
    "xFollowersSource": "manual",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "inoueyoshio_co",
    "igHandle": "inoueyoshio_co",
    "socialCheckedAt": "2026-10-09",
@@ -3886,17 +3887,17 @@
      "url": "https://natalie.mu/music/news/684131"
     }
    ],
-   "daysSinceNews": 14,
+   "daysSinceNews": 21,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.367400887337438,
+    "xFollowers": 0.3674727892103835,
     "igFollowers": 0.3724022669881652,
     "xPostFrequency": null,
     "newsCoverage": 1,
-    "recentActivity": 0.8787975135271154
+    "recentActivity": 0.8777584971976905
    },
    "measuredAxes": [
     "xFollowers",
@@ -3922,7 +3923,7 @@
    "natalieId": "95297",
    "achikochiSlug": "有澤樟太郎",
    "agency": "キャストコーポレーション",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/95297 -> HTTP 405"
    ],
@@ -3957,7 +3958,7 @@
    "followerSourceDate": "2026-09-29",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "shotaro_arsw",
    "eigaId": "315637",
    "yomi": "ありさわしょうたろう",
@@ -4067,17 +4068,17 @@
      "url": "https://natalie.mu/stage/news/681633"
     }
    ],
-   "daysSinceNews": 12,
+   "daysSinceNews": 19,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.6666547340586751,
+    "xFollowers": 0.6667852011469128,
     "igFollowers": 0.557719151475891,
     "xPostFrequency": null,
     "newsCoverage": 0.7613815291456112,
-    "recentActivity": 0.7128057760762827
+    "recentActivity": 0.7103437846018755
    },
    "measuredAxes": [
     "xFollowers",
@@ -4091,8 +4092,134 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 68.6,
+   "score": 68.5,
    "rank": 23
+  },
+  {
+   "name": "宮沢りえ",
+   "genres": [
+    "ストレートプレイ",
+    "現代劇・翻訳劇",
+    "商業演劇"
+   ],
+   "natalieId": "17474",
+   "achikochiSlug": "宮沢りえ",
+   "agency": "研音",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
+   "sourceErrors": [
+    "natalie: https://natalie.mu/stage/artist/17474 -> HTTP 405"
+   ],
+   "xFollowers": null,
+   "igFollowers": 272487,
+   "snsAccounts": [],
+   "followerSourceDate": "2026-10-07",
+   "xFollowersSource": null,
+   "igFollowersSource": "achikochi",
+   "achikochiAsOf": "2026-10-25",
+   "eigaId": "72368",
+   "yomi": "みやざわりえ",
+   "birth": "1973-04-06",
+   "origin": "日本／東京",
+   "xAccountState": "unknown",
+   "igAccountState": "have",
+   "age": 53,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "profile": "1973年4月6日生まれ、東京都出身。11歳でモデルデビューし、1988年公開の初主演映画「ぼくらの七日間戦争」で日本アカデミー賞新人賞に輝く。2002年「たそがれ清兵衛」、2014年「紙の月」、2016年「湯を沸かすほどの熱い愛」で日本アカデミー賞最優秀主演女優賞を受賞するなど、数々の映画賞を獲得している。近年の出演映画に「トイレのピエタ」「TOO YOUNG TO DIE！若くして死ぬ」「人間失格 太宰治と3人の女たち」「決戦は日曜日」など。日本テレビ系の2021年10月期・2022年1月期ドラマ「真犯人フラグ」に出演中のほか、2022年放送の大河ドラマ「鎌倉殿の13人」で牧の方を演じる。",
+   "natalieUrl": "https://natalie.mu/stage/artist/17474",
+   "stages": [
+    "パルコ・プロデュース 2026「メアリー・ステュアート」",
+    "Bunkamura Production 2025 / DISCOVER WORLD THEATRE vol.15「リア王」NINAGAWA MEMORIAL",
+    "シス・カンパニー公演「昭和から騒ぎ」",
+    "そのいのち",
+    "PARCO PRODUCE 2024 舞台「オーランド」"
+   ],
+   "stageList": [
+    {
+     "title": "パルコ・プロデュース 2026「メアリー・ステュアート」",
+     "start": "2026-04-08",
+     "end": "2026-05-31"
+    },
+    {
+     "title": "Bunkamura Production 2025 / DISCOVER WORLD THEATRE vol.15「リア王」NINAGAWA MEMORIAL",
+     "start": "2025-10-09",
+     "end": "2025-11-16"
+    },
+    {
+     "title": "シス・カンパニー公演「昭和から騒ぎ」",
+     "start": "2025-05-25",
+     "end": "2025-07-10"
+    },
+    {
+     "title": "そのいのち",
+     "start": "2024-11-09",
+     "end": "2024-11-09"
+    },
+    {
+     "title": "PARCO PRODUCE 2024 舞台「オーランド」",
+     "start": "2024-06-29",
+     "end": "2024-06-29"
+    }
+   ],
+   "stagesTotal": 5,
+   "stages12m": 2,
+   "stagesUpcoming": 0,
+   "news12m": 37,
+   "news90d": 6,
+   "newsAttention12m": 41977,
+   "latestNews": {
+    "title": "北村匠海にとって「しびれ」は「20年の答え」、内山拓也は宮沢りえとの濃い日々回想",
+    "date": "2026-09-26",
+    "url": "https://natalie.mu/eiga/news/691112"
+   },
+   "topNews": [
+    {
+     "title": "映画ラストマン舞台挨拶に“3人”の永瀬廉「本物の永瀬、しゃべっていいですか？」",
+     "date": "2025-12-29",
+     "score": 5418,
+     "url": "https://natalie.mu/music/news/654387"
+    },
+    {
+     "title": "福山雅治がいっぱい？大泉洋との「映画ラストマン」現場はモノマネ祭り",
+     "date": "2025-11-19",
+     "score": 3347,
+     "url": "https://natalie.mu/eiga/news/648774"
+    },
+    {
+     "title": "DEZERTの新曲が西島秀俊主演ドラマ「人間標本」の挿入歌に決定",
+     "date": "2025-11-07",
+     "score": 2932,
+     "url": "https://natalie.mu/music/news/647356"
+    }
+   ],
+   "daysSinceNews": 29,
+   "natalieAsOf": "2026-10-09",
+   "carriedForward": [
+    "natalie"
+   ],
+   "metrics": {
+    "xFollowers": 0.44251862053035507,
+    "igFollowers": 0.753171158830246,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8801874516383656,
+    "recentActivity": 0.5790441018366755
+   },
+   "measuredAxes": [
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "imputedAxes": [
+    "xFollowers"
+   ],
+   "droppedAxes": [
+    "xPostFrequency"
+   ],
+   "coverage": 3,
+   "coverageOf": 4,
+   "score": 67.4,
+   "rank": 24
   },
   {
    "name": "神木隆之介",
@@ -4103,16 +4230,16 @@
    "natalieId": "39890",
    "achikochiSlug": "神木隆之介",
    "agency": "アミューズ",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/39890 -> HTTP 405"
    ],
-   "xFollowers": 708441,
+   "xFollowers": 708280,
    "igFollowers": 463,
    "snsAccounts": [
     {
      "handle": "kamiki_official",
-     "followers": 708441
+     "followers": 708280
     },
     {
      "handle": "2022.07.25",
@@ -4135,10 +4262,10 @@
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-15",
+   "followerSourceDate": "2026-10-22",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "kamiki_official",
    "eigaId": "24639",
    "yomi": "かみきりゅうのすけ",
@@ -4200,17 +4327,17 @@
      "url": "https://natalie.mu/music/news/671270"
     }
    ],
-   "daysSinceNews": 12,
+   "daysSinceNews": 19,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.9136640539044326,
+    "xFollowers": 0.9138112145202015,
     "igFollowers": 0,
     "xPostFrequency": null,
     "newsCoverage": 0.9082657419703841,
-    "recentActivity": 0.6693181433519646
+    "recentActivity": 0.6664833512705443
    },
    "measuredAxes": [
     "xFollowers",
@@ -4224,8 +4351,273 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 67,
-   "rank": 24
+   "score": 66.9,
+   "rank": 25
+  },
+  {
+   "name": "堤真一",
+   "genres": [
+    "ストレートプレイ",
+    "現代劇・翻訳劇",
+    "商業演劇"
+   ],
+   "natalieId": "11860",
+   "achikochiSlug": "堤真一",
+   "agency": "シス・カンパニー",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
+   "sourceErrors": [
+    "natalie: https://natalie.mu/stage/artist/11860 -> HTTP 405"
+   ],
+   "xFollowers": null,
+   "igFollowers": null,
+   "snsAccounts": [],
+   "followerSourceDate": "2026-10-21",
+   "xFollowersSource": null,
+   "igFollowersSource": null,
+   "achikochiAsOf": "2026-10-25",
+   "eigaId": "48740",
+   "yomi": "つつみしんいち",
+   "birth": "1964-07-07",
+   "origin": "日本／兵庫",
+   "xAccountState": "unknown",
+   "igAccountState": "unknown",
+   "age": 62,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "profile": "1964年7月7日生まれ、兵庫県出身。ジャパンアクションクラブ（JAC）に入団して真田広之の付き人を務めたあと、俳優として幅広く活動する。主な出演作に、映画「弾丸ランナー」「39-刑法第三十九条-」「フライ,ダディ,フライ」「ALWAYS 三丁目の夕日」「舞妓Haaaan!!!」「クライマーズ・ハイ」「容疑者Xの献身」「孤高のメス」「ザ・ファブル 殺さない殺し屋」、ドラマ「ピュア」「やまとなでしこ」「GOOD LUCK!!」「とんび」「妻、小学生になる。」などがある。穴を信仰する団体の教祖を演じるドラマ「滅相も無い」が2024年4月16日深夜にMBS / TBSでスタート。映画「室町無頼」が2025年1月17日に公開される。",
+   "officialSite": "https://www.siscompany.com/management/artist.php?id=1",
+   "natalieUrl": "https://natalie.mu/stage/artist/11860",
+   "stages": [
+    "Bunkamura Production 2026 / DISCOVER WORLD THEATRE vol.17「グレンギャリー・グレンロス」",
+    "シス・カンパニー公演「ライフ・イン・ザ・シアター」",
+    "Bunkamura Production 2024 DISCOVER WORLD THEATRE vol.14「A Numberー数」「What If If Onlyーもしも もしせめて」",
+    "シス・カンパニー公演「カラカラ天気と五人の紳士」"
+   ],
+   "stageList": [
+    {
+     "title": "Bunkamura Production 2026 / DISCOVER WORLD THEATRE vol.17「グレンギャリー・グレンロス」",
+     "start": "2026-11-06",
+     "end": "2026-12-11"
+    },
+    {
+     "title": "シス・カンパニー公演「ライフ・イン・ザ・シアター」",
+     "start": "2025-09-05",
+     "end": "2025-10-26"
+    },
+    {
+     "title": "Bunkamura Production 2024 DISCOVER WORLD THEATRE vol.14「A Numberー数」「What If If Onlyーもしも もしせめて」",
+     "start": "2024-09-10",
+     "end": "2024-09-10"
+    },
+    {
+     "title": "シス・カンパニー公演「カラカラ天気と五人の紳士」",
+     "start": "2024-04-06",
+     "end": "2024-04-06"
+    }
+   ],
+   "stagesTotal": 4,
+   "stages12m": 2,
+   "stagesUpcoming": 1,
+   "news12m": 49,
+   "news90d": 14,
+   "newsAttention12m": 32816,
+   "latestNews": {
+    "title": "本日10月4日（日）放送開始の2026秋ドラマ",
+    "date": "2026-10-04",
+    "url": "https://natalie.mu/eiga/news/691886"
+   },
+   "topNews": [
+    {
+     "title": "M!LK塩﨑太智はドラマの現場でも初期装備「もうパパ！」会見でメンバーに「もう！」と思う瞬間明かす",
+     "date": "2026-09-30",
+     "score": 8631,
+     "url": "https://natalie.mu/music/news/691531"
+    },
+    {
+     "title": "堤真一・濵田崇裕が初共演、ピュリツァー賞受賞作「グレンギャリー・グレンロス」上演決定",
+     "date": "2026-06-22",
+     "score": 2810,
+     "url": "https://natalie.mu/stage/news/677158"
+    },
+    {
+     "title": "キスマイ玉森裕太、車いすラグビードラマに作曲家のマネージャー役で出演",
+     "date": "2026-03-30",
+     "score": 1836,
+     "url": "https://natalie.mu/music/news/666158"
+    }
+   ],
+   "daysSinceNews": 21,
+   "natalieAsOf": "2026-10-09",
+   "carriedForward": [
+    "natalie"
+   ],
+   "metrics": {
+    "xFollowers": 0.44251862053035507,
+    "igFollowers": 0.49546671115609237,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8892322314114309,
+    "recentActivity": 0.7226073509075944
+   },
+   "measuredAxes": [
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "imputedAxes": [
+    "xFollowers",
+    "igFollowers"
+   ],
+   "droppedAxes": [
+    "xPostFrequency"
+   ],
+   "coverage": 2,
+   "coverageOf": 4,
+   "score": 66.1,
+   "rank": 26
+  },
+  {
+   "name": "藤原竜也",
+   "genres": [
+    "ストレートプレイ",
+    "現代劇・翻訳劇",
+    "商業演劇"
+   ],
+   "natalieId": "26676",
+   "achikochiSlug": "藤原竜也",
+   "agency": "ホリプロ",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
+   "sourceErrors": [
+    "natalie: https://natalie.mu/stage/artist/26676 -> HTTP 405"
+   ],
+   "xFollowers": 86182,
+   "igFollowers": null,
+   "snsAccounts": [
+    {
+     "handle": "fujiwara_staff",
+     "followers": 86182
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.25",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.07.03",
+     "followers": 2026
+    },
+    {
+     "handle": "2022.05.31",
+     "followers": 2026
+    },
+    {
+     "handle": "2025.03.04",
+     "followers": 2026
+    }
+   ],
+   "followerSourceDate": "2026-09-25",
+   "xFollowersSource": "achikochi",
+   "igFollowersSource": null,
+   "achikochiAsOf": "2026-10-25",
+   "xHandle": "fujiwara_staff",
+   "eigaId": null,
+   "xAccountState": "have",
+   "igAccountState": "unknown",
+   "age": null,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "profile": "1982年5月15日生まれ、埼玉県出身。1997年、 蜷川幸雄 が演出を担当した舞台「身毒丸」の主役オーディションでグランプリを受賞し俳優デビューする。2000年には深作欣二がメガホンを取った映画「バトル・ロワイアル」で主演。第24回日本アカデミー賞の優秀主演男優賞と新人俳優賞を受賞した。主な出演作として「DEATH NOTE デスノート」「カイジ」「るろうに剣心」といったシリーズや、「22年目の告白─私が殺人犯です─」「太陽は動かない」などがある。",
+   "officialSite": "https://www.horipro.co.jp/fujiwaratatsuya/",
+   "natalieUrl": "https://natalie.mu/stage/artist/26676",
+   "stages": [
+    "彩の国シェイクスピア・シリーズ 2nd Vol.3「リア王」",
+    "Sky presents 舞台「世界の終りとハードボイルド・ワンダーランド」",
+    "舞台「中村仲蔵 ～歌舞伎王国 下剋上異聞～」上海公演",
+    "彩の国シェイクスピア・シリーズ2nd Vol.2「マクベス」"
+   ],
+   "stageList": [
+    {
+     "title": "彩の国シェイクスピア・シリーズ 2nd Vol.3「リア王」",
+     "start": "2026-05-05",
+     "end": "2026-05-05"
+    },
+    {
+     "title": "Sky presents 舞台「世界の終りとハードボイルド・ワンダーランド」",
+     "start": "2026-01-10",
+     "end": "2026-03-01"
+    },
+    {
+     "title": "舞台「中村仲蔵 ～歌舞伎王国 下剋上異聞～」上海公演",
+     "start": "2025-09-13",
+     "end": "2025-09-13"
+    },
+    {
+     "title": "彩の国シェイクスピア・シリーズ2nd Vol.2「マクベス」",
+     "start": "2025-05-08",
+     "end": "2025-06-30"
+    }
+   ],
+   "stagesTotal": 4,
+   "stages12m": 2,
+   "stagesUpcoming": 0,
+   "news12m": 31,
+   "news90d": 9,
+   "newsAttention12m": 12156,
+   "latestNews": {
+    "title": "「ハリー・ポッターと呪いの子」12月に追加公演実施、市村正親の11月限定カムバックも",
+    "date": "2026-10-05",
+    "url": "https://natalie.mu/stage/news/692404"
+   },
+   "topNews": [
+    {
+     "title": "小野賢章がハリー・ポッターに！舞台ハリポタ、日本公演ラストイヤーに歴代＆新キャスト集結",
+     "date": "2026-01-17",
+     "score": 2038,
+     "url": "https://natalie.mu/stage/news/656455"
+    },
+    {
+     "title": "亀梨和也が映画「カイジ」新作で藤原竜也の宿敵に、帝愛の2代目・兵藤和也を演じる",
+     "date": "2026-07-21",
+     "score": 1344,
+     "url": "https://natalie.mu/eiga/news/681543"
+    },
+    {
+     "title": "「耳をすませば」「借りぐらしのアリエッティ」4Kデジタルリマスター版のIMAX上映決定",
+     "date": "2026-08-07",
+     "score": 1211,
+     "url": "https://natalie.mu/eiga/news/684135"
+    }
+   ],
+   "daysSinceNews": 20,
+   "natalieAsOf": "2026-10-09",
+   "carriedForward": [
+    "natalie"
+   ],
+   "metrics": {
+    "xFollowers": 0.6205201389674299,
+    "igFollowers": 0.49546671115609237,
+    "xPostFrequency": null,
+    "newsCoverage": 0.7983520563586372,
+    "recentActivity": 0.6526673164430057
+   },
+   "measuredAxes": [
+    "xFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "imputedAxes": [
+    "igFollowers"
+   ],
+   "droppedAxes": [
+    "xPostFrequency"
+   ],
+   "coverage": 3,
+   "coverageOf": 4,
+   "score": 65.9,
+   "rank": 27
   },
   {
    "name": "礼真琴",
@@ -4244,14 +4636,14 @@
     "checkedAt": "2026-10-09",
     "xNote": "所属事務所 CULEN のアーティストページに掲出"
    },
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/93435 -> HTTP 405"
    ],
    "achikochiSlug": null,
    "xFollowersSource": "manual",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "m_rey_official",
    "igHandle": "macoto_rey_official",
    "xFollowers": 39000,
@@ -4353,17 +4745,17 @@
      "url": "https://natalie.mu/stage/news/669502"
     }
    ],
-   "daysSinceNews": 36,
+   "daysSinceNews": 43,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.5100187768951697,
+    "xFollowers": 0.5101185896788619,
     "igFollowers": 0.6158207244512701,
     "xPostFrequency": null,
     "newsCoverage": 0.8625144968421263,
-    "recentActivity": 0.5888600842773483
+    "recentActivity": 0.5853355601644729
    },
    "measuredAxes": [
     "xFollowers",
@@ -4377,152 +4769,8 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 66,
-   "rank": 25
-  },
-  {
-   "name": "藤原竜也",
-   "genres": [
-    "ストレートプレイ",
-    "現代劇・翻訳劇",
-    "商業演劇"
-   ],
-   "natalieId": "26676",
-   "achikochiSlug": "藤原竜也",
-   "agency": "ホリプロ",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
-   "sourceErrors": [
-    "natalie: https://natalie.mu/stage/artist/26676 -> HTTP 405"
-   ],
-   "xFollowers": 86182,
-   "igFollowers": null,
-   "snsAccounts": [
-    {
-     "handle": "fujiwara_staff",
-     "followers": 86182
-    },
-    {
-     "handle": "2022.07.25",
-     "followers": 2026
-    },
-    {
-     "handle": "2022.07.25",
-     "followers": 2026
-    },
-    {
-     "handle": "2022.07.03",
-     "followers": 2026
-    },
-    {
-     "handle": "2022.05.31",
-     "followers": 2026
-    },
-    {
-     "handle": "2025.03.04",
-     "followers": 2026
-    }
-   ],
-   "followerSourceDate": "2026-09-25",
-   "xFollowersSource": "achikochi",
-   "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-18",
-   "xHandle": "fujiwara_staff",
-   "eigaId": null,
-   "xAccountState": "have",
-   "igAccountState": "unknown",
-   "age": null,
-   "debutYear": null,
-   "careerYears": null,
-   "xPostFrequency": null,
-   "profile": "1982年5月15日生まれ、埼玉県出身。1997年、 蜷川幸雄 が演出を担当した舞台「身毒丸」の主役オーディションでグランプリを受賞し俳優デビューする。2000年には深作欣二がメガホンを取った映画「バトル・ロワイアル」で主演。第24回日本アカデミー賞の優秀主演男優賞と新人俳優賞を受賞した。主な出演作として「DEATH NOTE デスノート」「カイジ」「るろうに剣心」といったシリーズや、「22年目の告白─私が殺人犯です─」「太陽は動かない」などがある。",
-   "officialSite": "https://www.horipro.co.jp/fujiwaratatsuya/",
-   "natalieUrl": "https://natalie.mu/stage/artist/26676",
-   "stages": [
-    "彩の国シェイクスピア・シリーズ 2nd Vol.3「リア王」",
-    "Sky presents 舞台「世界の終りとハードボイルド・ワンダーランド」",
-    "舞台「中村仲蔵 ～歌舞伎王国 下剋上異聞～」上海公演",
-    "彩の国シェイクスピア・シリーズ2nd Vol.2「マクベス」"
-   ],
-   "stageList": [
-    {
-     "title": "彩の国シェイクスピア・シリーズ 2nd Vol.3「リア王」",
-     "start": "2026-05-05",
-     "end": "2026-05-05"
-    },
-    {
-     "title": "Sky presents 舞台「世界の終りとハードボイルド・ワンダーランド」",
-     "start": "2026-01-10",
-     "end": "2026-03-01"
-    },
-    {
-     "title": "舞台「中村仲蔵 ～歌舞伎王国 下剋上異聞～」上海公演",
-     "start": "2025-09-13",
-     "end": "2025-09-13"
-    },
-    {
-     "title": "彩の国シェイクスピア・シリーズ2nd Vol.2「マクベス」",
-     "start": "2025-05-08",
-     "end": "2025-06-30"
-    }
-   ],
-   "stagesTotal": 4,
-   "stages12m": 2,
-   "stagesUpcoming": 0,
-   "news12m": 31,
-   "news90d": 9,
-   "newsAttention12m": 12156,
-   "latestNews": {
-    "title": "「ハリー・ポッターと呪いの子」12月に追加公演実施、市村正親の11月限定カムバックも",
-    "date": "2026-10-05",
-    "url": "https://natalie.mu/stage/news/692404"
-   },
-   "topNews": [
-    {
-     "title": "小野賢章がハリー・ポッターに！舞台ハリポタ、日本公演ラストイヤーに歴代＆新キャスト集結",
-     "date": "2026-01-17",
-     "score": 2038,
-     "url": "https://natalie.mu/stage/news/656455"
-    },
-    {
-     "title": "亀梨和也が映画「カイジ」新作で藤原竜也の宿敵に、帝愛の2代目・兵藤和也を演じる",
-     "date": "2026-07-21",
-     "score": 1344,
-     "url": "https://natalie.mu/eiga/news/681543"
-    },
-    {
-     "title": "「耳をすませば」「借りぐらしのアリエッティ」4Kデジタルリマスター版のIMAX上映決定",
-     "date": "2026-08-07",
-     "score": 1211,
-     "url": "https://natalie.mu/eiga/news/684135"
-    }
-   ],
-   "daysSinceNews": 13,
-   "natalieAsOf": "2026-10-09",
-   "carriedForward": [
-    "natalie"
-   ],
-   "metrics": {
-    "xFollowers": 0.6203987243715681,
-    "igFollowers": 0.49546671115609237,
-    "xPostFrequency": null,
-    "newsCoverage": 0.7983520563586372,
-    "recentActivity": 0.6556195407014251
-   },
-   "measuredAxes": [
-    "xFollowers",
-    "newsCoverage",
-    "recentActivity"
-   ],
-   "imputedAxes": [
-    "igFollowers"
-   ],
-   "droppedAxes": [
-    "xPostFrequency"
-   ],
-   "coverage": 3,
-   "coverageOf": 4,
    "score": 65.9,
-   "rank": 26
+   "rank": 28
   },
   {
    "name": "昆夏美",
@@ -4540,13 +4788,13 @@
     "igFollowers": 51000,
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/91593 -> HTTP 405"
    ],
    "xFollowersSource": "manual",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "khooon3",
    "igHandle": "konnatsumi",
    "xFollowers": 32000,
@@ -4661,17 +4909,17 @@
      "url": "https://natalie.mu/stage/news/648616"
     }
    ],
-   "daysSinceNews": 13,
+   "daysSinceNews": 20,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.4824796533117306,
+    "xFollowers": 0.48257407657505647,
     "igFollowers": 0.5280967437407933,
     "xPostFrequency": null,
     "newsCoverage": 0.8232429364180984,
-    "recentActivity": 0.7338702425839627
+    "recentActivity": 0.7315888276415146
    },
    "measuredAxes": [
     "xFollowers",
@@ -4686,7 +4934,7 @@
    "coverage": 4,
    "coverageOf": 4,
    "score": 65.9,
-   "rank": 27
+   "rank": 29
   },
   {
    "name": "望海風斗",
@@ -4698,7 +4946,7 @@
    "natalieId": "93417",
    "achikochiSlug": "望海風斗",
    "agency": "研音",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/93417 -> HTTP 405"
    ],
@@ -4733,7 +4981,7 @@
    "followerSourceDate": "2026-10-03",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "nozomifutostaff",
    "eigaId": "363666",
    "yomi": "のぞみふうと",
@@ -4843,17 +5091,17 @@
      "url": "https://natalie.mu/stage/news/665099"
     }
    ],
-   "daysSinceNews": 40,
+   "daysSinceNews": 47,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.5038555001560818,
+    "xFollowers": 0.5039541067610296,
     "igFollowers": 0.6525573995570264,
     "xPostFrequency": null,
     "newsCoverage": 0.8043717510261055,
-    "recentActivity": 0.6242163070916412
+    "recentActivity": 0.6209948765366612
    },
    "measuredAxes": [
     "xFollowers",
@@ -4867,134 +5115,159 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 65.7,
-   "rank": 28
+   "score": 65.6,
+   "rank": 30
   },
   {
-   "name": "宮沢りえ",
+   "name": "中村芝翫",
    "genres": [
-    "ストレートプレイ",
-    "現代劇・翻訳劇",
+    "歌舞伎・伝統芸能",
     "商業演劇"
    ],
-   "natalieId": "17474",
-   "achikochiSlug": "宮沢りえ",
-   "agency": "研音",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "agency": "松竹",
+   "natalieId": "57480",
+   "achikochiSlug": "中村芝翫（8代目）",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
-    "natalie: https://natalie.mu/stage/artist/17474 -> HTTP 405"
+    "natalie: https://natalie.mu/stage/artist/57480 -> HTTP 405"
    ],
    "xFollowers": null,
-   "igFollowers": 272487,
+   "igFollowers": null,
    "snsAccounts": [],
-   "followerSourceDate": "2026-10-07",
+   "followerSourceDate": "2026-10-12",
    "xFollowersSource": null,
-   "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-18",
-   "eigaId": "72368",
-   "yomi": "みやざわりえ",
-   "birth": "1973-04-06",
-   "origin": "日本／東京",
+   "igFollowersSource": null,
+   "achikochiAsOf": "2026-10-25",
+   "eigaId": null,
    "xAccountState": "unknown",
-   "igAccountState": "have",
-   "age": 53,
+   "igAccountState": "unknown",
+   "age": null,
    "debutYear": null,
    "careerYears": null,
    "xPostFrequency": null,
-   "profile": "1973年4月6日生まれ、東京都出身。11歳でモデルデビューし、1988年公開の初主演映画「ぼくらの七日間戦争」で日本アカデミー賞新人賞に輝く。2002年「たそがれ清兵衛」、2014年「紙の月」、2016年「湯を沸かすほどの熱い愛」で日本アカデミー賞最優秀主演女優賞を受賞するなど、数々の映画賞を獲得している。近年の出演映画に「トイレのピエタ」「TOO YOUNG TO DIE！若くして死ぬ」「人間失格 太宰治と3人の女たち」「決戦は日曜日」など。日本テレビ系の2021年10月期・2022年1月期ドラマ「真犯人フラグ」に出演中のほか、2022年放送の大河ドラマ「鎌倉殿の13人」で牧の方を演じる。",
-   "natalieUrl": "https://natalie.mu/stage/artist/17474",
+   "natalieUrl": "https://natalie.mu/stage/artist/57480",
    "stages": [
-    "パルコ・プロデュース 2026「メアリー・ステュアート」",
-    "Bunkamura Production 2025 / DISCOVER WORLD THEATRE vol.15「リア王」NINAGAWA MEMORIAL",
-    "シス・カンパニー公演「昭和から騒ぎ」",
-    "そのいのち",
-    "PARCO PRODUCE 2024 舞台「オーランド」"
+    "第五回神谷町小歌舞伎",
+    "「吉例顔見世大歌舞伎」昼の部",
+    "「平成中村座 十月大歌舞伎」第二部",
+    "リア王",
+    "「七月大歌舞伎」夜の部",
+    "「四月大歌舞伎」昼の部",
+    "「四月大歌舞伎」夜の部",
+    "「三月大歌舞伎」昼の部",
+    "「猿若祭二月大歌舞伎」昼の部",
+    "「壽 初春大歌舞伎」夜の部"
    ],
    "stageList": [
     {
-     "title": "パルコ・プロデュース 2026「メアリー・ステュアート」",
-     "start": "2026-04-08",
-     "end": "2026-05-31"
+     "title": "第五回神谷町小歌舞伎",
+     "start": "2027-04-29",
+     "end": "2027-04-29"
     },
     {
-     "title": "Bunkamura Production 2025 / DISCOVER WORLD THEATRE vol.15「リア王」NINAGAWA MEMORIAL",
-     "start": "2025-10-09",
-     "end": "2025-11-16"
+     "title": "「吉例顔見世大歌舞伎」昼の部",
+     "start": "2026-11-01",
+     "end": "2026-11-01"
     },
     {
-     "title": "シス・カンパニー公演「昭和から騒ぎ」",
-     "start": "2025-05-25",
-     "end": "2025-07-10"
+     "title": "「平成中村座 十月大歌舞伎」第二部",
+     "start": "2026-10-01",
+     "end": "2026-10-01"
     },
     {
-     "title": "そのいのち",
-     "start": "2024-11-09",
-     "end": "2024-11-09"
+     "title": "リア王",
+     "start": "2026-09-06",
+     "end": "2026-09-06"
     },
     {
-     "title": "PARCO PRODUCE 2024 舞台「オーランド」",
-     "start": "2024-06-29",
-     "end": "2024-06-29"
+     "title": "「七月大歌舞伎」夜の部",
+     "start": "2026-07-02",
+     "end": "2026-07-02"
+    },
+    {
+     "title": "「四月大歌舞伎」昼の部",
+     "start": "2026-04-02",
+     "end": "2026-04-02"
+    },
+    {
+     "title": "「四月大歌舞伎」夜の部",
+     "start": "2026-04-02",
+     "end": "2026-04-02"
+    },
+    {
+     "title": "「三月大歌舞伎」昼の部",
+     "start": "2026-03-05",
+     "end": "2026-03-05"
+    },
+    {
+     "title": "「猿若祭二月大歌舞伎」昼の部",
+     "start": "2026-02-01",
+     "end": "2026-02-01"
+    },
+    {
+     "title": "「壽 初春大歌舞伎」夜の部",
+     "start": "2026-01-02",
+     "end": "2026-01-02"
     }
    ],
-   "stagesTotal": 5,
-   "stages12m": 2,
-   "stagesUpcoming": 0,
+   "stagesTotal": 26,
+   "stages12m": 11,
+   "stagesUpcoming": 2,
    "news12m": 37,
-   "news90d": 6,
-   "newsAttention12m": 41977,
+   "news90d": 11,
+   "newsAttention12m": 25370,
    "latestNews": {
-    "title": "北村匠海にとって「しびれ」は「20年の答え」、内山拓也は宮沢りえとの濃い日々回想",
-    "date": "2026-09-26",
-    "url": "https://natalie.mu/eiga/news/691112"
+    "title": "「平成中村座 十月大歌舞伎」開幕、中村勘九郎が誓う「江戸の世界に誘えるよう、全身全霊で」",
+    "date": "2026-10-02",
+    "url": "https://natalie.mu/stage/news/692155"
    },
    "topNews": [
     {
-     "title": "映画ラストマン舞台挨拶に“3人”の永瀬廉「本物の永瀬、しゃべっていいですか？」",
-     "date": "2025-12-29",
-     "score": 5418,
-     "url": "https://natalie.mu/music/news/654387"
+     "title": "松村北斗が東野圭吾の思いを受け継ぐ覚悟、映画「白鳥とコウモリ」セレモニーで語る",
+     "date": "2026-08-02",
+     "score": 6519,
+     "url": "https://natalie.mu/music/news/683487"
     },
     {
-     "title": "福山雅治がいっぱい？大泉洋との「映画ラストマン」現場はモノマネ祭り",
-     "date": "2025-11-19",
-     "score": 3347,
-     "url": "https://natalie.mu/eiga/news/648774"
+     "title": "SixTONES松村北斗、“ドンじらけ”を恐れながら映画「白鳥とコウモリ」の見どころ熱弁",
+     "date": "2026-08-02",
+     "score": 3201,
+     "url": "https://natalie.mu/music/news/683263"
     },
     {
-     "title": "DEZERTの新曲が西島秀俊主演ドラマ「人間標本」の挿入歌に決定",
-     "date": "2025-11-07",
-     "score": 2932,
-     "url": "https://natalie.mu/music/news/647356"
+     "title": "松村北斗×今田美桜が禁断バディに「白鳥とコウモリ」予告、大森元貴の主題歌が心を揺さぶる",
+     "date": "2026-07-15",
+     "score": 1687,
+     "url": "https://natalie.mu/eiga/news/680789"
     }
    ],
-   "daysSinceNews": 22,
+   "daysSinceNews": 23,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.367400887337438,
-    "igFollowers": 0.753171158830246,
+    "xFollowers": 0.44251862053035507,
+    "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
-    "newsCoverage": 0.8801874516383656,
-    "recentActivity": 0.5826221014696372
+    "newsCoverage": 0.852661155582126,
+    "recentActivity": 0.7473515669446359
    },
    "measuredAxes": [
-    "igFollowers",
     "newsCoverage",
     "recentActivity"
    ],
    "imputedAxes": [
-    "xFollowers"
+    "xFollowers",
+    "igFollowers"
    ],
    "droppedAxes": [
     "xPostFrequency"
    ],
-   "coverage": 3,
+   "coverage": 2,
    "coverageOf": 4,
-   "score": 65.7,
-   "rank": 29
+   "score": 65.5,
+   "rank": 31
   },
   {
    "name": "橋本祥平",
@@ -5010,13 +5283,13 @@
     "xFollowers": 129000,
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/86677 -> HTTP 405"
    ],
    "xFollowersSource": "manual",
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "hashimotoshohey",
    "igHandle": null,
    "xFollowers": 129000,
@@ -5130,17 +5403,17 @@
      "url": "https://natalie.mu/stage/news/678051"
     }
    ],
-   "daysSinceNews": 12,
+   "daysSinceNews": 19,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.6765498780235444,
+    "xFollowers": 0.6766822816323748,
     "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.7851630892574333,
-    "recentActivity": 0.5933521679692896
+    "recentActivity": 0.5898661525408884
    },
    "measuredAxes": [
     "xFollowers",
@@ -5155,8 +5428,8 @@
    ],
    "coverage": 3,
    "coverageOf": 4,
-   "score": 65.4,
-   "rank": 30
+   "score": 65.3,
+   "rank": 32
   },
   {
    "name": "中川晃教",
@@ -5167,7 +5440,7 @@
    "natalieId": "72882",
    "achikochiSlug": "中川晃教",
    "agency": "アミューズ",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/72882 -> HTTP 405"
    ],
@@ -5202,7 +5475,7 @@
    "followerSourceDate": "2026-09-15",
    "xFollowersSource": "achikochi",
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "nakagawa1982aki",
    "eigaId": "87348",
    "yomi": "なかがわあきのり",
@@ -5312,17 +5585,17 @@
      "url": "https://natalie.mu/stage/news/660129"
     }
    ],
-   "daysSinceNews": 23,
+   "daysSinceNews": 30,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.46684249378200854,
+    "xFollowers": 0.4669338567885509,
     "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.8612600721458216,
-    "recentActivity": 0.7015268293628295
+    "recentActivity": 0.6989681483719359
    },
    "measuredAxes": [
     "xFollowers",
@@ -5337,8 +5610,8 @@
    ],
    "coverage": 3,
    "coverageOf": 4,
-   "score": 65.3,
-   "rank": 31
+   "score": 65.2,
+   "rank": 33
   },
   {
    "name": "新妻聖子",
@@ -5356,13 +5629,13 @@
     "igFollowers": 61000,
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/60257 -> HTTP 405"
    ],
    "xFollowersSource": "manual",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "seikoniizuma",
    "igHandle": "seikoniizuma",
    "xFollowers": 52000,
@@ -5477,17 +5750,17 @@
      "url": "https://natalie.mu/stage/news/660129"
     }
    ],
-   "daysSinceNews": 23,
+   "daysSinceNews": 30,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.5500669531666377,
+    "xFollowers": 0.5501746035440354,
     "igFollowers": 0.5521447631149854,
     "xPostFrequency": null,
     "newsCoverage": 0.7827347040776937,
-    "recentActivity": 0.6653552677449169
+    "recentActivity": 0.6624865036503224
    },
    "measuredAxes": [
     "xFollowers",
@@ -5501,8 +5774,8 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 65.1,
-   "rank": 32
+   "score": 65,
+   "rank": 34
   },
   {
    "name": "松下優也",
@@ -5513,7 +5786,7 @@
    "natalieId": "8611",
    "achikochiSlug": "松下優也",
    "agency": "SOLD OUT",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/8611 -> HTTP 405"
    ],
@@ -5548,7 +5821,7 @@
    "followerSourceDate": "2026-10-06",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "youya_mtst",
    "eigaId": "85794",
    "yomi": "まつしたゆうや",
@@ -5658,17 +5931,17 @@
      "url": "https://natalie.mu/stage/news/673595"
     }
    ],
-   "daysSinceNews": 11,
+   "daysSinceNews": 18,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.5208051783123585,
+    "xFollowers": 0.5209071020394125,
     "igFollowers": 0.5297977222072608,
     "xPostFrequency": null,
     "newsCoverage": 0.8064738922589347,
-    "recentActivity": 0.6657668267338479
+    "recentActivity": 0.662901590755899
    },
    "measuredAxes": [
     "xFollowers",
@@ -5682,8 +5955,135 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 64.7,
-   "rank": 33
+   "score": 64.6,
+   "rank": 35
+  },
+  {
+   "name": "吉田鋼太郎",
+   "genres": [
+    "ストレートプレイ",
+    "現代劇・翻訳劇",
+    "商業演劇"
+   ],
+   "agency": "ホリプロ",
+   "natalieId": "58910",
+   "achikochiSlug": "吉田鋼太郎",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
+   "sourceErrors": [
+    "natalie: https://natalie.mu/stage/artist/58910 -> HTTP 405"
+   ],
+   "xFollowers": null,
+   "igFollowers": null,
+   "snsAccounts": [],
+   "followerSourceDate": "2026-10-21",
+   "xFollowersSource": null,
+   "igFollowersSource": null,
+   "achikochiAsOf": "2026-10-25",
+   "eigaId": "83422",
+   "yomi": "よしだこうたろう",
+   "birth": "1959-01-14",
+   "origin": "日本／東京",
+   "xAccountState": "unknown",
+   "igAccountState": "unknown",
+   "age": 67,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "profile": "1959年1月14日生まれ、東京都出身。1997年に 劇団AUN を結成し、自ら演出も手がける。蜷川幸雄演出の舞台「オセロー」「ヘンリー四世」「ジュリアス・シーザー」などで主演を務め、2016年に「彩の国シェイクスピア・シリーズ」2代目芸術監督に就任したあとは「アテネのタイモン」「ヘンリー五世」などを演出した。テレビドラマでは2014年に放送された連続テレビ小説「花子とアン」の嘉納伝助役や、2016年以降にドラマ・映画が製作された「おっさんずラブ」シリーズの黒澤武蔵役で注目を集める。2016年放送の「東京センチメンタル」シリーズでは連続ドラマ初主演を飾った。主な出演作はドラマ「半沢直樹」「ゆとりですが何か」や大河ドラマ「麒麟がくる」、映画「帝一の國」「三度目の殺人」「嘘を愛する女」「劇場版 ファイナルファンタジーXIV 光のお父さん」「カイジ ファイナルゲーム」「今日から俺は!!劇場版」など。また「映画ドラえもん のび太の月面探査記」「ドラゴンクエスト ユア・ストーリー」「ルパン三世 THE FIRST」などのアニメーション映画にも声優として参加している。",
+   "officialSite": "https://www.horipro.co.jp/yoshidakoutarou/",
+   "natalieUrl": "https://natalie.mu/stage/artist/58910",
+   "stages": [
+    "間違いの喜劇",
+    "彩の国シェイクスピア・シリーズ 2nd Vol.3「リア王」",
+    "彩の国シェイクスピア・シリーズ2nd Vol.2「マクベス」",
+    "彩の国さいたま芸術劇場開館30周年特別企画「夏の夜の夢」",
+    "彩の国さいたま芸術劇場開館30周年記念 彩の国シェイクスピア・シリーズ2nd Vol.1「ハムレット」"
+   ],
+   "stageList": [
+    {
+     "title": "間違いの喜劇",
+     "start": "2026-11-22",
+     "end": "2026-12-02"
+    },
+    {
+     "title": "彩の国シェイクスピア・シリーズ 2nd Vol.3「リア王」",
+     "start": "2026-05-05",
+     "end": "2026-05-05"
+    },
+    {
+     "title": "彩の国シェイクスピア・シリーズ2nd Vol.2「マクベス」",
+     "start": "2025-05-08",
+     "end": "2025-06-30"
+    },
+    {
+     "title": "彩の国さいたま芸術劇場開館30周年特別企画「夏の夜の夢」",
+     "start": "2024-12-10",
+     "end": "2024-12-10"
+    },
+    {
+     "title": "彩の国さいたま芸術劇場開館30周年記念 彩の国シェイクスピア・シリーズ2nd Vol.1「ハムレット」",
+     "start": "2024-05-07",
+     "end": "2024-05-07"
+    }
+   ],
+   "stagesTotal": 5,
+   "stages12m": 2,
+   "stagesUpcoming": 1,
+   "news12m": 49,
+   "news90d": 9,
+   "newsAttention12m": 36236,
+   "latestNews": {
+    "title": "本日10月8日（木）放送開始の2026秋ドラマ",
+    "date": "2026-10-08",
+    "url": "https://natalie.mu/eiga/news/692563"
+   },
+   "topNews": [
+    {
+     "title": "福山雅治、大泉洋、永瀬廉、今田美桜、向井康二ら「ラストマン」チームが新宿に集結",
+     "date": "2025-12-18",
+     "score": 5461,
+     "url": "https://natalie.mu/eiga/news/652714"
+    },
+    {
+     "title": "Snow Man向井康二「ラストマン」スペシャルドラマに出演、深い孤独を抱えた元番組ディレクター役",
+     "date": "2025-11-25",
+     "score": 3091,
+     "url": "https://natalie.mu/music/news/649366"
+    },
+    {
+     "title": "秋山竜次、菜々緒、吉田鋼太郎がGLAYに？「Winter,again」MVオマージュしたCM",
+     "date": "2026-01-01",
+     "score": 3044,
+     "url": "https://natalie.mu/music/news/654630"
+    }
+   ],
+   "daysSinceNews": 17,
+   "natalieAsOf": "2026-10-09",
+   "carriedForward": [
+    "natalie"
+   ],
+   "metrics": {
+    "xFollowers": 0.44251862053035507,
+    "igFollowers": 0.49546671115609237,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8946514602921157,
+    "recentActivity": 0.6563412733523816
+   },
+   "measuredAxes": [
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "imputedAxes": [
+    "xFollowers",
+    "igFollowers"
+   ],
+   "droppedAxes": [
+    "xPostFrequency"
+   ],
+   "coverage": 2,
+   "coverageOf": 4,
+   "score": 64.6,
+   "rank": 36
   },
   {
    "name": "尾上松也",
@@ -5701,17 +6101,17 @@
     "xNote": "マネージャー運営アカウント",
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/28415 -> HTTP 405"
    ],
    "xFollowers": 964,
    "igFollowers": null,
    "snsAccounts": [],
-   "followerSourceDate": "2026-10-17",
+   "followerSourceDate": "2026-10-24",
    "xFollowersSource": "manual",
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "onoematsuya",
    "igHandle": null,
    "socialCheckedAt": "2026-10-09",
@@ -5823,7 +6223,7 @@
      "url": "https://natalie.mu/stage/news/643693"
     }
    ],
-   "daysSinceNews": 11,
+   "daysSinceNews": 18,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
@@ -5849,7 +6249,162 @@
    "coverage": 3,
    "coverageOf": 4,
    "score": 64.5,
-   "rank": 34
+   "rank": 37
+  },
+  {
+   "name": "片岡愛之助",
+   "genres": [
+    "歌舞伎・伝統芸能",
+    "商業演劇"
+   ],
+   "natalieId": "44936",
+   "achikochiSlug": "片岡愛之助（6代目）",
+   "agency": "松竹",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
+   "sourceErrors": [
+    "natalie: https://natalie.mu/stage/artist/44936 -> HTTP 405"
+   ],
+   "xFollowers": null,
+   "igFollowers": 29453,
+   "snsAccounts": [],
+   "followerSourceDate": "2026-09-30",
+   "xFollowersSource": null,
+   "igFollowersSource": "achikochi",
+   "achikochiAsOf": "2026-10-25",
+   "eigaId": "24098",
+   "yomi": "かたおかあいのすけ",
+   "birth": "1972-03-04",
+   "origin": "日本／大阪",
+   "xAccountState": "unknown",
+   "igAccountState": "have",
+   "age": 54,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "profile": "1972年3月4日生まれ、大阪府出身。1981年、十三代目片岡仁左衛門の部屋子となり、片岡千代丸を名乗って初舞台を飾る。1992年、二代目 片岡秀太郎 の養子となり、六代目として片岡愛之助を襲名。歌舞伎のみならずドラマや映画など映像分野にも活躍の場を広げる。近年の出演作は「七つの会議」「総理の夫」など。2022年のNHK大河ドラマ「鎌倉殿の13人」に北条宗時役で出演。",
+   "natalieUrl": "https://natalie.mu/stage/artist/44936",
+   "stages": [
+    "スクランブル歌舞伎「はたらく細胞」",
+    "「當る未歳 吉例顔見世興行 東西合同大歌舞伎」昼の部",
+    "「當る未歳 吉例顔見世興行 東西合同大歌舞伎」夜の部",
+    "「錦秋十月大歌舞伎」第一部",
+    "「錦秋十月大歌舞伎」第二部",
+    "長崎スタジアムシティ アリーナ歌舞伎舞踊特別公演",
+    "大阪松竹座さよなら公演「御名残五月大歌舞伎」昼の部",
+    "大阪松竹座さよなら公演「御名残五月大歌舞伎」夜の部",
+    "「Gracias Osaka Shochikuza」",
+    "流白浪燦星 碧翠の麗城"
+   ],
+   "stageList": [
+    {
+     "title": "スクランブル歌舞伎「はたらく細胞」",
+     "start": "2027-04-01",
+     "end": "2027-04-01"
+    },
+    {
+     "title": "「當る未歳 吉例顔見世興行 東西合同大歌舞伎」昼の部",
+     "start": "2026-12-01",
+     "end": "2026-12-01"
+    },
+    {
+     "title": "「當る未歳 吉例顔見世興行 東西合同大歌舞伎」夜の部",
+     "start": "2026-12-01",
+     "end": "2026-12-01"
+    },
+    {
+     "title": "「錦秋十月大歌舞伎」第一部",
+     "start": "2026-10-02",
+     "end": "2026-10-02"
+    },
+    {
+     "title": "「錦秋十月大歌舞伎」第二部",
+     "start": "2026-10-02",
+     "end": "2026-10-02"
+    },
+    {
+     "title": "長崎スタジアムシティ アリーナ歌舞伎舞踊特別公演",
+     "start": "2026-08-07",
+     "end": "2026-08-07"
+    },
+    {
+     "title": "大阪松竹座さよなら公演「御名残五月大歌舞伎」昼の部",
+     "start": "2026-05-02",
+     "end": "2026-05-02"
+    },
+    {
+     "title": "大阪松竹座さよなら公演「御名残五月大歌舞伎」夜の部",
+     "start": "2026-05-02",
+     "end": "2026-05-02"
+    },
+    {
+     "title": "「Gracias Osaka Shochikuza」",
+     "start": "2026-03-28",
+     "end": "2026-03-28"
+    },
+    {
+     "title": "流白浪燦星 碧翠の麗城",
+     "start": "2026-03-05",
+     "end": "2027-02-26"
+    }
+   ],
+   "stagesTotal": 30,
+   "stages12m": 16,
+   "stagesUpcoming": 4,
+   "news12m": 35,
+   "news90d": 13,
+   "newsAttention12m": 11483,
+   "latestNews": {
+    "title": "「錦秋十月大歌舞伎」秋めく歌舞伎座で開幕、仁左衛門・八代目菊五郎が交互出演の「盛綱陣屋」ほか",
+    "date": "2026-10-03",
+    "url": "https://natalie.mu/stage/news/692233"
+   },
+   "topNews": [
+    {
+     "title": "片岡愛之助が白血球役、スクランブル歌舞伎「はたらく細胞」2027年4月に上演決定",
+     "date": "2026-08-15",
+     "score": 2303,
+     "url": "https://natalie.mu/stage/news/685193"
+    },
+    {
+     "title": "なにわ男子・大橋和也が片岡愛之助と息ぴったり、桃屋テレビCMで再び“親ビン子ビン”に",
+     "date": "2026-05-26",
+     "score": 1209,
+     "url": "https://natalie.mu/music/news/673425"
+    },
+    {
+     "title": "三谷かぶき「歌舞伎絶対続魂」ライブ配信決定！配信限定のメイキング映像も",
+     "date": "2025-11-02",
+     "score": 681,
+     "url": "https://natalie.mu/stage/news/646646"
+    }
+   ],
+   "daysSinceNews": 22,
+   "natalieAsOf": "2026-10-09",
+   "carriedForward": [
+    "natalie"
+   ],
+   "metrics": {
+    "xFollowers": 0.44251862053035507,
+    "igFollowers": 0.45435698833965377,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8048968602375186,
+    "recentActivity": 0.7923043051117801
+   },
+   "measuredAxes": [
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "imputedAxes": [
+    "xFollowers"
+   ],
+   "droppedAxes": [
+    "xPostFrequency"
+   ],
+   "coverage": 3,
+   "coverageOf": 4,
+   "score": 64.3,
+   "rank": 38
   },
   {
    "name": "古川雄大",
@@ -5860,7 +6415,7 @@
    "natalieId": "57239",
    "achikochiSlug": "古川雄大",
    "agency": "アミューズ",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/57239 -> HTTP 405"
    ],
@@ -5895,7 +6450,7 @@
    "followerSourceDate": "2026-10-11",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "furukawa_staff",
    "eigaId": null,
    "xAccountState": "have",
@@ -5984,17 +6539,17 @@
      "url": "https://natalie.mu/stage/news/643870"
     }
    ],
-   "daysSinceNews": 37,
+   "daysSinceNews": 44,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.5481341016337051,
+    "xFollowers": 0.548241373744065,
     "igFollowers": 0.6896693572405397,
     "xPostFrequency": null,
     "newsCoverage": 0.8163441570581481,
-    "recentActivity": 0.4806765925735753
+    "recentActivity": 0.47622465832477373
    },
    "measuredAxes": [
     "xFollowers",
@@ -6008,180 +6563,75 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 64.3,
-   "rank": 35
+   "score": 64.2,
+   "rank": 39
   },
   {
-   "name": "堤真一",
-   "genres": [
-    "ストレートプレイ",
-    "現代劇・翻訳劇",
-    "商業演劇"
-   ],
-   "natalieId": "11860",
-   "achikochiSlug": "堤真一",
-   "agency": "シス・カンパニー",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
-   "sourceErrors": [
-    "natalie: https://natalie.mu/stage/artist/11860 -> HTTP 405"
-   ],
-   "xFollowers": null,
-   "igFollowers": null,
-   "snsAccounts": [],
-   "followerSourceDate": "2026-10-14",
-   "xFollowersSource": null,
-   "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-18",
-   "eigaId": "48740",
-   "yomi": "つつみしんいち",
-   "birth": "1964-07-07",
-   "origin": "日本／兵庫",
-   "xAccountState": "unknown",
-   "igAccountState": "unknown",
-   "age": 62,
-   "debutYear": null,
-   "careerYears": null,
-   "xPostFrequency": null,
-   "profile": "1964年7月7日生まれ、兵庫県出身。ジャパンアクションクラブ（JAC）に入団して真田広之の付き人を務めたあと、俳優として幅広く活動する。主な出演作に、映画「弾丸ランナー」「39-刑法第三十九条-」「フライ,ダディ,フライ」「ALWAYS 三丁目の夕日」「舞妓Haaaan!!!」「クライマーズ・ハイ」「容疑者Xの献身」「孤高のメス」「ザ・ファブル 殺さない殺し屋」、ドラマ「ピュア」「やまとなでしこ」「GOOD LUCK!!」「とんび」「妻、小学生になる。」などがある。穴を信仰する団体の教祖を演じるドラマ「滅相も無い」が2024年4月16日深夜にMBS / TBSでスタート。映画「室町無頼」が2025年1月17日に公開される。",
-   "officialSite": "https://www.siscompany.com/management/artist.php?id=1",
-   "natalieUrl": "https://natalie.mu/stage/artist/11860",
-   "stages": [
-    "Bunkamura Production 2026 / DISCOVER WORLD THEATRE vol.17「グレンギャリー・グレンロス」",
-    "シス・カンパニー公演「ライフ・イン・ザ・シアター」",
-    "Bunkamura Production 2024 DISCOVER WORLD THEATRE vol.14「A Numberー数」「What If If Onlyーもしも もしせめて」",
-    "シス・カンパニー公演「カラカラ天気と五人の紳士」"
-   ],
-   "stageList": [
-    {
-     "title": "Bunkamura Production 2026 / DISCOVER WORLD THEATRE vol.17「グレンギャリー・グレンロス」",
-     "start": "2026-11-06",
-     "end": "2026-12-11"
-    },
-    {
-     "title": "シス・カンパニー公演「ライフ・イン・ザ・シアター」",
-     "start": "2025-09-05",
-     "end": "2025-10-26"
-    },
-    {
-     "title": "Bunkamura Production 2024 DISCOVER WORLD THEATRE vol.14「A Numberー数」「What If If Onlyーもしも もしせめて」",
-     "start": "2024-09-10",
-     "end": "2024-09-10"
-    },
-    {
-     "title": "シス・カンパニー公演「カラカラ天気と五人の紳士」",
-     "start": "2024-04-06",
-     "end": "2024-04-06"
-    }
-   ],
-   "stagesTotal": 4,
-   "stages12m": 2,
-   "stagesUpcoming": 1,
-   "news12m": 49,
-   "news90d": 14,
-   "newsAttention12m": 32816,
-   "latestNews": {
-    "title": "本日10月4日（日）放送開始の2026秋ドラマ",
-    "date": "2026-10-04",
-    "url": "https://natalie.mu/eiga/news/691886"
-   },
-   "topNews": [
-    {
-     "title": "M!LK塩﨑太智はドラマの現場でも初期装備「もうパパ！」会見でメンバーに「もう！」と思う瞬間明かす",
-     "date": "2026-09-30",
-     "score": 8631,
-     "url": "https://natalie.mu/music/news/691531"
-    },
-    {
-     "title": "堤真一・濵田崇裕が初共演、ピュリツァー賞受賞作「グレンギャリー・グレンロス」上演決定",
-     "date": "2026-06-22",
-     "score": 2810,
-     "url": "https://natalie.mu/stage/news/677158"
-    },
-    {
-     "title": "キスマイ玉森裕太、車いすラグビードラマに作曲家のマネージャー役で出演",
-     "date": "2026-03-30",
-     "score": 1836,
-     "url": "https://natalie.mu/music/news/666158"
-    }
-   ],
-   "daysSinceNews": 14,
-   "natalieAsOf": "2026-10-09",
-   "carriedForward": [
-    "natalie"
-   ],
-   "metrics": {
-    "xFollowers": 0.367400887337438,
-    "igFollowers": 0.49546671115609237,
-    "xPostFrequency": null,
-    "newsCoverage": 0.8892322314114309,
-    "recentActivity": 0.7249651057245939
-   },
-   "measuredAxes": [
-    "newsCoverage",
-    "recentActivity"
-   ],
-   "imputedAxes": [
-    "xFollowers",
-    "igFollowers"
-   ],
-   "droppedAxes": [
-    "xPostFrequency"
-   ],
-   "coverage": 2,
-   "coverageOf": 4,
-   "score": 64.3,
-   "rank": 36
-  },
-  {
-   "name": "中村芝翫",
+   "name": "中村勘九郎",
    "genres": [
     "歌舞伎・伝統芸能",
     "商業演劇"
    ],
+   "natalieId": "94046",
+   "achikochiSlug": null,
    "agency": "松竹",
-   "natalieId": "57480",
-   "achikochiSlug": "中村芝翫（8代目）",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
-    "natalie: https://natalie.mu/stage/artist/57480 -> HTTP 405"
+    "natalie: https://natalie.mu/stage/artist/94046 -> HTTP 405"
    ],
-   "xFollowers": null,
-   "igFollowers": null,
-   "snsAccounts": [],
-   "followerSourceDate": "2026-10-12",
    "xFollowersSource": null,
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-18",
-   "eigaId": null,
+   "achikochiAsOf": "2026-10-25",
+   "eigaId": "53604",
+   "yomi": null,
+   "birth": "1981-10-31",
+   "origin": "日本／東京",
    "xAccountState": "unknown",
    "igAccountState": "unknown",
-   "age": null,
+   "age": 44,
    "debutYear": null,
    "careerYears": null,
    "xPostFrequency": null,
-   "natalieUrl": "https://natalie.mu/stage/artist/57480",
+   "profile": "1981年、東京都生まれ。1986年に歌舞伎座「盛綱陣屋」の小三郎で波野雅行の名で初お目見得。1987年に歌舞伎座「門出二人桃太郎」の兄の桃太郎で二代目 中村勘太郎 を名乗り初舞台。2012年に新橋演舞場「春興鏡獅子」の小姓弥生後に獅子の精ほかで六代目中村勘九郎を襲名した。",
+   "officialSite": "https://e-nakamuraya.jp/artists/kankuro/",
+   "natalieUrl": "https://natalie.mu/stage/artist/94046",
    "stages": [
-    "第五回神谷町小歌舞伎",
-    "「吉例顔見世大歌舞伎」昼の部",
+    "陽春歌舞伎特別公演 2027",
+    "春暁歌舞伎特別公演 2027",
+    "「十二月大歌舞伎」第三部",
+    "「十二月大歌舞伎」第二部",
+    "「平成中村座 十月大歌舞伎」第一部",
     "「平成中村座 十月大歌舞伎」第二部",
-    "リア王",
-    "「七月大歌舞伎」夜の部",
-    "「四月大歌舞伎」昼の部",
-    "「四月大歌舞伎」夜の部",
-    "「三月大歌舞伎」昼の部",
-    "「猿若祭二月大歌舞伎」昼の部",
-    "「壽 初春大歌舞伎」夜の部"
+    "「八月納涼歌舞伎」第二部",
+    "「八月納涼歌舞伎」第三部",
+    "「六月大歌舞伎」昼の部",
+    "「六月大歌舞伎」夜の部"
    ],
    "stageList": [
     {
-     "title": "第五回神谷町小歌舞伎",
-     "start": "2027-04-29",
-     "end": "2027-04-29"
+     "title": "陽春歌舞伎特別公演 2027",
+     "start": "2027-03-24",
+     "end": "2027-04-04"
     },
     {
-     "title": "「吉例顔見世大歌舞伎」昼の部",
-     "start": "2026-11-01",
-     "end": "2026-11-01"
+     "title": "春暁歌舞伎特別公演 2027",
+     "start": "2027-03-05",
+     "end": "2027-03-05"
+    },
+    {
+     "title": "「十二月大歌舞伎」第三部",
+     "start": "2026-12-02",
+     "end": "2026-12-02"
+    },
+    {
+     "title": "「十二月大歌舞伎」第二部",
+     "start": "2026-12-02",
+     "end": "2026-12-02"
+    },
+    {
+     "title": "「平成中村座 十月大歌舞伎」第一部",
+     "start": "2026-10-01",
+     "end": "2026-10-01"
     },
     {
      "title": "「平成中村座 十月大歌舞伎」第二部",
@@ -6189,47 +6639,32 @@
      "end": "2026-10-01"
     },
     {
-     "title": "リア王",
-     "start": "2026-09-06",
-     "end": "2026-09-06"
+     "title": "「八月納涼歌舞伎」第二部",
+     "start": "2026-08-02",
+     "end": "2026-08-02"
     },
     {
-     "title": "「七月大歌舞伎」夜の部",
-     "start": "2026-07-02",
-     "end": "2026-07-02"
+     "title": "「八月納涼歌舞伎」第三部",
+     "start": "2026-08-02",
+     "end": "2026-08-02"
     },
     {
-     "title": "「四月大歌舞伎」昼の部",
-     "start": "2026-04-02",
-     "end": "2026-04-02"
+     "title": "「六月大歌舞伎」昼の部",
+     "start": "2026-06-03",
+     "end": "2026-06-03"
     },
     {
-     "title": "「四月大歌舞伎」夜の部",
-     "start": "2026-04-02",
-     "end": "2026-04-02"
-    },
-    {
-     "title": "「三月大歌舞伎」昼の部",
-     "start": "2026-03-05",
-     "end": "2026-03-05"
-    },
-    {
-     "title": "「猿若祭二月大歌舞伎」昼の部",
-     "start": "2026-02-01",
-     "end": "2026-02-01"
-    },
-    {
-     "title": "「壽 初春大歌舞伎」夜の部",
-     "start": "2026-01-02",
-     "end": "2026-01-02"
+     "title": "「六月大歌舞伎」夜の部",
+     "start": "2026-06-03",
+     "end": "2026-06-03"
     }
    ],
-   "stagesTotal": 26,
-   "stages12m": 11,
-   "stagesUpcoming": 2,
-   "news12m": 37,
-   "news90d": 11,
-   "newsAttention12m": 25370,
+   "stagesTotal": 30,
+   "stages12m": 19,
+   "stagesUpcoming": 4,
+   "news12m": 38,
+   "news90d": 7,
+   "newsAttention12m": 15413,
    "latestNews": {
     "title": "「平成中村座 十月大歌舞伎」開幕、中村勘九郎が誓う「江戸の世界に誘えるよう、全身全霊で」",
     "date": "2026-10-02",
@@ -6237,35 +6672,35 @@
    },
    "topNews": [
     {
-     "title": "松村北斗が東野圭吾の思いを受け継ぐ覚悟、映画「白鳥とコウモリ」セレモニーで語る",
-     "date": "2026-08-02",
-     "score": 6519,
-     "url": "https://natalie.mu/music/news/683487"
+     "title": "劇場版「ケロロ軍曹」福田雄一監督作のキャラ大集結、山田孝之演じるヨシヒコら登場",
+     "date": "2026-06-26",
+     "score": 2009,
+     "url": "https://natalie.mu/comic/news/677843"
     },
     {
-     "title": "SixTONES松村北斗、“ドンじらけ”を恐れながら映画「白鳥とコウモリ」の見どころ熱弁",
-     "date": "2026-08-02",
-     "score": 3201,
-     "url": "https://natalie.mu/music/news/683263"
+     "title": "「平成中村座」勘九郎が助六、七之助が戸無瀬に初役で挑む 仁左衛門の特別出演も",
+     "date": "2026-06-30",
+     "score": 1630,
+     "url": "https://natalie.mu/stage/news/678553"
     },
     {
-     "title": "松村北斗×今田美桜が禁断バディに「白鳥とコウモリ」予告、大森元貴の主題歌が心を揺さぶる",
-     "date": "2026-07-15",
-     "score": 1687,
-     "url": "https://natalie.mu/eiga/news/680789"
+     "title": "「平成中村座」4年ぶりの浅草公演決定！勘九郎＆七之助出演の十月大歌舞伎",
+     "date": "2026-01-18",
+     "score": 1331,
+     "url": "https://natalie.mu/stage/news/656540"
     }
    ],
-   "daysSinceNews": 16,
+   "daysSinceNews": 23,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.367400887337438,
+    "xFollowers": 0.44251862053035507,
     "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
-    "newsCoverage": 0.852661155582126,
-    "recentActivity": 0.7494990033024221
+    "newsCoverage": 0.8275495251900336,
+    "recentActivity": 0.7006387625716038
    },
    "measuredAxes": [
     "newsCoverage",
@@ -6280,8 +6715,8 @@
    ],
    "coverage": 2,
    "coverageOf": 4,
-   "score": 63.7,
-   "rank": 37
+   "score": 63.6,
+   "rank": 40
   },
   {
    "name": "立石俊樹",
@@ -6299,13 +6734,13 @@
     "igFollowers": 89000,
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/105804 -> HTTP 405"
    ],
    "xFollowersSource": "manual",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "t___tateishi",
    "igHandle": "toshiki_tateishi",
    "xFollowers": 105000,
@@ -6420,17 +6855,17 @@
      "url": "https://natalie.mu/stage/news/689194"
     }
    ],
-   "daysSinceNews": 30,
+   "daysSinceNews": 37,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.6478928539083771,
+    "xFollowers": 0.6480196492190843,
     "igFollowers": 0.6028823718666406,
     "xPostFrequency": null,
     "newsCoverage": 0.7496110833878713,
-    "recentActivity": 0.5084198784792371
+    "recentActivity": 0.5042057753832999
    },
    "measuredAxes": [
     "xFollowers",
@@ -6444,8 +6879,8 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 63.6,
-   "rank": 38
+   "score": 63.5,
+   "rank": 41
   },
   {
    "name": "太田基裕",
@@ -6462,7 +6897,7 @@
     "igFollowers": 14000,
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/68265 -> HTTP 405"
    ],
@@ -6494,10 +6929,10 @@
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-16",
+   "followerSourceDate": "2026-10-23",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "motohiro0119",
    "igHandle": "motohiro.ota_0119",
    "socialCheckedAt": "2026-10-09",
@@ -6609,17 +7044,17 @@
      "url": "https://natalie.mu/stage/news/643720"
     }
    ],
-   "daysSinceNews": 33,
+   "daysSinceNews": 40,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.7062049761285774,
+    "xFollowers": 0.706343183362738,
     "igFollowers": 0.35446850447016676,
     "xPostFrequency": null,
     "newsCoverage": 0.7968332785503623,
-    "recentActivity": 0.5826530283614919
+    "recentActivity": 0.5790752938513556
    },
    "measuredAxes": [
     "xFollowers",
@@ -6633,8 +7068,8 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 63.4,
-   "rank": 39
+   "score": 63.3,
+   "rank": 42
   },
   {
    "name": "咲妃みゆ",
@@ -6652,17 +7087,17 @@
     "checkedAt": "2026-10-09",
     "xNote": "公式ファンクラブのスタッフ運営アカウント（公式サイト sakihimiyu.com に掲出）"
    },
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/93414 -> HTTP 405"
    ],
    "xFollowers": 8646,
    "igFollowers": 92689,
    "snsAccounts": [],
-   "followerSourceDate": "2026-10-15",
+   "followerSourceDate": "2026-10-22",
    "xFollowersSource": "manual",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "miyusakihi_FC",
    "igHandle": null,
    "socialCheckedAt": "2026-10-09",
@@ -6771,17 +7206,17 @@
      "url": "https://natalie.mu/stage/news/655910"
     }
    ],
-   "daysSinceNews": 17,
+   "daysSinceNews": 24,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.30031189760290783,
+    "xFollowers": 0.3003706698831327,
     "igFollowers": 0.6083372116398831,
     "xPostFrequency": null,
     "newsCoverage": 0.8012606367290036,
-    "recentActivity": 0.7615355716625466
+    "recentActivity": 0.759491319582908
    },
    "measuredAxes": [
     "xFollowers",
@@ -6795,119 +7230,104 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 63.1,
-   "rank": 40
+   "score": 63,
+   "rank": 43
   },
   {
-   "name": "吉田鋼太郎",
+   "name": "天海祐希",
    "genres": [
+    "宝塚・OG",
     "ストレートプレイ",
-    "現代劇・翻訳劇",
     "商業演劇"
    ],
-   "agency": "ホリプロ",
-   "natalieId": "58910",
-   "achikochiSlug": "吉田鋼太郎",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "natalieId": "11825",
+   "achikochiSlug": "天海祐希",
+   "agency": "研音",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
-    "natalie: https://natalie.mu/stage/artist/58910 -> HTTP 405"
+    "natalie: https://natalie.mu/stage/artist/11825 -> HTTP 405"
    ],
    "xFollowers": null,
    "igFollowers": null,
    "snsAccounts": [],
-   "followerSourceDate": "2026-10-14",
+   "followerSourceDate": "2026-10-23",
    "xFollowersSource": null,
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-18",
-   "eigaId": "83422",
-   "yomi": "よしだこうたろう",
-   "birth": "1959-01-14",
-   "origin": "日本／東京",
+   "achikochiAsOf": "2026-10-25",
+   "eigaId": null,
    "xAccountState": "unknown",
    "igAccountState": "unknown",
-   "age": 67,
+   "age": null,
    "debutYear": null,
    "careerYears": null,
    "xPostFrequency": null,
-   "profile": "1959年1月14日生まれ、東京都出身。1997年に 劇団AUN を結成し、自ら演出も手がける。蜷川幸雄演出の舞台「オセロー」「ヘンリー四世」「ジュリアス・シーザー」などで主演を務め、2016年に「彩の国シェイクスピア・シリーズ」2代目芸術監督に就任したあとは「アテネのタイモン」「ヘンリー五世」などを演出した。テレビドラマでは2014年に放送された連続テレビ小説「花子とアン」の嘉納伝助役や、2016年以降にドラマ・映画が製作された「おっさんずラブ」シリーズの黒澤武蔵役で注目を集める。2016年放送の「東京センチメンタル」シリーズでは連続ドラマ初主演を飾った。主な出演作はドラマ「半沢直樹」「ゆとりですが何か」や大河ドラマ「麒麟がくる」、映画「帝一の國」「三度目の殺人」「嘘を愛する女」「劇場版 ファイナルファンタジーXIV 光のお父さん」「カイジ ファイナルゲーム」「今日から俺は!!劇場版」など。また「映画ドラえもん のび太の月面探査記」「ドラゴンクエスト ユア・ストーリー」「ルパン三世 THE FIRST」などのアニメーション映画にも声優として参加している。",
-   "officialSite": "https://www.horipro.co.jp/yoshidakoutarou/",
-   "natalieUrl": "https://natalie.mu/stage/artist/58910",
+   "profile": "1967年8月8日生まれ、東京都出身。1987年に宝塚歌劇団へ入団し、1993年に月組トップスターに就任、1995年に退団。以降はドラマ、映画、舞台、CMなど幅広く活躍している。近年の主な出演作にはドラマ・映画「緊急取調室」シリーズ、映画「最高の人生の見つけ方」「老後の資金がありません！」「ふしぎ駄菓子屋 銭天堂」「てっぺんの向こうにあなたがいる」「クスノキの番人」などがある。",
+   "officialSite": "http://www.ken-on.co.jp/amami/",
+   "natalieUrl": "https://natalie.mu/stage/artist/11825",
    "stages": [
-    "間違いの喜劇",
-    "彩の国シェイクスピア・シリーズ 2nd Vol.3「リア王」",
-    "彩の国シェイクスピア・シリーズ2nd Vol.2「マクベス」",
-    "彩の国さいたま芸術劇場開館30周年特別企画「夏の夜の夢」",
-    "彩の国さいたま芸術劇場開館30周年記念 彩の国シェイクスピア・シリーズ2nd Vol.1「ハムレット」"
+    "シス・カンパニー公演「新宿発8時15分」",
+    "M＆Oplaysプロデュース「鎌塚氏、震えあがる」",
+    "シス・カンパニー公演 KERA meets CHEKHOV Vol.4/4「桜の園」"
    ],
    "stageList": [
     {
-     "title": "間違いの喜劇",
-     "start": "2026-11-22",
-     "end": "2026-12-02"
+     "title": "シス・カンパニー公演「新宿発8時15分」",
+     "start": "2026-04-09",
+     "end": "2026-05-30"
     },
     {
-     "title": "彩の国シェイクスピア・シリーズ 2nd Vol.3「リア王」",
-     "start": "2026-05-05",
-     "end": "2026-05-05"
+     "title": "M＆Oplaysプロデュース「鎌塚氏、震えあがる」",
+     "start": "2025-03-30",
+     "end": "2025-05-18"
     },
     {
-     "title": "彩の国シェイクスピア・シリーズ2nd Vol.2「マクベス」",
-     "start": "2025-05-08",
-     "end": "2025-06-30"
-    },
-    {
-     "title": "彩の国さいたま芸術劇場開館30周年特別企画「夏の夜の夢」",
-     "start": "2024-12-10",
-     "end": "2024-12-10"
-    },
-    {
-     "title": "彩の国さいたま芸術劇場開館30周年記念 彩の国シェイクスピア・シリーズ2nd Vol.1「ハムレット」",
-     "start": "2024-05-07",
-     "end": "2024-05-07"
+     "title": "シス・カンパニー公演 KERA meets CHEKHOV Vol.4/4「桜の園」",
+     "start": "2024-12-08",
+     "end": "2024-12-08"
     }
    ],
-   "stagesTotal": 5,
-   "stages12m": 2,
-   "stagesUpcoming": 1,
-   "news12m": 49,
-   "news90d": 9,
-   "newsAttention12m": 36236,
+   "stagesTotal": 3,
+   "stages12m": 1,
+   "stagesUpcoming": 0,
+   "news12m": 45,
+   "news90d": 7,
+   "newsAttention12m": 49402,
    "latestNews": {
-    "title": "本日10月8日（木）放送開始の2026秋ドラマ",
-    "date": "2026-10-08",
-    "url": "https://natalie.mu/eiga/news/692563"
+    "title": "天海祐希主演の刑事ドラマ「BOSS」全話一挙放送、共演に竹野内豊や戸田恵梨香",
+    "date": "2026-09-20",
+    "url": "https://natalie.mu/eiga/news/690322"
    },
    "topNews": [
     {
-     "title": "福山雅治、大泉洋、永瀬廉、今田美桜、向井康二ら「ラストマン」チームが新宿に集結",
-     "date": "2025-12-18",
-     "score": 5461,
-     "url": "https://natalie.mu/eiga/news/652714"
+     "title": "天海祐希主演の刑事ドラマ「BOSS」全話一挙放送、共演に竹野内豊や戸田恵梨香",
+     "date": "2026-09-20",
+     "score": 5157,
+     "url": "https://natalie.mu/eiga/news/690322"
     },
     {
-     "title": "Snow Man向井康二「ラストマン」スペシャルドラマに出演、深い孤独を抱えた元番組ディレクター役",
-     "date": "2025-11-25",
-     "score": 3091,
-     "url": "https://natalie.mu/music/news/649366"
+     "title": "Snow Man目黒蓮、出発直前に決意表明「晴れ風と一緒に一歩踏み出したい」",
+     "date": "2026-03-23",
+     "score": 3404,
+     "url": "https://natalie.mu/music/news/665036"
     },
     {
-     "title": "秋山竜次、菜々緒、吉田鋼太郎がGLAYに？「Winter,again」MVオマージュしたCM",
-     "date": "2026-01-01",
-     "score": 3044,
-     "url": "https://natalie.mu/music/news/654630"
+     "title": "宇宙人の櫻井翔＆相葉雅紀、セブン‐イレブンの推しスイーツを宣言",
+     "date": "2026-01-26",
+     "score": 3366,
+     "url": "https://natalie.mu/music/news/657548"
     }
    ],
-   "daysSinceNews": 10,
+   "daysSinceNews": 35,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.367400887337438,
+    "xFollowers": 0.44251862053035507,
     "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
-    "newsCoverage": 0.8946514602921157,
-    "recentActivity": 0.6592622700724042
+    "newsCoverage": 0.9047568510715694,
+    "recentActivity": 0.5757242276528258
    },
    "measuredAxes": [
     "newsCoverage",
@@ -6922,8 +7342,8 @@
    ],
    "coverage": 2,
    "coverageOf": 4,
-   "score": 62.8,
-   "rank": 41
+   "score": 62.9,
+   "rank": 44
   },
   {
    "name": "濱田めぐみ",
@@ -6939,7 +7359,7 @@
     "igFollowers": 23000,
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/94956 -> HTTP 405"
    ],
@@ -6974,7 +7394,7 @@
    "followerSourceDate": "2026-10-09",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "megumihamada",
    "igHandle": "megumi_hamada",
    "socialCheckedAt": "2026-10-09",
@@ -7087,17 +7507,17 @@
      "url": "https://natalie.mu/stage/news/660596"
     }
    ],
-   "daysSinceNews": 11,
+   "daysSinceNews": 18,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.5587456886472868,
+    "xFollowers": 0.5588550374891068,
     "igFollowers": 0.42114252836693705,
     "xPostFrequency": null,
     "newsCoverage": 0.736343847617437,
-    "recentActivity": 0.7151891998355446
+    "recentActivity": 0.71274764041891
    },
    "measuredAxes": [
     "xFollowers",
@@ -7111,163 +7531,8 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 62.5,
-   "rank": 42
-  },
-  {
-   "name": "片岡愛之助",
-   "genres": [
-    "歌舞伎・伝統芸能",
-    "商業演劇"
-   ],
-   "natalieId": "44936",
-   "achikochiSlug": "片岡愛之助（6代目）",
-   "agency": "松竹",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
-   "sourceErrors": [
-    "natalie: https://natalie.mu/stage/artist/44936 -> HTTP 405"
-   ],
-   "xFollowers": null,
-   "igFollowers": 29453,
-   "snsAccounts": [],
-   "followerSourceDate": "2026-09-30",
-   "xFollowersSource": null,
-   "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-18",
-   "eigaId": "24098",
-   "yomi": "かたおかあいのすけ",
-   "birth": "1972-03-04",
-   "origin": "日本／大阪",
-   "xAccountState": "unknown",
-   "igAccountState": "have",
-   "age": 54,
-   "debutYear": null,
-   "careerYears": null,
-   "xPostFrequency": null,
-   "profile": "1972年3月4日生まれ、大阪府出身。1981年、十三代目片岡仁左衛門の部屋子となり、片岡千代丸を名乗って初舞台を飾る。1992年、二代目 片岡秀太郎 の養子となり、六代目として片岡愛之助を襲名。歌舞伎のみならずドラマや映画など映像分野にも活躍の場を広げる。近年の出演作は「七つの会議」「総理の夫」など。2022年のNHK大河ドラマ「鎌倉殿の13人」に北条宗時役で出演。",
-   "natalieUrl": "https://natalie.mu/stage/artist/44936",
-   "stages": [
-    "スクランブル歌舞伎「はたらく細胞」",
-    "「當る未歳 吉例顔見世興行 東西合同大歌舞伎」昼の部",
-    "「當る未歳 吉例顔見世興行 東西合同大歌舞伎」夜の部",
-    "「錦秋十月大歌舞伎」第一部",
-    "「錦秋十月大歌舞伎」第二部",
-    "長崎スタジアムシティ アリーナ歌舞伎舞踊特別公演",
-    "大阪松竹座さよなら公演「御名残五月大歌舞伎」昼の部",
-    "大阪松竹座さよなら公演「御名残五月大歌舞伎」夜の部",
-    "「Gracias Osaka Shochikuza」",
-    "流白浪燦星 碧翠の麗城"
-   ],
-   "stageList": [
-    {
-     "title": "スクランブル歌舞伎「はたらく細胞」",
-     "start": "2027-04-01",
-     "end": "2027-04-01"
-    },
-    {
-     "title": "「當る未歳 吉例顔見世興行 東西合同大歌舞伎」昼の部",
-     "start": "2026-12-01",
-     "end": "2026-12-01"
-    },
-    {
-     "title": "「當る未歳 吉例顔見世興行 東西合同大歌舞伎」夜の部",
-     "start": "2026-12-01",
-     "end": "2026-12-01"
-    },
-    {
-     "title": "「錦秋十月大歌舞伎」第一部",
-     "start": "2026-10-02",
-     "end": "2026-10-02"
-    },
-    {
-     "title": "「錦秋十月大歌舞伎」第二部",
-     "start": "2026-10-02",
-     "end": "2026-10-02"
-    },
-    {
-     "title": "長崎スタジアムシティ アリーナ歌舞伎舞踊特別公演",
-     "start": "2026-08-07",
-     "end": "2026-08-07"
-    },
-    {
-     "title": "大阪松竹座さよなら公演「御名残五月大歌舞伎」昼の部",
-     "start": "2026-05-02",
-     "end": "2026-05-02"
-    },
-    {
-     "title": "大阪松竹座さよなら公演「御名残五月大歌舞伎」夜の部",
-     "start": "2026-05-02",
-     "end": "2026-05-02"
-    },
-    {
-     "title": "「Gracias Osaka Shochikuza」",
-     "start": "2026-03-28",
-     "end": "2026-03-28"
-    },
-    {
-     "title": "流白浪燦星 碧翠の麗城",
-     "start": "2026-03-05",
-     "end": "2027-02-26"
-    }
-   ],
-   "stagesTotal": 30,
-   "stages12m": 16,
-   "stagesUpcoming": 4,
-   "news12m": 35,
-   "news90d": 13,
-   "newsAttention12m": 11483,
-   "latestNews": {
-    "title": "「錦秋十月大歌舞伎」秋めく歌舞伎座で開幕、仁左衛門・八代目菊五郎が交互出演の「盛綱陣屋」ほか",
-    "date": "2026-10-03",
-    "url": "https://natalie.mu/stage/news/692233"
-   },
-   "topNews": [
-    {
-     "title": "片岡愛之助が白血球役、スクランブル歌舞伎「はたらく細胞」2027年4月に上演決定",
-     "date": "2026-08-15",
-     "score": 2303,
-     "url": "https://natalie.mu/stage/news/685193"
-    },
-    {
-     "title": "なにわ男子・大橋和也が片岡愛之助と息ぴったり、桃屋テレビCMで再び“親ビン子ビン”に",
-     "date": "2026-05-26",
-     "score": 1209,
-     "url": "https://natalie.mu/music/news/673425"
-    },
-    {
-     "title": "三谷かぶき「歌舞伎絶対続魂」ライブ配信決定！配信限定のメイキング映像も",
-     "date": "2025-11-02",
-     "score": 681,
-     "url": "https://natalie.mu/stage/news/646646"
-    }
-   ],
-   "daysSinceNews": 15,
-   "natalieAsOf": "2026-10-09",
-   "carriedForward": [
-    "natalie"
-   ],
-   "metrics": {
-    "xFollowers": 0.367400887337438,
-    "igFollowers": 0.45435698833965377,
-    "xPostFrequency": null,
-    "newsCoverage": 0.8048968602375186,
-    "recentActivity": 0.7940696565971024
-   },
-   "measuredAxes": [
-    "igFollowers",
-    "newsCoverage",
-    "recentActivity"
-   ],
-   "imputedAxes": [
-    "xFollowers"
-   ],
-   "droppedAxes": [
-    "xPostFrequency"
-   ],
-   "coverage": 3,
-   "coverageOf": 4,
-   "score": 62.5,
-   "rank": 43
+   "score": 62.4,
+   "rank": 45
   },
   {
    "name": "松田凌",
@@ -7287,13 +7552,13 @@
     "xNote": "スタッフ運営アカウント",
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/64402 -> HTTP 405"
    ],
    "xFollowersSource": "manual",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "ryo_matsuda0913",
    "igHandle": "matsudaryo_9",
    "xFollowers": 14000,
@@ -7408,17 +7673,17 @@
      "url": "https://natalie.mu/stage/news/658277"
     }
    ],
-   "daysSinceNews": 12,
+   "daysSinceNews": 19,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.367400887337438,
+    "xFollowers": 0.3674727892103835,
     "igFollowers": 0.519954251793571,
     "xPostFrequency": null,
     "newsCoverage": 0.7944008068403273,
-    "recentActivity": 0.7502263707778952
+    "recentActivity": 0.7480851698258877
    },
    "measuredAxes": [
     "xFollowers",
@@ -7433,7 +7698,7 @@
    "coverage": 4,
    "coverageOf": 4,
    "score": 62.4,
-   "rank": 44
+   "rank": 46
   },
   {
    "name": "松本幸四郎",
@@ -7450,7 +7715,7 @@
     "xFollowers": 3640,
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/106030 -> HTTP 405"
    ],
@@ -7460,7 +7725,7 @@
    "followerSourceDate": "2026-08-21",
    "xFollowersSource": "manual",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "koshirofficial",
    "igHandle": null,
    "socialCheckedAt": "2026-10-09",
@@ -7573,17 +7838,17 @@
      "url": "https://natalie.mu/eiga/news/685998"
     }
    ],
-   "daysSinceNews": 27,
+   "daysSinceNews": 34,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.17989909378122396,
+    "xFollowers": 0.17993430077780423,
     "igFollowers": 0.5828846450792037,
     "xPostFrequency": null,
     "newsCoverage": 0.8590219922441578,
-    "recentActivity": 0.8037417127054308
+    "recentActivity": 0.8020592755606316
    },
    "measuredAxes": [
     "xFollowers",
@@ -7598,7 +7863,7 @@
    "coverage": 4,
    "coverageOf": 4,
    "score": 62.4,
-   "rank": 45
+   "rank": 47
   },
   {
    "name": "小池徹平",
@@ -7610,12 +7875,12 @@
    "natalieId": "46532",
    "achikochiSlug": "小池徹平",
    "agency": "エンズタワー",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/46532 -> HTTP 405"
    ],
    "xFollowers": 6803,
-   "igFollowers": 229667,
+   "igFollowers": 229357,
    "snsAccounts": [
     {
      "handle": "ktpchannel_1102",
@@ -7642,10 +7907,10 @@
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-17",
+   "followerSourceDate": "2026-10-24",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "ktpchannel_1102",
    "eigaId": "30656",
    "yomi": "こいけてっぺい",
@@ -7755,17 +8020,17 @@
      "url": "https://natalie.mu/eiga/news/656151"
     }
    ],
-   "daysSinceNews": 17,
+   "daysSinceNews": 24,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.2669423088199957,
-    "igFollowers": 0.7302090883145502,
+    "xFollowers": 0.2669945505337043,
+    "igFollowers": 0.7300276740032937,
     "xPostFrequency": null,
     "newsCoverage": 0.8187039037381778,
-    "recentActivity": 0.6215904412904616
+    "recentActivity": 0.6183465003272738
    },
    "measuredAxes": [
     "xFollowers",
@@ -7779,271 +8044,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 61.8,
-   "rank": 46
-  },
-  {
-   "name": "中村勘九郎",
-   "genres": [
-    "歌舞伎・伝統芸能",
-    "商業演劇"
-   ],
-   "natalieId": "94046",
-   "achikochiSlug": null,
-   "agency": "松竹",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
-   "sourceErrors": [
-    "natalie: https://natalie.mu/stage/artist/94046 -> HTTP 405"
-   ],
-   "xFollowersSource": null,
-   "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-18",
-   "eigaId": "53604",
-   "yomi": null,
-   "birth": "1981-10-31",
-   "origin": "日本／東京",
-   "xAccountState": "unknown",
-   "igAccountState": "unknown",
-   "age": 44,
-   "debutYear": null,
-   "careerYears": null,
-   "xPostFrequency": null,
-   "profile": "1981年、東京都生まれ。1986年に歌舞伎座「盛綱陣屋」の小三郎で波野雅行の名で初お目見得。1987年に歌舞伎座「門出二人桃太郎」の兄の桃太郎で二代目 中村勘太郎 を名乗り初舞台。2012年に新橋演舞場「春興鏡獅子」の小姓弥生後に獅子の精ほかで六代目中村勘九郎を襲名した。",
-   "officialSite": "https://e-nakamuraya.jp/artists/kankuro/",
-   "natalieUrl": "https://natalie.mu/stage/artist/94046",
-   "stages": [
-    "陽春歌舞伎特別公演 2027",
-    "春暁歌舞伎特別公演 2027",
-    "「十二月大歌舞伎」第三部",
-    "「十二月大歌舞伎」第二部",
-    "「平成中村座 十月大歌舞伎」第一部",
-    "「平成中村座 十月大歌舞伎」第二部",
-    "「八月納涼歌舞伎」第二部",
-    "「八月納涼歌舞伎」第三部",
-    "「六月大歌舞伎」昼の部",
-    "「六月大歌舞伎」夜の部"
-   ],
-   "stageList": [
-    {
-     "title": "陽春歌舞伎特別公演 2027",
-     "start": "2027-03-24",
-     "end": "2027-04-04"
-    },
-    {
-     "title": "春暁歌舞伎特別公演 2027",
-     "start": "2027-03-05",
-     "end": "2027-03-05"
-    },
-    {
-     "title": "「十二月大歌舞伎」第三部",
-     "start": "2026-12-02",
-     "end": "2026-12-02"
-    },
-    {
-     "title": "「十二月大歌舞伎」第二部",
-     "start": "2026-12-02",
-     "end": "2026-12-02"
-    },
-    {
-     "title": "「平成中村座 十月大歌舞伎」第一部",
-     "start": "2026-10-01",
-     "end": "2026-10-01"
-    },
-    {
-     "title": "「平成中村座 十月大歌舞伎」第二部",
-     "start": "2026-10-01",
-     "end": "2026-10-01"
-    },
-    {
-     "title": "「八月納涼歌舞伎」第二部",
-     "start": "2026-08-02",
-     "end": "2026-08-02"
-    },
-    {
-     "title": "「八月納涼歌舞伎」第三部",
-     "start": "2026-08-02",
-     "end": "2026-08-02"
-    },
-    {
-     "title": "「六月大歌舞伎」昼の部",
-     "start": "2026-06-03",
-     "end": "2026-06-03"
-    },
-    {
-     "title": "「六月大歌舞伎」夜の部",
-     "start": "2026-06-03",
-     "end": "2026-06-03"
-    }
-   ],
-   "stagesTotal": 30,
-   "stages12m": 19,
-   "stagesUpcoming": 4,
-   "news12m": 38,
-   "news90d": 7,
-   "newsAttention12m": 15413,
-   "latestNews": {
-    "title": "「平成中村座 十月大歌舞伎」開幕、中村勘九郎が誓う「江戸の世界に誘えるよう、全身全霊で」",
-    "date": "2026-10-02",
-    "url": "https://natalie.mu/stage/news/692155"
-   },
-   "topNews": [
-    {
-     "title": "劇場版「ケロロ軍曹」福田雄一監督作のキャラ大集結、山田孝之演じるヨシヒコら登場",
-     "date": "2026-06-26",
-     "score": 2009,
-     "url": "https://natalie.mu/comic/news/677843"
-    },
-    {
-     "title": "「平成中村座」勘九郎が助六、七之助が戸無瀬に初役で挑む 仁左衛門の特別出演も",
-     "date": "2026-06-30",
-     "score": 1630,
-     "url": "https://natalie.mu/stage/news/678553"
-    },
-    {
-     "title": "「平成中村座」4年ぶりの浅草公演決定！勘九郎＆七之助出演の十月大歌舞伎",
-     "date": "2026-01-18",
-     "score": 1331,
-     "url": "https://natalie.mu/stage/news/656540"
-    }
-   ],
-   "daysSinceNews": 16,
-   "natalieAsOf": "2026-10-09",
-   "carriedForward": [
-    "natalie"
-   ],
-   "metrics": {
-    "xFollowers": 0.367400887337438,
-    "igFollowers": 0.49546671115609237,
-    "xPostFrequency": null,
-    "newsCoverage": 0.8275495251900336,
-    "recentActivity": 0.7031832438398676
-   },
-   "measuredAxes": [
-    "newsCoverage",
-    "recentActivity"
-   ],
-   "imputedAxes": [
-    "xFollowers",
-    "igFollowers"
-   ],
-   "droppedAxes": [
-    "xPostFrequency"
-   ],
-   "coverage": 2,
-   "coverageOf": 4,
-   "score": 61.8,
-   "rank": 47
-  },
-  {
-   "name": "天海祐希",
-   "genres": [
-    "宝塚・OG",
-    "ストレートプレイ",
-    "商業演劇"
-   ],
-   "natalieId": "11825",
-   "achikochiSlug": "天海祐希",
-   "agency": "研音",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
-   "sourceErrors": [
-    "natalie: https://natalie.mu/stage/artist/11825 -> HTTP 405"
-   ],
-   "xFollowers": null,
-   "igFollowers": null,
-   "snsAccounts": [],
-   "followerSourceDate": "2026-10-16",
-   "xFollowersSource": null,
-   "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-18",
-   "eigaId": null,
-   "xAccountState": "unknown",
-   "igAccountState": "unknown",
-   "age": null,
-   "debutYear": null,
-   "careerYears": null,
-   "xPostFrequency": null,
-   "profile": "1967年8月8日生まれ、東京都出身。1987年に宝塚歌劇団へ入団し、1993年に月組トップスターに就任、1995年に退団。以降はドラマ、映画、舞台、CMなど幅広く活躍している。近年の主な出演作にはドラマ・映画「緊急取調室」シリーズ、映画「最高の人生の見つけ方」「老後の資金がありません！」「ふしぎ駄菓子屋 銭天堂」「てっぺんの向こうにあなたがいる」「クスノキの番人」などがある。",
-   "officialSite": "http://www.ken-on.co.jp/amami/",
-   "natalieUrl": "https://natalie.mu/stage/artist/11825",
-   "stages": [
-    "シス・カンパニー公演「新宿発8時15分」",
-    "M＆Oplaysプロデュース「鎌塚氏、震えあがる」",
-    "シス・カンパニー公演 KERA meets CHEKHOV Vol.4/4「桜の園」"
-   ],
-   "stageList": [
-    {
-     "title": "シス・カンパニー公演「新宿発8時15分」",
-     "start": "2026-04-09",
-     "end": "2026-05-30"
-    },
-    {
-     "title": "M＆Oplaysプロデュース「鎌塚氏、震えあがる」",
-     "start": "2025-03-30",
-     "end": "2025-05-18"
-    },
-    {
-     "title": "シス・カンパニー公演 KERA meets CHEKHOV Vol.4/4「桜の園」",
-     "start": "2024-12-08",
-     "end": "2024-12-08"
-    }
-   ],
-   "stagesTotal": 3,
-   "stages12m": 1,
-   "stagesUpcoming": 0,
-   "news12m": 45,
-   "news90d": 7,
-   "newsAttention12m": 49402,
-   "latestNews": {
-    "title": "天海祐希主演の刑事ドラマ「BOSS」全話一挙放送、共演に竹野内豊や戸田恵梨香",
-    "date": "2026-09-20",
-    "url": "https://natalie.mu/eiga/news/690322"
-   },
-   "topNews": [
-    {
-     "title": "天海祐希主演の刑事ドラマ「BOSS」全話一挙放送、共演に竹野内豊や戸田恵梨香",
-     "date": "2026-09-20",
-     "score": 5157,
-     "url": "https://natalie.mu/eiga/news/690322"
-    },
-    {
-     "title": "Snow Man目黒蓮、出発直前に決意表明「晴れ風と一緒に一歩踏み出したい」",
-     "date": "2026-03-23",
-     "score": 3404,
-     "url": "https://natalie.mu/music/news/665036"
-    },
-    {
-     "title": "宇宙人の櫻井翔＆相葉雅紀、セブン‐イレブンの推しスイーツを宣言",
-     "date": "2026-01-26",
-     "score": 3366,
-     "url": "https://natalie.mu/music/news/657548"
-    }
-   ],
-   "daysSinceNews": 28,
-   "natalieAsOf": "2026-10-09",
-   "carriedForward": [
-    "natalie"
-   ],
-   "metrics": {
-    "xFollowers": 0.367400887337438,
-    "igFollowers": 0.49546671115609237,
-    "xPostFrequency": null,
-    "newsCoverage": 0.9047568510715694,
-    "recentActivity": 0.5793304452265815
-   },
-   "measuredAxes": [
-    "newsCoverage",
-    "recentActivity"
-   ],
-   "imputedAxes": [
-    "xFollowers",
-    "igFollowers"
-   ],
-   "droppedAxes": [
-    "xPostFrequency"
-   ],
-   "coverage": 2,
-   "coverageOf": 4,
-   "score": 61.2,
+   "score": 61.7,
    "rank": 48
   },
   {
@@ -8055,7 +8056,7 @@
    "natalieId": "94952",
    "achikochiSlug": "海宝直人",
    "agency": "ホリプロ",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/94952 -> HTTP 405"
    ],
@@ -8090,7 +8091,7 @@
    "followerSourceDate": "2026-08-01",
    "xFollowersSource": "achikochi",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "naotosea",
    "eigaId": "23809",
    "yomi": "かいほうなおと",
@@ -8200,17 +8201,17 @@
      "url": "https://natalie.mu/stage/news/659854"
     }
    ],
-   "daysSinceNews": 13,
+   "daysSinceNews": 20,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.5413848981322572,
+    "xFollowers": 0.5414908493955822,
     "igFollowers": 0.408924419497075,
     "xPostFrequency": null,
     "newsCoverage": 0.7632675195318541,
-    "recentActivity": 0.6506914624693744
+    "recentActivity": 0.6476969919344567
    },
    "measuredAxes": [
     "xFollowers",
@@ -8224,7 +8225,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 61.1,
+   "score": 61,
    "rank": 49
   },
   {
@@ -8244,13 +8245,13 @@
     "igFollowers": 56000,
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/92864 -> HTTP 405"
    ],
    "xFollowersSource": "manual",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "tsubasa_skym",
    "igHandle": "sakiyamaofficial",
    "xFollowers": 77000,
@@ -8365,17 +8366,17 @@
      "url": "https://natalie.mu/stage/news/681816"
     }
    ],
-   "daysSinceNews": 22,
+   "daysSinceNews": 29,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.6047157549290763,
+    "xFollowers": 0.6048341003029651,
     "igFollowers": 0.5406582458216628,
     "xPostFrequency": null,
     "newsCoverage": 0.6739839695105759,
-    "recentActivity": 0.5886936316153426
+    "recentActivity": 0.585167680576016
    },
    "measuredAxes": [
     "xFollowers",
@@ -8389,7 +8390,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 61,
+   "score": 60.9,
    "rank": 50
   },
   {
@@ -8407,13 +8408,13 @@
     "xNote": "所属事務所（FROM FIRST / COME TRUE next）のプロフィールに掲出",
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/99541 -> HTTP 405"
    ],
    "xFollowersSource": "manual",
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "mitsuoYoshihara",
    "igHandle": null,
    "xFollowers": 26000,
@@ -8515,17 +8516,17 @@
      "url": "https://natalie.mu/eiga/news/663263"
     }
    ],
-   "daysSinceNews": 19,
+   "daysSinceNews": 26,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.4535745696664086,
+    "xFollowers": 0.4536633360853354,
     "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.8010288402352972,
-    "recentActivity": 0.6105088795248903
+    "recentActivity": 0.6071699411407333
    },
    "measuredAxes": [
     "xFollowers",
@@ -8553,16 +8554,16 @@
    "natalieId": "62366",
    "achikochiSlug": "柿澤勇人",
    "agency": "ホリプロ",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/62366 -> HTTP 405"
    ],
-   "xFollowers": 48219,
+   "xFollowers": 49676,
    "igFollowers": null,
    "snsAccounts": [
     {
      "handle": "kakizawa_hayato",
-     "followers": 48219
+     "followers": 49676
     },
     {
      "handle": "2022.07.25",
@@ -8585,10 +8586,10 @@
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-07-28",
+   "followerSourceDate": "2026-10-20",
    "xFollowersSource": "achikochi",
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "kakizawa_hayato",
    "eigaId": "90757",
    "yomi": "かきざわはやと",
@@ -8685,17 +8686,17 @@
      "url": "https://natalie.mu/music/news/675608"
     }
    ],
-   "daysSinceNews": 83,
+   "daysSinceNews": 90,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.5395578964943964,
+    "xFollowers": 0.5438084167664711,
     "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.859231267031695,
-    "recentActivity": 0.4440649929252746
+    "recentActivity": 0.4392992033176603
    },
    "measuredAxes": [
     "xFollowers",
@@ -8729,13 +8730,13 @@
     "xFollowers": 24000,
     "igFollowers": 100000
    },
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/65358 -> HTTP 405"
    ],
    "xFollowersSource": "manual",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "taichi_saotome",
    "igHandle": "taichisaotome_official",
    "xFollowers": 24000,
@@ -8820,17 +8821,17 @@
      "url": "https://natalie.mu/eiga/news/648622"
     }
    ],
-   "daysSinceNews": 31,
+   "daysSinceNews": 38,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.4424320347515882,
+    "xFollowers": 0.44251862053035507,
     "igFollowers": 0.6185341771746423,
     "xPostFrequency": null,
     "newsCoverage": 0.7851708502113531,
-    "recentActivity": 0.5373844244172299
+    "recentActivity": 0.5334186218065363
    },
    "measuredAxes": [
     "xFollowers",
@@ -8846,6 +8847,158 @@
    "coverageOf": 4,
    "score": 60.7,
    "rank": 53
+  },
+  {
+   "name": "木下晴香",
+   "genres": [
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "natalieId": "102418",
+   "achikochiSlug": "木下晴香",
+   "agency": "ホリプロ",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
+   "sourceErrors": [
+    "natalie: https://natalie.mu/stage/artist/102418 -> HTTP 405"
+   ],
+   "xFollowersSource": null,
+   "igFollowersSource": null,
+   "achikochiAsOf": "2026-10-25",
+   "eigaId": "309821",
+   "yomi": "きのしたはるか",
+   "birth": "1999-02-05",
+   "origin": "日本／佐賀",
+   "xAccountState": "unknown",
+   "igAccountState": "unknown",
+   "age": 27,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "profile": "佐賀県出身。2017年にミュージカル「ロミオ＆ジュリエット」のジュリエット役でデビュー。以降ミュージカルを中心に活躍。主な出演作品として2017年、2019年には「ロミオ＆ジュリエット」、2018年、2021年に「モーツァルト！」、2019年には「銀河鉄道999 さよならメーテル～僕の永遠」、「ファントム」、202年には「プロデューサーズ」、葵わかなとW主演を努めた「アナスタシア」など。2019年にはディズニー実写映画「アラジン」のプレミアム吹き替え版でジャスミン役を演じ話題となり、NHK「紅白歌合戦」出演を果たした。",
+   "officialSite": "https://tristone.co.jp/actors/haruka/",
+   "natalieUrl": "https://natalie.mu/stage/artist/102418",
+   "stages": [
+    "カウントダウン ミュージカルコンサート 2026-2027",
+    "古川雄大 The Greatest Concert vol.3 - Man of the Stage -",
+    "ラヴ・レターズ～2026 Summer Special～",
+    "ミュージカル「ディア・エヴァン・ハンセン」",
+    "音楽劇「コーカサスの白墨の輪」",
+    "Concert for LEVAY ～Happy 80th Birthday～",
+    "カウントダウン ミュージカルコンサート 2025-2026",
+    "Sound Theater 2025",
+    "～松本 隆 作詞活動55周年記念 オフィシャル・プロジェクト～ 風街ぽえてぃっく2025",
+    "オルガン・ステージリーディング「モーツァルト！」"
+   ],
+   "stageList": [
+    {
+     "title": "カウントダウン ミュージカルコンサート 2026-2027",
+     "start": "2026-12-31",
+     "end": "2026-12-31"
+    },
+    {
+     "title": "古川雄大 The Greatest Concert vol.3 - Man of the Stage -",
+     "start": "2026-09-11",
+     "end": "2026-09-11"
+    },
+    {
+     "title": "ラヴ・レターズ～2026 Summer Special～",
+     "start": "2026-07-30",
+     "end": "2026-08-02"
+    },
+    {
+     "title": "ミュージカル「ディア・エヴァン・ハンセン」",
+     "start": "2026-07-25",
+     "end": "2026-07-25"
+    },
+    {
+     "title": "音楽劇「コーカサスの白墨の輪」",
+     "start": "2026-03-12",
+     "end": "2026-03-12"
+    },
+    {
+     "title": "Concert for LEVAY ～Happy 80th Birthday～",
+     "start": "2026-02-14",
+     "end": "2026-02-14"
+    },
+    {
+     "title": "カウントダウン ミュージカルコンサート 2025-2026",
+     "start": "2025-12-31",
+     "end": "2025-12-31"
+    },
+    {
+     "title": "Sound Theater 2025",
+     "start": "2025-11-01",
+     "end": "2025-11-01"
+    },
+    {
+     "title": "～松本 隆 作詞活動55周年記念 オフィシャル・プロジェクト～ 風街ぽえてぃっく2025",
+     "start": "2025-09-19",
+     "end": "2025-09-19"
+    },
+    {
+     "title": "オルガン・ステージリーディング「モーツァルト！」",
+     "start": "2025-08-11",
+     "end": "2025-08-11"
+    }
+   ],
+   "stagesTotal": 17,
+   "stages12m": 8,
+   "stagesUpcoming": 1,
+   "news12m": 23,
+   "news90d": 4,
+   "newsAttention12m": 23510,
+   "latestNews": {
+    "title": "中井貴一×國村隼が共演、NHK時代劇「雲霧仁左衛門スペシャル」2027年春放送",
+    "date": "2026-10-05",
+    "url": "https://natalie.mu/eiga/news/692363"
+   },
+   "topNews": [
+    {
+     "title": "ミュージカル「ディア・エヴァン・ハンセン」日本版演出、上演決定！主演は柿澤勇人・吉沢亮",
+     "date": "2025-10-16",
+     "score": 3186,
+     "url": "https://natalie.mu/stage/news/644389"
+    },
+    {
+     "title": "永尾柚乃、ME:I・MOMONAらディズニーファミリーが「ズートピア2」前夜祭に集結",
+     "date": "2025-12-04",
+     "score": 2467,
+     "url": "https://natalie.mu/eiga/news/650803"
+    },
+    {
+     "title": "今夏上演「ラヴ・レターズ」に牧島輝＆梅澤美波、丸山智己＆柚香光、小林唯＆木下晴香",
+     "date": "2026-05-13",
+     "score": 2291,
+     "url": "https://natalie.mu/stage/news/671772"
+    }
+   ],
+   "daysSinceNews": 20,
+   "natalieAsOf": "2026-10-09",
+   "carriedForward": [
+    "natalie"
+   ],
+   "metrics": {
+    "xFollowers": 0.44251862053035507,
+    "igFollowers": 0.49546671115609237,
+    "xPostFrequency": null,
+    "newsCoverage": 0.8108180266615871,
+    "recentActivity": 0.5835981687797304
+   },
+   "measuredAxes": [
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "imputedAxes": [
+    "xFollowers",
+    "igFollowers"
+   ],
+   "droppedAxes": [
+    "xPostFrequency"
+   ],
+   "coverage": 2,
+   "coverageOf": 4,
+   "score": 60.2,
+   "rank": 54
   },
   {
    "name": "柚希礼音",
@@ -8865,13 +9018,13 @@
     "xNote": "スタッフ運営アカウント（公式リンク集で STAFF X と明示）",
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/85686 -> HTTP 405"
    ],
    "xFollowersSource": "manual",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "YuzukiReonstaff",
    "igHandle": "reonyuzuki_official",
    "xFollowers": 11000,
@@ -8985,17 +9138,17 @@
      "url": "https://natalie.mu/stage/news/673595"
     }
    ],
-   "daysSinceNews": 11,
+   "daysSinceNews": 18,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.3338307188118593,
+    "xFollowers": 0.33389605086400337,
     "igFollowers": 0.6384686832944587,
     "xPostFrequency": null,
     "newsCoverage": 0.7807241054471803,
-    "recentActivity": 0.6093663770820046
+    "recentActivity": 0.6060176445201118
    },
    "measuredAxes": [
     "xFollowers",
@@ -9009,8 +9162,8 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 60.1,
-   "rank": 54
+   "score": 60,
+   "rank": 55
   },
   {
    "name": "明日海りお",
@@ -9022,7 +9175,7 @@
    "natalieId": "91594",
    "achikochiSlug": "明日海りお",
    "agency": "研音",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/91594 -> HTTP 405"
    ],
@@ -9054,10 +9207,10 @@
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-17",
+   "followerSourceDate": "2026-10-24",
    "xFollowersSource": "achikochi",
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "asumirio_staff",
    "eigaId": "259665",
    "yomi": null,
@@ -9165,17 +9318,17 @@
      "url": "https://natalie.mu/stage/news/643870"
     }
    ],
-   "daysSinceNews": 18,
+   "daysSinceNews": 25,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.5598056240362296,
+    "xFollowers": 0.5599151803117883,
     "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.7690087871543035,
-    "recentActivity": 0.472927815367386
+    "recentActivity": 0.4684094542136208
    },
    "measuredAxes": [
     "xFollowers",
@@ -9190,75 +9343,98 @@
    ],
    "coverage": 3,
    "coverageOf": 4,
-   "score": 59.1,
-   "rank": 55
+   "score": 59,
+   "rank": 56
   },
   {
-   "name": "木下晴香",
+   "name": "田代万里生",
    "genres": [
     "ミュージカル",
     "商業演劇"
    ],
-   "natalieId": "102418",
-   "achikochiSlug": "木下晴香",
+   "natalieId": "95116",
    "agency": "ホリプロ",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "achikochiSlug": null,
+   "manualSocial": {
+    "igHandle": "mario_tashiro_official",
+    "igFollowers": 18000,
+    "igNote": "ホリプロ公式ファンサイト（fc.horipro.jp/tashiromario）掲出のアカウント",
+    "checkedAt": "2026-10-09"
+   },
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
-    "natalie: https://natalie.mu/stage/artist/102418 -> HTTP 405"
+    "natalie: https://natalie.mu/stage/artist/95116 -> HTTP 405"
    ],
    "xFollowersSource": null,
-   "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-18",
-   "eigaId": "309821",
-   "yomi": "きのしたはるか",
-   "birth": "1999-02-05",
-   "origin": "日本／佐賀",
+   "igFollowersSource": "manual",
+   "achikochiAsOf": "2026-10-25",
+   "xHandle": null,
+   "igHandle": "mario_tashiro_official",
+   "igFollowers": 18000,
+   "socialCheckedAt": "2026-10-09",
+   "socialNote": null,
+   "eigaId": null,
    "xAccountState": "unknown",
-   "igAccountState": "unknown",
-   "age": 27,
+   "igAccountState": "have",
+   "age": null,
    "debutYear": null,
    "careerYears": null,
    "xPostFrequency": null,
-   "profile": "佐賀県出身。2017年にミュージカル「ロミオ＆ジュリエット」のジュリエット役でデビュー。以降ミュージカルを中心に活躍。主な出演作品として2017年、2019年には「ロミオ＆ジュリエット」、2018年、2021年に「モーツァルト！」、2019年には「銀河鉄道999 さよならメーテル～僕の永遠」、「ファントム」、202年には「プロデューサーズ」、葵わかなとW主演を努めた「アナスタシア」など。2019年にはディズニー実写映画「アラジン」のプレミアム吹き替え版でジャスミン役を演じ話題となり、NHK「紅白歌合戦」出演を果たした。",
-   "officialSite": "https://tristone.co.jp/actors/haruka/",
-   "natalieUrl": "https://natalie.mu/stage/artist/102418",
+   "profile": "1984年、長崎県生まれ。埼玉県育ち。子供時代からピアノやバイオリン、トランペットを学び、15歳から本格的に声楽を学ぶ。東京芸術大学 音楽学部 声楽科テノール専攻に在学中、オペラ「欲望という名の電車」で本格的にオペラデビュー。2009年にミュージカル「マルグリット」でミュージカルデビューを果たし、以降もミュージカルを中心に活動している。2019年には咲嬉との結婚を発表し、2024年には第1子が誕生した。",
+   "officialSite": "http://fc.horipro.jp/tashiromario/",
+   "natalieUrl": "https://natalie.mu/stage/artist/95116",
    "stages": [
-    "カウントダウン ミュージカルコンサート 2026-2027",
-    "古川雄大 The Greatest Concert vol.3 - Man of the Stage -",
-    "ラヴ・レターズ～2026 Summer Special～",
-    "ミュージカル「ディア・エヴァン・ハンセン」",
-    "音楽劇「コーカサスの白墨の輪」",
+    "井上芳雄 by MYSELF 10周年コンサート「by MYBEST」",
+    "真瀬はるか 20th Anniversary Concert ～Storia～",
+    "Brand New Musical Concert 2026 Merry Christmas!",
+    "ミュージカル「ジャック・ザ・リッパー」",
+    "Brand New Musical Concert 2026「TOKYO!」",
+    "This is the Moment! ～フランク・ワイルドホーン JAPAN 25th anniversary concert～",
+    "ミュージカル「アニオー姫」～Hẹn gặp lại 再び～",
+    "ミュージカル「レッドブック～私は私を語るひと～」",
     "Concert for LEVAY ～Happy 80th Birthday～",
-    "カウントダウン ミュージカルコンサート 2025-2026",
-    "Sound Theater 2025",
-    "～松本 隆 作詞活動55周年記念 オフィシャル・プロジェクト～ 風街ぽえてぃっく2025",
-    "オルガン・ステージリーディング「モーツァルト！」"
+    "Brand New Musical Concert 2025 Merry Christmas!"
    ],
    "stageList": [
     {
-     "title": "カウントダウン ミュージカルコンサート 2026-2027",
-     "start": "2026-12-31",
-     "end": "2026-12-31"
+     "title": "井上芳雄 by MYSELF 10周年コンサート「by MYBEST」",
+     "start": "2027-04-07",
+     "end": "2027-04-07"
     },
     {
-     "title": "古川雄大 The Greatest Concert vol.3 - Man of the Stage -",
+     "title": "真瀬はるか 20th Anniversary Concert ～Storia～",
+     "start": "2027-01-11",
+     "end": "2027-01-11"
+    },
+    {
+     "title": "Brand New Musical Concert 2026 Merry Christmas!",
+     "start": "2026-12-24",
+     "end": "2026-12-24"
+    },
+    {
+     "title": "ミュージカル「ジャック・ザ・リッパー」",
+     "start": "2026-12-17",
+     "end": "2027-02-08"
+    },
+    {
+     "title": "Brand New Musical Concert 2026「TOKYO!」",
+     "start": "2026-10-11",
+     "end": "2026-10-11"
+    },
+    {
+     "title": "This is the Moment! ～フランク・ワイルドホーン JAPAN 25th anniversary concert～",
+     "start": "2026-10-06",
+     "end": "2026-10-06"
+    },
+    {
+     "title": "ミュージカル「アニオー姫」～Hẹn gặp lại 再び～",
      "start": "2026-09-11",
      "end": "2026-09-11"
     },
     {
-     "title": "ラヴ・レターズ～2026 Summer Special～",
-     "start": "2026-07-30",
-     "end": "2026-08-02"
-    },
-    {
-     "title": "ミュージカル「ディア・エヴァン・ハンセン」",
-     "start": "2026-07-25",
-     "end": "2026-07-25"
-    },
-    {
-     "title": "音楽劇「コーカサスの白墨の輪」",
-     "start": "2026-03-12",
-     "end": "2026-03-12"
+     "title": "ミュージカル「レッドブック～私は私を語るひと～」",
+     "start": "2026-05-16",
+     "end": "2026-07-05"
     },
     {
      "title": "Concert for LEVAY ～Happy 80th Birthday～",
@@ -9266,84 +9442,203 @@
      "end": "2026-02-14"
     },
     {
-     "title": "カウントダウン ミュージカルコンサート 2025-2026",
-     "start": "2025-12-31",
-     "end": "2025-12-31"
-    },
-    {
-     "title": "Sound Theater 2025",
-     "start": "2025-11-01",
-     "end": "2025-11-01"
-    },
-    {
-     "title": "～松本 隆 作詞活動55周年記念 オフィシャル・プロジェクト～ 風街ぽえてぃっく2025",
-     "start": "2025-09-19",
-     "end": "2025-09-19"
-    },
-    {
-     "title": "オルガン・ステージリーディング「モーツァルト！」",
-     "start": "2025-08-11",
-     "end": "2025-08-11"
+     "title": "Brand New Musical Concert 2025 Merry Christmas!",
+     "start": "2025-12-24",
+     "end": "2025-12-24"
     }
    ],
-   "stagesTotal": 17,
-   "stages12m": 8,
-   "stagesUpcoming": 1,
-   "news12m": 23,
-   "news90d": 4,
-   "newsAttention12m": 23510,
+   "stagesTotal": 30,
+   "stages12m": 11,
+   "stagesUpcoming": 5,
+   "news12m": 19,
+   "news90d": 6,
+   "newsAttention12m": 14693,
    "latestNews": {
-    "title": "中井貴一×國村隼が共演、NHK時代劇「雲霧仁左衛門スペシャル」2027年春放送",
-    "date": "2026-10-05",
-    "url": "https://natalie.mu/eiga/news/692363"
+    "title": "石丸幹二らがフランク・ワイルドホーン楽曲を歌唱「This is the Moment!」幕開け",
+    "date": "2026-10-07",
+    "url": "https://natalie.mu/stage/news/692689"
    },
    "topNews": [
     {
-     "title": "ミュージカル「ディア・エヴァン・ハンセン」日本版演出、上演決定！主演は柿澤勇人・吉沢亮",
-     "date": "2025-10-16",
-     "score": 3186,
-     "url": "https://natalie.mu/stage/news/644389"
+     "title": "「エリザベート」開幕！新シシィの望海風斗＆明日海りお、稽古場からは“早く帰る”井上芳雄＆古川雄大が意気込み",
+     "date": "2025-10-11",
+     "score": 3270,
+     "url": "https://natalie.mu/stage/news/643693"
     },
     {
-     "title": "永尾柚乃、ME:I・MOMONAらディズニーファミリーが「ズートピア2」前夜祭に集結",
-     "date": "2025-12-04",
-     "score": 2467,
-     "url": "https://natalie.mu/eiga/news/650803"
+     "title": "ミュージカル「エリザベート」ライブ配信決定、千秋楽含む3公演で",
+     "date": "2025-10-10",
+     "score": 2729,
+     "url": "https://natalie.mu/stage/news/643870"
     },
     {
-     "title": "今夏上演「ラヴ・レターズ」に牧島輝＆梅澤美波、丸山智己＆柚香光、小林唯＆木下晴香",
-     "date": "2026-05-13",
-     "score": 2291,
-     "url": "https://natalie.mu/stage/news/671772"
+     "title": "シルヴェスター・リーヴァイの80歳記念コンサート、3月にWOWOWで放送・配信決定",
+     "date": "2026-02-15",
+     "score": 2003,
+     "url": "https://natalie.mu/stage/news/660129"
     }
    ],
-   "daysSinceNews": 13,
+   "daysSinceNews": 18,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.367400887337438,
-    "igFollowers": 0.49546671115609237,
+    "xFollowers": 0.44251862053035507,
+    "igFollowers": 0.388221091655351,
     "xPostFrequency": null,
-    "newsCoverage": 0.8108180266615871,
-    "recentActivity": 0.5871374602014
+    "newsCoverage": 0.7701734647830593,
+    "recentActivity": 0.6588735511209971
    },
    "measuredAxes": [
+    "igFollowers",
     "newsCoverage",
     "recentActivity"
    ],
    "imputedAxes": [
-    "xFollowers",
-    "igFollowers"
+    "xFollowers"
    ],
    "droppedAxes": [
     "xPostFrequency"
    ],
-   "coverage": 2,
+   "coverage": 3,
    "coverageOf": 4,
-   "score": 58.5,
-   "rank": 56
+   "score": 58.6,
+   "rank": 57
+  },
+  {
+   "name": "坂本昌行",
+   "genres": [
+    "ミュージカル",
+    "ストレートプレイ",
+    "商業演劇"
+   ],
+   "natalieId": "40512",
+   "agency": "STARTO ENTERTAINMENT",
+   "achikochiSlug": "坂本昌行",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
+   "sourceErrors": [
+    "natalie: https://natalie.mu/stage/artist/40512 -> HTTP 405"
+   ],
+   "xFollowers": null,
+   "igFollowers": 80331,
+   "snsAccounts": [],
+   "followerSourceDate": "2026-10-23",
+   "xFollowersSource": null,
+   "igFollowersSource": "achikochi",
+   "achikochiAsOf": "2026-10-25",
+   "eigaId": null,
+   "xAccountState": "unknown",
+   "igAccountState": "have",
+   "age": null,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "natalieUrl": "https://natalie.mu/stage/artist/40512",
+   "stages": [
+    "ミュージカル「IRON MASK -三銃士 最終章-」",
+    "ブロードウェイミュージカル「ファニー・ガール」",
+    "「るつぼ The Crucible」",
+    "オフ・ブロードウェイ・ミュージカル「MURDER for Two」",
+    "ミュージカル「ブラック・ジャック」",
+    "ミュージカル「ホリデイ・イン」",
+    "ミュージカル「三銃士」"
+   ],
+   "stageList": [
+    {
+     "title": "ミュージカル「IRON MASK -三銃士 最終章-」",
+     "start": null,
+     "end": null
+    },
+    {
+     "title": "ブロードウェイミュージカル「ファニー・ガール」",
+     "start": "2026-09-08",
+     "end": "2026-11-15"
+    },
+    {
+     "title": "「るつぼ The Crucible」",
+     "start": "2026-03-14",
+     "end": "2026-04-12"
+    },
+    {
+     "title": "オフ・ブロードウェイ・ミュージカル「MURDER for Two」",
+     "start": "2025-09-06",
+     "end": "2025-10-26"
+    },
+    {
+     "title": "ミュージカル「ブラック・ジャック」",
+     "start": "2025-06-28",
+     "end": "2025-08-02"
+    },
+    {
+     "title": "ミュージカル「ホリデイ・イン」",
+     "start": "2025-04-01",
+     "end": "2025-04-01"
+    },
+    {
+     "title": "ミュージカル「三銃士」",
+     "start": "2024-09-08",
+     "end": "2024-09-08"
+    }
+   ],
+   "stagesTotal": 7,
+   "stages12m": 3,
+   "stagesUpcoming": 1,
+   "news12m": 12,
+   "news90d": 3,
+   "newsAttention12m": 16430,
+   "latestNews": {
+    "title": "坂本昌行がダルタニャンに、「三銃士」30年後を描くミュージカル「IRON MASK」日本初演",
+    "date": "2026-10-04",
+    "url": "https://natalie.mu/stage/news/692232"
+   },
+   "topNews": [
+    {
+     "title": "ミュージカル「ファニー・ガール」に望海風斗・坂本昌行、マイケル・メイヤー演出で上演",
+     "date": "2026-03-23",
+     "score": 2081,
+     "url": "https://natalie.mu/stage/news/665099"
+    },
+    {
+     "title": "坂本昌行がダルタニャンに、「三銃士」30年後を描くミュージカル「IRON MASK」日本初演",
+     "date": "2026-10-04",
+     "score": 2009,
+     "url": "https://natalie.mu/stage/news/692232"
+    },
+    {
+     "title": "上村聡史演出「るつぼ The Crucible」上演決定、出演に坂本昌行・前田亜季・松崎祐介・瀧七海",
+     "date": "2025-10-26",
+     "score": 1962,
+     "url": "https://natalie.mu/stage/news/645615"
+    }
+   ],
+   "daysSinceNews": 21,
+   "natalieAsOf": "2026-10-09",
+   "carriedForward": [
+    "natalie"
+   ],
+   "metrics": {
+    "xFollowers": 0.44251862053035507,
+    "igFollowers": 0.5891180658452561,
+    "xPostFrequency": null,
+    "newsCoverage": 0.7409577288626717,
+    "recentActivity": 0.504391661296655
+   },
+   "measuredAxes": [
+    "igFollowers",
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "imputedAxes": [
+    "xFollowers"
+   ],
+   "droppedAxes": [
+    "xPostFrequency"
+   ],
+   "coverage": 3,
+   "coverageOf": 4,
+   "score": 58,
+   "rank": 58
   },
   {
    "name": "松たか子",
@@ -9355,7 +9650,7 @@
    "natalieId": "1062",
    "achikochiSlug": "松たか子",
    "agency": "コンバインド",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/1062 -> HTTP 405"
    ],
@@ -9387,10 +9682,10 @@
      "followers": 2026
     }
    ],
-   "followerSourceDate": "2026-10-14",
+   "followerSourceDate": "2026-10-21",
    "xFollowersSource": "achikochi",
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "hiromi_takutaka",
    "eigaId": null,
    "xAccountState": "have",
@@ -9455,7 +9750,7 @@
      "url": "https://natalie.mu/music/news/645695"
     }
    ],
-   "daysSinceNews": 16,
+   "daysSinceNews": 23,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
@@ -9465,7 +9760,7 @@
     "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.9125497730441288,
-    "recentActivity": 0.7891856585696922
+    "recentActivity": 0.787378438688341
    },
    "measuredAxes": [
     "xFollowers",
@@ -9480,8 +9775,8 @@
    ],
    "coverage": 3,
    "coverageOf": 4,
-   "score": 57.6,
-   "rank": 57
+   "score": 57.5,
+   "rank": 59
   },
   {
    "name": "大竹しのぶ",
@@ -9499,7 +9794,7 @@
     "checkedAt": "2026-10-09",
     "xNote": "2015年開設の期間限定オフィシャルアカウント。公式サイト otake-shinobu.com を掲出"
    },
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/14139 -> HTTP 405"
    ],
@@ -9509,7 +9804,7 @@
    "followerSourceDate": "2026-09-05",
    "xFollowersSource": "manual",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "mariar0717",
    "igHandle": null,
    "socialCheckedAt": "2026-10-09",
@@ -9622,7 +9917,7 @@
      "url": "https://natalie.mu/eiga/news/684135"
     }
    ],
-   "daysSinceNews": 18,
+   "daysSinceNews": 25,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
@@ -9632,7 +9927,7 @@
     "igFollowers": 0.7761807941488904,
     "xPostFrequency": null,
     "newsCoverage": 0.7842894485680478,
-    "recentActivity": 0.7214894639589824
+    "recentActivity": 0.7191019139731313
    },
    "measuredAxes": [
     "xFollowers",
@@ -9646,302 +9941,161 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 57.6,
-   "rank": 58
-  },
-  {
-   "name": "田代万里生",
-   "genres": [
-    "ミュージカル",
-    "商業演劇"
-   ],
-   "natalieId": "95116",
-   "agency": "ホリプロ",
-   "achikochiSlug": null,
-   "manualSocial": {
-    "igHandle": "mario_tashiro_official",
-    "igFollowers": 18000,
-    "igNote": "ホリプロ公式ファンサイト（fc.horipro.jp/tashiromario）掲出のアカウント",
-    "checkedAt": "2026-10-09"
-   },
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
-   "sourceErrors": [
-    "natalie: https://natalie.mu/stage/artist/95116 -> HTTP 405"
-   ],
-   "xFollowersSource": null,
-   "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-18",
-   "xHandle": null,
-   "igHandle": "mario_tashiro_official",
-   "igFollowers": 18000,
-   "socialCheckedAt": "2026-10-09",
-   "socialNote": null,
-   "eigaId": null,
-   "xAccountState": "unknown",
-   "igAccountState": "have",
-   "age": null,
-   "debutYear": null,
-   "careerYears": null,
-   "xPostFrequency": null,
-   "profile": "1984年、長崎県生まれ。埼玉県育ち。子供時代からピアノやバイオリン、トランペットを学び、15歳から本格的に声楽を学ぶ。東京芸術大学 音楽学部 声楽科テノール専攻に在学中、オペラ「欲望という名の電車」で本格的にオペラデビュー。2009年にミュージカル「マルグリット」でミュージカルデビューを果たし、以降もミュージカルを中心に活動している。2019年には咲嬉との結婚を発表し、2024年には第1子が誕生した。",
-   "officialSite": "http://fc.horipro.jp/tashiromario/",
-   "natalieUrl": "https://natalie.mu/stage/artist/95116",
-   "stages": [
-    "井上芳雄 by MYSELF 10周年コンサート「by MYBEST」",
-    "真瀬はるか 20th Anniversary Concert ～Storia～",
-    "Brand New Musical Concert 2026 Merry Christmas!",
-    "ミュージカル「ジャック・ザ・リッパー」",
-    "Brand New Musical Concert 2026「TOKYO!」",
-    "This is the Moment! ～フランク・ワイルドホーン JAPAN 25th anniversary concert～",
-    "ミュージカル「アニオー姫」～Hẹn gặp lại 再び～",
-    "ミュージカル「レッドブック～私は私を語るひと～」",
-    "Concert for LEVAY ～Happy 80th Birthday～",
-    "Brand New Musical Concert 2025 Merry Christmas!"
-   ],
-   "stageList": [
-    {
-     "title": "井上芳雄 by MYSELF 10周年コンサート「by MYBEST」",
-     "start": "2027-04-07",
-     "end": "2027-04-07"
-    },
-    {
-     "title": "真瀬はるか 20th Anniversary Concert ～Storia～",
-     "start": "2027-01-11",
-     "end": "2027-01-11"
-    },
-    {
-     "title": "Brand New Musical Concert 2026 Merry Christmas!",
-     "start": "2026-12-24",
-     "end": "2026-12-24"
-    },
-    {
-     "title": "ミュージカル「ジャック・ザ・リッパー」",
-     "start": "2026-12-17",
-     "end": "2027-02-08"
-    },
-    {
-     "title": "Brand New Musical Concert 2026「TOKYO!」",
-     "start": "2026-10-11",
-     "end": "2026-10-11"
-    },
-    {
-     "title": "This is the Moment! ～フランク・ワイルドホーン JAPAN 25th anniversary concert～",
-     "start": "2026-10-06",
-     "end": "2026-10-06"
-    },
-    {
-     "title": "ミュージカル「アニオー姫」～Hẹn gặp lại 再び～",
-     "start": "2026-09-11",
-     "end": "2026-09-11"
-    },
-    {
-     "title": "ミュージカル「レッドブック～私は私を語るひと～」",
-     "start": "2026-05-16",
-     "end": "2026-07-05"
-    },
-    {
-     "title": "Concert for LEVAY ～Happy 80th Birthday～",
-     "start": "2026-02-14",
-     "end": "2026-02-14"
-    },
-    {
-     "title": "Brand New Musical Concert 2025 Merry Christmas!",
-     "start": "2025-12-24",
-     "end": "2025-12-24"
-    }
-   ],
-   "stagesTotal": 30,
-   "stages12m": 11,
-   "stagesUpcoming": 5,
-   "news12m": 19,
-   "news90d": 6,
-   "newsAttention12m": 14693,
-   "latestNews": {
-    "title": "石丸幹二らがフランク・ワイルドホーン楽曲を歌唱「This is the Moment!」幕開け",
-    "date": "2026-10-07",
-    "url": "https://natalie.mu/stage/news/692689"
-   },
-   "topNews": [
-    {
-     "title": "「エリザベート」開幕！新シシィの望海風斗＆明日海りお、稽古場からは“早く帰る”井上芳雄＆古川雄大が意気込み",
-     "date": "2025-10-11",
-     "score": 3270,
-     "url": "https://natalie.mu/stage/news/643693"
-    },
-    {
-     "title": "ミュージカル「エリザベート」ライブ配信決定、千秋楽含む3公演で",
-     "date": "2025-10-10",
-     "score": 2729,
-     "url": "https://natalie.mu/stage/news/643870"
-    },
-    {
-     "title": "シルヴェスター・リーヴァイの80歳記念コンサート、3月にWOWOWで放送・配信決定",
-     "date": "2026-02-15",
-     "score": 2003,
-     "url": "https://natalie.mu/stage/news/660129"
-    }
-   ],
-   "daysSinceNews": 11,
-   "natalieAsOf": "2026-10-09",
-   "carriedForward": [
-    "natalie"
-   ],
-   "metrics": {
-    "xFollowers": 0.367400887337438,
-    "igFollowers": 0.388221091655351,
-    "xPostFrequency": null,
-    "newsCoverage": 0.7701734647830593,
-    "recentActivity": 0.6617730242349457
-   },
-   "measuredAxes": [
-    "igFollowers",
-    "newsCoverage",
-    "recentActivity"
-   ],
-   "imputedAxes": [
-    "xFollowers"
-   ],
-   "droppedAxes": [
-    "xPostFrequency"
-   ],
-   "coverage": 3,
-   "coverageOf": 4,
-   "score": 56.9,
-   "rank": 59
-  },
-  {
-   "name": "坂本昌行",
-   "genres": [
-    "ミュージカル",
-    "ストレートプレイ",
-    "商業演劇"
-   ],
-   "natalieId": "40512",
-   "agency": "STARTO ENTERTAINMENT",
-   "achikochiSlug": "坂本昌行",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
-   "sourceErrors": [
-    "natalie: https://natalie.mu/stage/artist/40512 -> HTTP 405"
-   ],
-   "xFollowers": null,
-   "igFollowers": 80331,
-   "snsAccounts": [],
-   "followerSourceDate": "2026-10-16",
-   "xFollowersSource": null,
-   "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-18",
-   "eigaId": null,
-   "xAccountState": "unknown",
-   "igAccountState": "have",
-   "age": null,
-   "debutYear": null,
-   "careerYears": null,
-   "xPostFrequency": null,
-   "natalieUrl": "https://natalie.mu/stage/artist/40512",
-   "stages": [
-    "ミュージカル「IRON MASK -三銃士 最終章-」",
-    "ブロードウェイミュージカル「ファニー・ガール」",
-    "「るつぼ The Crucible」",
-    "オフ・ブロードウェイ・ミュージカル「MURDER for Two」",
-    "ミュージカル「ブラック・ジャック」",
-    "ミュージカル「ホリデイ・イン」",
-    "ミュージカル「三銃士」"
-   ],
-   "stageList": [
-    {
-     "title": "ミュージカル「IRON MASK -三銃士 最終章-」",
-     "start": null,
-     "end": null
-    },
-    {
-     "title": "ブロードウェイミュージカル「ファニー・ガール」",
-     "start": "2026-09-08",
-     "end": "2026-11-15"
-    },
-    {
-     "title": "「るつぼ The Crucible」",
-     "start": "2026-03-14",
-     "end": "2026-04-12"
-    },
-    {
-     "title": "オフ・ブロードウェイ・ミュージカル「MURDER for Two」",
-     "start": "2025-09-06",
-     "end": "2025-10-26"
-    },
-    {
-     "title": "ミュージカル「ブラック・ジャック」",
-     "start": "2025-06-28",
-     "end": "2025-08-02"
-    },
-    {
-     "title": "ミュージカル「ホリデイ・イン」",
-     "start": "2025-04-01",
-     "end": "2025-04-01"
-    },
-    {
-     "title": "ミュージカル「三銃士」",
-     "start": "2024-09-08",
-     "end": "2024-09-08"
-    }
-   ],
-   "stagesTotal": 7,
-   "stages12m": 3,
-   "stagesUpcoming": 1,
-   "news12m": 12,
-   "news90d": 3,
-   "newsAttention12m": 16430,
-   "latestNews": {
-    "title": "坂本昌行がダルタニャンに、「三銃士」30年後を描くミュージカル「IRON MASK」日本初演",
-    "date": "2026-10-04",
-    "url": "https://natalie.mu/stage/news/692232"
-   },
-   "topNews": [
-    {
-     "title": "ミュージカル「ファニー・ガール」に望海風斗・坂本昌行、マイケル・メイヤー演出で上演",
-     "date": "2026-03-23",
-     "score": 2081,
-     "url": "https://natalie.mu/stage/news/665099"
-    },
-    {
-     "title": "坂本昌行がダルタニャンに、「三銃士」30年後を描くミュージカル「IRON MASK」日本初演",
-     "date": "2026-10-04",
-     "score": 2009,
-     "url": "https://natalie.mu/stage/news/692232"
-    },
-    {
-     "title": "上村聡史演出「るつぼ The Crucible」上演決定、出演に坂本昌行・前田亜季・松崎祐介・瀧七海",
-     "date": "2025-10-26",
-     "score": 1962,
-     "url": "https://natalie.mu/stage/news/645615"
-    }
-   ],
-   "daysSinceNews": 14,
-   "natalieAsOf": "2026-10-09",
-   "carriedForward": [
-    "natalie"
-   ],
-   "metrics": {
-    "xFollowers": 0.367400887337438,
-    "igFollowers": 0.5891180658452561,
-    "xPostFrequency": null,
-    "newsCoverage": 0.7409577288626717,
-    "recentActivity": 0.5086041844177477
-   },
-   "measuredAxes": [
-    "igFollowers",
-    "newsCoverage",
-    "recentActivity"
-   ],
-   "imputedAxes": [
-    "xFollowers"
-   ],
-   "droppedAxes": [
-    "xPostFrequency"
-   ],
-   "coverage": 3,
-   "coverageOf": 4,
-   "score": 56.2,
+   "score": 57.5,
    "rank": 60
+  },
+  {
+   "name": "花總まり",
+   "genres": [
+    "宝塚・OG",
+    "ミュージカル",
+    "商業演劇"
+   ],
+   "natalieId": "66478",
+   "achikochiSlug": "花總まり",
+   "agency": "エヴァーグリーン・エンタテイメント",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
+   "sourceErrors": [
+    "natalie: https://natalie.mu/stage/artist/66478 -> HTTP 405"
+   ],
+   "xFollowersSource": null,
+   "igFollowersSource": null,
+   "achikochiAsOf": "2026-10-25",
+   "eigaId": "272692",
+   "yomi": "はなふさまり",
+   "birth": "1973-02-28",
+   "origin": "日本／東京",
+   "xAccountState": "unknown",
+   "igAccountState": "unknown",
+   "age": 53,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "profile": "東京都生まれ。1991年に宝塚歌劇団へ入団。1994年より雪組トップ娘役、1998年より宙組トップ娘役を務め、2006年に退団した。トップ在任歴は歴代最長。2010年、本格的に活動を再開し、ミュージカル「レディ・ベス」「エリザベート」「マリー・アントワネット」など主演作品のほか、テレビドラマ「おんな城主 直虎」「精霊の守り人」（共にNHK）などに出演。オーストリア共和国有功栄誉金章、菊田一夫演劇賞演劇大賞、読売演劇大賞優秀女優賞、松尾芸能賞演劇部門優秀賞など演劇賞の受賞歴多数。",
+   "officialSite": "https://www.blooming-net.com/blooming-agency/hanafusa-mari/",
+   "natalieUrl": "https://natalie.mu/stage/artist/66478",
+   "stages": [
+    "ミュージカル「モーツァルト！」日本初演25周年",
+    "ミュージカル「AGATHA（アガサ）」",
+    "MoN Takanawa: The Museum of Narratives開館記念特別公演「MANGALOGUE（マンガローグ）：火の鳥」",
+    "「いきなり本読み！」in博多座 ミュージカル版",
+    "ミュージカル「破果（パグァ）」",
+    "ミュージカル「バグダッド・カフェ」",
+    "デビュー35周年記念 石丸幹二 オーケストラコンサート2025",
+    "田代万里生15th Anniversary SYMPHONIC MUSICAL CONCERT 2025 ～YOU ARE HERE～",
+    "CONCERT「THE BEST New HISTORY COMING」",
+    "舞台「応天の門」"
+   ],
+   "stageList": [
+    {
+     "title": "ミュージカル「モーツァルト！」日本初演25周年",
+     "start": "2027-02-10",
+     "end": "2027-02-10"
+    },
+    {
+     "title": "ミュージカル「AGATHA（アガサ）」",
+     "start": "2026-07-18",
+     "end": "2026-09-06"
+    },
+    {
+     "title": "MoN Takanawa: The Museum of Narratives開館記念特別公演「MANGALOGUE（マンガローグ）：火の鳥」",
+     "start": "2026-04-22",
+     "end": "2026-05-16"
+    },
+    {
+     "title": "「いきなり本読み！」in博多座 ミュージカル版",
+     "start": "2026-04-14",
+     "end": "2026-04-14"
+    },
+    {
+     "title": "ミュージカル「破果（パグァ）」",
+     "start": "2026-03-07",
+     "end": "2026-04-05"
+    },
+    {
+     "title": "ミュージカル「バグダッド・カフェ」",
+     "start": "2025-11-02",
+     "end": "2025-12-14"
+    },
+    {
+     "title": "デビュー35周年記念 石丸幹二 オーケストラコンサート2025",
+     "start": "2025-05-22",
+     "end": "2025-08-14"
+    },
+    {
+     "title": "田代万里生15th Anniversary SYMPHONIC MUSICAL CONCERT 2025 ～YOU ARE HERE～",
+     "start": "2025-03-21",
+     "end": "2025-03-21"
+    },
+    {
+     "title": "CONCERT「THE BEST New HISTORY COMING」",
+     "start": "2025-02-14",
+     "end": "2025-02-14"
+    },
+    {
+     "title": "舞台「応天の門」",
+     "start": "2024-12-04",
+     "end": "2024-12-04"
+    }
+   ],
+   "stagesTotal": 15,
+   "stages12m": 6,
+   "stagesUpcoming": 1,
+   "news12m": 17,
+   "news90d": 4,
+   "newsAttention12m": 9099,
+   "latestNews": {
+    "title": "ミュージカル「モーツァルト！」追加キャストに吉柳咲良・朝月希和・津田英佑ら",
+    "date": "2026-09-29",
+    "url": "https://natalie.mu/stage/news/691560"
+   },
+   "topNews": [
+    {
+     "title": "ミュージカル「AGATHA」日本版上演決定！アガサ・クリスティ役は花總まり",
+     "date": "2025-11-21",
+     "score": 1454,
+     "url": "https://natalie.mu/stage/news/649019"
+    },
+    {
+     "title": "ミュージカル「モーツァルト！」追加キャストに吉柳咲良・朝月希和・津田英佑ら",
+     "date": "2026-09-29",
+     "score": 1449,
+     "url": "https://natalie.mu/stage/news/691560"
+    },
+    {
+     "title": "花總まりが主演するミュージカル「破果（パグァ）」本日開幕",
+     "date": "2026-03-07",
+     "score": 872,
+     "url": "https://natalie.mu/stage/news/662982"
+    }
+   ],
+   "daysSinceNews": 26,
+   "natalieAsOf": "2026-10-09",
+   "carriedForward": [
+    "natalie"
+   ],
+   "metrics": {
+    "xFollowers": 0.44251862053035507,
+    "igFollowers": 0.49546671115609237,
+    "xPostFrequency": null,
+    "newsCoverage": 0.7353401861296863,
+    "recentActivity": 0.564220492634047
+   },
+   "measuredAxes": [
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "imputedAxes": [
+    "xFollowers",
+    "igFollowers"
+   ],
+   "droppedAxes": [
+    "xPostFrequency"
+   ],
+   "coverage": 2,
+   "coverageOf": 4,
+   "score": 57.4,
+   "rank": 61
   },
   {
    "name": "成河",
@@ -9959,13 +10113,13 @@
     "xNote": "スタッフ運営アカウント（所属事務所ブルー・ジュピターのプロフィールに掲出）",
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/72210 -> HTTP 405"
    ],
    "xFollowersSource": "manual",
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "tw_de_songha_sc",
    "igHandle": null,
    "xFollowers": 11000,
@@ -10079,17 +10233,17 @@
      "url": "https://natalie.mu/stage/news/688408"
     }
    ],
-   "daysSinceNews": 12,
+   "daysSinceNews": 19,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.3338307188118593,
+    "xFollowers": 0.33389605086400337,
     "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.7096326982922905,
-    "recentActivity": 0.6413151970712418
+    "recentActivity": 0.6382403478812225
    },
    "measuredAxes": [
     "xFollowers",
@@ -10105,159 +10259,6 @@
    "coverage": 3,
    "coverageOf": 4,
    "score": 55.8,
-   "rank": 61
-  },
-  {
-   "name": "花總まり",
-   "genres": [
-    "宝塚・OG",
-    "ミュージカル",
-    "商業演劇"
-   ],
-   "natalieId": "66478",
-   "achikochiSlug": "花總まり",
-   "agency": "エヴァーグリーン・エンタテイメント",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
-   "sourceErrors": [
-    "natalie: https://natalie.mu/stage/artist/66478 -> HTTP 405"
-   ],
-   "xFollowersSource": null,
-   "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-18",
-   "eigaId": "272692",
-   "yomi": "はなふさまり",
-   "birth": "1973-02-28",
-   "origin": "日本／東京",
-   "xAccountState": "unknown",
-   "igAccountState": "unknown",
-   "age": 53,
-   "debutYear": null,
-   "careerYears": null,
-   "xPostFrequency": null,
-   "profile": "東京都生まれ。1991年に宝塚歌劇団へ入団。1994年より雪組トップ娘役、1998年より宙組トップ娘役を務め、2006年に退団した。トップ在任歴は歴代最長。2010年、本格的に活動を再開し、ミュージカル「レディ・ベス」「エリザベート」「マリー・アントワネット」など主演作品のほか、テレビドラマ「おんな城主 直虎」「精霊の守り人」（共にNHK）などに出演。オーストリア共和国有功栄誉金章、菊田一夫演劇賞演劇大賞、読売演劇大賞優秀女優賞、松尾芸能賞演劇部門優秀賞など演劇賞の受賞歴多数。",
-   "officialSite": "https://www.blooming-net.com/blooming-agency/hanafusa-mari/",
-   "natalieUrl": "https://natalie.mu/stage/artist/66478",
-   "stages": [
-    "ミュージカル「モーツァルト！」日本初演25周年",
-    "ミュージカル「AGATHA（アガサ）」",
-    "MoN Takanawa: The Museum of Narratives開館記念特別公演「MANGALOGUE（マンガローグ）：火の鳥」",
-    "「いきなり本読み！」in博多座 ミュージカル版",
-    "ミュージカル「破果（パグァ）」",
-    "ミュージカル「バグダッド・カフェ」",
-    "デビュー35周年記念 石丸幹二 オーケストラコンサート2025",
-    "田代万里生15th Anniversary SYMPHONIC MUSICAL CONCERT 2025 ～YOU ARE HERE～",
-    "CONCERT「THE BEST New HISTORY COMING」",
-    "舞台「応天の門」"
-   ],
-   "stageList": [
-    {
-     "title": "ミュージカル「モーツァルト！」日本初演25周年",
-     "start": "2027-02-10",
-     "end": "2027-02-10"
-    },
-    {
-     "title": "ミュージカル「AGATHA（アガサ）」",
-     "start": "2026-07-18",
-     "end": "2026-09-06"
-    },
-    {
-     "title": "MoN Takanawa: The Museum of Narratives開館記念特別公演「MANGALOGUE（マンガローグ）：火の鳥」",
-     "start": "2026-04-22",
-     "end": "2026-05-16"
-    },
-    {
-     "title": "「いきなり本読み！」in博多座 ミュージカル版",
-     "start": "2026-04-14",
-     "end": "2026-04-14"
-    },
-    {
-     "title": "ミュージカル「破果（パグァ）」",
-     "start": "2026-03-07",
-     "end": "2026-04-05"
-    },
-    {
-     "title": "ミュージカル「バグダッド・カフェ」",
-     "start": "2025-11-02",
-     "end": "2025-12-14"
-    },
-    {
-     "title": "デビュー35周年記念 石丸幹二 オーケストラコンサート2025",
-     "start": "2025-05-22",
-     "end": "2025-08-14"
-    },
-    {
-     "title": "田代万里生15th Anniversary SYMPHONIC MUSICAL CONCERT 2025 ～YOU ARE HERE～",
-     "start": "2025-03-21",
-     "end": "2025-03-21"
-    },
-    {
-     "title": "CONCERT「THE BEST New HISTORY COMING」",
-     "start": "2025-02-14",
-     "end": "2025-02-14"
-    },
-    {
-     "title": "舞台「応天の門」",
-     "start": "2024-12-04",
-     "end": "2024-12-04"
-    }
-   ],
-   "stagesTotal": 15,
-   "stages12m": 6,
-   "stagesUpcoming": 1,
-   "news12m": 17,
-   "news90d": 4,
-   "newsAttention12m": 9099,
-   "latestNews": {
-    "title": "ミュージカル「モーツァルト！」追加キャストに吉柳咲良・朝月希和・津田英佑ら",
-    "date": "2026-09-29",
-    "url": "https://natalie.mu/stage/news/691560"
-   },
-   "topNews": [
-    {
-     "title": "ミュージカル「AGATHA」日本版上演決定！アガサ・クリスティ役は花總まり",
-     "date": "2025-11-21",
-     "score": 1454,
-     "url": "https://natalie.mu/stage/news/649019"
-    },
-    {
-     "title": "ミュージカル「モーツァルト！」追加キャストに吉柳咲良・朝月希和・津田英佑ら",
-     "date": "2026-09-29",
-     "score": 1449,
-     "url": "https://natalie.mu/stage/news/691560"
-    },
-    {
-     "title": "花總まりが主演するミュージカル「破果（パグァ）」本日開幕",
-     "date": "2026-03-07",
-     "score": 872,
-     "url": "https://natalie.mu/stage/news/662982"
-    }
-   ],
-   "daysSinceNews": 19,
-   "natalieAsOf": "2026-10-09",
-   "carriedForward": [
-    "natalie"
-   ],
-   "metrics": {
-    "xFollowers": 0.367400887337438,
-    "igFollowers": 0.49546671115609237,
-    "xPostFrequency": null,
-    "newsCoverage": 0.7353401861296863,
-    "recentActivity": 0.5679244885258035
-   },
-   "measuredAxes": [
-    "newsCoverage",
-    "recentActivity"
-   ],
-   "imputedAxes": [
-    "xFollowers",
-    "igFollowers"
-   ],
-   "droppedAxes": [
-    "xPostFrequency"
-   ],
-   "coverage": 2,
-   "coverageOf": 4,
-   "score": 55.7,
    "rank": 62
   },
   {
@@ -10278,13 +10279,13 @@
     "xNote": "スタッフ運営アカウント",
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/87447 -> HTTP 405"
    ],
    "xFollowersSource": "manual",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "Kenji_Staff",
    "igHandle": "kenji_urai_staff",
    "xFollowers": 33000,
@@ -10399,17 +10400,17 @@
      "url": "https://natalie.mu/stage/news/648616"
     }
    ],
-   "daysSinceNews": 48,
+   "daysSinceNews": 55,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.4867633347229041,
+    "xFollowers": 0.4868585963203962,
     "igFollowers": 0.17699026526276607,
     "xPostFrequency": null,
     "newsCoverage": 0.8231705606129966,
-    "recentActivity": 0.5900204346027172
+    "recentActivity": 0.5865058576697306
    },
    "measuredAxes": [
     "xFollowers",
@@ -10423,8 +10424,137 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 55.5,
+   "score": 55.4,
    "rank": 63
+  },
+  {
+   "name": "段田安則",
+   "genres": [
+    "ストレートプレイ",
+    "新劇",
+    "商業演劇"
+   ],
+   "natalieId": "15623",
+   "achikochiSlug": "段田安則",
+   "agency": "シス・カンパニー",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
+   "sourceErrors": [
+    "natalie: https://natalie.mu/stage/artist/15623 -> HTTP 405"
+   ],
+   "xFollowers": null,
+   "igFollowers": null,
+   "snsAccounts": [],
+   "followerSourceDate": "2026-10-24",
+   "xFollowersSource": null,
+   "igFollowersSource": null,
+   "achikochiAsOf": "2026-10-25",
+   "eigaId": null,
+   "xAccountState": "unknown",
+   "igAccountState": "unknown",
+   "age": null,
+   "debutYear": null,
+   "careerYears": null,
+   "xPostFrequency": null,
+   "profile": "1981年、青年座研究所第5期卒業後、劇団“夢の遊眠社”に入団。数多くの舞台、TVドラマで演技を磨く。NHK連続テレビ小説「ふたりっ子」（1996）の父親役で注目される。TV番組のナレーションなど、幅広く活躍している。",
+   "natalieUrl": "https://natalie.mu/stage/artist/15623",
+   "stages": [
+    "パルコ・プロデュース2026「スリーゴースト」",
+    "パルコ・プロデュース 2026「メアリー・ステュアート」",
+    "パルコ・プロデュース 2025「星の降る時」",
+    "シス・カンパニー公演「やなぎにツバメは」",
+    "シス・カンパニー公演 / 日本文学シアターVol.7【織田作之助】「夫婦パラダイス」～街の灯はそこに～",
+    "PARCO PRODUCE 2024「リア王」"
+   ],
+   "stageList": [
+    {
+     "title": "パルコ・プロデュース2026「スリーゴースト」",
+     "start": "2026-10-06",
+     "end": "2026-12-13"
+    },
+    {
+     "title": "パルコ・プロデュース 2026「メアリー・ステュアート」",
+     "start": "2026-04-08",
+     "end": "2026-05-31"
+    },
+    {
+     "title": "パルコ・プロデュース 2025「星の降る時」",
+     "start": "2025-05-10",
+     "end": "2025-06-29"
+    },
+    {
+     "title": "シス・カンパニー公演「やなぎにツバメは」",
+     "start": "2025-03-07",
+     "end": "2025-04-06"
+    },
+    {
+     "title": "シス・カンパニー公演 / 日本文学シアターVol.7【織田作之助】「夫婦パラダイス」～街の灯はそこに～",
+     "start": "2024-09-06",
+     "end": "2024-09-06"
+    },
+    {
+     "title": "PARCO PRODUCE 2024「リア王」",
+     "start": "2024-03-08",
+     "end": "2024-03-08"
+    }
+   ],
+   "stagesTotal": 6,
+   "stages12m": 2,
+   "stagesUpcoming": 1,
+   "news12m": 12,
+   "news90d": 3,
+   "newsAttention12m": 3046,
+   "latestNews": {
+    "title": "堺雅人ら奮闘の舞台「スリーゴースト」開幕、“何劇”と名付けられない芝居の誕生を楽しんで",
+    "date": "2026-10-07",
+    "url": "https://natalie.mu/stage/news/692748"
+   },
+   "topNews": [
+    {
+     "title": "宮沢りえ・若村麻由美が初共演、栗山民也演出「メアリー・ステュアート」PARCO劇場ほかで上演",
+     "date": "2025-11-10",
+     "score": 680,
+     "url": "https://natalie.mu/stage/news/647536"
+    },
+    {
+     "title": "本日1月13日（火）放送開始のドラマ（2025-26冬）",
+     "date": "2026-01-13",
+     "score": 614,
+     "url": "https://natalie.mu/eiga/news/655656"
+    },
+    {
+     "title": "「メアリー・ステュアート」宮沢りえ・若村麻由美の姿収めたビジュアル解禁",
+     "date": "2025-12-25",
+     "score": 340,
+     "url": "https://natalie.mu/stage/news/653897"
+    }
+   ],
+   "daysSinceNews": 18,
+   "natalieAsOf": "2026-10-09",
+   "carriedForward": [
+    "natalie"
+   ],
+   "metrics": {
+    "xFollowers": 0.44251862053035507,
+    "igFollowers": 0.49546671115609237,
+    "xPostFrequency": null,
+    "newsCoverage": 0.6488453837612052,
+    "recentActivity": 0.4942950321677084
+   },
+   "measuredAxes": [
+    "newsCoverage",
+    "recentActivity"
+   ],
+   "imputedAxes": [
+    "xFollowers",
+    "igFollowers"
+   ],
+   "droppedAxes": [
+    "xPostFrequency"
+   ],
+   "coverage": 2,
+   "coverageOf": 4,
+   "score": 53,
+   "rank": 64
   },
   {
    "name": "財木琢磨",
@@ -10443,13 +10573,13 @@
     "igFollowers": 5171,
     "checkedAt": "2026-10-09"
    },
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/86172 -> HTTP 405"
    ],
    "xFollowersSource": "manual",
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "takuma_zaiki",
    "igHandle": "takuma_zaiki_official",
    "xFollowers": 50000,
@@ -10546,17 +10676,17 @@
      "url": "https://natalie.mu/eiga/news/655798"
     }
    ],
-   "daysSinceNews": 11,
+   "daysSinceNews": 18,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.544607029253025,
+    "xFollowers": 0.5447136111007346,
     "igFollowers": 0.22071061228869723,
     "xPostFrequency": null,
     "newsCoverage": 0.653901491036443,
-    "recentActivity": 0.5510787783686312
+    "recentActivity": 0.5472303715126825
    },
    "measuredAxes": [
     "xFollowers",
@@ -10570,136 +10700,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 51.5,
-   "rank": 64
-  },
-  {
-   "name": "段田安則",
-   "genres": [
-    "ストレートプレイ",
-    "新劇",
-    "商業演劇"
-   ],
-   "natalieId": "15623",
-   "achikochiSlug": "段田安則",
-   "agency": "シス・カンパニー",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
-   "sourceErrors": [
-    "natalie: https://natalie.mu/stage/artist/15623 -> HTTP 405"
-   ],
-   "xFollowers": null,
-   "igFollowers": null,
-   "snsAccounts": [],
-   "followerSourceDate": "2026-10-17",
-   "xFollowersSource": null,
-   "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-18",
-   "eigaId": null,
-   "xAccountState": "unknown",
-   "igAccountState": "unknown",
-   "age": null,
-   "debutYear": null,
-   "careerYears": null,
-   "xPostFrequency": null,
-   "profile": "1981年、青年座研究所第5期卒業後、劇団“夢の遊眠社”に入団。数多くの舞台、TVドラマで演技を磨く。NHK連続テレビ小説「ふたりっ子」（1996）の父親役で注目される。TV番組のナレーションなど、幅広く活躍している。",
-   "natalieUrl": "https://natalie.mu/stage/artist/15623",
-   "stages": [
-    "パルコ・プロデュース2026「スリーゴースト」",
-    "パルコ・プロデュース 2026「メアリー・ステュアート」",
-    "パルコ・プロデュース 2025「星の降る時」",
-    "シス・カンパニー公演「やなぎにツバメは」",
-    "シス・カンパニー公演 / 日本文学シアターVol.7【織田作之助】「夫婦パラダイス」～街の灯はそこに～",
-    "PARCO PRODUCE 2024「リア王」"
-   ],
-   "stageList": [
-    {
-     "title": "パルコ・プロデュース2026「スリーゴースト」",
-     "start": "2026-10-06",
-     "end": "2026-12-13"
-    },
-    {
-     "title": "パルコ・プロデュース 2026「メアリー・ステュアート」",
-     "start": "2026-04-08",
-     "end": "2026-05-31"
-    },
-    {
-     "title": "パルコ・プロデュース 2025「星の降る時」",
-     "start": "2025-05-10",
-     "end": "2025-06-29"
-    },
-    {
-     "title": "シス・カンパニー公演「やなぎにツバメは」",
-     "start": "2025-03-07",
-     "end": "2025-04-06"
-    },
-    {
-     "title": "シス・カンパニー公演 / 日本文学シアターVol.7【織田作之助】「夫婦パラダイス」～街の灯はそこに～",
-     "start": "2024-09-06",
-     "end": "2024-09-06"
-    },
-    {
-     "title": "PARCO PRODUCE 2024「リア王」",
-     "start": "2024-03-08",
-     "end": "2024-03-08"
-    }
-   ],
-   "stagesTotal": 6,
-   "stages12m": 2,
-   "stagesUpcoming": 1,
-   "news12m": 12,
-   "news90d": 3,
-   "newsAttention12m": 3046,
-   "latestNews": {
-    "title": "堺雅人ら奮闘の舞台「スリーゴースト」開幕、“何劇”と名付けられない芝居の誕生を楽しんで",
-    "date": "2026-10-07",
-    "url": "https://natalie.mu/stage/news/692748"
-   },
-   "topNews": [
-    {
-     "title": "宮沢りえ・若村麻由美が初共演、栗山民也演出「メアリー・ステュアート」PARCO劇場ほかで上演",
-     "date": "2025-11-10",
-     "score": 680,
-     "url": "https://natalie.mu/stage/news/647536"
-    },
-    {
-     "title": "本日1月13日（火）放送開始のドラマ（2025-26冬）",
-     "date": "2026-01-13",
-     "score": 614,
-     "url": "https://natalie.mu/eiga/news/655656"
-    },
-    {
-     "title": "「メアリー・ステュアート」宮沢りえ・若村麻由美の姿収めたビジュアル解禁",
-     "date": "2025-12-25",
-     "score": 340,
-     "url": "https://natalie.mu/stage/news/653897"
-    }
-   ],
-   "daysSinceNews": 11,
-   "natalieAsOf": "2026-10-09",
-   "carriedForward": [
-    "natalie"
-   ],
-   "metrics": {
-    "xFollowers": 0.367400887337438,
-    "igFollowers": 0.49546671115609237,
-    "xPostFrequency": null,
-    "newsCoverage": 0.6488453837612052,
-    "recentActivity": 0.4985933736262448
-   },
-   "measuredAxes": [
-    "newsCoverage",
-    "recentActivity"
-   ],
-   "imputedAxes": [
-    "xFollowers",
-    "igFollowers"
-   ],
-   "droppedAxes": [
-    "xPostFrequency"
-   ],
-   "coverage": 2,
-   "coverageOf": 4,
-   "score": 51.3,
+   "score": 51.4,
    "rank": 65
   },
   {
@@ -10712,7 +10713,7 @@
    "natalieId": "41513",
    "achikochiSlug": "市村正親",
    "agency": "オフィスPSC",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/41513 -> HTTP 405"
    ],
@@ -10722,7 +10723,7 @@
    "followerSourceDate": "2026-09-24",
    "xFollowersSource": null,
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "eigaId": "16531",
    "yomi": "いちむらまさちか",
    "birth": "1949-01-28",
@@ -10830,17 +10831,17 @@
      "url": "https://natalie.mu/stage/news/656254"
     }
    ],
-   "daysSinceNews": 13,
+   "daysSinceNews": 20,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.367400887337438,
+    "xFollowers": 0.44251862053035507,
     "igFollowers": 0,
     "xPostFrequency": null,
     "newsCoverage": 0.7742818121584322,
-    "recentActivity": 0.6264474137851003
+    "recentActivity": 0.6232451095397747
    },
    "measuredAxes": [
     "igFollowers",
@@ -10855,7 +10856,7 @@
    ],
    "coverage": 3,
    "coverageOf": 4,
-   "score": 48.4,
+   "score": 50.1,
    "rank": 66
   },
   {
@@ -10873,17 +10874,17 @@
     "checkedAt": "2026-10-09",
     "xNote": "スタッフ運営アカウント（公式サイト ryutasato.com に掲出）"
    },
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/30774 -> HTTP 405"
    ],
    "xFollowers": 1337,
    "igFollowers": 149855,
    "snsAccounts": [],
-   "followerSourceDate": "2026-10-16",
+   "followerSourceDate": "2026-10-23",
    "xFollowersSource": "manual",
    "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": "ryutasato_info",
    "igHandle": null,
    "socialCheckedAt": "2026-10-09",
@@ -10966,17 +10967,17 @@
      "url": "https://natalie.mu/eiga/news/683878"
     }
    ],
-   "daysSinceNews": 64,
+   "daysSinceNews": 71,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.040535463256076695,
+    "xFollowers": 0.040543396213860085,
     "igFollowers": 0.6728629446909818,
     "xPostFrequency": null,
     "newsCoverage": 0.6834320728865251,
-    "recentActivity": 0.5047982962191105
+    "recentActivity": 0.5005531468697827
    },
    "measuredAxes": [
     "xFollowers",
@@ -10990,7 +10991,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 48,
+   "score": 47.9,
    "rank": 67
   },
   {
@@ -11013,7 +11014,7 @@
     "source": "オスカープロモーション公式お知らせ「真矢ミキ『なりすまし』Instagram に関するお知らせ」に「真矢ミキが現在行っているSNSはInstagramのみ」と明記",
     "checkedAt": "2026-09-16"
    },
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/32382 -> HTTP 405"
    ],
@@ -11023,7 +11024,7 @@
    "followerSourceDate": "2026-10-05",
    "xFollowersSource": null,
    "igFollowersSource": "manual",
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "xHandle": null,
    "igHandle": "mikimayaofficial",
    "socialCheckedAt": "2026-10-09",
@@ -11082,7 +11083,7 @@
      "url": "https://natalie.mu/eiga/news/691456"
     }
    ],
-   "daysSinceNews": 20,
+   "daysSinceNews": 27,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
@@ -11092,7 +11093,7 @@
     "igFollowers": 0.5627258685940483,
     "xPostFrequency": null,
     "newsCoverage": 0.7094111259261658,
-    "recentActivity": 0.5561472660133329
+    "recentActivity": 0.5523423091028563
    },
    "measuredAxes": [
     "xFollowers",
@@ -11106,7 +11107,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 46.9,
+   "score": 46.8,
    "rank": 68
   },
   {
@@ -11124,17 +11125,17 @@
     "source": "所属事務所（ボックスコーポレーション）の公表コメント。ORICON NEWS 2024-03 の偽アカウント注意喚起記事で確認",
     "checkedAt": "2026-09-16"
    },
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/35735 -> HTTP 405"
    ],
    "xFollowers": null,
    "igFollowers": null,
    "snsAccounts": [],
-   "followerSourceDate": "2026-10-15",
+   "followerSourceDate": "2026-10-22",
    "xFollowersSource": null,
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "eigaId": "45027",
    "yomi": "たかはしいっせい",
    "birth": "1980-12-09",
@@ -11195,7 +11196,7 @@
      "url": "https://natalie.mu/music/news/689687"
     }
    ],
-   "daysSinceNews": 11,
+   "daysSinceNews": 18,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
@@ -11205,7 +11206,7 @@
     "igFollowers": 0,
     "xPostFrequency": null,
     "newsCoverage": 0.9053492281201225,
-    "recentActivity": 0.6553905014053513
+    "recentActivity": 0.6524363136924217
    },
    "measuredAxes": [
     "xFollowers",
@@ -11219,7 +11220,7 @@
    ],
    "coverage": 4,
    "coverageOf": 4,
-   "score": 44.2,
+   "score": 44.1,
    "rank": 69
   },
   {
@@ -11231,7 +11232,7 @@
    "natalieId": "15613",
    "achikochiSlug": "鹿賀丈史",
    "agency": "テアトル・ド・ポッシュ",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/15613 -> HTTP 405"
    ],
@@ -11241,7 +11242,7 @@
    "followerSourceDate": "2026-10-11",
    "xFollowersSource": null,
    "igFollowersSource": null,
-   "achikochiAsOf": "2026-10-18",
+   "achikochiAsOf": "2026-10-25",
    "eigaId": "23862",
    "yomi": "かがたけし",
    "birth": "1950-10-12",
@@ -11319,17 +11320,17 @@
      "url": "https://natalie.mu/stage/news/664308"
     }
    ],
-   "daysSinceNews": 144,
+   "daysSinceNews": 151,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.367400887337438,
+    "xFollowers": 0.44251862053035507,
     "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0.4943733066552827,
-    "recentActivity": 0.09585346069431813
+    "recentActivity": 0.08810260470225396
    },
    "measuredAxes": [
     "newsCoverage",
@@ -11344,7 +11345,7 @@
    ],
    "coverage": 2,
    "coverageOf": 4,
-   "score": 36.6,
+   "score": 38.3,
    "rank": 70
   },
   {
@@ -11356,46 +11357,16 @@
    "natalieId": "93400",
    "achikochiSlug": "龍真咲",
    "agency": "フリー",
-   "fetchedAt": "2026-10-18T07:29:22.397Z",
+   "fetchedAt": "2026-10-25T07:52:43.452Z",
    "sourceErrors": [
     "natalie: https://natalie.mu/stage/artist/93400 -> HTTP 405"
    ],
-   "xFollowers": 11161,
-   "igFollowers": 56434,
-   "snsAccounts": [
-    {
-     "handle": "masakiryufree",
-     "followers": 11161
-    },
-    {
-     "handle": "2022.07.25",
-     "followers": 2026
-    },
-    {
-     "handle": "2022.07.25",
-     "followers": 2026
-    },
-    {
-     "handle": "2022.07.03",
-     "followers": 2026
-    },
-    {
-     "handle": "2022.05.31",
-     "followers": 2026
-    },
-    {
-     "handle": "2025.03.04",
-     "followers": 2026
-    }
-   ],
-   "followerSourceDate": "2026-07-27",
-   "xFollowersSource": "achikochi",
-   "igFollowersSource": "achikochi",
-   "achikochiAsOf": "2026-10-18",
-   "xHandle": "masakiryufree",
+   "xFollowersSource": null,
+   "igFollowersSource": null,
+   "achikochiAsOf": "2026-10-25",
    "eigaId": null,
-   "xAccountState": "have",
-   "igAccountState": "have",
+   "xAccountState": "unknown",
+   "igAccountState": "unknown",
    "age": null,
    "debutYear": null,
    "careerYears": null,
@@ -11429,31 +11400,32 @@
     "url": "https://natalie.mu/stage/news/587459"
    },
    "topNews": [],
-   "daysSinceNews": 788,
+   "daysSinceNews": 795,
    "natalieAsOf": "2026-10-09",
    "carriedForward": [
     "natalie"
    ],
    "metrics": {
-    "xFollowers": 0.33585334016067725,
-    "igFollowers": 0.5416951379308007,
+    "xFollowers": 0.44251862053035507,
+    "igFollowers": 0.49546671115609237,
     "xPostFrequency": null,
     "newsCoverage": 0,
     "recentActivity": 0
    },
    "measuredAxes": [
-    "xFollowers",
-    "igFollowers",
     "newsCoverage",
     "recentActivity"
    ],
-   "imputedAxes": [],
+   "imputedAxes": [
+    "xFollowers",
+    "igFollowers"
+   ],
    "droppedAxes": [
     "xPostFrequency"
    ],
-   "coverage": 4,
+   "coverage": 2,
    "coverageOf": 4,
-   "score": 19,
+   "score": 20.7,
    "rank": 71
   }
  ]
