@@ -26,7 +26,7 @@
         "xFollowers": 14000,
         "igHandle": "inoueyoshio_co",
         "igFollowers": 16000,
-        "checkedAt": "2026-10-23",
+        "checkedAt": "2026-10-30",
         "xNote": "レーベル（日本コロムビア）公式アカウント。X・Instagram とも同一ハンドルで、本人名義の個人アカウントは確認できず"
       }
     },
@@ -62,11 +62,11 @@
       "agency": "ホリプロ",
       "manualSocial": {
         "xHandle": "Kenji_Staff",
-        "xFollowers": 34000,
+        "xFollowers": 33000,
         "igHandle": "kenji_urai_staff",
-        "igFollowers": 3737,
+        "igFollowers": 3733,
         "xNote": "スタッフ運営アカウント",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-30"
       }
     },
     {
@@ -77,7 +77,13 @@
       ],
       "natalieId": "72882",
       "achikochiSlug": "中川晃教",
-      "agency": "アミューズ"
+      "agency": "アミューズ",
+      "manualSocial": {
+        "igHandle": "nakagawa1982aki",
+        "igFollowers": 9522,
+        "checkedAt": "2026-10-30",
+        "igNote": "ローチケのアーティストページ（l-tike.com/akinori）に公式として掲出"
+      }
     },
     {
       "name": "柿澤勇人",
@@ -119,7 +125,13 @@
       ],
       "natalieId": "94952",
       "achikochiSlug": "海宝直人",
-      "agency": "ホリプロ"
+      "agency": "ホリプロ",
+      "manualSocial": {
+        "xHandle": "naotosea",
+        "xFollowers": 48000,
+        "checkedAt": "2026-10-30",
+        "xNote": "あちこちデータの人物ページが 2026-10-30 時点で 404。ステージナタリーのプロフィール掲出アカウントから直接控えた"
+      }
     },
     {
       "name": "松下優也",
@@ -175,7 +187,7 @@
       "manualSocial": {
         "igHandle": "megumi_hamada",
         "igFollowers": 23000,
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-30"
       }
     },
     {
@@ -192,7 +204,7 @@
         "xFollowers": 52000,
         "igHandle": "seikoniizuma",
         "igFollowers": 61000,
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-30"
       }
     },
     {
@@ -206,10 +218,10 @@
       "agency": "ホリプロ",
       "manualSocial": {
         "xHandle": "khooon3",
-        "xFollowers": 32000,
+        "xFollowers": 31000,
         "igHandle": "konnatsumi",
         "igFollowers": 51000,
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-30"
       }
     },
     {
@@ -304,7 +316,7 @@
         "igHandle": "reonyuzuki_official",
         "igFollowers": 116000,
         "xNote": "スタッフ運営アカウント（公式リンク集で STAFF X と明示）",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-30"
       }
     },
     {
@@ -320,7 +332,7 @@
       "manualSocial": {
         "igHandle": "mikimayaofficial",
         "igFollowers": 66000,
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-30"
       },
       "noAccount": {
         "x": true,
@@ -336,7 +348,13 @@
       ],
       "natalieId": "93400",
       "achikochiSlug": "龍真咲",
-      "agency": "フリー"
+      "agency": "フリー",
+      "manualSocial": {
+        "xHandle": "masakiryufree",
+        "xFollowers": 10000,
+        "checkedAt": "2026-10-30",
+        "xNote": "あちこちデータの人物ページが 2026-10-30 時点で 404。同ページが 10-23 まで掲載していたアカウントを X 上で直接確認して控えた"
+      }
     },
     {
       "name": "藤原竜也",
@@ -406,7 +424,7 @@
       "manualSocial": {
         "xHandle": "mariar0717",
         "xFollowers": 391,
-        "checkedAt": "2026-10-23",
+        "checkedAt": "2026-10-30",
         "xNote": "2015年開設の期間限定オフィシャルアカウント。公式サイト otake-shinobu.com を掲出"
       }
     },
@@ -470,7 +488,7 @@
       "manualSocial": {
         "xHandle": "ryutasato_info",
         "xFollowers": 1340,
-        "checkedAt": "2026-10-23",
+        "checkedAt": "2026-10-30",
         "xNote": "スタッフ運営アカウント（公式サイト ryutasato.com に掲出）"
       }
     },
@@ -536,8 +554,8 @@
       "agency": "ルビーパレード",
       "manualSocial": {
         "igHandle": "masanariwada_",
-        "igFollowers": 67000,
-        "checkedAt": "2026-10-23"
+        "igFollowers": 70000,
+        "checkedAt": "2026-10-30"
       }
     },
     {
@@ -563,7 +581,7 @@
       "manualSocial": {
         "xHandle": "hashimotoshohey",
         "xFollowers": 129000,
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-30"
       }
     },
     {
@@ -592,7 +610,7 @@
         "xFollowers": 126000,
         "igHandle": "araki_hiro0614",
         "igFollowers": 111000,
-        "checkedAt": "2026-10-23",
+        "checkedAt": "2026-10-30",
         "xNote": "あちこちデータの人物ページが 2026-09-18 時点で 404。公式 lit.link 記載のアカウントから直接控えた"
       }
     },
@@ -618,7 +636,7 @@
       "manualSocial": {
         "xHandle": "MizukiUmetsu",
         "xFollowers": 104000,
-        "checkedAt": "2026-10-23",
+        "checkedAt": "2026-10-30",
         "igHandle": "umetsumizuki",
         "igFollowers": 54000
       }
@@ -637,7 +655,7 @@
         "xFollowers": 104000,
         "igHandle": "toshiki_tateishi",
         "igFollowers": 89000,
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-30"
       }
     },
     {
@@ -653,7 +671,7 @@
       "manualSocial": {
         "igHandle": "motohiro.ota_0119",
         "igFollowers": 14000,
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-30"
       }
     },
     {
@@ -671,7 +689,7 @@
         "xFollowers": 114000,
         "igHandle": "maximumhikaru",
         "igFollowers": 80000,
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-30"
       }
     },
     {
@@ -688,8 +706,8 @@
         "xHandle": "takuma_zaiki",
         "xFollowers": 49000,
         "igHandle": "takuma_zaiki_official",
-        "igFollowers": 5239,
-        "checkedAt": "2026-10-23"
+        "igFollowers": 5366,
+        "checkedAt": "2026-10-30"
       }
     },
     {
@@ -707,7 +725,7 @@
         "xFollowers": 77000,
         "igHandle": "sakiyamaofficial",
         "igFollowers": 56000,
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-30"
       }
     },
     {
@@ -722,7 +740,7 @@
       "manualSocial": {
         "igHandle": "ryooo_kitamu",
         "igFollowers": 42000,
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-30"
       }
     },
     {
@@ -741,7 +759,7 @@
         "igHandle": "matsudaryo_9",
         "igFollowers": 47000,
         "xNote": "スタッフ運営アカウント",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-30"
       }
     },
     {
@@ -756,8 +774,8 @@
       "agency": "松竹",
       "manualSocial": {
         "xHandle": "koshirofficial",
-        "xFollowers": 3678,
-        "checkedAt": "2026-10-23"
+        "xFollowers": 3688,
+        "checkedAt": "2026-10-30"
       }
     },
     {
@@ -774,7 +792,7 @@
         "xHandle": "onoematsuya",
         "xFollowers": 963,
         "xNote": "マネージャー運営アカウント",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-30"
       }
     },
     {
@@ -811,7 +829,7 @@
         "xHandle": "tw_de_songha_sc",
         "xFollowers": 11000,
         "xNote": "スタッフ運営アカウント（所属事務所ブルー・ジュピターのプロフィールに掲出）",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-30"
       }
     },
     {
@@ -827,7 +845,7 @@
         "igHandle": "mario_tashiro_official",
         "igFollowers": 18000,
         "igNote": "ホリプロ公式ファンサイト（fc.horipro.jp/tashiromario）掲出のアカウント",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-30"
       }
     },
     {
@@ -842,8 +860,8 @@
       "achikochiSlug": "咲妃みゆ",
       "manualSocial": {
         "xHandle": "miyusakihi_FC",
-        "xFollowers": 8634,
-        "checkedAt": "2026-10-23",
+        "xFollowers": 8618,
+        "checkedAt": "2026-10-30",
         "xNote": "公式ファンクラブのスタッフ運営アカウント（公式サイト sakihimiyu.com に掲出）"
       }
     },
@@ -858,9 +876,9 @@
       "achikochiSlug": null,
       "manualSocial": {
         "xHandle": "mitsuoYoshihara",
-        "xFollowers": 26000,
+        "xFollowers": 27000,
         "xNote": "所属事務所（FROM FIRST / COME TRUE next）のプロフィールに掲出",
-        "checkedAt": "2026-10-23"
+        "checkedAt": "2026-10-30"
       }
     },
     {
@@ -875,7 +893,7 @@
       "manualSocial": {
         "xHandle": "taichi_saotome",
         "igHandle": "taichisaotome_official",
-        "checkedAt": "2026-10-23",
+        "checkedAt": "2026-10-30",
         "xFollowers": 24000,
         "igFollowers": 100000
       }
@@ -893,8 +911,8 @@
         "xHandle": "m_rey_official",
         "xFollowers": 39000,
         "igHandle": "macoto_rey_official",
-        "igFollowers": 98000,
-        "checkedAt": "2026-10-23",
+        "igFollowers": 99000,
+        "checkedAt": "2026-10-30",
         "xNote": "所属事務所 CULEN のアーティストページに掲出"
       }
     },
@@ -965,7 +983,7 @@
         "xFollowers": 39000,
         "igHandle": "manakireika_official",
         "igFollowers": 115000,
-        "checkedAt": "2026-10-23",
+        "checkedAt": "2026-10-30",
         "xNote": "スタッフ運営アカウント（アミューズのアーティストページに掲出）"
       }
     },
@@ -975,6 +993,8 @@
         "ミュージカル",
         "商業演劇"
       ],
+      "natalieId": "99671",
+      "achikochiSlug": "大貫勇輔",
       "agency": "ホリプロ"
     }
   ],
